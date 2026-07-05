@@ -1,438 +1,108 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
 <head>
-<meta charset="UTF-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
-<title>ShiftBoard – JSON Sync</title>
-<style>
-:root{--bg:#f7f6f2;--surface:#fafaf7;--surface2:#f3f0ec;--border:#d4d1ca;--divider:#e4e1db;--text:#28251d;--muted:#6f6b63;--faint:#a19d94;--primary:#01696f;--primary-hl:#cddcda;--primary-dim:#e6f0ef;--radius:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-full:9999px;--shadow:0 1px 3px rgba(0,0,0,.07),0 8px 24px rgba(0,0,0,.05);--alert15:#e8af34;--alert5:#d96b1a;--alert0:#d64545}
-[data-theme="dark"]{--bg:#141312;--surface:#1a1917;--surface2:#201f1d;--border:#353330;--divider:#252320;--text:#cccac7;--muted:#908e89;--faint:#5e5c58;--primary:#4fa3a8;--primary-hl:#1e3133;--primary-dim:#192526;--alert15:#e8af34;--alert5:#ff8a3d;--alert0:#ff6b6b}
-*{box-sizing:border-box;margin:0;padding:0}body{font-family:system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.5;background:var(--bg);color:var(--text);min-height:100vh}button,input,select{font:inherit;cursor:pointer}
-.app{max-width:1280px;margin:0 auto;padding:1rem;padding-bottom:5rem}.topbar{position:sticky;top:0;z-index:30;display:flex;justify-content:space-between;align-items:center;gap:.75rem;padding:.75rem 0 .5rem;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--divider);margin-bottom:1rem}.brand{display:flex;align-items:center;gap:.6rem}.logo{width:2rem;height:2rem;border-radius:.4rem;background:var(--primary-hl);color:var(--primary);display:grid;place-items:center;border:1px solid var(--border);font-size:1rem}.title{font-weight:700;font-size:1.1rem;letter-spacing:-.02em}.sub{font-size:.72rem;color:var(--muted)}.topbar-right{display:flex;gap:.4rem;align-items:center}.icon-btn{width:40px;height:40px;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--text);display:grid;place-items:center;font-size:.9rem}select.chip{padding:.35rem .7rem;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:.8rem}
-.controls{display:flex;flex-direction:column;gap:.6rem;margin-bottom:1rem}.search-row{display:flex;gap:.5rem;flex-wrap:wrap}.search{flex:1;min-width:180px;padding:.6rem 1rem;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--text)}.seg{display:inline-flex;gap:.25rem;padding:.25rem;border:1px solid var(--border);border-radius:var(--radius-full);background:var(--surface2)}.seg button{padding:.4rem .9rem;border-radius:var(--radius-full);border:0;background:transparent;color:var(--muted);font-size:.8rem;font-weight:500}.seg button.active{background:var(--surface);color:var(--text);box-shadow:var(--shadow)}.chip-row{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}.chip{padding:.35rem .8rem;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--muted);font-size:.8rem;font-weight:500;white-space:nowrap}.chip.active{background:var(--primary-hl);color:var(--primary);border-color:var(--primary)}
-.section-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:.75rem 0 .5rem}.hero-card{background:linear-gradient(135deg,color-mix(in srgb,var(--primary-dim) 85%,var(--surface)) 0%, color-mix(in srgb,var(--primary-hl) 40%,var(--surface)) 100%);border:1px solid color-mix(in srgb,var(--primary) 28%,var(--border));border-radius:1.2rem;padding:1.4rem;display:grid;grid-template-columns:1.2fr .8fr;gap:1rem;margin-bottom:1rem;box-shadow:var(--shadow)}.hero-time{font-size:2.4rem;font-weight:800;letter-spacing:-.04em;line-height:1}.hero-what{font-size:1.2rem;font-weight:800;margin-top:.2rem}.hero-where{font-size:.95rem;color:var(--muted)}
-.hero-side{display:flex;flex-direction:column;justify-content:space-between;gap:.75rem;background:color-mix(in srgb,var(--surface) 88%, transparent);border:1px solid var(--border);border-radius:1rem;padding:1rem}
-.upcoming-15{outline:2px solid color-mix(in srgb,var(--alert15) 55%,transparent);animation:pulse15 1.2s infinite}.upcoming-5{outline:2px solid color-mix(in srgb,var(--alert5) 65%,transparent);animation:pulse5 .9s infinite}.upcoming-now{outline:2px solid color-mix(in srgb,var(--alert0) 70%,transparent);animation:pulseNow .75s infinite}
-.blink-text{animation:blinkText 1s step-start infinite}
-@keyframes pulse15{0%,100%{box-shadow:0 0 0 0 rgba(232,175,52,.18)}50%{box-shadow:0 0 0 10px rgba(232,175,52,.06)}}@keyframes pulse5{0%,100%{box-shadow:0 0 0 0 rgba(217,107,26,.2)}50%{box-shadow:0 0 0 12px rgba(217,107,26,.08)}}@keyframes pulseNow{0%,100%{box-shadow:0 0 0 0 rgba(214,69,69,.22)}50%{box-shadow:0 0 0 14px rgba(214,69,69,.1)}}
-@keyframes blinkText{50%{opacity:.35}}
-@media(max-width:780px){.hero-card{grid-template-columns:1fr}}
-.stats-bar{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}.stat{flex:1;min-width:80px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.6rem .8rem}.stat .sn{font-size:1.4rem;font-weight:700;letter-spacing:-.03em}.stat .sl{font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
-.cards{display:grid;gap:.6rem}.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1rem;display:flex;flex-direction:column;gap:.6rem}.card-top{display:flex;justify-content:space-between;align-items:start;gap:.5rem}.card-what{font-weight:700;font-size:.95rem}.card-where{color:var(--muted);font-size:.8rem}.time-pill{white-space:nowrap;padding:.35rem .7rem;border-radius:var(--radius-full);background:var(--surface2);border:1px solid var(--border);font-size:.78rem;font-weight:700}.card-meta{display:flex;flex-wrap:wrap;gap:.35rem}.tag{padding:.2rem .55rem;border-radius:var(--radius-full);font-size:.72rem;font-weight:600;background:var(--surface2);border:1px solid var(--border);color:var(--muted)} .tag.category{font-weight:700} .person-chip{white-space:nowrap;display:inline-flex;align-items:center} .tag.cat-place{background:#d3d3d3;color:#111;border-color:#bdbdbd}.tag.cat-event-support{background:#ff0000;color:#111;border-color:#d10000}.tag.cat-inspection{background:#adff2f;color:#111;border-color:#87cf21}.tag.cat-meals{background:#228b22;color:#fff;border-color:#1b6f1b}.tag.cat-partner{background:#daa520;color:#111;border-color:#b8860b}.tag.cat-officials{background:#ff0000;color:#111;border-color:#d10000}.tag.cat-statics{background:#4682b4;color:#fff;border-color:#38698f}.tag.cat-pr-media,.tag.cat-pr＋media{background:#ffa500;color:#111;border-color:#d48a00}.tag.cat-dynamics{background:#ffff00;color:#111;border-color:#d4d400}.tag.cat-teams{background:#ff1493;color:#111;border-color:#d3117b}.tag.cat-academy{background:#dda0dd;color:#111;border-color:#c983c9}.tag.cat-external{background:#2f4f4f;color:#fff;border-color:#233c3c}.tag.cat-it{background:#000;color:#fff;border-color:#222}.tag.cat-tk{background:#ffff00;color:#111;border-color:#d4d400} [data-theme="dark"] .tag.cat-place{background:#6a6a6a;color:#fff;border-color:#888}[data-theme="dark"] .tag.cat-event-support,[data-theme="dark"] .tag.cat-officials{background:#ff6b6b;color:#111;border-color:#ff8787}[data-theme="dark"] .tag.cat-inspection{background:#7cc61a;color:#111;border-color:#98e234}[data-theme="dark"] .tag.cat-meals{background:#2f9d46;color:#fff;border-color:#48b55f}[data-theme="dark"] .tag.cat-partner{background:#c9961a;color:#111;border-color:#e4b33b}[data-theme="dark"] .tag.cat-statics{background:#5f9ed1;color:#fff;border-color:#7cb7e5}[data-theme="dark"] .tag.cat-pr-media,[data-theme="dark"] .tag.cat-pr＋media{background:#ffb347;color:#111;border-color:#ffc46f}[data-theme="dark"] .tag.cat-dynamics,[data-theme="dark"] .tag.cat-tk{background:#e6e65c;color:#111;border-color:#f0f087}[data-theme="dark"] .tag.cat-teams{background:#ff5ab1;color:#111;border-color:#ff7bc1}[data-theme="dark"] .tag.cat-academy{background:#d7a6ea;color:#111;border-color:#e2bdf0}[data-theme="dark"] .tag.cat-external{background:#557676;color:#fff;border-color:#6e9191}[data-theme="dark"] .tag.cat-it{background:#1f1f1f;color:#fff;border-color:#444}.assigned-row{display:flex;flex-direction:column;align-items:flex-start;gap:.35rem}.person-chip{padding:.2rem .55rem;border-radius:var(--radius-full);font-size:.72rem;font-weight:700;background:var(--primary-hl);color:var(--primary);border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border))}.person-chip.mine{background:var(--primary);color:#fff;border-color:var(--primary)}.nobody{color:var(--faint);font-size:.75rem;font-style:italic}.card-note{background:var(--surface2);border-radius:var(--radius);padding:.4rem .6rem;font-size:.78rem;color:var(--muted);border-left:2px solid var(--border);white-space:pre-line}
-.table-wrap{overflow:auto;border-radius:var(--radius-lg);border:1px solid var(--border)}table{width:100%;border-collapse:collapse;min-width:720px}th{background:var(--surface2);color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;padding:.7rem 1rem;text-align:left;border-bottom:1px solid var(--border);white-space:nowrap;cursor:pointer}td{padding:.75rem 1rem;border-bottom:1px solid var(--divider);vertical-align:top;font-size:.85rem}tr:last-child td{border-bottom:0}
-.bottom-nav{position:fixed;bottom:.75rem;left:50%;transform:translateX(-50%);width:min(calc(100% - 1.5rem),420px);display:grid;grid-template-columns:repeat(4,1fr);gap:.3rem;padding:.3rem;background:color-mix(in srgb,var(--surface) 94%,transparent);backdrop-filter:blur(14px);border:1px solid var(--border);border-radius:calc(var(--radius-xl) + .3rem);box-shadow:var(--shadow)}.bottom-nav button{height:48px;border:0;background:transparent;border-radius:var(--radius-lg);font-size:.72rem;color:var(--muted);font-weight:500}.bottom-nav button.active{background:var(--primary-hl);color:var(--primary)}
-.empty,.loading{text-align:center;padding:3rem 1rem;color:var(--muted)}.view{display:none}.view.active{display:block}
-@media(min-width:900px){.app{padding:1.5rem}.bottom-nav{display:none}.controls{flex-direction:row;align-items:center;justify-content:space-between}}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ShiftBoard – JSON Sync</title>
+  <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
-<div class="app">
-<header class="topbar"><div class="brand"><div class="logo">📷</div><div><div class="title">ShiftBoard</div><div class="sub" id="lastLoaded">Loading local JSON…</div></div></div><div class="topbar-right"><select id="personSelect" class="chip"><option value="">All photographers</option></select><button class="icon-btn" id="notifyBtn" title="Enable browser notifications">🔔</button><button class="icon-btn" id="themeToggle">◐</button></div></header>
-<div class="stats-bar" id="statsBar"></div>
-<div class="controls"><div class="search-row"><input class="search" id="searchInput" type="search" placeholder="🔎 Search shifts, places, categories…"/><div class="seg"><button class="active" id="btnCards">Cards</button><button id="btnTable">Table</button></div></div><div class="chip-row" id="dateChips"></div><div class="chip-row"><select id="catFilter" class="chip"><option value="">All categories</option></select><select id="relFilter" class="chip"><option value="">All relevance</option><option value="yes">Shift</option><option value="info">Info only</option></select></div></div>
-<div id="heroSection"></div><div class="section-label" id="resultLabel"></div>
-<div class="view active" id="cardsView"><div class="cards" id="cardList"></div><div class="empty" id="cardsEmpty" style="display:none">No shifts match the current filters.</div></div>
-<div class="view" id="tableView"><div class="table-wrap"><table><thead><tr><th data-col="date">Date</th><th data-col="from">Time</th><th data-col="what">What</th><th data-col="where">Where</th><th data-col="category">Category</th><th data-col="assigned">Assigned</th><th data-col="comment">Notes</th></tr></thead><tbody id="tableBody"></tbody></table></div><div class="empty" id="tableEmpty" style="display:none">No shifts match the current filters.</div></div>
-<div class="loading" id="loadingMsg">Loading local data…</div></div>
-<nav class="bottom-nav"><button onclick="setPersonFilter('')">All shifts</button><button onclick="setMyShifts()">My shifts</button><button onclick="document.getElementById('catFilter').focus()">Filter</button><button onclick="toggleView()">Toggle view</button></nav>
-<script>
-const DATA_URL = './data/shifts.json';
-const ORIGINAL_TITLE = document.title;
-const EVENT_YEAR = new Date().getFullYear();
-
-let RAW = [];
-let PHOTOGRAPHERS = [];
-let titleBlinkTimer = null;
-let audioUnlocked = false;
-let notifiedIds = new Set(JSON.parse(localStorage.getItem('sb_notified_ids') || '[]'));
-
-let state = {
-  view: localStorage.getItem('sb_view') || 'cards',
-  person: localStorage.getItem('sb_person') || '',
-  date: localStorage.getItem('sb_date') || '',
-  cat: localStorage.getItem('sb_cat') || '',
-  rel: localStorage.getItem('sb_rel') || '',
-  search: '',
-  sort: 'date',
-  sortDir: 1,
-};
-
-function save() {
-  localStorage.setItem('sb_view', state.view);
-  localStorage.setItem('sb_person', state.person);
-  localStorage.setItem('sb_date', state.date);
-  localStorage.setItem('sb_cat', state.cat);
-  localStorage.setItem('sb_rel', state.rel);
-  localStorage.setItem('sb_notified_ids', JSON.stringify([...notifiedIds]));
-}
-
-function parseShiftDateParts(dateText) {
-  const base = (dateText || '').split(' ')[0] || '';
-  const [month, day] = base.split('-').map(Number);
-  if (!month || !day) return null;
-  return { month, day };
-}
-
-function parseTimeToParts(timeText) {
-  const [hour, minute] = String(timeText || '').split(':').map(Number);
-  if (Number.isNaN(hour) || Number.isNaN(minute)) return null;
-  return { hour, minute };
-}
-
-function shiftRange(shift) {
-  const dateParts = parseShiftDateParts(shift?.date);
-  const fromParts = parseTimeToParts(shift?.from);
-  const tillParts = parseTimeToParts(shift?.till);
-  if (!dateParts || !fromParts || !tillParts) return null;
-  const start = new Date(EVENT_YEAR, dateParts.month - 1, dateParts.day, fromParts.hour, fromParts.minute, 0, 0);
-  let end = new Date(EVENT_YEAR, dateParts.month - 1, dateParts.day, tillParts.hour, tillParts.minute, 0, 0);
-  if (end < start) end = new Date(end.getTime() + 24 * 60 * 60000);
-  return { start, end };
-}
-
-function parseShiftStart(shift) {
-  return shiftRange(shift)?.start || null;
-}
-
-function weekdayLabel(dateText) {
-  const parts = parseShiftDateParts(dateText);
-  if (!parts) return (dateText || '').split(' ')[1] || '';
-  const dt = new Date(EVENT_YEAR, parts.month - 1, parts.day, 0, 0, 0, 0);
-  return dt.toLocaleDateString(undefined, { weekday: 'short' });
-}
-
-function fullDateLabel(dateText) {
-  const raw = (dateText || '').split(' ')[0] || dateText;
-  return `${raw} ${weekdayLabel(dateText)}`;
-}
-
-function minutesUntil(shift) {
-  const start = parseShiftStart(shift);
-  if (!start) return null;
-  return Math.round((start.getTime() - Date.now()) / 60000);
-}
-
-function shiftStatus(shift) {
-  const range = shiftRange(shift);
-  if (!range) return { level: '', label: '', ongoing: false };
-  const now = Date.now();
-  const mins = Math.round((range.start.getTime() - now) / 60000);
-  if (now >= range.start.getTime() && now <= range.end.getTime()) {
-    return { level: 'now', label: 'Ongoing now', ongoing: true };
-  }
-  if (mins <= 5 && mins > 0) return { level: '5', label: `Starts in ${mins} min`, ongoing: false };
-  if (mins <= 15 && mins > 5) return { level: '15', label: `Starts in ${mins} min`, ongoing: false };
-  return { level: '', label: '', ongoing: false };
-}
-
-function urgencyClass(shift) {
-  const level = shiftStatus(shift).level;
-  if (level === '15') return 'upcoming-15';
-  if (level === '5') return 'upcoming-5';
-  if (level === 'now') return 'upcoming-now';
-  return '';
-}
-
-function categoryClass(name) {
-  const norm = String(name || '').toLowerCase().trim().replace(/\s+/g, '-').replace(/[+]/g, '-').replace(/[＋]/g, '-').replace(/-+/g, '-');
-  return `cat-${norm}`;
-}
-
-function escapeHtml(str) {
-  return String(str || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;').replace(/'/g, '&#39;');
-}
-
-function linkify(text) {
-  const escaped = escapeHtml(text || '');
-  return escaped.replace(/(https?:\/\/[^\s<]+)/g, '<a href="$1" target="_blank" rel="noopener noreferrer">$1</a>');
-}
-
-function populateFilters() {
-  const catSel = document.getElementById('catFilter');
-  const cats = [...new Set(RAW.map(s => s.category).filter(Boolean))].sort();
-  catSel.innerHTML = '<option value="">All categories</option>' + cats.map(c => `<option ${c === state.cat ? 'selected' : ''}>${c}</option>`).join('');
-
-  const personSel = document.getElementById('personSelect');
-  personSel.innerHTML = '<option value="">All photographers</option>' + PHOTOGRAPHERS.map(p => `<option ${p === state.person ? 'selected' : ''}>${p}</option>`).join('');
-
-  const dates = [...new Set(RAW.map(s => s.date))];
-  const dateChips = document.getElementById('dateChips');
-  dateChips.innerHTML = '<button class="chip' + (state.date === '' ? ' active' : '') + '" data-date="">All days</button>' + dates.map(d => `<button class="chip${state.date === d ? ' active' : ''}" data-date="${d}">${fullDateLabel(d)}</button>`).join('');
-  dateChips.querySelectorAll('[data-date]').forEach(btn => {
-    btn.addEventListener('click', () => {
-      state.date = btn.dataset.date;
-      dateChips.querySelectorAll('[data-date]').forEach(b => b.classList.remove('active'));
-      btn.classList.add('active');
-      render();
-    });
-  });
-  document.getElementById('relFilter').value = state.rel;
-}
-
-function filtered() {
-  return RAW.filter(s => {
-    if (state.person && !s.assigned.some(a => a.name === state.person)) return false;
-    if (state.date && s.date !== state.date) return false;
-    if (state.cat && s.category !== state.cat) return false;
-    if (state.rel && s.relevant !== state.rel) return false;
-    if (state.search) {
-      const q = state.search.toLowerCase();
-      const hay = [s.what, s.where, s.category, s.comment, s.notes, s.assigned.map(a => a.name).join(' ')].join(' ').toLowerCase();
-      if (!hay.includes(q)) return false;
-    }
-    return true;
-  }).sort((a, b) => (parseShiftStart(a)?.getTime() || 0) - (parseShiftStart(b)?.getTime() || 0));
-}
-
-function nextShift() {
-  const pool = state.person ? RAW.filter(s => s.assigned.some(a => a.name === state.person)) : RAW;
-  return pool.map(s => ({ shift: s, start: parseShiftStart(s) }))
-    .filter(x => x.start)
-    .sort((a, b) => a.start - b.start)
-    .find(x => shiftRange(x.shift)?.end.getTime() >= Date.now()) || null;
-}
-
-function assignedHtml(shift, tableMode = false) {
-  if (!shift.assigned.length) return tableMode ? '<span class="nobody">–</span>' : '<span class="nobody">Unassigned</span>';
-  return shift.assigned.map(a => `<span class="person-chip${a.name === state.person ? ' mine' : ''}">${a.name}: ${a.slot}</span>`).join('');
-}
-
-function renderHero() {
-  const next = nextShift();
-  const sec = document.getElementById('heroSection');
-  if (!next) {
-    sec.innerHTML = '';
-    stopTitleBlink();
-    return;
-  }
-  const hero = next.shift;
-  const mins = minutesUntil(hero);
-  const status = shiftStatus(hero);
-  const levelClass = urgencyClass(hero);
-  const mySlot = state.person ? hero.assigned.find(a => a.name === state.person) : null;
-  sec.innerHTML = `
-    <div class="section-label ${levelClass ? 'blink-text' : ''}">Next shift${state.person ? ' · ' + state.person : ''}</div>
-    <div class="hero-card ${levelClass}">
-      <div>
-        <div class="hero-time">${mySlot ? mySlot.slot : (hero.from + ' – ' + hero.till)}</div>
-        <div class="hero-what">${hero.what}</div>
-        <div class="hero-where">📍 ${hero.where || '—'}</div>
-        <div style="color:var(--muted);font-size:.9rem;margin-top:.5rem">${fullDateLabel(hero.date)} · <span class="tag category ${categoryClass(hero.category)}">${hero.category || '—'}</span></div>
-      </div>
-      <div class="hero-side">
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <div class="logo">📷</div>
         <div>
-          <div style="font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em">Status</div>
-          <div style="font-size:2rem;font-weight:800;line-height:1.1">${status.label || (mins !== null ? mins + ' min' : '—')}</div>
+          <div class="title">ShiftBoard</div>
+          <div class="sub" id="lastLoaded">Loading local JSON…</div>
         </div>
-        <div class="assigned-row">${assignedHtml(hero)}</div>
       </div>
-    </div>`;
-
-  if (levelClass) {
-    startTitleBlink(hero, status.label || 'soon');
-    maybeAlert(hero, status.level);
-  } else {
-    stopTitleBlink();
-  }
-}
-
-function renderStats(data) {
-  const total = data.length;
-  const assigned = data.filter(s => s.assigned.length > 0).length;
-  const days = [...new Set(data.map(s => s.date))].length;
-  const cats = [...new Set(data.map(s => s.category))].filter(Boolean).length;
-  document.getElementById('statsBar').innerHTML = `
-    <div class="stat"><div class="sn">${total}</div><div class="sl">Shifts</div></div>
-    <div class="stat"><div class="sn">${assigned}</div><div class="sl">Assigned</div></div>
-    <div class="stat"><div class="sn">${total - assigned}</div><div class="sl">Open</div></div>
-    <div class="stat"><div class="sn">${days}</div><div class="sl">Days</div></div>
-    <div class="stat"><div class="sn">${cats}</div><div class="sl">Categories</div></div>`;
-}
-
-function renderCards(data) {
-  const list = document.getElementById('cardList');
-  const empty = document.getElementById('cardsEmpty');
-  if (!data.length) {
-    list.innerHTML = '';
-    empty.style.display = 'block';
-    return;
-  }
-  empty.style.display = 'none';
-  list.innerHTML = data.map(s => {
-    const noteText = [s.notes, s.comment].filter(Boolean).join('\n');
-    const status = shiftStatus(s);
-    const levelClass = urgencyClass(s);
-    return `<article class="card ${levelClass}">
-      <div class="card-top">
-        <div><div class="card-what">${s.what}</div><div class="card-where">📍 ${s.where || '—'}</div></div>
-        <div class="time-pill">${fullDateLabel(s.date)} · ${s.from}–${s.till}</div>
+      <div class="topbar-right">
+        <select id="personSelect" class="chip">
+          <option value="">All photographers</option>
+        </select>
+        <button class="icon-btn" id="notifyBtn" title="Enable browser notifications">🔔</button>
+        <button class="icon-btn" id="themeToggle">◐</button>
       </div>
-      <div class="card-meta">
-        <span class="tag category ${categoryClass(s.category)}">${s.category || '—'}</span>
-        <span class="tag">${s.relevant || '—'}</span>
-        ${status.label ? `<span class="tag blink-text">${status.label}</span>` : ''}
+    </header>
+
+    <div class="stats-bar" id="statsBar"></div>
+
+    <div class="controls">
+      <div class="search-row">
+        <input class="search" id="searchInput" type="search" placeholder="🔎 Search shifts, places, categories…" />
+        <div class="seg">
+          <button class="active" id="btnCards">Cards</button>
+          <button id="btnTable">Table</button>
+          <button id="btnTimeline">Timeline</button>
+        </div>
       </div>
-      <div class="assigned-row">${assignedHtml(s)}</div>
-      ${noteText ? `<div class="card-note">💬 ${linkify(noteText)}</div>` : ''}
-    </article>`;
-  }).join('');
-}
+      <div class="chip-row" id="dateChips"></div>
+      <div class="chip-row">
+        <select id="catFilter" class="chip">
+          <option value="">All categories</option>
+        </select>
+        <select id="relFilter" class="chip">
+          <option value="">All relevance</option>
+          <option value="yes">Shift</option>
+          <option value="info">Info only</option>
+        </select>
+        <select id="refreshSelect" class="chip">
+          <option value="0">Refresh: Off</option>
+          <option value="30">Refresh: 30s</option>
+          <option value="60">Refresh: 1m</option>
+          <option value="300">Refresh: 5m</option>
+        </select>
+      </div>
+    </div>
 
-function renderTable(data) {
-  const body = document.getElementById('tableBody');
-  const empty = document.getElementById('tableEmpty');
-  if (!data.length) {
-    body.innerHTML = '';
-    empty.style.display = 'block';
-    return;
-  }
-  empty.style.display = 'none';
-  body.innerHTML = data.map(s => {
-    const status = shiftStatus(s);
-    return `<tr class="${urgencyClass(s)}"><td>${fullDateLabel(s.date)}</td><td>${s.from}–${s.till}</td><td>${s.what}</td><td>${s.where || '—'}</td><td><span class="tag category ${categoryClass(s.category)}">${s.category || '—'}</span></td><td><div class="assigned-row">${assignedHtml(s, true)}</div></td><td>${linkify([s.notes, s.comment].filter(Boolean).join(' • '))}</td></tr>`;
-  }).join('');
-}
+    <div id="heroSection"></div>
+    <div class="section-label" id="resultLabel"></div>
 
-function render() {
-  const data = filtered();
-  renderHero();
-  renderStats(data);
-  document.getElementById('resultLabel').textContent = data.length + ' shift' + (data.length !== 1 ? 's' : '') + ' shown' + (state.person ? ' · ' + state.person : '');
-  renderCards(data);
-  renderTable(data);
-  updateNotifyButton();
-  save();
-}
+    <div class="view active" id="cardsView">
+      <div class="cards" id="cardList"></div>
+      <div class="empty" id="cardsEmpty" style="display:none">No shifts match the current filters.</div>
+    </div>
 
-function setView(v) {
-  state.view = v;
-  document.getElementById('cardsView').classList.toggle('active', v === 'cards');
-  document.getElementById('tableView').classList.toggle('active', v === 'table');
-  document.getElementById('btnCards').classList.toggle('active', v === 'cards');
-  document.getElementById('btnTable').classList.toggle('active', v === 'table');
-}
+    <div class="view" id="tableView">
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th data-col="date">Date</th>
+              <th data-col="from">Time</th>
+              <th data-col="what">What</th>
+              <th data-col="where">Where</th>
+              <th data-col="category">Category</th>
+              <th data-col="assigned">Assigned</th>
+              <th data-col="comment">Notes</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody"></tbody>
+        </table>
+      </div>
+      <div class="empty" id="tableEmpty" style="display:none">No shifts match the current filters.</div>
+    </div>
 
-function toggleView() { setView(state.view === 'cards' ? 'table' : 'cards'); render(); }
-function setPersonFilter(p) { state.person = p; document.getElementById('personSelect').value = p; render(); }
-function setMyShifts() { const p = document.getElementById('personSelect').value || PHOTOGRAPHERS[0]; setPersonFilter(p); }
+    <div class="view" id="timelineView">
+      <div class="timeline-wrap" id="timelineWrap">
+        <div class="timeline-head" id="timelineHead"></div>
+        <div class="timeline-info-rail" id="timelineInfoRail"></div>
+        <div class="timeline-body" id="timelineBody"></div>
+      </div>
+      <div class="empty" id="timelineEmpty" style="display:none">No assignments match the current filters.</div>
+    </div>
 
-function startTitleBlink(hero, label) {
-  if (!document.hidden) return;
-  if (titleBlinkTimer) return;
-  let on = false;
-  titleBlinkTimer = setInterval(() => {
-    on = !on;
-    document.title = on ? `⏰ ${hero.what} · ${label}` : ORIGINAL_TITLE;
-  }, 900);
-}
+    <div class="loading" id="loadingMsg">Loading local data…</div>
+  </div>
 
-function stopTitleBlink() {
-  if (titleBlinkTimer) clearInterval(titleBlinkTimer);
-  titleBlinkTimer = null;
-  document.title = ORIGINAL_TITLE;
-}
+  <nav class="bottom-nav">
+    <button onclick="setPersonFilter('')">All shifts</button>
+    <button onclick="setMyShifts()">My shifts</button>
+    <button onclick="document.getElementById('catFilter').focus()">Filter</button>
+    <button onclick="toggleView()">Toggle view</button>
+  </nav>
 
-function beep(level) {
-  if (!audioUnlocked) return;
-  const Ctx = window.AudioContext || window.webkitAudioContext;
-  if (!Ctx) return;
-  const ctx = new Ctx();
-  const osc = ctx.createOscillator();
-  const gain = ctx.createGain();
-  osc.type = 'sine';
-  osc.frequency.value = level === 'now' ? 1046 : level === '5' ? 988 : 880;
-  gain.gain.value = 0.025;
-  osc.connect(gain);
-  gain.connect(ctx.destination);
-  osc.start();
-  osc.stop(ctx.currentTime + 0.2);
-}
-
-function notify(shift, label) {
-  if (!('Notification' in window)) return;
-  if (Notification.permission !== 'granted') return;
-  const body = `${label || 'Upcoming shift'} • ${shift.what} • ${shift.where || 'No location'}`;
-  new Notification('ShiftBoard alert', { body, tag: `shift-${shift.id}-${label}`, renotify: true });
-}
-
-function maybeAlert(shift, level) {
-  if (!level) return;
-  const key = `${shift.id}-${level}`;
-  if (notifiedIds.has(key)) return;
-  notifiedIds.add(key);
-  const label = shiftStatus(shift).label;
-  beep(level);
-  if (document.hidden) notify(shift, label);
-  save();
-}
-
-async function requestNotifications() {
-  if (!('Notification' in window)) return;
-  const permission = await Notification.requestPermission();
-  updateNotifyButton(permission);
-}
-
-function updateNotifyButton(permissionOverride) {
-  const btn = document.getElementById('notifyBtn');
-  if (!btn) return;
-  if (!('Notification' in window)) {
-    btn.textContent = '🔕';
-    btn.title = 'Notifications not supported';
-    return;
-  }
-  const p = permissionOverride || Notification.permission;
-  btn.textContent = p === 'granted' ? '🔔' : p === 'denied' ? '🔕' : '🛎️';
-  btn.title = p === 'granted' ? 'Notifications enabled' : p === 'denied' ? 'Notifications blocked' : 'Enable browser notifications';
-}
-
-async function loadData() {
-  document.getElementById('loadingMsg').style.display = 'block';
-  try {
-    const res = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
-    const data = await res.json();
-    RAW = data.shifts || [];
-    PHOTOGRAPHERS = [...new Set(RAW.flatMap(s => s.assigned.map(a => a.name)))].sort();
-    document.getElementById('lastLoaded').textContent = 'Local JSON loaded · ' + new Date().toLocaleTimeString();
-    populateFilters();
-    render();
-  } catch (e) {
-    document.getElementById('lastLoaded').textContent = 'Failed to load local JSON';
-    console.error(e);
-  } finally {
-    document.getElementById('loadingMsg').style.display = 'none';
-  }
-}
-
-document.getElementById('searchInput').addEventListener('input', e => { state.search = e.target.value; render(); });
-document.getElementById('personSelect').addEventListener('change', e => { state.person = e.target.value; render(); });
-document.getElementById('catFilter').addEventListener('change', e => { state.cat = e.target.value; render(); });
-document.getElementById('relFilter').addEventListener('change', e => { state.rel = e.target.value; render(); });
-document.getElementById('btnCards').addEventListener('click', () => { setView('cards'); render(); });
-document.getElementById('btnTable').addEventListener('click', () => { setView('table'); render(); });
-document.getElementById('notifyBtn').addEventListener('click', requestNotifications);
-document.querySelectorAll('th[data-col]').forEach(th => th.addEventListener('click', () => {
-  if (state.sort === th.dataset.col) state.sortDir *= -1; else { state.sort = th.dataset.col; state.sortDir = 1; }
-  render();
-}));
-document.addEventListener('visibilitychange', () => { if (!document.hidden) stopTitleBlink(); else renderHero(); });
-document.addEventListener('click', () => { audioUnlocked = true; }, { once: true });
-document.addEventListener('keydown', () => { audioUnlocked = true; }, { once: true });
-
-const themeBtn = document.getElementById('themeToggle');
-let theme = localStorage.getItem('sb_theme') || (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
-document.documentElement.setAttribute('data-theme', theme);
-themeBtn.textContent = theme === 'dark' ? '☀︎' : '◐';
-themeBtn.addEventListener('click', () => {
-  theme = theme === 'dark' ? 'light' : 'dark';
-  document.documentElement.setAttribute('data-theme', theme);
-  localStorage.setItem('sb_theme', theme);
-  themeBtn.textContent = theme === 'dark' ? '☀︎' : '◐';
-});
-
-setView(state.view);
-updateNotifyButton();
-loadData();
-setInterval(render, 30000);
-</script>
+  <script src="./test-data.js"></script>
+  <script src="./app.js"></script>
 </body>
 </html>
