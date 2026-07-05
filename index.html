@@ -5,23 +5,76 @@
 <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
 <title>ShiftBoard – JSON Sync</title>
 <style>
-:root{--bg:#f7f6f2;--surface:#fafaf7;--surface2:#f3f0ec;--border:#d4d1ca;--divider:#e4e1db;--text:#28251d;--muted:#6f6b63;--faint:#a19d94;--primary:#01696f;--primary-hl:#cddcda;--primary-dim:#e6f0ef;--radius:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-full:9999px;--shadow:0 1px 3px rgba(0,0,0,.07),0 8px 24px rgba(0,0,0,.05)}
-[data-theme="dark"]{--bg:#141312;--surface:#1a1917;--surface2:#201f1d;--border:#353330;--divider:#252320;--text:#cccac7;--muted:#908e89;--faint:#5e5c58;--primary:#4fa3a8;--primary-hl:#1e3133;--primary-dim:#192526}
-*{box-sizing:border-box;margin:0;padding:0}body{font-family:system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.5;background:var(--bg);color:var(--text);min-height:100vh}button,input,select{font:inherit;cursor:pointer}
-.app{max-width:1280px;margin:0 auto;padding:1rem;padding-bottom:5rem}.topbar{position:sticky;top:0;z-index:30;display:flex;justify-content:space-between;align-items:center;gap:.75rem;padding:.75rem 0 .5rem;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--divider);margin-bottom:1rem}.brand{display:flex;align-items:center;gap:.6rem}.logo{width:2rem;height:2rem;border-radius:.4rem;background:var(--primary-hl);color:var(--primary);display:grid;place-items:center;border:1px solid var(--border);font-size:1rem}.title{font-weight:700;font-size:1.1rem;letter-spacing:-.02em}.sub{font-size:.72rem;color:var(--muted)}.topbar-right{display:flex;gap:.4rem;align-items:center}.icon-btn{width:40px;height:40px;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--text);display:grid;place-items:center;font-size:.9rem}select.chip{padding:.35rem .7rem;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:.8rem}
-.controls{display:flex;flex-direction:column;gap:.6rem;margin-bottom:1rem}.search-row{display:flex;gap:.5rem;flex-wrap:wrap}.search{flex:1;min-width:180px;padding:.6rem 1rem;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--text)}.seg{display:inline-flex;gap:.25rem;padding:.25rem;border:1px solid var(--border);border-radius:var(--radius-full);background:var(--surface2)}.seg button{padding:.4rem .9rem;border-radius:var(--radius-full);border:0;background:transparent;color:var(--muted);font-size:.8rem;font-weight:500}.seg button.active{background:var(--surface);color:var(--text);box-shadow:var(--shadow)}.chip-row{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}.chip{padding:.35rem .8rem;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--muted);font-size:.8rem;font-weight:500;white-space:nowrap}.chip.active{background:var(--primary-hl);color:var(--primary);border-color:var(--primary)}
-.section-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:.75rem 0 .5rem}.hero-card{background:color-mix(in srgb,var(--primary-dim) 60%,var(--surface));border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border));border-radius:var(--radius-xl);padding:1.2rem;display:flex;flex-direction:column;gap:.75rem;margin-bottom:1rem}.hero-time{font-size:1.8rem;font-weight:700;letter-spacing:-.03em}.hero-what{font-size:1rem;font-weight:700;margin-top:.15rem}.hero-where{font-size:.875rem;color:var(--muted)}
-.stats-bar{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}.stat{flex:1;min-width:80px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.6rem .8rem}.stat .sn{font-size:1.4rem;font-weight:700;letter-spacing:-.03em}.stat .sl{font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
-.cards{display:grid;gap:.6rem}.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1rem;display:flex;flex-direction:column;gap:.6rem}.card-top{display:flex;justify-content:space-between;align-items:start;gap:.5rem}.card-what{font-weight:700;font-size:.95rem}.card-where{color:var(--muted);font-size:.8rem}.time-pill{white-space:nowrap;padding:.35rem .7rem;border-radius:var(--radius-full);background:var(--surface2);border:1px solid var(--border);font-size:.78rem;font-weight:700}.card-meta{display:flex;flex-wrap:wrap;gap:.35rem}.tag{padding:.2rem .55rem;border-radius:var(--radius-full);font-size:.72rem;font-weight:600;background:var(--surface2);border:1px solid var(--border);color:var(--muted)}.assigned-row{display:flex;flex-wrap:wrap;gap:.3rem;align-items:center}.person-chip{padding:.2rem .55rem;border-radius:var(--radius-full);font-size:.72rem;font-weight:700;background:var(--primary-hl);color:var(--primary);border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border))}.person-chip.mine{background:var(--primary);color:#fff;border-color:var(--primary)}.nobody{color:var(--faint);font-size:.75rem;font-style:italic}.card-note{background:var(--surface2);border-radius:var(--radius);padding:.4rem .6rem;font-size:.78rem;color:var(--muted);border-left:2px solid var(--border);white-space:pre-line}
-.table-wrap{overflow:auto;border-radius:var(--radius-lg);border:1px solid var(--border)}table{width:100%;border-collapse:collapse;min-width:720px}th{background:var(--surface2);color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;padding:.7rem 1rem;text-align:left;border-bottom:1px solid var(--border);white-space:nowrap;cursor:pointer}td{padding:.75rem 1rem;border-bottom:1px solid var(--divider);vertical-align:top;font-size:.85rem}tr:last-child td{border-bottom:0}
-.bottom-nav{position:fixed;bottom:.75rem;left:50%;transform:translateX(-50%);width:min(calc(100% - 1.5rem),420px);display:grid;grid-template-columns:repeat(4,1fr);gap:.3rem;padding:.3rem;background:color-mix(in srgb,var(--surface) 94%,transparent);backdrop-filter:blur(14px);border:1px solid var(--border);border-radius:calc(var(--radius-xl) + .3rem);box-shadow:var(--shadow)}.bottom-nav button{height:48px;border:0;background:transparent;border-radius:var(--radius-lg);font-size:.72rem;color:var(--muted);font-weight:500}.bottom-nav button.active{background:var(--primary-hl);color:var(--primary)}
-.empty,.loading{text-align:center;padding:3rem 1rem;color:var(--muted)}.view{display:none}.view.active{display:block}
+:root{--bg:#f7f6f2;--surface:#fafaf7;--surface2:#f3f0ec;--border:#d4d1ca;--divider:#e4e1db;--text:#28251d;--muted:#6f6b63;--faint:#a19d94;--primary:#01696f;--primary-hl:#cddcda;--primary-dim:#e6f0ef;--radius:.5rem;--radius-lg:.75rem;--radius-xl:1rem;--radius-full:9999px;--shadow:0 1px 3px rgba(0,0,0,.07),0 8px 24px rgba(0,0,0,.05);--alert15:#e8af34;--alert5:#d96b1a;--alert0:#d64545}
+[data-theme="dark"]{--bg:#141312;--surface:#1a1917;--surface2:#201f1d;--border:#353330;--divider:#252320;--text:#cccac7;--muted:#908e89;--faint:#5e5c58;--primary:#4fa3a8;--primary-hl:#1e3133;--primary-dim:#192526;--alert15:#e8af34;--alert5:#ff8a3d;--alert0:#ff6b6b}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:system-ui,-apple-system,sans-serif;font-size:15px;line-height:1.5;background:var(--bg);color:var(--text);min-height:100vh}
+button,input,select{font:inherit;cursor:pointer}
+.app{max-width:1280px;margin:0 auto;padding:1rem;padding-bottom:5rem}
+.topbar{position:sticky;top:0;z-index:30;display:flex;justify-content:space-between;align-items:center;gap:.75rem;padding:.75rem 0 .5rem;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(12px);border-bottom:1px solid var(--divider);margin-bottom:1rem}
+.brand{display:flex;align-items:center;gap:.6rem}
+.logo{width:2rem;height:2rem;border-radius:.4rem;background:var(--primary-hl);color:var(--primary);display:grid;place-items:center;border:1px solid var(--border);font-size:1rem}
+.title{font-weight:700;font-size:1.1rem;letter-spacing:-.02em}
+.sub{font-size:.72rem;color:var(--muted)}
+.topbar-right{display:flex;gap:.4rem;align-items:center}
+.icon-btn{width:40px;height:40px;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--text);display:grid;place-items:center;font-size:.9rem}
+select.chip{padding:.35rem .7rem;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--text);font-size:.8rem}
+.controls{display:flex;flex-direction:column;gap:.6rem;margin-bottom:1rem}
+.search-row{display:flex;gap:.5rem;flex-wrap:wrap}
+.search{flex:1;min-width:180px;padding:.6rem 1rem;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--text)}
+.seg{display:inline-flex;gap:.25rem;padding:.25rem;border:1px solid var(--border);border-radius:var(--radius-full);background:var(--surface2)}
+.seg button{padding:.4rem .9rem;border-radius:var(--radius-full);border:0;background:transparent;color:var(--muted);font-size:.8rem;font-weight:500}
+.seg button.active{background:var(--surface);color:var(--text);box-shadow:var(--shadow)}
+.chip-row{display:flex;gap:.4rem;flex-wrap:wrap;align-items:center}
+.chip{padding:.35rem .8rem;border-radius:var(--radius-full);border:1px solid var(--border);background:var(--surface);color:var(--muted);font-size:.8rem;font-weight:500;white-space:nowrap}
+.chip.active{background:var(--primary-hl);color:var(--primary);border-color:var(--primary)}
+.section-label{font-size:.7rem;font-weight:700;text-transform:uppercase;letter-spacing:.1em;color:var(--muted);margin:.75rem 0 .5rem}
+.hero-card{background:linear-gradient(135deg,color-mix(in srgb,var(--primary-dim) 85%,var(--surface)) 0%, color-mix(in srgb,var(--primary-hl) 40%,var(--surface)) 100%);border:1px solid color-mix(in srgb,var(--primary) 28%,var(--border));border-radius:1.2rem;padding:1.4rem;display:grid;grid-template-columns:1.2fr .8fr;gap:1rem;margin-bottom:1rem;box-shadow:var(--shadow)}
+.hero-time{font-size:2.4rem;font-weight:800;letter-spacing:-.04em;line-height:1}
+.hero-what{font-size:1.2rem;font-weight:800;margin-top:.2rem}
+.hero-where{font-size:.95rem;color:var(--muted)}
+.hero-side{display:flex;flex-direction:column;justify-content:space-between;gap:.75rem;background:color-mix(in srgb,var(--surface) 88%, transparent);border:1px solid var(--border);border-radius:1rem;padding:1rem}
+.upcoming-15{outline:2px solid color-mix(in srgb,var(--alert15) 55%,transparent);animation:pulse15 1.2s infinite}
+.upcoming-5{outline:2px solid color-mix(in srgb,var(--alert5) 65%,transparent);animation:pulse5 .9s infinite}
+.upcoming-now{outline:2px solid color-mix(in srgb,var(--alert0) 70%,transparent);animation:pulseNow .75s infinite}
+.blink-text{animation:blinkText 1s step-start infinite}
+@keyframes pulse15{0%,100%{box-shadow:0 0 0 0 rgba(232,175,52,.18)}50%{box-shadow:0 0 0 10px rgba(232,175,52,.06)}}@keyframes pulse5{0%,100%{box-shadow:0 0 0 0 rgba(217,107,26,.2)}50%{box-shadow:0 0 0 12px rgba(217,107,26,.08)}}@keyframes pulseNow{0%,100%{box-shadow:0 0 0 0 rgba(214,69,69,.22)}50%{box-shadow:0 0 0 14px rgba(214,69,69,.1)}}
+@keyframes blinkText{50%{opacity:.35}}
+@media(max-width:780px){.hero-card{grid-template-columns:1fr}}
+.stats-bar{display:flex;gap:.5rem;flex-wrap:wrap;margin-bottom:1rem}
+.stat{flex:1;min-width:80px;background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:.6rem .8rem}
+.stat .sn{font-size:1.4rem;font-weight:700;letter-spacing:-.03em}
+.stat .sl{font-size:.68rem;text-transform:uppercase;letter-spacing:.07em;color:var(--muted)}
+.cards{display:grid;gap:.6rem}
+.card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius-lg);padding:1rem;display:flex;flex-direction:column;gap:.6rem}
+.card-top{display:flex;justify-content:space-between;align-items:start;gap:.5rem}
+.card-what{font-weight:700;font-size:.95rem}
+.card-where{color:var(--muted);font-size:.8rem}
+.time-pill{white-space:nowrap;padding:.35rem .7rem;border-radius:var(--radius-full);background:var(--surface2);border:1px solid var(--border);font-size:.78rem;font-weight:700}
+.card-meta{display:flex;flex-wrap:wrap;gap:.35rem}
+.tag{padding:.2rem .55rem;border-radius:var(--radius-full);font-size:.72rem;font-weight:600;background:var(--surface2);border:1px solid var(--border);color:var(--muted)}
+.assigned-row{display:flex;flex-direction:column;align-items:flex-start;gap:.35rem}
+.person-chip{padding:.2rem .55rem;border-radius:var(--radius-full);font-size:.72rem;font-weight:700;background:var(--primary-hl);color:var(--primary);border:1px solid color-mix(in srgb,var(--primary) 20%,var(--border))}
+.person-chip.mine{background:var(--primary);color:#fff;border-color:var(--primary)}
+.nobody{color:var(--faint);font-size:.75rem;font-style:italic}
+.card-note{background:var(--surface2);border-radius:var(--radius);padding:.4rem .6rem;font-size:.78rem;color:var(--muted);border-left:2px solid var(--border);white-space:pre-line}
+.table-wrap{overflow:auto;border-radius:var(--radius-lg);border:1px solid var(--border)}
+table{width:100%;border-collapse:collapse;min-width:720px}
+th{background:var(--surface2);color:var(--muted);font-size:.7rem;text-transform:uppercase;letter-spacing:.08em;padding:.7rem 1rem;text-align:left;border-bottom:1px solid var(--border);white-space:nowrap;cursor:pointer}
+td{padding:.75rem 1rem;border-bottom:1px solid var(--divider);vertical-align:top;font-size:.85rem}
+tr:last-child td{border-bottom:0}
+.bottom-nav{position:fixed;bottom:.75rem;left:50%;transform:translateX(-50%);width:min(calc(100% - 1.5rem),420px);display:grid;grid-template-columns:repeat(4,1fr);gap:.3rem;padding:.3rem;background:color-mix(in srgb,var(--surface) 94%,transparent);backdrop-filter:blur(14px);border:1px solid var(--border);border-radius:calc(var(--radius-xl) + .3rem);box-shadow:var(--shadow)}
+.bottom-nav button{height:48px;border:0;background:transparent;border-radius:var(--radius-lg);font-size:.72rem;color:var(--muted);font-weight:500}
+.bottom-nav button.active{background:var(--primary-hl);color:var(--primary)}
+.empty,.loading{text-align:center;padding:3rem 1rem;color:var(--muted)}
+.view{display:none}
+.view.active{display:block}
 @media(min-width:900px){.app{padding:1.5rem}.bottom-nav{display:none}.controls{flex-direction:row;align-items:center;justify-content:space-between}}
 </style>
 </head>
 <body>
 <div class="app">
-<header class="topbar"><div class="brand"><div class="logo">📷</div><div><div class="title">ShiftBoard</div><div class="sub" id="lastLoaded">Loading local JSON…</div></div></div><div class="topbar-right"><select id="personSelect" class="chip"><option value="">All photographers</option></select><button class="icon-btn" id="themeToggle">◐</button></div></header>
+<header class="topbar"><div class="brand"><div class="logo">📷</div><div><div class="title">ShiftBoard</div><div class="sub" id="lastLoaded">Loading local JSON…</div></div></div><div class="topbar-right"><select id="personSelect" class="chip"><option value="">All photographers</option></select><button class="icon-btn" id="notifyBtn" title="Enable browser notifications">🔔</button><button class="icon-btn" id="themeToggle">◐</button></div></header>
 <div class="stats-bar" id="statsBar"></div>
 <div class="controls"><div class="search-row"><input class="search" id="searchInput" type="search" placeholder="🔎 Search shifts, places, categories…"/><div class="seg"><button class="active" id="btnCards">Cards</button><button id="btnTable">Table</button></div></div><div class="chip-row" id="dateChips"></div><div class="chip-row"><select id="catFilter" class="chip"><option value="">All categories</option></select><select id="relFilter" class="chip"><option value="">All relevance</option><option value="yes">Shift</option><option value="info">Info only</option></select></div></div>
 <div id="heroSection"></div><div class="section-label" id="resultLabel"></div>
@@ -31,9 +84,14 @@
 <nav class="bottom-nav"><button onclick="setPersonFilter('')">All shifts</button><button onclick="setMyShifts()">My shifts</button><button onclick="document.getElementById('catFilter').focus()">Filter</button><button onclick="toggleView()">Toggle view</button></nav>
 <script>
 const DATA_URL = './data/shifts.json';
+const ORIGINAL_TITLE = document.title;
+const EVENT_YEAR = new Date().getFullYear();
 
 let RAW = [];
 let PHOTOGRAPHERS = [];
+let titleBlinkTimer = null;
+let audioUnlocked = false;
+let notifiedIds = new Set(JSON.parse(localStorage.getItem('sb_notified_ids') || '[]'));
 
 let state = {
   view: localStorage.getItem('sb_view') || 'cards',
@@ -52,26 +110,66 @@ function save() {
   localStorage.setItem('sb_date', state.date);
   localStorage.setItem('sb_cat', state.cat);
   localStorage.setItem('sb_rel', state.rel);
+  localStorage.setItem('sb_notified_ids', JSON.stringify([...notifiedIds]));
+}
+
+function parseShiftStart(shift) {
+  if (!shift?.date || !shift?.from) return null;
+  const md = (shift.date.split(' ')[0] || '').split('-');
+  const month = Number(md[0]);
+  const day = Number(md[1]);
+  const [hour, minute] = shift.from.split(':').map(Number);
+  if (!month || !day || Number.isNaN(hour) || Number.isNaN(minute)) return null;
+  return new Date(EVENT_YEAR, month - 1, day, hour, minute, 0, 0);
+}
+
+function weekdayLabel(dateText) {
+  const dt = parseShiftStart({ date: dateText, from: '00:00' });
+  return dt ? dt.toLocaleDateString(undefined, { weekday: 'short' }) : (dateText.split(' ')[1] || '');
+}
+
+function fullDateLabel(dateText) {
+  const raw = dateText.split(' ')[0] || dateText;
+  return `${raw} ${weekdayLabel(dateText)}`;
+}
+
+function urgencyLevel(shift) {
+  const mins = minutesUntil(shift);
+  if (mins === null) return '';
+  if (mins <= 0 && mins >= -15) return 'now';
+  if (mins <= 5 && mins > 0) return '5';
+  if (mins <= 15 && mins > 5) return '15';
+  return '';
+}
+
+function urgencyClass(shift) {
+  const level = urgencyLevel(shift);
+  if (level === '15') return 'upcoming-15';
+  if (level === '5') return 'upcoming-5';
+  if (level === 'now') return 'upcoming-now';
+  return '';
+}
+
+function urgencyLabel(shift) {
+  const mins = minutesUntil(shift);
+  const level = urgencyLevel(shift);
+  if (level === 'now') return 'Starting now';
+  if (level === '5') return `Starts in ${mins} min`;
+  if (level === '15') return `Starts in ${mins} min`;
+  return '';
 }
 
 function populateFilters() {
   const catSel = document.getElementById('catFilter');
   const cats = [...new Set(RAW.map(s => s.category).filter(Boolean))].sort();
-  catSel.innerHTML =
-    '<option value="">All categories</option>' +
-    cats.map(c => `<option ${c === state.cat ? 'selected' : ''}>${c}</option>`).join('');
+  catSel.innerHTML = '<option value="">All categories</option>' + cats.map(c => `<option ${c === state.cat ? 'selected' : ''}>${c}</option>`).join('');
 
   const personSel = document.getElementById('personSelect');
-  personSel.innerHTML =
-    '<option value="">All photographers</option>' +
-    PHOTOGRAPHERS.map(p => `<option ${p === state.person ? 'selected' : ''}>${p}</option>`).join('');
+  personSel.innerHTML = '<option value="">All photographers</option>' + PHOTOGRAPHERS.map(p => `<option ${p === state.person ? 'selected' : ''}>${p}</option>`).join('');
 
   const dates = [...new Set(RAW.map(s => s.date))];
   const dateChips = document.getElementById('dateChips');
-  dateChips.innerHTML =
-    '<button class="chip' + (state.date === '' ? ' active' : '') + '" data-date="">All days</button>' +
-    dates.map(d => `<button class="chip${state.date === d ? ' active' : ''}" data-date="${d}">${d.split(' ')[0]}</button>`).join('');
-
+  dateChips.innerHTML = '<button class="chip' + (state.date === '' ? ' active' : '') + '" data-date="">All days</button>' + dates.map(d => `<button class="chip${state.date === d ? ' active' : ''}" data-date="${d}">${fullDateLabel(d)}</button>`).join('');
   dateChips.querySelectorAll('[data-date]').forEach(btn => {
     btn.addEventListener('click', () => {
       state.date = btn.dataset.date;
@@ -80,66 +178,75 @@ function populateFilters() {
       render();
     });
   });
-
   document.getElementById('relFilter').value = state.rel;
 }
 
 function filtered() {
-  return RAW
-    .filter(s => {
-      if (state.person && !s.assigned.some(a => a.name === state.person)) return false;
-      if (state.date && s.date !== state.date) return false;
-      if (state.cat && s.category !== state.cat) return false;
-      if (state.rel && s.relevant !== state.rel) return false;
-
-      if (state.search) {
-        const q = state.search.toLowerCase();
-        const hay = [
-          s.what,
-          s.where,
-          s.category,
-          s.comment,
-          s.notes,
-          s.assigned.map(a => a.name).join(' '),
-        ].join(' ').toLowerCase();
-        if (!hay.includes(q)) return false;
-      }
-
-      return true;
-    })
-    .sort((a, b) => {
-      const va = a[state.sort] || '';
-      const vb = b[state.sort] || '';
-      if (va < vb) return -state.sortDir;
-      if (va > vb) return state.sortDir;
-      return 0;
-    });
+  return RAW.filter(s => {
+    if (state.person && !s.assigned.some(a => a.name === state.person)) return false;
+    if (state.date && s.date !== state.date) return false;
+    if (state.cat && s.category !== state.cat) return false;
+    if (state.rel && s.relevant !== state.rel) return false;
+    if (state.search) {
+      const q = state.search.toLowerCase();
+      const hay = [s.what, s.where, s.category, s.comment, s.notes, s.assigned.map(a => a.name).join(' ')].join(' ').toLowerCase();
+      if (!hay.includes(q)) return false;
+    }
+    return true;
+  }).sort((a, b) => (parseShiftStart(a)?.getTime() || 0) - (parseShiftStart(b)?.getTime() || 0));
 }
 
-function heroShift() {
-  if (!state.person) return null;
-  return RAW.find(s => s.assigned.some(a => a.name === state.person)) || null;
+function nextShift() {
+  const now = new Date();
+  const pool = state.person ? RAW.filter(s => s.assigned.some(a => a.name === state.person)) : RAW;
+  return pool.map(s => ({ shift: s, start: parseShiftStart(s) }))
+    .filter(x => x.start && x.start >= new Date(now.getTime() - 15 * 60000))
+    .sort((a, b) => a.start - b.start)[0] || null;
+}
+
+function minutesUntil(shift) {
+  const start = parseShiftStart(shift);
+  if (!start) return null;
+  return Math.round((start.getTime() - Date.now()) / 60000);
 }
 
 function renderHero() {
-  const hero = heroShift();
+  const next = nextShift();
   const sec = document.getElementById('heroSection');
-
-  if (!hero) {
+  if (!next) {
     sec.innerHTML = '';
+    stopTitleBlink();
     return;
   }
-
-  const mySlot = hero.assigned.find(a => a.name === state.person);
+  const hero = next.shift;
+  const mins = minutesUntil(hero);
+  const levelClass = urgencyClass(hero);
+  const mySlot = state.person ? hero.assigned.find(a => a.name === state.person) : null;
+  const assignedHtml = hero.assigned.length ? hero.assigned.map(a => `<span class="person-chip${a.name === state.person ? ' mine' : ''}">${a.name}: ${a.slot}</span>`).join('') : '<span class="nobody">Unassigned</span>';
   sec.innerHTML = `
-    <div class="section-label">My next shift · ${state.person}</div>
-    <div class="hero-card">
-      <div class="hero-time">${mySlot ? mySlot.slot : (hero.from + ' – ' + hero.till)}</div>
-      <div class="hero-what">${hero.what}</div>
-      <div class="hero-where">📍 ${hero.where || '—'}</div>
-      <div style="color:var(--muted);font-size:.8rem">${hero.date}</div>
-    </div>
-  `;
+    <div class="section-label ${levelClass ? 'blink-text' : ''}">Next shift${state.person ? ' · ' + state.person : ''}</div>
+    <div class="hero-card ${levelClass}">
+      <div>
+        <div class="hero-time">${mySlot ? mySlot.slot : (hero.from + ' – ' + hero.till)}</div>
+        <div class="hero-what">${hero.what}</div>
+        <div class="hero-where">📍 ${hero.where || '—'}</div>
+        <div style="color:var(--muted);font-size:.9rem;margin-top:.5rem">${fullDateLabel(hero.date)} · ${hero.category || '—'}</div>
+      </div>
+      <div class="hero-side">
+        <div>
+          <div style="font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em">Status</div>
+          <div style="font-size:2rem;font-weight:800;line-height:1.1">${urgencyLabel(hero) || (mins !== null ? mins + ' min' : '—')}</div>
+        </div>
+        <div class="assigned-row">${assignedHtml}</div>
+      </div>
+    </div>`;
+
+  if (levelClass) {
+    startTitleBlink(hero);
+    maybeAlert(hero);
+  } else {
+    stopTitleBlink();
+  }
 }
 
 function renderStats(data) {
@@ -147,81 +254,56 @@ function renderStats(data) {
   const assigned = data.filter(s => s.assigned.length > 0).length;
   const days = [...new Set(data.map(s => s.date))].length;
   const cats = [...new Set(data.map(s => s.category))].filter(Boolean).length;
-
   document.getElementById('statsBar').innerHTML = `
     <div class="stat"><div class="sn">${total}</div><div class="sl">Shifts</div></div>
     <div class="stat"><div class="sn">${assigned}</div><div class="sl">Assigned</div></div>
     <div class="stat"><div class="sn">${total - assigned}</div><div class="sl">Open</div></div>
     <div class="stat"><div class="sn">${days}</div><div class="sl">Days</div></div>
-    <div class="stat"><div class="sn">${cats}</div><div class="sl">Categories</div></div>
-  `;
+    <div class="stat"><div class="sn">${cats}</div><div class="sl">Categories</div></div>`;
 }
 
 function renderCards(data) {
   const list = document.getElementById('cardList');
   const empty = document.getElementById('cardsEmpty');
-
   if (!data.length) {
     list.innerHTML = '';
     empty.style.display = 'block';
     return;
   }
-
   empty.style.display = 'none';
   list.innerHTML = data.map(s => {
-    const assignedHtml = s.assigned.length
-      ? s.assigned.map(a => `<span class="person-chip${a.name === state.person ? ' mine' : ''}">${a.name}: ${a.slot}</span>`).join('')
-      : '<span class="nobody">Unassigned</span>';
-
+    const assignedHtml = s.assigned.length ? s.assigned.map(a => `<span class="person-chip${a.name === state.person ? ' mine' : ''}">${a.name}: ${a.slot}</span>`).join('') : '<span class="nobody">Unassigned</span>';
     const noteText = [s.notes, s.comment].filter(Boolean).join('\n');
-
-    return `
-      <article class="card">
-        <div class="card-top">
-          <div>
-            <div class="card-what">${s.what}</div>
-            <div class="card-where">📍 ${s.where || '—'}</div>
-          </div>
-          <div class="time-pill">${s.date} · ${s.from}–${s.till}</div>
-        </div>
-        <div class="card-meta">
-          <span class="tag">${s.category || '—'}</span>
-          <span class="tag">${s.relevant || '—'}</span>
-        </div>
-        <div class="assigned-row">${assignedHtml}</div>
-        ${noteText ? `<div class="card-note">💬 ${noteText}</div>` : ''}
-      </article>
-    `;
+    const label = urgencyLabel(s);
+    const levelClass = urgencyClass(s);
+    return `<article class="card ${levelClass}">
+      <div class="card-top">
+        <div><div class="card-what">${s.what}</div><div class="card-where">📍 ${s.where || '—'}</div></div>
+        <div class="time-pill">${fullDateLabel(s.date)} · ${s.from}–${s.till}</div>
+      </div>
+      <div class="card-meta">
+        <span class="tag">${s.category || '—'}</span>
+        <span class="tag">${s.relevant || '—'}</span>
+        ${label ? `<span class="tag blink-text">${label}</span>` : ''}
+      </div>
+      <div class="assigned-row">${assignedHtml}</div>
+      ${noteText ? `<div class="card-note">💬 ${noteText}</div>` : ''}
+    </article>`;
   }).join('');
 }
 
 function renderTable(data) {
   const body = document.getElementById('tableBody');
   const empty = document.getElementById('tableEmpty');
-
   if (!data.length) {
     body.innerHTML = '';
     empty.style.display = 'block';
     return;
   }
-
   empty.style.display = 'none';
   body.innerHTML = data.map(s => {
-    const assignedHtml = s.assigned.length
-      ? s.assigned.map(a => `<span class="person-chip${a.name === state.person ? ' mine' : ''}">${a.name}: ${a.slot}</span>`).join(' ')
-      : '<span class="nobody">–</span>';
-
-    return `
-      <tr>
-        <td>${s.date}</td>
-        <td>${s.from}–${s.till}</td>
-        <td>${s.what}</td>
-        <td>${s.where || '—'}</td>
-        <td>${s.category || '—'}</td>
-        <td>${assignedHtml}</td>
-        <td>${[s.notes, s.comment].filter(Boolean).join(' • ')}</td>
-      </tr>
-    `;
+    const assignedHtml = s.assigned.length ? s.assigned.map(a => `<div class="person-chip${a.name === state.person ? ' mine' : ''}">${a.name}: ${a.slot}</div>`).join('') : '<span class="nobody">–</span>';
+    return `<tr class="${urgencyClass(s)}"><td>${fullDateLabel(s.date)}</td><td>${s.from}–${s.till}</td><td>${s.what}</td><td>${s.where || '—'}</td><td>${s.category || '—'}</td><td><div class="assigned-row">${assignedHtml}</div></td><td>${[s.notes, s.comment].filter(Boolean).join(' • ')}</td></tr>`;
   }).join('');
 }
 
@@ -229,10 +311,10 @@ function render() {
   const data = filtered();
   renderHero();
   renderStats(data);
-  document.getElementById('resultLabel').textContent =
-    data.length + ' shift' + (data.length !== 1 ? 's' : '') + ' shown' + (state.person ? ' · ' + state.person : '');
+  document.getElementById('resultLabel').textContent = data.length + ' shift' + (data.length !== 1 ? 's' : '') + ' shown' + (state.person ? ' · ' + state.person : '');
   renderCards(data);
   renderTable(data);
+  updateNotifyButton();
   save();
 }
 
@@ -244,25 +326,80 @@ function setView(v) {
   document.getElementById('btnTable').classList.toggle('active', v === 'table');
 }
 
-function toggleView() {
-  setView(state.view === 'cards' ? 'table' : 'cards');
-  render();
+function toggleView() { setView(state.view === 'cards' ? 'table' : 'cards'); render(); }
+function setPersonFilter(p) { state.person = p; document.getElementById('personSelect').value = p; render(); }
+function setMyShifts() { const p = document.getElementById('personSelect').value || PHOTOGRAPHERS[0]; setPersonFilter(p); }
+
+function startTitleBlink(hero) {
+  if (!document.hidden) return;
+  if (titleBlinkTimer) return;
+  let on = false;
+  titleBlinkTimer = setInterval(() => {
+    on = !on;
+    document.title = on ? `⏰ ${hero.what} · ${urgencyLabel(hero) || 'soon'}` : ORIGINAL_TITLE;
+  }, 900);
 }
 
-function setPersonFilter(p) {
-  state.person = p;
-  document.getElementById('personSelect').value = p;
-  render();
+function stopTitleBlink() {
+  if (titleBlinkTimer) clearInterval(titleBlinkTimer);
+  titleBlinkTimer = null;
+  document.title = ORIGINAL_TITLE;
 }
 
-function setMyShifts() {
-  const p = document.getElementById('personSelect').value || PHOTOGRAPHERS[0];
-  setPersonFilter(p);
+function beep() {
+  if (!audioUnlocked) return;
+  const Ctx = window.AudioContext || window.webkitAudioContext;
+  if (!Ctx) return;
+  const ctx = new Ctx();
+  const osc = ctx.createOscillator();
+  const gain = ctx.createGain();
+  const level = nextShift()?.shift ? urgencyLevel(nextShift().shift) : '';
+  osc.type = 'sine';
+  osc.frequency.value = level === 'now' ? 1046 : level === '5' ? 988 : 880;
+  gain.gain.value = 0.025;
+  osc.connect(gain);
+  gain.connect(ctx.destination);
+  osc.start();
+  osc.stop(ctx.currentTime + 0.2);
+}
+
+function notify(shift) {
+  if (!('Notification' in window)) return;
+  if (Notification.permission !== 'granted') return;
+  const body = `${urgencyLabel(shift) || 'Upcoming shift'} • ${shift.what} • ${shift.where || 'No location'}`;
+  new Notification('ShiftBoard alert', { body, tag: `shift-${shift.id}`, renotify: true });
+}
+
+function maybeAlert(shift) {
+  const key = `${shift.id}-${urgencyLevel(shift)}`;
+  if (notifiedIds.has(key)) return;
+  notifiedIds.add(key);
+  beep();
+  if (document.hidden) notify(shift);
+  save();
+}
+
+async function requestNotifications() {
+  if (!('Notification' in window)) return;
+  const permission = await Notification.requestPermission();
+  updateNotifyButton(permission);
+}
+
+function updateNotifyButton(permissionOverride) {
+  const btn = document.getElementById('notifyBtn');
+  if (!btn) return;
+  if (!('Notification' in window)) {
+    btn.textContent = '🔕';
+    btn.title = 'Notifications not supported';
+    return;
+  }
+  const p = permissionOverride || Notification.permission;
+  btn.textContent = p === 'granted' ? '🔔' : p === 'denied' ? '🔕' : '🛎️';
+  btn.title = p === 'granted' ? 'Notifications enabled' : p === 'denied' ? 'Notifications blocked' : 'Enable browser notifications';
 }
 
 async function loadData() {
   document.getElementById('loadingMsg').style.display = 'block';
-
   try {
     const res = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
     const data = await res.json();
@@ -279,53 +416,22 @@ async function loadData() {
   }
 }
 
-document.getElementById('searchInput').addEventListener('input', e => {
-  state.search = e.target.value;
-  render();
-});
-
-document.getElementById('personSelect').addEventListener('change', e => {
-  state.person = e.target.value;
-  render();
-});
-
-document.getElementById('catFilter').addEventListener('change', e => {
-  state.cat = e.target.value;
-  render();
-});
-
-document.getElementById('relFilter').addEventListener('change', e => {
-  state.rel = e.target.value;
-  render();
-});
-
-document.getElementById('btnCards').addEventListener('click', () => {
-  setView('cards');
-  render();
-});
-
-document.getElementById('btnTable').addEventListener('click', () => {
-  setView('table');
-  render();
-});
-
-document.querySelectorAll('th[data-col]').forEach(th => {
-  th.addEventListener('click', () => {
-    if (state.sort === th.dataset.col) {
-      state.sortDir *= -1;
-    } else {
-      state.sort = th.dataset.col;
-      state.sortDir = 1;
-    }
-    render();
-  });
-});
+document.getElementById('searchInput').addEventListener('input', e => { state.search = e.target.value; render(); });
+document.getElementById('personSelect').addEventListener('change', e => { state.person = e.target.value; render(); });
+document.getElementById('catFilter').addEventListener('change', e => { state.cat = e.target.value; render(); });
+document.getElementById('relFilter').addEventListener('change', e => { state.rel = e.target.value; render(); });
+document.getElementById('btnCards').addEventListener('click', () => { setView('cards'); render(); });
+document.getElementById('btnTable').addEventListener('click', () => { setView('table'); render(); });
+document.getElementById('notifyBtn').addEventListener('click', requestNotifications);
+document.querySelectorAll('th[data-col]').forEach(th => th.addEventListener('click', () => { render(); }));
+document.addEventListener('visibilitychange', () => { if (!document.hidden) stopTitleBlink(); else renderHero(); });
+document.addEventListener('click', () => { audioUnlocked = true; }, { once: true });
+document.addEventListener('keydown', () => { audioUnlocked = true; }, { once: true });
 
 const themeBtn = document.getElementById('themeToggle');
 let theme = localStorage.getItem('sb_theme') || (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
 document.documentElement.setAttribute('data-theme', theme);
 themeBtn.textContent = theme === 'dark' ? '☀︎' : '◐';
-
 themeBtn.addEventListener('click', () => {
   theme = theme === 'dark' ? 'light' : 'dark';
   document.documentElement.setAttribute('data-theme', theme);
@@ -334,7 +440,9 @@ themeBtn.addEventListener('click', () => {
 });
 
 setView(state.view);
+updateNotifyButton();
 loadData();
+setInterval(render, 30000);
 </script>
 </body>
 </html>
