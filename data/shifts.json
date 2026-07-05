@@ -1,0 +1,96 @@
+{
+  "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv",
+  "count": 244,
+  "shifts": [
+    {
+      "id": 1,
+      "date": "08-20 Wed",
+      "from": "6:00",
+      "till": "20:00",
+      "what": "sponsor duties",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "date": "08-20 Wed",
+      "from": "6:00",
+      "till": "22:00",
+      "what": "Charging Area available",
+      "where": "Charging",
+      "category": "Place",
+      "notes": "gate 6",
+      "relevant": "info",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "12:30 - 13:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "12:30 - 13:30"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "date": "08-21 Thu",
+      "from": "6:00",
+      "till": "20:00",
+      "what": "sponsor duties",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "12:30 - 13:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "15:00 - 16:00"
+        },
+        {
+          "name": "photographer8",
+          "slot": "12:30 - 13:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "15:00 - 16:00"
+        }
+      ]
+    }
+  ]
+}
