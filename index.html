@@ -30,24 +30,311 @@
 <div class="loading" id="loadingMsg">Loading local data…</div></div>
 <nav class="bottom-nav"><button onclick="setPersonFilter('')">All shifts</button><button onclick="setMyShifts()">My shifts</button><button onclick="document.getElementById('catFilter').focus()">Filter</button><button onclick="toggleView()">Toggle view</button></nav>
 <script>
-let RAW = [], PHOTOGRAPHERS = [];
-let state = {view: localStorage.getItem('sb_view') || 'cards', person: localStorage.getItem('sb_person') || '', date: localStorage.getItem('sb_date') || '', cat: localStorage.getItem('sb_cat') || '', rel: localStorage.getItem('sb_rel') || '', search: '', sort: 'date', sortDir: 1};
-function save(){localStorage.setItem('sb_view',state.view);localStorage.setItem('sb_person',state.person);localStorage.setItem('sb_date',state.date);localStorage.setItem('sb_cat',state.cat);localStorage.setItem('sb_rel',state.rel)}
-function populateFilters(){const catSel=document.getElementById('catFilter');const cats=[...new Set(RAW.map(s=>s.category).filter(Boolean))].sort();catSel.innerHTML='<option value="">All categories</option>'+cats.map(c=>`<option ${c===state.cat?'selected':''}>${c}</option>`).join('');const personSel=document.getElementById('personSelect');personSel.innerHTML='<option value="">All photographers</option>'+PHOTOGRAPHERS.map(p=>`<option ${p===state.person?'selected':''}>${p}</option>`).join('');const dates=[...new Set(RAW.map(s=>s.date))];const dateChips=document.getElementById('dateChips');dateChips.innerHTML='<button class="chip'+(state.date===''?' active':'')+'" data-date="">All days</button>'+dates.map(d=>`<button class="chip${state.date===d?' active':''}" data-date="${d}">${d.split(' ')[0]}</button>`).join('');dateChips.querySelectorAll('[data-date]').forEach(btn=>btn.addEventListener('click',()=>{state.date=btn.dataset.date;dateChips.querySelectorAll('[data-date]').forEach(b=>b.classList.remove('active'));btn.classList.add('active');render()}));document.getElementById('relFilter').value=state.rel}
-function filtered(){return RAW.filter(s=>{if(state.person && !s.assigned.some(a=>a.name===state.person)) return false;if(state.date && s.date!==state.date) return false;if(state.cat && s.category!==state.cat) return false;if(state.rel && s.relevant!==state.rel) return false;if(state.search){const q=state.search.toLowerCase();const hay=[s.what,s.where,s.category,s.comment,s.notes,s.assigned.map(a=>a.name).join(' ')].join(' ').toLowerCase();if(!hay.includes(q)) return false}return true}).sort((a,b)=>{let va=a[state.sort]||'',vb=b[state.sort]||'';return va<vb?-state.sortDir:va>vb?state.sortDir:0})}
-function heroShift(){if(!state.person) return null;return RAW.find(s=>s.assigned.some(a=>a.name===state.person))||null}
-function renderHero(){const hero=heroShift();const sec=document.getElementById('heroSection');if(!hero){sec.innerHTML='';return}const mySlot=hero.assigned.find(a=>a.name===state.person);sec.innerHTML=`<div class="section-label">My next shift · ${state.person}</div><div class="hero-card"><div class="hero-time">${mySlot?mySlot.slot:(hero.from+' – '+hero.till)}</div><div class="hero-what">${hero.what}</div><div class="hero-where">📍 ${hero.where||'—'}</div><div style="color:var(--muted);font-size:.8rem">${hero.date}</div></div>`}
-function renderStats(data){const total=data.length,assigned=data.filter(s=>s.assigned.length>0).length,days=[...new Set(data.map(s=>s.date))].length,cats=[...new Set(data.map(s=>s.category))].filter(Boolean).length;document.getElementById('statsBar').innerHTML=`<div class="stat"><div class="sn">${total}</div><div class="sl">Shifts</div></div><div class="stat"><div class="sn">${assigned}</div><div class="sl">Assigned</div></div><div class="stat"><div class="sn">${total-assigned}</div><div class="sl">Open</div></div><div class="stat"><div class="sn">${days}</div><div class="sl">Days</div></div><div class="stat"><div class="sn">${cats}</div><div class="sl">Categories</div></div>`}
-function renderCards(data){const list=document.getElementById('cardList'),empty=document.getElementById('cardsEmpty');if(!data.length){list.innerHTML='';empty.style.display='block';return}empty.style.display='none';list.innerHTML=data.map(s=>{const assignedHtml=s.assigned.length?s.assigned.map(a=>`<span class="person-chip${a.name===state.person?' mine':''}">${a.name}: ${a.slot}</span>`).join(''):'<span class="nobody">Unassigned</span>';const noteText=[s.notes,s.comment].filter(Boolean).join('
-');return `<article class="card"><div class="card-top"><div><div class="card-what">${s.what}</div><div class="card-where">📍 ${s.where||'—'}</div></div><div class="time-pill">${s.date} · ${s.from}–${s.till}</div></div><div class="card-meta"><span class="tag">${s.category||'—'}</span><span class="tag">${s.relevant||'—'}</span></div><div class="assigned-row">${assignedHtml}</div>${noteText?`<div class="card-note">💬 ${noteText}</div>`:''}</article>`}).join('')}
-function renderTable(data){const body=document.getElementById('tableBody'),empty=document.getElementById('tableEmpty');if(!data.length){body.innerHTML='';empty.style.display='block';return}empty.style.display='none';body.innerHTML=data.map(s=>{const assignedHtml=s.assigned.length?s.assigned.map(a=>`<span class="person-chip${a.name===state.person?' mine':''}">${a.name}: ${a.slot}</span>`).join(' '):'<span class="nobody">–</span>';return `<tr><td>${s.date}</td><td>${s.from}–${s.till}</td><td>${s.what}</td><td>${s.where||'—'}</td><td>${s.category||'—'}</td><td>${assignedHtml}</td><td>${[s.notes,s.comment].filter(Boolean).join(' / ')}</td></tr>`}).join('')}
-function render(){const data=filtered();renderHero();renderStats(data);document.getElementById('resultLabel').textContent=data.length+' shift'+(data.length!==1?'s':'')+' shown'+(state.person?' · '+state.person:'');renderCards(data);renderTable(data);save()}
-function setView(v){state.view=v;document.getElementById('cardsView').classList.toggle('active',v==='cards');document.getElementById('tableView').classList.toggle('active',v==='table');document.getElementById('btnCards').classList.toggle('active',v==='cards');document.getElementById('btnTable').classList.toggle('active',v==='table')}
-function toggleView(){setView(state.view==='cards'?'table':'cards');render()} function setPersonFilter(p){state.person=p;document.getElementById('personSelect').value=p;render()} function setMyShifts(){const p=document.getElementById('personSelect').value||PHOTOGRAPHERS[0];setPersonFilter(p)}
-async function loadData(){document.getElementById('loadingMsg').style.display='block';try{const res=await fetch('./data/shifts.json?t='+Date.now(),{cache:'no-store'});const data=await res.json();RAW=data.shifts||[];PHOTOGRAPHERS=[...new Set(RAW.flatMap(s=>s.assigned.map(a=>a.name)))].sort();document.getElementById('lastLoaded').textContent='Local JSON loaded · '+new Date().toLocaleTimeString();populateFilters();render()}catch(e){document.getElementById('lastLoaded').textContent='Failed to load local JSON';console.error(e)}finally{document.getElementById('loadingMsg').style.display='none'}}
-document.getElementById('searchInput').addEventListener('input',e=>{state.search=e.target.value;render()});document.getElementById('personSelect').addEventListener('change',e=>{state.person=e.target.value;render()});document.getElementById('catFilter').addEventListener('change',e=>{state.cat=e.target.value;render()});document.getElementById('relFilter').addEventListener('change',e=>{state.rel=e.target.value;render()});document.getElementById('btnCards').addEventListener('click',()=>{setView('cards');render()});document.getElementById('btnTable').addEventListener('click',()=>{setView('table');render()});document.querySelectorAll('th[data-col]').forEach(th=>th.addEventListener('click',()=>{if(state.sort===th.dataset.col) state.sortDir*=-1; else {state.sort=th.dataset.col;state.sortDir=1} render()}));
-const themeBtn=document.getElementById('themeToggle');let theme=localStorage.getItem('sb_theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',theme);themeBtn.textContent=theme==='dark'?'☀︎':'◐';themeBtn.addEventListener('click',()=>{theme=theme==='dark'?'light':'dark';document.documentElement.setAttribute('data-theme',theme);localStorage.setItem('sb_theme',theme);themeBtn.textContent=theme==='dark'?'☀︎':'◐'});
-setView(state.view);loadData();
+const DATA_URL = './data/shifts.json';
+
+let RAW = [];
+let PHOTOGRAPHERS = [];
+
+let state = {
+  view: localStorage.getItem('sb_view') || 'cards',
+  person: localStorage.getItem('sb_person') || '',
+  date: localStorage.getItem('sb_date') || '',
+  cat: localStorage.getItem('sb_cat') || '',
+  rel: localStorage.getItem('sb_rel') || '',
+  search: '',
+  sort: 'date',
+  sortDir: 1,
+};
+
+function save() {
+  localStorage.setItem('sb_view', state.view);
+  localStorage.setItem('sb_person', state.person);
+  localStorage.setItem('sb_date', state.date);
+  localStorage.setItem('sb_cat', state.cat);
+  localStorage.setItem('sb_rel', state.rel);
+}
+
+function populateFilters() {
+  const catSel = document.getElementById('catFilter');
+  const cats = [...new Set(RAW.map(s => s.category).filter(Boolean))].sort();
+  catSel.innerHTML =
+    '<option value="">All categories</option>' +
+    cats.map(c => `<option ${c === state.cat ? 'selected' : ''}>${c}</option>`).join('');
+
+  const personSel = document.getElementById('personSelect');
+  personSel.innerHTML =
+    '<option value="">All photographers</option>' +
+    PHOTOGRAPHERS.map(p => `<option ${p === state.person ? 'selected' : ''}>${p}</option>`).join('');
+
+  const dates = [...new Set(RAW.map(s => s.date))];
+  const dateChips = document.getElementById('dateChips');
+  dateChips.innerHTML =
+    '<button class="chip' + (state.date === '' ? ' active' : '') + '" data-date="">All days</button>' +
+    dates.map(d => `<button class="chip${state.date === d ? ' active' : ''}" data-date="${d}">${d.split(' ')[0]}</button>`).join('');
+
+  dateChips.querySelectorAll('[data-date]').forEach(btn => {
+    btn.addEventListener('click', () => {
+      state.date = btn.dataset.date;
+      dateChips.querySelectorAll('[data-date]').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      render();
+    });
+  });
+
+  document.getElementById('relFilter').value = state.rel;
+}
+
+function filtered() {
+  return RAW
+    .filter(s => {
+      if (state.person && !s.assigned.some(a => a.name === state.person)) return false;
+      if (state.date && s.date !== state.date) return false;
+      if (state.cat && s.category !== state.cat) return false;
+      if (state.rel && s.relevant !== state.rel) return false;
+
+      if (state.search) {
+        const q = state.search.toLowerCase();
+        const hay = [
+          s.what,
+          s.where,
+          s.category,
+          s.comment,
+          s.notes,
+          s.assigned.map(a => a.name).join(' '),
+        ].join(' ').toLowerCase();
+        if (!hay.includes(q)) return false;
+      }
+
+      return true;
+    })
+    .sort((a, b) => {
+      const va = a[state.sort] || '';
+      const vb = b[state.sort] || '';
+      if (va < vb) return -state.sortDir;
+      if (va > vb) return state.sortDir;
+      return 0;
+    });
+}
+
+function heroShift() {
+  if (!state.person) return null;
+  return RAW.find(s => s.assigned.some(a => a.name === state.person)) || null;
+}
+
+function renderHero() {
+  const hero = heroShift();
+  const sec = document.getElementById('heroSection');
+
+  if (!hero) {
+    sec.innerHTML = '';
+    return;
+  }
+
+  const mySlot = hero.assigned.find(a => a.name === state.person);
+  sec.innerHTML = `
+    <div class="section-label">My next shift · ${state.person}</div>
+    <div class="hero-card">
+      <div class="hero-time">${mySlot ? mySlot.slot : (hero.from + ' – ' + hero.till)}</div>
+      <div class="hero-what">${hero.what}</div>
+      <div class="hero-where">📍 ${hero.where || '—'}</div>
+      <div style="color:var(--muted);font-size:.8rem">${hero.date}</div>
+    </div>
+  `;
+}
+
+function renderStats(data) {
+  const total = data.length;
+  const assigned = data.filter(s => s.assigned.length > 0).length;
+  const days = [...new Set(data.map(s => s.date))].length;
+  const cats = [...new Set(data.map(s => s.category))].filter(Boolean).length;
+
+  document.getElementById('statsBar').innerHTML = `
+    <div class="stat"><div class="sn">${total}</div><div class="sl">Shifts</div></div>
+    <div class="stat"><div class="sn">${assigned}</div><div class="sl">Assigned</div></div>
+    <div class="stat"><div class="sn">${total - assigned}</div><div class="sl">Open</div></div>
+    <div class="stat"><div class="sn">${days}</div><div class="sl">Days</div></div>
+    <div class="stat"><div class="sn">${cats}</div><div class="sl">Categories</div></div>
+  `;
+}
+
+function renderCards(data) {
+  const list = document.getElementById('cardList');
+  const empty = document.getElementById('cardsEmpty');
+
+  if (!data.length) {
+    list.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+
+  empty.style.display = 'none';
+  list.innerHTML = data.map(s => {
+    const assignedHtml = s.assigned.length
+      ? s.assigned.map(a => `<span class="person-chip${a.name === state.person ? ' mine' : ''}">${a.name}: ${a.slot}</span>`).join('')
+      : '<span class="nobody">Unassigned</span>';
+
+    const noteText = [s.notes, s.comment].filter(Boolean).join('\n');
+
+    return `
+      <article class="card">
+        <div class="card-top">
+          <div>
+            <div class="card-what">${s.what}</div>
+            <div class="card-where">📍 ${s.where || '—'}</div>
+          </div>
+          <div class="time-pill">${s.date} · ${s.from}–${s.till}</div>
+        </div>
+        <div class="card-meta">
+          <span class="tag">${s.category || '—'}</span>
+          <span class="tag">${s.relevant || '—'}</span>
+        </div>
+        <div class="assigned-row">${assignedHtml}</div>
+        ${noteText ? `<div class="card-note">💬 ${noteText}</div>` : ''}
+      </article>
+    `;
+  }).join('');
+}
+
+function renderTable(data) {
+  const body = document.getElementById('tableBody');
+  const empty = document.getElementById('tableEmpty');
+
+  if (!data.length) {
+    body.innerHTML = '';
+    empty.style.display = 'block';
+    return;
+  }
+
+  empty.style.display = 'none';
+  body.innerHTML = data.map(s => {
+    const assignedHtml = s.assigned.length
+      ? s.assigned.map(a => `<span class="person-chip${a.name === state.person ? ' mine' : ''}">${a.name}: ${a.slot}</span>`).join(' ')
+      : '<span class="nobody">–</span>';
+
+    return `
+      <tr>
+        <td>${s.date}</td>
+        <td>${s.from}–${s.till}</td>
+        <td>${s.what}</td>
+        <td>${s.where || '—'}</td>
+        <td>${s.category || '—'}</td>
+        <td>${assignedHtml}</td>
+        <td>${[s.notes, s.comment].filter(Boolean).join(' • ')}</td>
+      </tr>
+    `;
+  }).join('');
+}
+
+function render() {
+  const data = filtered();
+  renderHero();
+  renderStats(data);
+  document.getElementById('resultLabel').textContent =
+    data.length + ' shift' + (data.length !== 1 ? 's' : '') + ' shown' + (state.person ? ' · ' + state.person : '');
+  renderCards(data);
+  renderTable(data);
+  save();
+}
+
+function setView(v) {
+  state.view = v;
+  document.getElementById('cardsView').classList.toggle('active', v === 'cards');
+  document.getElementById('tableView').classList.toggle('active', v === 'table');
+  document.getElementById('btnCards').classList.toggle('active', v === 'cards');
+  document.getElementById('btnTable').classList.toggle('active', v === 'table');
+}
+
+function toggleView() {
+  setView(state.view === 'cards' ? 'table' : 'cards');
+  render();
+}
+
+function setPersonFilter(p) {
+  state.person = p;
+  document.getElementById('personSelect').value = p;
+  render();
+}
+
+function setMyShifts() {
+  const p = document.getElementById('personSelect').value || PHOTOGRAPHERS[0];
+  setPersonFilter(p);
+}
+
+async function loadData() {
+  document.getElementById('loadingMsg').style.display = 'block';
+
+  try {
+    const res = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
+    const data = await res.json();
+    RAW = data.shifts || [];
+    PHOTOGRAPHERS = [...new Set(RAW.flatMap(s => s.assigned.map(a => a.name)))].sort();
+    document.getElementById('lastLoaded').textContent = 'Local JSON loaded · ' + new Date().toLocaleTimeString();
+    populateFilters();
+    render();
+  } catch (e) {
+    document.getElementById('lastLoaded').textContent = 'Failed to load local JSON';
+    console.error(e);
+  } finally {
+    document.getElementById('loadingMsg').style.display = 'none';
+  }
+}
+
+document.getElementById('searchInput').addEventListener('input', e => {
+  state.search = e.target.value;
+  render();
+});
+
+document.getElementById('personSelect').addEventListener('change', e => {
+  state.person = e.target.value;
+  render();
+});
+
+document.getElementById('catFilter').addEventListener('change', e => {
+  state.cat = e.target.value;
+  render();
+});
+
+document.getElementById('relFilter').addEventListener('change', e => {
+  state.rel = e.target.value;
+  render();
+});
+
+document.getElementById('btnCards').addEventListener('click', () => {
+  setView('cards');
+  render();
+});
+
+document.getElementById('btnTable').addEventListener('click', () => {
+  setView('table');
+  render();
+});
+
+document.querySelectorAll('th[data-col]').forEach(th => {
+  th.addEventListener('click', () => {
+    if (state.sort === th.dataset.col) {
+      state.sortDir *= -1;
+    } else {
+      state.sort = th.dataset.col;
+      state.sortDir = 1;
+    }
+    render();
+  });
+});
+
+const themeBtn = document.getElementById('themeToggle');
+let theme = localStorage.getItem('sb_theme') || (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
+document.documentElement.setAttribute('data-theme', theme);
+themeBtn.textContent = theme === 'dark' ? '☀︎' : '◐';
+
+themeBtn.addEventListener('click', () => {
+  theme = theme === 'dark' ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', theme);
+  localStorage.setItem('sb_theme', theme);
+  themeBtn.textContent = theme === 'dark' ? '☀︎' : '◐';
+});
+
+setView(state.view);
+loadData();
 </script>
 </body>
 </html>
