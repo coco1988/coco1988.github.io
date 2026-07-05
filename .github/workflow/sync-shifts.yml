@@ -1,0 +1,70 @@
+name: Sync shifts from Google Sheets
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/15 * * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install deps
+        run: pip install pandas
+
+      - name: Fetch and convert sheet
+        run: |
+          python <<'PY'
+          import json
+          import pandas as pd
+          from pathlib import Path
+
+          csv_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv'
+          df = pd.read_csv(csv_url, dtype=str).fillna('')
+          df = df.iloc[:, :21]
+          photo_cols = list(df.columns[10:21])
+
+          shifts = []
+          for i, row in df.iterrows():
+              assigned = []
+              for c in photo_cols:
+                  val = str(row[c]).strip()
+                  if val:
+                      assigned.append({'name': c, 'slot': val})
+              shifts.append({
+                  'id': int(i+1),
+                  'date': str(row.get('mm-dd','')).strip(),
+                  'from': str(row.get('from','')).strip(),
+                  'till': str(row.get('till','')).strip(),
+                  'what': str(row.get('what','')).strip(),
+                  'where': str(row.get('where','')).strip(),
+                  'category': str(row.get('category','')).strip(),
+                  'notes': str(row.get('notes','')).strip(),
+                  'relevant': str(row.get('relevant','')).strip(),
+                  'comment': str(row.get('comment','')).strip(),
+                  'assigned': assigned,
+              })
+
+          Path('data').mkdir(exist_ok=True)
+          with open('data/shifts.json', 'w', encoding='utf-8') as f:
+              json.dump({'source': csv_url, 'count': len(shifts), 'shifts': shifts}, f, ensure_ascii=False, indent=2)
+          PY
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/shifts.json
+          git diff --cached --quiet || git commit -m "Sync shifts from Google Sheets"
+          git push
