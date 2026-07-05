@@ -91,6 +91,5316 @@
           "slot": "15:00 - 16:00"
         }
       ]
+    },
+    {
+      "id": 4,
+      "date": "08-22 Fri",
+      "from": "6:00",
+      "till": "20:00",
+      "what": "sponsor duties",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "15:00 - 16:00"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "15:00 - 16:00"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "date": "08-24 Sun",
+      "from": "6:00",
+      "till": "20:00",
+      "what": "sponsor duties",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "date": "08-17 Sun",
+      "from": "14:00",
+      "till": "21:00",
+      "what": "Setup Event Site",
+      "where": "Venue",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "all",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "date": "08-18 Mon",
+      "from": "7:30",
+      "till": "21:00",
+      "what": "Setup Event Site",
+      "where": "Venue",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "all",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "date": "08-19 Tue",
+      "from": "7:00",
+      "till": "15:00",
+      "what": "Setup Event Site",
+      "where": "Venue",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "all",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "date": "08-19 Tue",
+      "from": "21:00",
+      "till": "22:00",
+      "what": "Team Welcome",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "all",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "date": "08-18 Mon",
+      "from": "10:00",
+      "till": "22:00",
+      "what": "Charging Area available",
+      "where": "Charging",
+      "category": "Place",
+      "notes": "gate 6",
+      "relevant": "info",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "date": "08-19 Tue",
+      "from": "8:00",
+      "till": "22:00",
+      "what": "Charging Area available",
+      "where": "Charging",
+      "category": "Place",
+      "notes": "gate 6",
+      "relevant": "info",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "date": "08-20 Wed",
+      "from": "6:00",
+      "till": "23:59",
+      "what": "Pits & Recreation Area available",
+      "where": "Pits, Recreation",
+      "category": "Place",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "date": "08-20 Wed",
+      "from": "7:40",
+      "till": "18:00",
+      "what": "Ticket Centre",
+      "where": "Tickets",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "any time/at least some shots - together with academy",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "date": "08-20 Wed",
+      "from": "8:00",
+      "till": "18:00",
+      "what": "Welding Station",
+      "where": "Welding",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "date": "08-20 Wed",
+      "from": "8:30",
+      "till": "12:30",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "date": "08-20 Wed",
+      "from": "8:30",
+      "till": "19:00",
+      "what": "Strawberry Basket available",
+      "where": "Marquee",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "info",
+      "comment": "visit them - take a couple of pictures of the whole crew together with cost/design",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "date": "08-20 Wed",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "Tire Changing Machine (self-service)",
+      "where": "Welding",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "date": "08-21 Thu",
+      "from": "6:00",
+      "till": "22:00",
+      "what": "Charging Area available",
+      "where": "Charging",
+      "category": "Place",
+      "notes": "gate 6",
+      "relevant": "info",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "date": "08-21 Thu",
+      "from": "6:00",
+      "till": "08-22 0:30",
+      "what": "Pits available",
+      "where": "Pits",
+      "category": "Place",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "date": "08-21 Thu",
+      "from": "6:00",
+      "till": "18:30",
+      "what": "Recreation Area available",
+      "where": "Recreation",
+      "category": "Place",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "date": "08-23 Sat",
+      "from": "6:00",
+      "till": "22:00",
+      "what": "Charging Area available",
+      "where": "Charging",
+      "category": "Place",
+      "notes": "gate 6",
+      "relevant": "info",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "date": "08-22 Fri",
+      "from": "8:00",
+      "till": "13:00",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "date": "08-22 Fri",
+      "from": "8:00",
+      "till": "18:00",
+      "what": "Welding Station",
+      "where": "Welding",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "date": "08-19 Tue",
+      "from": "15:30",
+      "till": "17:00",
+      "what": "Ticket Centre",
+      "where": "Tickets",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "any time/at least some shots - together with academy",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "date": "08-20 Wed",
+      "from": "9:00",
+      "till": "10:30",
+      "what": "Find Your Why. Show Your Wow.",
+      "where": "Room B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "date": "08-20 Wed",
+      "from": "9:00",
+      "till": "12:45",
+      "what": "Technical Inspections (Electrical)",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "date": "08-21 Thu",
+      "from": "7:40",
+      "till": "18:00",
+      "what": "Ticket Centre",
+      "where": "Tickets",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "any time/at least some shots - together with academy",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "date": "08-22 Fri",
+      "from": "8:30",
+      "till": "12:00",
+      "what": "Driverless Acceleration",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-b",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "date": "08-18 Mon",
+      "from": "8:00",
+      "till": "8:30",
+      "what": "Registration + Entrance for 28 EV Team Vehicles (7 Members)",
+      "where": "SouthS, Pits",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "be there at the beginning; a couple of pics are enough\nhttps://www.formulastudent.de/fsg/schedule/registration",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "date": "08-18 Mon",
+      "from": "9:30",
+      "till": "10:00",
+      "what": "Registration + Entrance for 28 EV Team Vehicles (7 Members)",
+      "where": "SouthS, Pits",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "be there at the beginning; a couple of pics are enough\nhttps://www.formulastudent.de/fsg/schedule/registration",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "date": "08-18 Mon",
+      "from": "15:00",
+      "till": "15:30",
+      "what": "Registration + Entrance for 28 EV Team Vehicles (7 Members)",
+      "where": "SouthS, Pits",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "be there at the beginning; a couple of pics are enough\nhttps://www.formulastudent.de/fsg/schedule/registration",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "date": "08-20 Wed",
+      "from": "9:00",
+      "till": "13:15",
+      "what": "Technical Inspections (Mechanical)",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "date": "08-20 Wed",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "FSG Academy On Site",
+      "where": "SouthS",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - any time/at least some shots (also drop by the ticket center on the way)",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "date": "08-20 Wed",
+      "from": "9:00",
+      "till": "12:45",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "S/F Line",
+      "category": "Inspection",
+      "notes": "gate 2-a",
+      "relevant": "yes",
+      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "date": "08-20 Wed",
+      "from": "9:30",
+      "till": "10:00",
+      "what": "Safety Briefing for Volunteers",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "date": "",
+      "from": "",
+      "till": "",
+      "what": "group photo - OT",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "in schedule eintragen - nach letzem Team Photo - Nach OT Meeting",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "date": "08-19 Tue",
+      "from": "19:30",
+      "till": "20:00",
+      "what": "Technical Inspectors Photo",
+      "where": "Insp. Tent",
+      "category": "Inspection",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "Max; in front of tent, 19:30",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "date": "08-19 Tue",
+      "from": "11:00",
+      "till": "13:00",
+      "what": "TK buildup Brake Test",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 39,
+      "date": "08-22 Fri",
+      "from": "8:30",
+      "till": "12:00",
+      "what": "Manual SkidPad",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "in: gate 1 / out: gate 5",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "date": "08-22 Fri",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Cost Finals (not public)",
+      "where": "BW L04 R03",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - a few pictures are enough - no picture of the sheets",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "date": "08-22 Fri",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "Tire Changing Machine (self-service)",
+      "where": "Welding",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "date": "08-21 Thu",
+      "from": "8:00",
+      "till": "18:00",
+      "what": "Welding Station",
+      "where": "Welding",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "date": "08-21 Thu",
+      "from": "8:30",
+      "till": "12:30",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "date": "08-20 Wed",
+      "from": "10:15",
+      "till": "12:15",
+      "what": "Cost Analysis, Engineering Design",
+      "where": "Marquee",
+      "category": "Statics",
+      "notes": "in: gate 4 / out: gate 3",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "date": "08-20 Wed",
+      "from": "10:30",
+      "till": "12:15",
+      "what": "Business Plan Presentation",
+      "where": "BW, Ravenol",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "cover 2-3 presentations",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "date": "08-20 Wed",
+      "from": "10:45",
+      "till": "12:15",
+      "what": "Model-Based Design for Formula Student with Simulink",
+      "where": "Room B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "date": "08-20 Wed",
+      "from": "10:45",
+      "till": "12:15",
+      "what": "Simulating Aerodynamics with Simcenter STAR-CCM+",
+      "where": "Room A",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "date": "08-20 Wed",
+      "from": "12:00",
+      "till": "19:00",
+      "what": "Team Photos",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "date": "08-20 Wed",
+      "from": "12:30",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "date": "08-20 Wed",
+      "from": "13:00",
+      "till": "14:30",
+      "what": "Generative AI and Digital Twin for Autonomous Vehicles",
+      "where": "Room B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "date": "08-20 Wed",
+      "from": "13:00",
+      "till": "14:30",
+      "what": "Simulation with Ansys optiSLang",
+      "where": "Room A",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "date": "08-20 Wed",
+      "from": "13:00",
+      "till": "18:30",
+      "what": "Test Area DV + MV + Historic [on request]",
+      "where": "Dynamic A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "date": "08-20 Wed",
+      "from": "13:30",
+      "till": "17:15",
+      "what": "Business Plan Presentation",
+      "where": "BW, Ravenol",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "cover 2-3 presentations",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "date": "08-20 Wed",
+      "from": "13:30",
+      "till": "17:45",
+      "what": "Cost Analysis, Engineering Design",
+      "where": "Marquee",
+      "category": "Statics",
+      "notes": "in: gate 4 / out: gate 3",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "date": "08-20 Wed",
+      "from": "14:00",
+      "till": "19:00",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "info",
+      "comment": "shift - any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "date": "08-20 Wed",
+      "from": "14:00",
+      "till": "19:15",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "S/F Line",
+      "category": "Inspection",
+      "notes": "gate 2-a",
+      "relevant": "yes",
+      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "date": "08-20 Wed",
+      "from": "14:00",
+      "till": "14:30",
+      "what": "Panoramic Picture Briefing",
+      "where": "Sachshaus",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "date": "08-20 Wed",
+      "from": "14:45",
+      "till": "16:15",
+      "what": "Model-Based Design for Formula Student with Simulink",
+      "where": "Room A",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "date": "08-20 Wed",
+      "from": "14:45",
+      "till": "16:15",
+      "what": "Simulation-Driven Design with Altair HyperWorks",
+      "where": "Room B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "date": "08-20 Wed",
+      "from": "15:00",
+      "till": "15:30",
+      "what": "Photos of Merch (contact Jenny)",
+      "where": "Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "date": "08-20 Wed",
+      "from": "16:30",
+      "till": "18:00",
+      "what": "Brand yourself on LinkedIn and get a job @ Siemens Software",
+      "where": "Room B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "date": "08-20 Wed",
+      "from": "16:30",
+      "till": "18:00",
+      "what": "Structural Optimization in Ansys Mechanical",
+      "where": "Room A",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "date": "08-21 Thu",
+      "from": "8:30",
+      "till": "17:30",
+      "what": "Strawberry Basket available",
+      "where": "Marquee",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "info",
+      "comment": "visit them - take a couple of pictures of the whole crew together with cost/design",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "FSG Academy On Site",
+      "where": "SouthS",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - any time/at least some shots (also drop by the ticket center on the way)",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "10:30",
+      "what": "Modeling and Simulation of Battery Systems",
+      "where": "Room A",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "10:30",
+      "what": "Teamcenter Product Cost Management (TcPCM)",
+      "where": "Room B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "S/F Line",
+      "category": "Inspection",
+      "notes": "gate 2-a",
+      "relevant": "yes",
+      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "20:00",
+      "what": "pictures of specific teams",
+      "where": "VW",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "visit team in pit\noffer group pic",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "13:15",
+      "what": "Cost Analysis, Engineering Design",
+      "where": "Marquee",
+      "category": "Statics",
+      "notes": "in: gate 4 / out: gate 3",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "Tire Changing Machine (self-service)",
+      "where": "Welding",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "date": "08-17 Sun",
+      "from": "11:00",
+      "till": "11:30",
+      "what": "OT-Meeting",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "date": "08-18 Mon",
+      "from": "19:00",
+      "till": "20:00",
+      "what": "OT-Meeting",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "date": "08-19 Tue",
+      "from": "19:00",
+      "till": "20:00",
+      "what": "OT-Meeting",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "date": "08-20 Wed",
+      "from": "18:00",
+      "till": "20:00",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "date": "08-22 Fri",
+      "from": "11:00",
+      "till": "12:00",
+      "what": "Deadline Slideshow",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "date": "08-20 Wed",
+      "from": "18:30",
+      "till": "18:45",
+      "what": "Judge Picture: Business",
+      "where": "BW Roof",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - on the rooftop of the BW tower ~30",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area DV + MV(EV-Only)",
+      "where": "Test B",
+      "category": "Dynamics",
+      "notes": "gate 5",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area MV + Historic",
+      "where": "Dynamic A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "date": "08-22 Fri",
+      "from": "12:00",
+      "till": "12:45",
+      "what": "Press Guided Tour",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "a few pictures are enough",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "date": "08-17 Sun",
+      "from": "14:00",
+      "till": "17:00",
+      "what": "Fire Extinguisher Training Group 1 + 2",
+      "where": "Dynamic",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "date": "08-18 Mon",
+      "from": "10:00",
+      "till": "11:45",
+      "what": "Technical Inspections (Accumulator)",
+      "where": "Charging",
+      "category": "Inspection",
+      "notes": "gate 6",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "date": "08-18 Mon",
+      "from": "10:00",
+      "till": "12:45",
+      "what": "Technical Inspections (Mechanical)",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "date": "08-18 Mon",
+      "from": "13:00",
+      "till": "20:00",
+      "what": "Technical Inspections (Accumulator)",
+      "where": "Charging",
+      "category": "Inspection",
+      "notes": "gate 6",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "date": "08-18 Mon",
+      "from": "14:00",
+      "till": "20:00",
+      "what": "Technical Inspections (Mechanical)",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "date": "08-19 Tue",
+      "from": "9:00",
+      "till": "12:45",
+      "what": "Technical Inspections (Accumulator)",
+      "where": "Charging",
+      "category": "Inspection",
+      "notes": "gate 6",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "date": "08-19 Tue",
+      "from": "9:00",
+      "till": "12:45",
+      "what": "Technical Inspections (Electrical)",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "date": "08-19 Tue",
+      "from": "9:00",
+      "till": "13:15",
+      "what": "Technical Inspections (Mechanical)",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 88,
+      "date": "08-19 Tue",
+      "from": "14:00",
+      "till": "19:15",
+      "what": "Technical Inspections (Electrical)",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "date": "08-19 Tue",
+      "from": "14:30",
+      "till": "19:15",
+      "what": "Technical Inspections (Mechanical)",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "date": "08-20 Wed",
+      "from": "18:30",
+      "till": "19:15",
+      "what": "Meet & Greet (Partner Contact Persons)",
+      "where": "Forum",
+      "category": "Partner",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "date": "08-20 Wed",
+      "from": "18:45",
+      "till": "19:00",
+      "what": "Judge Picture: Cost",
+      "where": "BW Roof",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - on the rooftop of the BW tower ~30",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "date": "08-20 Wed",
+      "from": "18:45",
+      "till": "19:00",
+      "what": "Staging of historic vehicles for Panormaic Picture",
+      "where": "Dynamic",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "date": "08-20 Wed",
+      "from": "19:00",
+      "till": "19:30",
+      "what": "Judge Picture: Design",
+      "where": "BW Roof",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - on the rooftop of the BW tower ~80",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "date": "08-20 Wed",
+      "from": "19:00",
+      "till": "19:30",
+      "what": "Staging of Vehicles for Panoramic Picture",
+      "where": "Dynamic",
+      "category": "PR＋Media",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "date": "08-20 Wed",
+      "from": "19:30",
+      "till": "20:00",
+      "what": "Staging of Team Members for Panoramic Picture",
+      "where": "Dynamic",
+      "category": "PR＋Media",
+      "notes": "gate 4",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "date": "08-20 Wed",
+      "from": "20:30",
+      "till": "21:30",
+      "what": "OT-Meeting",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "date": "08-21 Thu",
+      "from": "9:30",
+      "till": "12:15",
+      "what": "Business Plan Presentation",
+      "where": "BW, Ravenol",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "cover 2-3 presentations",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "date": "08-21 Thu",
+      "from": "10:45",
+      "till": "12:15",
+      "what": "Formula Student Vehicle Dynamics Simulation",
+      "where": "Room B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "date": "08-21 Thu",
+      "from": "10:45",
+      "till": "12:15",
+      "what": "How We Engineer the Future of E-Mobility at Porsche",
+      "where": "Room A",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "date": "08-21 Thu",
+      "from": "11:00",
+      "till": "17:30",
+      "what": "Team Photos",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "date": "08-21 Thu",
+      "from": "12:00",
+      "till": "13:30",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "date": "08-21 Thu",
+      "from": "12:30",
+      "till": "13:00",
+      "what": "VW - group picture with 5 cars - in front of VW booth - VW already organized the teams",
+      "where": "VW",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "date": "08-21 Thu",
+      "from": "13:00",
+      "till": "14:30",
+      "what": "Capital Essentials – next generation electrical design",
+      "where": "Room B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "date": "08-21 Thu",
+      "from": "13:00",
+      "till": "14:30",
+      "what": "Historic SkidPad",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "in: gate 1 / out: gate 5",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "date": "08-21 Thu",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "S/F Line",
+      "category": "Inspection",
+      "notes": "gate 2-a",
+      "relevant": "yes",
+      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "date": "08-21 Thu",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Test Area DV + MV(EV-Only)",
+      "where": "Test B",
+      "category": "Dynamics",
+      "notes": "gate 5",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "date": "08-22 Fri",
+      "from": "13:00",
+      "till": "13:45",
+      "what": "VIP Guided Tour",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "date": "08-22 Fri",
+      "from": "13:30",
+      "till": "16:30",
+      "what": "Manual Acceleration",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-b",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 109,
+      "date": "08-22 Fri",
+      "from": "14:00",
+      "till": "19:00",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "date": "08-22 Fri",
+      "from": "14:00",
+      "till": "15:00",
+      "what": "FSG Connects (VIP & Press)",
+      "where": "BW L05 R06",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "date": "08-22 Fri",
+      "from": "15:00",
+      "till": "15:30",
+      "what": "Driverless Autocross Course Walk",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "date": "08-24 Sun",
+      "from": "6:00",
+      "till": "20:00",
+      "what": "taking pictures for teams in pitlane or on start/finish\nassigned teams\nvisit them in their pit",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "date": "08-24 Sun",
+      "from": "8:00",
+      "till": "8:25",
+      "what": "Endurance Course Walk",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "date": "08-21 Thu",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Test Area MV + Historic",
+      "where": "Dynamic A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "date": "08-21 Thu",
+      "from": "13:30",
+      "till": "15:30",
+      "what": "Business Plan Presentation",
+      "where": "BW, Ravenol",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "cover 2-3 presentations",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "date": "08-21 Thu",
+      "from": "14:15",
+      "till": "",
+      "what": "Queue Open for: Driverless SkidPad",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "date": "08-21 Thu",
+      "from": "14:30",
+      "till": "16:30",
+      "what": "Cost Analysis, Engineering Design",
+      "where": "Marquee",
+      "category": "Statics",
+      "notes": "in: gate 4 / out: gate 3",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "date": "08-24 Sun",
+      "from": "8:30",
+      "till": "18:00",
+      "what": "Endurance",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift - after that we need pics of the final five",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "date": "08-19 Tue",
+      "from": "8:30",
+      "till": "12:30",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 120,
+      "date": "08-19 Tue",
+      "from": "14:00",
+      "till": "19:00",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "date": "08-21 Thu",
+      "from": "14:45",
+      "till": "16:15",
+      "what": "Cocktails 4 BOM",
+      "where": "Room B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "date": "08-21 Thu",
+      "from": "14:45",
+      "till": "16:15",
+      "what": "Modeling and Simulation of Battery Systems",
+      "where": "Room A",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "date": "08-21 Thu",
+      "from": "14:45",
+      "till": "18:45",
+      "what": "Driverless SkidPad",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "date": "08-21 Thu",
+      "from": "16:00",
+      "till": "16:30",
+      "what": "Mercedes Benz - presentation (4-5 a day) - few pictures",
+      "where": "forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "date": "08-22 Fri",
+      "from": "16:00",
+      "till": "19:30",
+      "what": "Driverless Autocross",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 126,
+      "date": "08-22 Fri",
+      "from": "16:30",
+      "till": "18:30",
+      "what": "Historic Acceleration",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-b",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 127,
+      "date": "08-21 Thu",
+      "from": "16:30",
+      "till": "18:00",
+      "what": "Designing Composite Structures with Ansys",
+      "where": "Room A",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "date": "08-21 Thu",
+      "from": "16:30",
+      "till": "18:00",
+      "what": "Immersive Engineering",
+      "where": "Room B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "date": "08-21 Thu",
+      "from": "18:30",
+      "till": "20:00",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "date": "08-21 Thu",
+      "from": "18:45",
+      "till": "19:45",
+      "what": "Business Plan Presentation Finals",
+      "where": "Marquee",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "date": "08-21 Thu",
+      "from": "19:15",
+      "till": "21:15",
+      "what": "Driverless Cup Design Finals (not public)",
+      "where": "Forum",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - including group picture - enter the forum only via though the back",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "date": "08-21 Thu",
+      "from": "19:45",
+      "till": "20:45",
+      "what": "Presentation: World Record Acceleration by AMZ",
+      "where": "Marquee",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "date": "08-21 Thu",
+      "from": "20:00",
+      "till": "21:00",
+      "what": "OT-Meeting",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "date": "08-21 Thu",
+      "from": "21:00",
+      "till": "",
+      "what": "Queue Open for: crazy20",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "date": "08-21 Thu",
+      "from": "21:30",
+      "till": "23:30",
+      "what": "crazy20",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "date": "08-22 Fri",
+      "from": "17:30",
+      "till": "18:00",
+      "what": "Welcome for WE Redshirts",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "date": "08-22 Fri",
+      "from": "6:00",
+      "till": "22:00",
+      "what": "Charging Area available",
+      "where": "Charging",
+      "category": "Place",
+      "notes": "gate 6",
+      "relevant": "info",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "date": "08-22 Fri",
+      "from": "6:00",
+      "till": "23:59",
+      "what": "Pits & Recreation Area available",
+      "where": "Pits, Recreation",
+      "category": "Place",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "date": "08-22 Fri",
+      "from": "19:00",
+      "till": "19:30",
+      "what": "Women of FSG",
+      "where": "S/F Line",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "S/F",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "date": "08-22 Fri",
+      "from": "19:30",
+      "till": "20:00",
+      "what": "Team Photo Red Shirts",
+      "where": "S/F Line",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "date": "08-22 Fri",
+      "from": "8:00",
+      "till": "",
+      "what": "Queue Open for: Driverless Acceleration",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-b",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 142,
+      "date": "08-22 Fri",
+      "from": "8:00",
+      "till": "",
+      "what": "Queue Open for: Manual Skidpad",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "date": "08-22 Fri",
+      "from": "19:30",
+      "till": "22:30",
+      "what": "Engineering Design Finals (not public)",
+      "where": "Forum",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - including group picture - enter the forum only via though the back",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "date": "08-22 Fri",
+      "from": "21:00",
+      "till": "21:30",
+      "what": "OT-Meeting",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 145,
+      "date": "08-22 Fri",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "Dynamic A",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 146,
+      "date": "08-22 Fri",
+      "from": "21:30",
+      "till": "21:45",
+      "what": "OT Team Photo",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 147,
+      "date": "08-22 Fri",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "FSG Academy On Site",
+      "where": "SouthS",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "shift - any time/at least some shots (also drop by the ticket center on the way)",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 148,
+      "date": "08-23 Sat",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area MV",
+      "where": "Test A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 149,
+      "date": "08-23 Sat",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area MV + Historic",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-a",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "date": "08-23 Sat",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Test Area MV",
+      "where": "Test A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "date": "08-23 Sat",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Test Area MV + Historic",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-a",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "date": "08-24 Sun",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area MV + Historic",
+      "where": "Test A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "date": "08-22 Fri",
+      "from": "22:30",
+      "till": "23:59",
+      "what": "night shooting",
+      "where": "tbd",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "date": "08-22 Fri",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area DV + MV(EV-Only)",
+      "where": "Test B",
+      "category": "Dynamics",
+      "notes": "gate 5",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "date": "08-22 Fri",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area MV + Historic",
+      "where": "Dynamic A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "date": "08-14 Thu",
+      "from": "19:30",
+      "till": "21:00",
+      "what": "Dinner",
+      "where": "Moni",
+      "category": "Meals",
+      "notes": "Nordring 1, HD fsg.one/djk",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "date": "08-15 Fri",
+      "from": "13:00",
+      "till": "14:00",
+      "what": "Lunch (pizza)",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "Lieferando",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "date": "08-15 Fri",
+      "from": "19:00",
+      "till": "21:00",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "Delivery Service",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "date": "08-16 Sat",
+      "from": "12:30",
+      "till": "14:00",
+      "what": "Lunch (pizza)",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "date": "08-16 Sat",
+      "from": "19:00",
+      "till": "21:00",
+      "what": "Dinner",
+      "where": "Moni",
+      "category": "Meals",
+      "notes": "Nordring 1, HD fsg.one/djk",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "date": "08-17 Sun",
+      "from": "12:00",
+      "till": "12:30",
+      "what": "Lunch (pizza)",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "date": "08-17 Sun",
+      "from": "12:30",
+      "till": "14:00",
+      "what": "Officials Welcome",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "date": "08-17 Sun",
+      "from": "14:00",
+      "till": "16:00",
+      "what": "Radio Handout for Volunteers",
+      "where": "Dekra House",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 164,
+      "date": "08-17 Sun",
+      "from": "18:00",
+      "till": "19:00",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "date": "08-17 Sun",
+      "from": "18:00",
+      "till": "19:30",
+      "what": "Setup of Pits",
+      "where": "Venue",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "date": "08-17 Sun",
+      "from": "21:00",
+      "till": "",
+      "what": "Get-together for all Volunteers",
+      "where": "Culina",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 167,
+      "date": "08-18 Mon",
+      "from": "8:00",
+      "till": "23:59",
+      "what": "Pits available (only 7 Team members with pink passes)",
+      "where": "Pits",
+      "category": "Place",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 168,
+      "date": "08-18 Mon",
+      "from": "10:00",
+      "till": "10:30",
+      "what": "Safety Briefing for Volunteers",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 169,
+      "date": "08-18 Mon",
+      "from": "12:30",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 170,
+      "date": "08-18 Mon",
+      "from": "18:30",
+      "till": "20:00",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 171,
+      "date": "08-19 Tue",
+      "from": "6:00",
+      "till": "15:30",
+      "what": "Pits available (only 7 Team members with pink passes)",
+      "where": "Pits",
+      "category": "Place",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 172,
+      "date": "08-19 Tue",
+      "from": "9:30",
+      "till": "10:00",
+      "what": "Headshot pictures - Whiteshirts",
+      "where": "Venue",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "date": "08-19 Tue",
+      "from": "12:30",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "date": "08-19 Tue",
+      "from": "15:00",
+      "till": "15:30",
+      "what": "Headshot pictures - Whiteshirts",
+      "where": "Venue",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "date": "08-19 Tue",
+      "from": "15:30",
+      "till": "",
+      "what": "Entrance for all Members",
+      "where": "Venue",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "date": "08-19 Tue",
+      "from": "15:30",
+      "till": "23:59",
+      "what": "Pits & Recreation Area available",
+      "where": "Pits, Recreation",
+      "category": "Place",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "date": "08-19 Tue",
+      "from": "17:00",
+      "till": "18:00",
+      "what": "Scouting for Panoramic picture",
+      "where": "Dynamic",
+      "category": "PR＋Media",
+      "notes": "Forklift needed",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "date": "08-19 Tue",
+      "from": "18:30",
+      "till": "20:00",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "date": "08-19 Tue",
+      "from": "19:30",
+      "till": "20:30",
+      "what": "Track Marshal Briefing",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "date": "08-23 Sat",
+      "from": "6:00",
+      "till": "20:00",
+      "what": "sponsor duties",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "date": "08-22 Fri",
+      "from": "12:00",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "date": "08-22 Fri",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "Dynamic A",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "date": "08-23 Sat",
+      "from": "6:00",
+      "till": "20:00",
+      "what": "taking pictures for teams in pitlane or on start/finish\nassigned teams\nvisit them in their pit",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "date": "08-22 Fri",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Test Area DV + MV(EV-Only)",
+      "where": "Test B",
+      "category": "Dynamics",
+      "notes": "gate 5",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "date": "08-22 Fri",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Test Area MV + Historic",
+      "where": "Dynamic A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "date": "08-22 Fri",
+      "from": "13:00",
+      "till": "",
+      "what": "Queue Open for: Manual Acceleration",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-b",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 187,
+      "date": "08-23 Sat",
+      "from": "8:00",
+      "till": "13:00",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "date": "08-23 Sat",
+      "from": "8:00",
+      "till": "8:30",
+      "what": "Driverless Trackdrive Course Walk",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "date": "08-23 Sat",
+      "from": "6:00",
+      "till": "23:59",
+      "what": "Pits available",
+      "where": "Pits",
+      "category": "Place",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "date": "08-23 Sat",
+      "from": "8:00",
+      "till": "",
+      "what": "Queue Open for: Driverless Trackdrive",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "date": "08-23 Sat",
+      "from": "8:30",
+      "till": "12:00",
+      "what": "Driverless Trackdrive",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "date": "08-23 Sat",
+      "from": "9:00",
+      "till": "10:00",
+      "what": "Fire Extinguisher Training for Weekend Redshirts",
+      "where": "Dynamic",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 193,
+      "date": "08-23 Sat",
+      "from": "11:45",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 194,
+      "date": "08-23 Sat",
+      "from": "15:00",
+      "till": "",
+      "what": "Queue Open for: Manual Autrocross",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 195,
+      "date": "08-23 Sat",
+      "from": "9:30",
+      "till": "10:00",
+      "what": "Safety Briefing for Volunteers",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 196,
+      "date": "08-23 Sat",
+      "from": "10:00",
+      "till": "11:00",
+      "what": "Track Marshal Briefing",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 197,
+      "date": "08-24 Sun",
+      "from": "6:00",
+      "till": "15:00",
+      "what": "Recreation Area available",
+      "where": "Recreation",
+      "category": "Place",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 198,
+      "date": "08-24 Sun",
+      "from": "6:00",
+      "till": "19:00",
+      "what": "Pits available",
+      "where": "Pits",
+      "category": "Place",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 199,
+      "date": "08-24 Sun",
+      "from": "8:00",
+      "till": "",
+      "what": "Queue Open for: Endurance",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 200,
+      "date": "08-24 Sun",
+      "from": "9:00",
+      "till": "17:00",
+      "what": "Start/Finish line of the racetrack open for teams to take pictures",
+      "where": "S/F Line",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 201,
+      "date": "08-24 Sun",
+      "from": "12:00",
+      "till": "19:00",
+      "what": "Dismantling of Pits",
+      "where": "Pits",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 202,
+      "date": "08-24 Sun",
+      "from": "12:30",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 203,
+      "date": "08-24 Sun",
+      "from": "19:00",
+      "till": "19:30",
+      "what": "Radio Return for Volunteers",
+      "where": "Dekra House",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 204,
+      "date": "08-24 Sun",
+      "from": "19:30",
+      "till": "20:00",
+      "what": "Thank you to all Volunteers",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "Pizza",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 205,
+      "date": "08-24 Sun",
+      "from": "21:00",
+      "till": "23:59",
+      "what": "MAHLE-Party",
+      "where": "Marquee",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 206,
+      "date": "08-25 Mon",
+      "from": "13:00",
+      "till": "13:30",
+      "what": "Lunch (pizza)",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 207,
+      "date": "08-22 Fri",
+      "from": "15:30",
+      "till": "",
+      "what": "Queue Open for: Driverless Autocross",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 208,
+      "date": "08-24 Sun",
+      "from": "20:00",
+      "till": "21:00",
+      "what": "Awards Ceremony - Part II",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 209,
+      "date": "",
+      "from": "",
+      "till": "",
+      "what": "group photo - culina",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 210,
+      "date": "",
+      "from": "",
+      "till": "",
+      "what": "group photo - media team",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 211,
+      "date": "",
+      "from": "",
+      "till": "",
+      "what": "group photo - red shirts",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 212,
+      "date": "",
+      "from": "",
+      "till": "",
+      "what": "group photo - TK/IT",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 213,
+      "date": "",
+      "from": "",
+      "till": "",
+      "what": "Group picture red shirts (one pics only red shirts + one with all others on it)",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 214,
+      "date": "08-23 Sat",
+      "from": "13:00",
+      "till": "13:25",
+      "what": "Autocross Course Walk",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 215,
+      "date": "08-24 Sun",
+      "from": "17:30",
+      "till": "17:35",
+      "what": "Deadline 1730 slideshow",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 216,
+      "date": "08-24 Sun",
+      "from": "21:00",
+      "till": "21:30",
+      "what": "Process pictures & upload; then MAHLE Party",
+      "where": "Media office",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 217,
+      "date": "08-23 Sat",
+      "from": "13:30",
+      "till": "15:30",
+      "what": "Historic Autocross",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 218,
+      "date": "08-23 Sat",
+      "from": "15:30",
+      "till": "20:00",
+      "what": "Manual Autocross",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 219,
+      "date": "08-23 Sat",
+      "from": "19:00",
+      "till": "20:00",
+      "what": "BMW team photo (south side)",
+      "where": "S/F Line",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 220,
+      "date": "08-23 Sat",
+      "from": "19:00",
+      "till": "21:00",
+      "what": "Start/Finish line of the racetrack open for teams to take pictures",
+      "where": "S/F Line",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 221,
+      "date": "08-22 Fri",
+      "from": "19:30",
+      "till": "21:00",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 222,
+      "date": "08-23 Sat",
+      "from": "19:00",
+      "till": "20:00",
+      "what": "Picture with 3 world record cars (north side)",
+      "where": "S/F Line",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 223,
+      "date": "08-23 Sat",
+      "from": "19:30",
+      "till": "23:00",
+      "what": "TK buildup 2/2 Endurance (move Van from ATX to END)",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 224,
+      "date": "08-23 Sat",
+      "from": "19:30",
+      "till": "21:00",
+      "what": "Volunteers BBQ",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 225,
+      "date": "08-23 Sat",
+      "from": "21:00",
+      "till": "22:00",
+      "what": "Awards Ceremony - Part I",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "info",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 226,
+      "date": "08-24 Sun",
+      "from": "19:00",
+      "till": "19:30",
+      "what": "Radio Return for Volunteers",
+      "where": "Dekra House",
+      "category": "EvC＋S",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 227,
+      "date": "08-24 Sun",
+      "from": "19:30",
+      "till": "20:00",
+      "what": "Thank you to all Volunteers",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 228,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "FSG Academy On Site",
+      "where": "SouthS",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - any time/at least some shots (also drop by the ticket center on the way)",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 229,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "10:30",
+      "what": "Modeling and Simulation of Battery Systems",
+      "where": "Room A",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 230,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "10:30",
+      "what": "Teamcenter Product Cost Management (TcPCM)",
+      "where": "Room B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once a day - go together",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 231,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "S/F Line",
+      "category": "Inspection",
+      "notes": "gate 2-a",
+      "relevant": "yes",
+      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 232,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "20:00",
+      "what": "pictures of specific teams",
+      "where": "VW",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "visit team in pit\noffer group pic",
+      "assigned": [
+        {
+          "name": "photographer10",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer11",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 233,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "13:15",
+      "what": "Cost Analysis, Engineering Design",
+      "where": "Marquee",
+      "category": "Statics",
+      "notes": "in: gate 4 / out: gate 3",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 234,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "Tire Changing Machine (self-service)",
+      "where": "Welding",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 235,
+      "date": "08-21 Thu",
+      "from": "11:00",
+      "till": "11:30",
+      "what": "OT-Meeting",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 236,
+      "date": "08-21 Thu",
+      "from": "19:00",
+      "till": "20:00",
+      "what": "OT-Meeting",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": [
+        {
+          "name": "photographer4",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer5",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 237,
+      "date": "08-21 Thu",
+      "from": "19:00",
+      "till": "20:00",
+      "what": "OT-Meeting",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": [
+        {
+          "name": "photographer5",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer6",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 238,
+      "date": "08-21 Thu",
+      "from": "18:00",
+      "till": "20:00",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer6",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer7",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 239,
+      "date": "08-21 Thu",
+      "from": "11:00",
+      "till": "12:00",
+      "what": "Deadline Slideshow",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer7",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer8",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 240,
+      "date": "08-21 Thu",
+      "from": "18:30",
+      "till": "18:45",
+      "what": "Judge Picture: Business",
+      "where": "BW Roof",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - on the rooftop of the BW tower ~30",
+      "assigned": [
+        {
+          "name": "photographer8",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer9",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 241,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area DV + MV(EV-Only)",
+      "where": "Test B",
+      "category": "Dynamics",
+      "notes": "gate 5",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer9",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer10",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 242,
+      "date": "08-21 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area MV + Historic",
+      "where": "Dynamic A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "photographer1",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer2",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 243,
+      "date": "08-21 Thu",
+      "from": "12:00",
+      "till": "12:45",
+      "what": "Press Guided Tour",
+      "where": "",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "a few pictures are enough",
+      "assigned": [
+        {
+          "name": "photographer2",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer3",
+          "slot": "10:30 - 12:30"
+        }
+      ]
+    },
+    {
+      "id": 244,
+      "date": "08-21 Thu",
+      "from": "14:00",
+      "till": "17:00",
+      "what": "Fire Extinguisher Training Group 1 + 2",
+      "where": "Dynamic",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "photographer3",
+          "slot": "08:30 - 10:30"
+        },
+        {
+          "name": "photographer4",
+          "slot": "10:30 - 12:30"
+        }
+      ]
     }
   ]
 }
