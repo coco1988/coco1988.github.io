@@ -6,12 +6,15 @@ const EMBEDDED_DATA = window.SHIFTBOARD_DATA || null;
 let RAW = [];
 let PHOTOGRAPHERS = [];
 let titleBlinkTimer = null;
-let audioUnlocked = false;
+
 let notifiedIds = new Set(JSON.parse(localStorage.getItem('sb_notified_ids') || '[]'));
+
+const urlParams = new URLSearchParams(window.location.search);
+const urlPhotographer = urlParams.get('photographer') || urlParams.get('photog') || '';
 
 let state = {
   view: localStorage.getItem('sb_view') || 'cards',
-  person: localStorage.getItem('sb_person') || '',
+  person: urlPhotographer || localStorage.getItem('sb_person') || '',
   date: localStorage.getItem('sb_date') || '',
   cat: localStorage.getItem('sb_cat') || '',
   rel: localStorage.getItem('sb_rel') || '',
@@ -19,16 +22,15 @@ let state = {
   sort: 'date',
   sortDir: 1,
   refreshSeconds: Number(localStorage.getItem('sb_refresh_seconds') || '30'),
+  showPast: localStorage.getItem('sb_show_past') === '1', // default false = faded
 };
 
-// Cache frequently-used DOM references once instead of re-querying every render.
 const els = {
   catFilter: document.getElementById('catFilter'),
   personSelect: document.getElementById('personSelect'),
   dateChips: document.getElementById('dateChips'),
   relFilter: document.getElementById('relFilter'),
   heroSection: document.getElementById('heroSection'),
-  statsBar: document.getElementById('statsBar'),
   cardList: document.getElementById('cardList'),
   cardsEmpty: document.getElementById('cardsEmpty'),
   tableBody: document.getElementById('tableBody'),
@@ -41,7 +43,6 @@ const els = {
   resultLabel: document.getElementById('resultLabel'),
   searchInput: document.getElementById('searchInput'),
   refreshSelect: document.getElementById('refreshSelect'),
-  notifyBtn: document.getElementById('notifyBtn'),
   loadingMsg: document.getElementById('loadingMsg'),
   lastLoaded: document.getElementById('lastLoaded'),
   cardsView: document.getElementById('cardsView'),
@@ -51,6 +52,10 @@ const els = {
   btnTable: document.getElementById('btnTable'),
   btnTimeline: document.getElementById('btnTimeline'),
   themeToggle: document.getElementById('themeToggle'),
+  logoBtn: document.getElementById('logoBtn'),
+  logoIcon: document.getElementById('logoIcon'),
+  chickenCursor: document.getElementById('chickenCursor'),
+  togglePast: document.getElementById('togglePast'),
 };
 
 function save() {
@@ -61,6 +66,7 @@ function save() {
   localStorage.setItem('sb_rel', state.rel);
   localStorage.setItem('sb_refresh_seconds', String(state.refreshSeconds));
   localStorage.setItem('sb_notified_ids', JSON.stringify([...notifiedIds]));
+  localStorage.setItem('sb_show_past', state.showPast ? '1' : '0');
 }
 
 function formatMinutes(minutes) {
@@ -77,6 +83,10 @@ function parseShiftDateParts(dateText) {
   const [month, day] = base.split('-').map(Number);
   if (!month || !day) return null;
   return { month, day };
+}
+
+function isXShift(shift) {
+  return shift.from === 'X' || shift.till === 'X';
 }
 
 function parseTimeToParts(timeText) {
@@ -134,6 +144,7 @@ function fullDateLabel(dateText) {
 }
 
 function statusForShift(shift) {
+  if (isXShift(shift)) return { level: '', label: '', ongoing: false, minutes: null };
   const range = effectiveRange(shift);
   if (!range) return { level: '', label: '', ongoing: false, minutes: null };
 
@@ -146,22 +157,31 @@ function statusForShift(shift) {
   if (minutes <= 5 && minutes > 0) {
     return { level: '5', label: `Starts in ${formatMinutes(minutes)}`, ongoing: false, minutes };
   }
-  if (minutes <= 15 && minutes > 5) {
+  if (minutes <= 10 && minutes > 5) {
+    return { level: '10', label: `Starts in ${formatMinutes(minutes)}`, ongoing: false, minutes };
+  }
+  if (minutes <= 15 && minutes > 10) {
     return { level: '15', label: `Starts in ${formatMinutes(minutes)}`, ongoing: false, minutes };
   }
   return { level: '', label: '', ongoing: false, minutes };
 }
 
-// Derives the urgency class directly from an already-computed status object,
-// avoiding a second statusForShift() call at every render site.
+function isPastToday(shift) {
+  const range = effectiveRange(shift);
+  if (!range) return false;
+  const now = new Date();
+  const sameDay = range.start.toDateString() === now.toDateString();
+  return sameDay && range.end.getTime() < now.getTime();
+}
+
 function urgencyClassFromStatus(status) {
   if (status.level === '15') return 'upcoming-15';
+  if (status.level === '10') return 'upcoming-10';
   if (status.level === '5') return 'upcoming-5';
   if (status.level === 'now') return 'upcoming-now';
   return '';
 }
 
-// Memoized: category strings are a small finite set, so cache the normalized class name.
 const categoryClassCache = new Map();
 function categoryClass(name) {
   const key = name || '';
@@ -242,8 +262,6 @@ function filtered() {
     return true;
   });
 
-  // Precompute sort keys once (Schwartzian transform) instead of recalculating
-  // effectiveRange() on every pairwise comparison during sort.
   return base
     .map(s => ({ s, t: effectiveRange(s)?.start?.getTime() || 0 }))
     .sort((a, b) => a.t - b.t)
@@ -251,7 +269,8 @@ function filtered() {
 }
 
 function nextShift() {
-  const pool = state.person ? RAW.filter(s => s.assigned.some(a => a.name === state.person)) : RAW;
+  const pool = (state.person ? RAW.filter(s => s.assigned.some(a => a.name === state.person)) : RAW)
+    .filter(s => !isXShift(s));
   const now = Date.now();
 
   const candidates = pool.map(shift => {
@@ -272,16 +291,20 @@ function nextShift() {
 
 function assignedHtml(shift, tableMode = false) {
   if (!shift.assigned.length) return tableMode ? '<span class="nobody">–</span>' : '<span class="nobody">Unassigned</span>';
+  if (isXShift(shift)) {
+    return shift.assigned
+      .map(a => `<span class="person-chip${a.name === state.person ? ' mine' : ''}">${a.name}</span>`)
+      .join('');
+  }
   return shift.assigned
-    .map(a => `<span class="person-chip${a.name === state.person ? ' mine' : ''}">${a.name}: ${a.slot}</span>`)
+    .map(a => `<span class="person-chip${a.name === state.person ? ' mine' : ''}">${a.name}: <span class="slot-time">${a.slot}</span></span>`)
     .join('');
 }
 
 function displayTimeText(shift) {
+  if (isXShift(shift)) return 'To Do / Anytime';
   const slot = state.person ? (shift.assigned || []).find(a => a.name === state.person) : null;
-  const time = slot?.slot || `${shift.from} – ${shift.till}`;
-  if (time === 'X' || time === 'X – X' || shift.from === 'X' || shift.from === 'todo') return 'To Do / Anytime';
-  return time;
+  return slot?.slot || `${shift.from} – ${shift.till}`;
 }
 
 function renderHero() {
@@ -301,7 +324,6 @@ function renderHero() {
     <div class="section-label ${levelClass ? 'blink-text' : ''}">Next shift${state.person ? ' · ' + state.person : ''}</div>
     <div class="hero-card ${levelClass}">
       <div>
-        <div class="hero-time">${displayTimeText(hero)}</div>
         <div class="hero-what">${hero.what}</div>
         <div class="hero-where">📍 ${hero.where || '—'}</div>
         <div style="color:var(--muted);font-size:.9rem;margin-top:.5rem">${fullDateLabel(hero.date)} · <span class="tag category ${categoryClass(hero.category)}">${hero.category || '—'}</span></div>
@@ -309,7 +331,7 @@ function renderHero() {
       <div class="hero-side">
         <div>
           <div style="font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.08em">Status</div>
-          <div style="font-size:2rem;font-weight:800;line-height:1.1">${status.label || formatMinutes(status.minutes)}</div>
+          <div style="font-size:2rem;font-weight:800;line-height:1.1">${status.label || displayTimeText(hero)}</div>
         </div>
         <div class="assigned-row">${assignedHtml(hero)}</div>
       </div>
@@ -321,20 +343,7 @@ function renderHero() {
   } else {
     stopTitleBlink();
   }
-}
 
-function renderStats(data) {
-  const total = data.length;
-  const assigned = data.filter(s => s.assigned.length > 0).length;
-  const days = [...new Set(data.map(s => s.date))].length;
-  const cats = [...new Set(data.map(s => s.category))].filter(Boolean).length;
-
-  els.statsBar.innerHTML = `
-    <div class="stat"><div class="sn">${total}</div><div class="sl">Shifts</div></div>
-    <div class="stat"><div class="sn">${assigned}</div><div class="sl">Assigned</div></div>
-    <div class="stat"><div class="sn">${total - assigned}</div><div class="sl">Open</div></div>
-    <div class="stat"><div class="sn">${days}</div><div class="sl">Days</div></div>
-    <div class="stat"><div class="sn">${cats}</div><div class="sl">Categories</div></div>`;
 }
 
 function renderCards(data) {
@@ -351,9 +360,10 @@ function renderCards(data) {
     const status = statusForShift(s);
     const levelClass = urgencyClassFromStatus(status);
     const isInfo = s.relevant === 'info';
+    const isPast = !state.showPast && isPastToday(s);
 
-    return `
-      <article class="card ${isInfo ? 'card-info' : ''} ${levelClass}">
+  return `
+    <article class="card ${isInfo ? 'card-info' : ''} ${levelClass} ${isPast ? 'shift-past' : ''}">
         <div class="card-top">
           <div>
             <div class="card-what">${s.what}</div>
@@ -375,8 +385,8 @@ function renderCards(data) {
 
   days.forEach(day => {
     const dayShifts = data.filter(s => s.date === day);
-    const todos = dayShifts.filter(s => s.from === 'X' || s.till === 'X');
-    const shifts = dayShifts.filter(s => s.from !== 'X' && s.till !== 'X');
+    const todos = dayShifts.filter(isXShift);
+    const shifts = dayShifts.filter(s => !isXShift(s));
 
     html += `<div class="day-header">${fullDateLabel(day)}</div>`;
 
@@ -477,7 +487,7 @@ function renderTimeline() {
   const totalSpanMinutes = minutesBetween(rangeStart, rangeEnd);
 
   const items = [];
-  peopleShifts.forEach(shift => {
+  peopleShifts.filter(s => !isXShift(s)).forEach(shift => {
     (shift.assigned || []).forEach(assignment => {
       if (state.person && assignment.name !== state.person) return;
       const range = assignmentRangeFor(shift, assignment);
@@ -487,6 +497,7 @@ function renderTimeline() {
   });
 
   const infoItems = infoShifts
+    .filter(s => !isXShift(s))
     .map(shift => {
       const range = shiftRange(shift);
       if (!range) return null;
@@ -576,8 +587,8 @@ function renderTimeline() {
       const left = Math.max(0, minutesToX(minutesBetween(rangeStart, item.start)));
       const right = minutesToX(minutesBetween(rangeStart, item.end));
       const width = Math.max(overviewMode ? 6 : 56, right - left);
-      return `
-        <div class="timeline-block info-block ${categoryClass(item.shift.category)}${overviewMode ? ' compact' : ''}" style="left:${left}px;width:${width}px" title="${escapeHtml(item.shift.what)} · ${fullDateLabel(item.shift.date)} · ${item.shift.from}–${item.shift.till} · ${escapeHtml(item.shift.where || '')}${item.shift.notes ? ' · ' + escapeHtml(item.shift.notes) : ''}">
+      const isPast = !state.showPast && isPastToday(item.shift);
+      return `<div class="timeline-block ${categoryClass(item.shift.category)}${overviewMode ? ' compact' : ''}${isPast ? ' shift-past' : ''}" style="left:${left}px;width:${width}px" title="${escapeHtml(item.shift.what)} · ${fullDateLabel(item.shift.date)} · ${item.shift.from}–${item.shift.till} · ${escapeHtml(item.shift.where || '')}${item.shift.notes ? ' · ' + escapeHtml(item.shift.notes) : ''}">
           ${blockLabel(item.shift.what)}
         </div>`;
     }).join('');
@@ -596,9 +607,9 @@ function renderTimeline() {
       const left = minutesToX(minutesBetween(rangeStart, item.start));
       const right = minutesToX(minutesBetween(rangeStart, item.end));
       const width = Math.max(overviewMode ? 6 : 56, right - left);
-      return `
-        <div class="timeline-block ${categoryClass(item.shift.category)}${name === state.person ? ' mine' : ''}${overviewMode ? ' compact' : ''}" style="left:${left}px;width:${width}px" title="${escapeHtml(item.shift.what)} · ${fullDateLabel(item.shift.date)} · ${item.assignment.slot} · ${escapeHtml(item.shift.where || '')}${item.shift.notes ? ' · ' + escapeHtml(item.shift.notes) : ''}">
-          ${blockLabel(item.shift.what)}
+      const isPast = !state.showPast && isPastToday(item.shift);
+      return `<div class="timeline-block ${categoryClass(item.shift.category)}${name === state.person ? ' mine' : ''}${overviewMode ? ' compact' : ''}${isPast ? ' shift-past' : ''}" style="left:${left}px;width:${width}px" title="${escapeHtml(item.shift.what)} · ${fullDateLabel(item.shift.date)} · ${item.shift.from}–${item.shift.till} · ${escapeHtml(item.shift.where || '')}${item.shift.notes ? ' · ' + escapeHtml(item.shift.notes) : ''}">
+         ${blockLabel(item.shift.what)}
         </div>`;
     }).join('');
 
@@ -621,8 +632,8 @@ function renderTable(data) {
   els.tableBody.innerHTML = data.map(s => {
     const status = statusForShift(s);
     const levelClass = urgencyClassFromStatus(status);
-    return `
-      <tr class="${levelClass}">
+    const isPast = !state.showPast && isPastToday(s);
+    return `<tr class="${levelClass} ${isPast ? 'shift-past' : ''}">
         <td>${fullDateLabel(s.date)}</td>
         <td>${displayTimeText(s)}</td>
         <td>${s.what}</td>
@@ -637,25 +648,12 @@ function renderTable(data) {
 function render() {
   const data = filtered();
   renderHero();
-  renderStats(data);
   els.resultLabel.textContent =
     data.length + ' shift' + (data.length !== 1 ? 's' : '') + ' shown' + (state.person ? ' · ' + state.person : '');
   renderCards(data);
   renderTable(data);
   renderTimeline();
-  updateNotifyButton();
   save();
-}
-
-// Lightweight periodic tick: only recomputes status-dependent bits (hero, urgency
-// classes/labels) instead of rebuilding every view's full HTML from scratch.
-function statusTick() {
-  renderHero();
-  document.querySelectorAll('#cardList .card, #tableBody tr').forEach(() => {});
-  // Structural content rarely changes between ticks; a full render every 30s
-  // keeps things simple and correct, but hero + title-blink logic (the most
-  // time-sensitive part) is refreshed via renderHero() above regardless.
-  render();
 }
 
 function setView(v) {
@@ -687,12 +685,11 @@ function setMyShifts() {
 }
 
 function startTitleBlink(hero, label) {
-  if (!document.hidden) return;
   if (titleBlinkTimer) return;
   let on = false;
   titleBlinkTimer = setInterval(() => {
     on = !on;
-    document.title = on ? `⏰ ${hero.what} · ${label}` : ORIGINAL_TITLE;
+    document.title = on ? `🔔 ${hero.what} · ${label}` : ORIGINAL_TITLE;
   }, 900);
 }
 
@@ -702,43 +699,103 @@ function stopTitleBlink() {
   document.title = ORIGINAL_TITLE;
 }
 
-function beep(level) {
-  if (!audioUnlocked) return;
+let audioUnlocked = false;
+let sharedAudioCtx = null;
+
+function unlockAudio() {
+  if (audioUnlocked) return;
   const Ctx = window.AudioContext || window.webkitAudioContext;
   if (!Ctx) return;
-  const ctx = new Ctx();
+  sharedAudioCtx = new Ctx();
+  sharedAudioCtx.resume();
+  audioUnlocked = true;
+}
+
+document.addEventListener('click', unlockAudio, { once: true });
+document.addEventListener('keydown', unlockAudio, { once: true });
+document.addEventListener('touchstart', unlockAudio, { once: true });
+
+function beep() {
+  if (!audioUnlocked || !sharedAudioCtx) return;
+  if (chickenModeActive) {
+    playChickenSound();
+    return;
+  }
+  const ctx = sharedAudioCtx;
+  if (ctx.state === 'suspended') ctx.resume();
+
   const osc = ctx.createOscillator();
   const gain = ctx.createGain();
   osc.type = 'sine';
-  osc.frequency.value = level === 'now' ? 1046 : level === '5' ? 988 : 880;
-  gain.gain.value = 0.025;
+  osc.frequency.value = 880;
+  gain.gain.value = 0.05;
   osc.connect(gain);
   gain.connect(ctx.destination);
   osc.start();
-  osc.stop(ctx.currentTime + 0.2);
+  osc.stop(ctx.currentTime + 0.18);
 }
 
-function notify(shift, label) {
-  if (!('Notification' in window)) return;
-  if (Notification.permission !== 'granted') return;
-  const body = `${label || 'Upcoming shift'} • ${shift.what} • ${shift.where || 'No location'}`;
-  new Notification('ShiftBoard alert', { body, tag: `shift-${shift.id}-${label}`, renotify: true });
+function playChickenSound() {
+  const ctx = sharedAudioCtx;
+  if (!ctx) return;
+  if (ctx.state === 'suspended') ctx.resume();
+
+  const now = ctx.currentTime;
+  const clucks = [0, 0.11];
+
+  clucks.forEach((offset) => {
+    const osc = ctx.createOscillator();
+    const gain = ctx.createGain();
+    osc.type = 'square';
+    const start = now + offset;
+    osc.frequency.setValueAtTime(480, start);
+    osc.frequency.exponentialRampToValueAtTime(220, start + 0.09);
+    osc.frequency.exponentialRampToValueAtTime(340, start + 0.13);
+    gain.gain.setValueAtTime(0.0001, start);
+    gain.gain.exponentialRampToValueAtTime(0.09, start + 0.02);
+    gain.gain.exponentialRampToValueAtTime(0.0001, start + 0.14);
+    osc.connect(gain);
+    gain.connect(ctx.destination);
+    osc.start(start);
+    osc.stop(start + 0.16);
+  });
 }
 
-function maybeAlert(shift, level, label) {
-  if (!level) return;
-  const key = `${shift.id}-${state.person || 'all'}-${level}`;
-  if (notifiedIds.has(key)) return;
-  notifiedIds.add(key);
-  beep(level);
-  if (document.hidden) notify(shift, label);
-  save();
+let continuousBeepTimer = null;
+
+function stopContinuousBeep() {
+  if (continuousBeepTimer) clearInterval(continuousBeepTimer);
+  continuousBeepTimer = null;
 }
 
-async function requestNotifications() {
-  if (!('Notification' in window)) return;
-  const permission = await Notification.requestPermission();
-  updateNotifyButton(permission);
+function maybeAlert(shift, level) {
+  if (!level) {
+    stopContinuousBeep();
+    return;
+  }
+
+  const personKey = state.person || 'all';
+
+  if (level === '15' || level === '10') {
+    const key = `${shift.id}-${personKey}-${level}`;
+    if (!notifiedIds.has(key)) {
+      notifiedIds.add(key);
+      beep();
+      save();
+    }
+    stopContinuousBeep();
+    return;
+  }
+
+  if (level === '5') {
+    if (!continuousBeepTimer) {
+      beep();
+      continuousBeepTimer = setInterval(beep, 4000);
+    }
+    return;
+  }
+  // level === 'now' (shift has actually started) or anything else: the alarm stops.
+  stopContinuousBeep();
 }
 
 let refreshTimer = null;
@@ -751,18 +808,103 @@ function applyRefreshInterval() {
   if (seconds > 0) refreshTimer = setInterval(loadData, seconds * 1000);
 }
 
-function updateNotifyButton(permissionOverride) {
-  const btn = els.notifyBtn;
-  if (!btn) return;
-  if (!('Notification' in window)) {
-    btn.textContent = '🔕';
-    btn.title = 'Notifications not supported';
-    return;
+let logoClickCount = 0;
+let logoClickTimer = null;
+let chickenModeActive = false;
+
+function triggerChickenMode() {
+  if (chickenModeActive) return;
+  chickenModeActive = true;
+  if (els.logoIcon) els.logoIcon.textContent = '🐔';
+  document.body.classList.add('chicken-mode');
+  if (els.chickenCursor) {
+    els.chickenCursor.style.display = 'block';
+    els.chickenCursor.style.left = '50vw';
+    els.chickenCursor.style.top = '50vh';
   }
-  const p = permissionOverride || Notification.permission;
-  btn.textContent = p === 'granted' ? '🔔' : p === 'denied' ? '🔕' : '🛎️';
-  btn.title = p === 'granted' ? 'Notifications enabled' : p === 'denied' ? 'Notifications blocked' : 'Enable browser notifications';
 }
+
+if (els.logoBtn) {
+  els.logoBtn.addEventListener('click', () => {
+    logoClickCount++;
+    clearTimeout(logoClickTimer);
+    logoClickTimer = setTimeout(() => { logoClickCount = 0; }, 1500);
+    if (logoClickCount >= 10) {
+      logoClickCount = 0;
+      triggerChickenMode();
+    }
+  });
+}
+
+// Dynamic "leaning" chicken cursor: leans opposite to movement direction.
+let lastCursorX = null;
+let lastCursorY = null;
+let lastMoveTime = null;
+let lastDirX = 0;
+let shakeScore = 0;
+let lastFeatherTime = 0;
+
+function spawnFeather(x, y, dirX, dirY) {
+  const feather = document.createElement('div');
+  const swayVariants = ['sway-a', 'sway-b', 'sway-c', 'sway-d'];
+  const swayClass = swayVariants[Math.floor(Math.random() * swayVariants.length)];
+  feather.className = `feather ${swayClass}`;
+  feather.textContent = '🪶';
+  feather.style.left = `${x}px`;
+  feather.style.top = `${y}px`;
+
+  const kickX = dirX * (15 + Math.random() * 20);
+  const kickY = -(18 + Math.random() * 15);
+  const driftX = (kickX + (Math.random() * 80 - 40)).toFixed(0);
+  const popUp = kickY.toFixed(0);
+  const fallDuration = 4 + Math.random() * 3.5;
+  const spin = (Math.random() * 180 - 90).toFixed(0);
+
+  feather.style.setProperty('--drift-x', `${driftX}px`);
+  feather.style.setProperty('--pop-up', `${popUp}px`);
+  feather.style.setProperty('--spin', `${spin}deg`);
+  feather.style.setProperty('--fall-duration', `${fallDuration}s`);
+
+  document.body.appendChild(feather);
+  setTimeout(() => feather.remove(), fallDuration * 1000 + 100);
+}
+
+document.addEventListener('mousemove', (e) => {
+  if (!chickenModeActive || !els.chickenCursor) return;
+  els.chickenCursor.style.left = `${e.clientX}px`;
+  els.chickenCursor.style.top = `${e.clientY}px`;
+
+  const now = performance.now();
+
+  if (lastCursorX !== null) {
+    const dx = e.clientX - lastCursorX;
+    const dy = e.clientY - lastCursorY;
+
+    const lean = Math.max(-25, Math.min(25, -dx * 20));
+    const tilt = Math.max(-15, Math.min(15, -dy * 20));
+    els.chickenCursor.style.transform = `translate(-50%,-50%) rotate(${lean + tilt}deg)`;
+
+    const dirX = dx > 2 ? 1 : dx < -2 ? -1 : 0;
+    if (dirX !== 0) {
+      if (lastDirX !== 0 && dirX !== lastDirX) {
+        shakeScore = Math.min(10, shakeScore + 2);
+      }
+      lastDirX = dirX;
+    }
+    shakeScore = Math.max(0, shakeScore - 0.15);
+
+    if (shakeScore >= 2 && now - lastFeatherTime > 120) {
+      lastFeatherTime = now;
+      const featherCount = 1 + Math.floor(Math.random() * 2);
+      for (let i = 0; i < featherCount; i++) {
+        spawnFeather(e.clientX, e.clientY, dirX, dy > 0 ? 1 : -1);
+      }
+    }
+  }
+
+  lastCursorX = e.clientX;
+  lastCursorY = e.clientY;
+});
 
 async function loadData() {
   els.loadingMsg.style.display = 'block';
@@ -784,6 +926,13 @@ async function loadData() {
     PHOTOGRAPHERS = [...new Set(RAW.flatMap(s => s.assigned.map(a => a.name)))].sort();
     categoryClassCache.clear();
     populateFilters();
+
+    if (urlPhotographer && !state.person) {
+      const match = PHOTOGRAPHERS.find(p => p.toLowerCase() === urlPhotographer.toLowerCase());
+      if (match) state.person = match;
+    }
+    if (state.person) els.personSelect.value = state.person;
+
     render();
   } catch (e) {
     els.lastLoaded.textContent = 'Failed to load JSON';
@@ -793,7 +942,6 @@ async function loadData() {
   }
 }
 
-// Debounced search: avoids a full filter+render cycle on every keystroke.
 let searchDebounceTimer = null;
 els.searchInput.addEventListener('input', e => {
   state.search = e.target.value;
@@ -822,11 +970,21 @@ els.refreshSelect.addEventListener('change', e => {
   save();
 });
 
+if (els.togglePast) {
+  els.togglePast.textContent = state.showPast ? '👁️ Showing past' : '🌙 Fading past';
+  els.togglePast.classList.toggle('active', state.showPast);
+  els.togglePast.addEventListener('click', () => {
+    state.showPast = !state.showPast;
+    els.togglePast.textContent = state.showPast ? '👁️ Showing past' : '🌙 Fading past';
+    els.togglePast.classList.toggle('active', state.showPast);
+    save();
+    render();
+  });
+}
+
 els.btnCards.addEventListener('click', () => { setView('cards'); render(); });
 els.btnTable.addEventListener('click', () => { setView('table'); render(); });
 els.btnTimeline.addEventListener('click', () => { setView('timeline'); render(); });
-
-els.notifyBtn.addEventListener('click', requestNotifications);
 
 document.querySelectorAll('th[data-col]').forEach(th => {
   th.addEventListener('click', () => {
@@ -844,9 +1002,6 @@ document.addEventListener('visibilitychange', () => {
   else renderHero();
 });
 
-document.addEventListener('click', () => { audioUnlocked = true; }, { once: true });
-document.addEventListener('keydown', () => { audioUnlocked = true; }, { once: true });
-
 const themeBtn = els.themeToggle;
 let theme = localStorage.getItem('sb_theme') || (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
 document.documentElement.setAttribute('data-theme', theme);
@@ -860,7 +1015,8 @@ themeBtn.addEventListener('click', () => {
 });
 
 setView(['cards', 'table', 'timeline'].includes(state.view) ? state.view : 'cards');
-updateNotifyButton();
 applyRefreshInterval();
 loadData();
+
+setInterval(renderHero, 1000);
 setInterval(render, 30000);

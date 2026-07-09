@@ -3,16 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>ShiftBoard – JSON Sync</title>
+  <title>Shiftboard</title>
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
   <div class="app">
     <header class="topbar">
       <div class="brand">
-        <div class="logo">📷</div>
+        <button class="logo" id="logoBtn" title="Shiftboard" aria-label="Shiftboard logo" style="border:none;cursor:pointer;">
+          <span id="logoIcon">📷</span>
+        </button>
         <div>
-          <div class="title">ShiftBoard</div>
+          <div class="title">Shiftboard</div>
           <div class="sub" id="lastLoaded">Loading local JSON…</div>
         </div>
       </div>
@@ -20,12 +22,9 @@
         <select id="personSelect" class="chip">
           <option value="">All photographers</option>
         </select>
-        <button class="icon-btn" id="notifyBtn" title="Enable browser notifications">🔔</button>
         <button class="icon-btn" id="themeToggle">◐</button>
       </div>
     </header>
-
-    <div class="stats-bar" id="statsBar"></div>
 
     <div class="controls">
       <div class="search-row">
@@ -52,6 +51,7 @@
           <option value="60">Refresh: 1m</option>
           <option value="300">Refresh: 5m</option>
         </select>
+        <button id="togglePast" class="chip" title="Toggle fading of already-finished shifts today">🌙 Fading past</button>
       </div>
     </div>
 
@@ -102,8 +102,11 @@
     <button onclick="toggleView()">Toggle view</button>
   </nav>
 
-  <script src="./test-data.js"></script>
-  <script src="./app.js"></script>
-  <script src="glitch.js" defer></script>
+<div id="chickenCursor" class="chicken-cursor" aria-hidden="true">🐔</div>
+<div id="meteorLayer" class="meteor-layer" aria-hidden="true"></div>
+
+<script src="./test-data.js"></script>
+<script src="./app.js"></script>
+<script src="./glitch.js" defer></script>
 </body>
 </html>
