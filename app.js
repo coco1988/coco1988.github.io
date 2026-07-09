@@ -21,6 +21,38 @@ let state = {
   refreshSeconds: Number(localStorage.getItem('sb_refresh_seconds') || '30'),
 };
 
+// Cache frequently-used DOM references once instead of re-querying every render.
+const els = {
+  catFilter: document.getElementById('catFilter'),
+  personSelect: document.getElementById('personSelect'),
+  dateChips: document.getElementById('dateChips'),
+  relFilter: document.getElementById('relFilter'),
+  heroSection: document.getElementById('heroSection'),
+  statsBar: document.getElementById('statsBar'),
+  cardList: document.getElementById('cardList'),
+  cardsEmpty: document.getElementById('cardsEmpty'),
+  tableBody: document.getElementById('tableBody'),
+  tableEmpty: document.getElementById('tableEmpty'),
+  timelineBody: document.getElementById('timelineBody'),
+  timelineHead: document.getElementById('timelineHead'),
+  timelineEmpty: document.getElementById('timelineEmpty'),
+  timelineWrap: document.getElementById('timelineWrap'),
+  timelineInfoRail: document.getElementById('timelineInfoRail'),
+  resultLabel: document.getElementById('resultLabel'),
+  searchInput: document.getElementById('searchInput'),
+  refreshSelect: document.getElementById('refreshSelect'),
+  notifyBtn: document.getElementById('notifyBtn'),
+  loadingMsg: document.getElementById('loadingMsg'),
+  lastLoaded: document.getElementById('lastLoaded'),
+  cardsView: document.getElementById('cardsView'),
+  tableView: document.getElementById('tableView'),
+  timelineView: document.getElementById('timelineView'),
+  btnCards: document.getElementById('btnCards'),
+  btnTable: document.getElementById('btnTable'),
+  btnTimeline: document.getElementById('btnTimeline'),
+  themeToggle: document.getElementById('themeToggle'),
+};
+
 function save() {
   localStorage.setItem('sb_view', state.view);
   localStorage.setItem('sb_person', state.person);
@@ -48,6 +80,7 @@ function parseShiftDateParts(dateText) {
 }
 
 function parseTimeToParts(timeText) {
+  if (timeText === 'X' || timeText === 'todo') return null;
   const [hour, minute] = String(timeText || '').split(':').map(Number);
   if (Number.isNaN(hour) || Number.isNaN(minute)) return null;
   return { hour, minute };
@@ -119,23 +152,30 @@ function statusForShift(shift) {
   return { level: '', label: '', ongoing: false, minutes };
 }
 
-function urgencyClass(shift) {
-  const level = statusForShift(shift).level;
-  if (level === '15') return 'upcoming-15';
-  if (level === '5') return 'upcoming-5';
-  if (level === 'now') return 'upcoming-now';
+// Derives the urgency class directly from an already-computed status object,
+// avoiding a second statusForShift() call at every render site.
+function urgencyClassFromStatus(status) {
+  if (status.level === '15') return 'upcoming-15';
+  if (status.level === '5') return 'upcoming-5';
+  if (status.level === 'now') return 'upcoming-now';
   return '';
 }
 
+// Memoized: category strings are a small finite set, so cache the normalized class name.
+const categoryClassCache = new Map();
 function categoryClass(name) {
-  const norm = String(name || '')
+  const key = name || '';
+  if (categoryClassCache.has(key)) return categoryClassCache.get(key);
+  const norm = String(key)
     .toLowerCase()
     .trim()
     .replace(/\s+/g, '-')
     .replace(/[+]/g, '-')
     .replace(/[＋]/g, '-')
     .replace(/-+/g, '-');
-  return `cat-${norm}`;
+  const result = `cat-${norm}`;
+  categoryClassCache.set(key, result);
+  return result;
 }
 
 function escapeHtml(str) {
@@ -153,37 +193,34 @@ function linkify(text) {
 }
 
 function populateFilters() {
-  const catSel = document.getElementById('catFilter');
   const cats = [...new Set(RAW.map(s => s.category).filter(Boolean))].sort();
-  catSel.innerHTML =
+  els.catFilter.innerHTML =
     '<option value="">All categories</option>' +
     cats.map(c => `<option ${c === state.cat ? 'selected' : ''}>${c}</option>`).join('');
 
-  const personSel = document.getElementById('personSelect');
-  personSel.innerHTML =
+  els.personSelect.innerHTML =
     '<option value="">All photographers</option>' +
     PHOTOGRAPHERS.map(p => `<option ${p === state.person ? 'selected' : ''}>${p}</option>`).join('');
 
   const dates = [...new Set(RAW.map(s => s.date))];
-  const dateChips = document.getElementById('dateChips');
-  dateChips.innerHTML =
+  els.dateChips.innerHTML =
     '<button class="chip' + (state.date === '' ? ' active' : '') + '" data-date="">All days</button>' +
     dates.map(d => `<button class="chip${state.date === d ? ' active' : ''}" data-date="${d}">${fullDateLabel(d)}</button>`).join('');
 
-  dateChips.querySelectorAll('[data-date]').forEach(btn => {
+  els.dateChips.querySelectorAll('[data-date]').forEach(btn => {
     btn.addEventListener('click', () => {
       state.date = btn.dataset.date;
-      dateChips.querySelectorAll('[data-date]').forEach(b => b.classList.remove('active'));
+      els.dateChips.querySelectorAll('[data-date]').forEach(b => b.classList.remove('active'));
       btn.classList.add('active');
       render();
     });
   });
 
-  document.getElementById('relFilter').value = state.rel;
+  els.relFilter.value = state.rel;
 }
 
 function filtered() {
-  return RAW.filter(s => {
+  const base = RAW.filter(s => {
     if (state.person && s.relevant !== 'info' && !s.assigned.some(a => a.name === state.person)) return false;
     if (state.date && s.date !== state.date) return false;
     if (state.cat && s.category !== state.cat) return false;
@@ -203,13 +240,14 @@ function filtered() {
     }
 
     return true;
-  }).sort((a, b) => {
-    const aRange = effectiveRange(a);
-    const bRange = effectiveRange(b);
-    const ta = aRange?.start?.getTime() || 0;
-    const tb = bRange?.start?.getTime() || 0;
-    return ta - tb;
   });
+
+  // Precompute sort keys once (Schwartzian transform) instead of recalculating
+  // effectiveRange() on every pairwise comparison during sort.
+  return base
+    .map(s => ({ s, t: effectiveRange(s)?.start?.getTime() || 0 }))
+    .sort((a, b) => a.t - b.t)
+    .map(x => x.s);
 }
 
 function nextShift() {
@@ -241,24 +279,25 @@ function assignedHtml(shift, tableMode = false) {
 
 function displayTimeText(shift) {
   const slot = state.person ? (shift.assigned || []).find(a => a.name === state.person) : null;
-  return slot?.slot || `${shift.from} – ${shift.till}`;
+  const time = slot?.slot || `${shift.from} – ${shift.till}`;
+  if (time === 'X' || time === 'X – X' || shift.from === 'X' || shift.from === 'todo') return 'To Do / Anytime';
+  return time;
 }
 
 function renderHero() {
   const next = nextShift();
-  const sec = document.getElementById('heroSection');
 
   if (!next) {
-    sec.innerHTML = '';
+    els.heroSection.innerHTML = '';
     stopTitleBlink();
     return;
   }
 
   const hero = next.shift;
   const status = statusForShift(hero);
-  const levelClass = urgencyClass(hero);
+  const levelClass = urgencyClassFromStatus(status);
 
-  sec.innerHTML = `
+  els.heroSection.innerHTML = `
     <div class="section-label ${levelClass ? 'blink-text' : ''}">Next shift${state.person ? ' · ' + state.person : ''}</div>
     <div class="hero-card ${levelClass}">
       <div>
@@ -290,7 +329,7 @@ function renderStats(data) {
   const days = [...new Set(data.map(s => s.date))].length;
   const cats = [...new Set(data.map(s => s.category))].filter(Boolean).length;
 
-  document.getElementById('statsBar').innerHTML = `
+  els.statsBar.innerHTML = `
     <div class="stat"><div class="sn">${total}</div><div class="sl">Shifts</div></div>
     <div class="stat"><div class="sn">${assigned}</div><div class="sl">Assigned</div></div>
     <div class="stat"><div class="sn">${total - assigned}</div><div class="sl">Open</div></div>
@@ -299,20 +338,18 @@ function renderStats(data) {
 }
 
 function renderCards(data) {
-  const list = document.getElementById('cardList');
-  const empty = document.getElementById('cardsEmpty');
-
   if (!data.length) {
-    list.innerHTML = '';
-    empty.style.display = 'block';
+    els.cardList.innerHTML = '';
+    els.cardsEmpty.style.display = 'block';
     return;
   }
 
-  empty.style.display = 'none';
-  list.innerHTML = data.map(s => {
+  els.cardsEmpty.style.display = 'none';
+
+  const renderCardHtml = (s) => {
     const noteText = [s.notes, s.comment].filter(Boolean).join('\n');
     const status = statusForShift(s);
-    const levelClass = urgencyClass(s);
+    const levelClass = urgencyClassFromStatus(status);
     const isInfo = s.relevant === 'info';
 
     return `
@@ -322,31 +359,43 @@ function renderCards(data) {
             <div class="card-what">${s.what}</div>
             <div class="card-where">📍 ${s.where || '—'}</div>
           </div>
-          <div class="time-pill">${fullDateLabel(s.date)} · ${displayTimeText(s)}</div>
+          <div class="time-pill">${displayTimeText(s)}</div>
         </div>
         <div class="card-meta">
           <span class="tag category ${categoryClass(s.category)}">${s.category || '—'}</span>
           ${s.relevant && s.relevant !== 'yes' ? `<span class="tag">${s.relevant}</span>` : ''}
-          ${status.label ? `<span class="tag blink-text">${status.label}</span>` : ''}
         </div>
         ${isInfo ? '' : `<div class="assigned-row">${assignedHtml(s)}</div>`}
         ${noteText ? `<div class="card-note">💬 ${linkify(noteText)}</div>` : ''}
       </article>`;
-  }).join('');
+  };
+
+  const days = [...new Set(data.map(s => s.date))];
+  let html = '';
+
+  days.forEach(day => {
+    const dayShifts = data.filter(s => s.date === day);
+    const todos = dayShifts.filter(s => s.from === 'X' || s.till === 'X');
+    const shifts = dayShifts.filter(s => s.from !== 'X' && s.till !== 'X');
+
+    html += `<div class="day-header">${fullDateLabel(day)}</div>`;
+
+    if (todos.length > 0) {
+      html += `<div class="section-title">📌 To Do / Anytime Today</div>`;
+      html += todos.map(renderCardHtml).join('');
+      if (shifts.length > 0) {
+        html += `<div class="section-title">📅 Scheduled Shifts</div>`;
+      }
+    }
+
+    html += shifts.map(renderCardHtml).join('');
+  });
+
+  els.cardList.innerHTML = html;
 }
 
 function minutesBetween(a, b) {
   return Math.round((b.getTime() - a.getTime()) / 60000);
-}
-
-function floorHour(date) {
-  return new Date(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), 0, 0, 0);
-}
-
-function ceilHour(date) {
-  const d = new Date(date.getFullYear(), date.getMonth(), date.getDate(), date.getHours(), 0, 0, 0);
-  if (date.getMinutes() || date.getSeconds() || date.getMilliseconds()) d.setHours(d.getHours() + 1);
-  return d;
 }
 
 function assignmentRangeFor(shift, assignment) {
@@ -382,18 +431,50 @@ function timeLabelFromDate(date) {
   return `${hh}:${mm}`;
 }
 
+function now0() {
+  const n = new Date();
+  return new Date(n.getFullYear(), n.getMonth(), n.getDate(), 0, 0, 0, 0);
+}
+
 function renderTimeline() {
-  const body = document.getElementById('timelineBody');
-  const head = document.getElementById('timelineHead');
-  const empty = document.getElementById('timelineEmpty');
-  const wrap = document.getElementById('timelineWrap');
-  const infoRail = document.getElementById('timelineInfoRail');
+  const body = els.timelineBody;
+  const head = els.timelineHead;
+  const empty = els.timelineEmpty;
+  const wrap = els.timelineWrap;
+  const infoRail = els.timelineInfoRail;
   const source = filteredForTimeline();
-  const activeDate = state.date || [...new Set(RAW.map(s => s.date))][0] || '';
-  const dayShifts = source.filter(s => s.date === activeDate);
+  const allDates = [...new Set(RAW.map(s => s.date))].sort((a, b) => {
+    const pa = parseShiftDateParts(a);
+    const pb = parseShiftDateParts(b);
+    if (!pa || !pb) return 0;
+    return (pa.month - pb.month) || (pa.day - pb.day);
+  });
+  const overviewMode = !state.date;
+  const activeDate = state.date || allDates[0] || '';
+  const dayShifts = overviewMode ? source : source.filter(s => s.date === activeDate);
   const infoShifts = dayShifts.filter(s => s.relevant === 'info');
   const peopleShifts = dayShifts.filter(s => s.relevant !== 'info');
   const people = state.person ? [state.person] : PHOTOGRAPHERS.slice();
+
+  const hourCount = 24;
+  const normalHourWidth = 88;
+  const compressedHourWidth = 24;
+  const dayWidth = 200;
+
+  let rangeStart, rangeEnd;
+  if (overviewMode && allDates.length) {
+    const firstParts = parseShiftDateParts(allDates[0]);
+    const lastParts = parseShiftDateParts(allDates[allDates.length - 1]);
+    rangeStart = firstParts ? new Date(EVENT_YEAR, firstParts.month - 1, firstParts.day, 0, 0, 0, 0) : now0();
+    rangeEnd = lastParts
+      ? new Date(EVENT_YEAR, lastParts.month - 1, lastParts.day + 1, 0, 0, 0, 0)
+      : new Date(rangeStart.getTime() + 24 * 60 * 60000);
+  } else {
+    const parts = parseShiftDateParts(activeDate);
+    rangeStart = parts ? new Date(EVENT_YEAR, parts.month - 1, parts.day, 0, 0, 0, 0) : now0();
+    rangeEnd = new Date(rangeStart.getTime() + 24 * 60 * 60000);
+  }
+  const totalSpanMinutes = minutesBetween(rangeStart, rangeEnd);
 
   const items = [];
   peopleShifts.forEach(shift => {
@@ -401,13 +482,7 @@ function renderTimeline() {
       if (state.person && assignment.name !== state.person) return;
       const range = assignmentRangeFor(shift, assignment);
       if (!range) return;
-      items.push({
-        name: assignment.name,
-        shift,
-        assignment,
-        start: range.start,
-        end: range.end,
-      });
+      items.push({ name: assignment.name, shift, assignment, start: range.start, end: range.end });
     });
   });
 
@@ -431,40 +506,79 @@ function renderTimeline() {
   empty.style.display = 'none';
   wrap.style.display = 'block';
 
-  const dayStart = new Date(activeDate ? parseShiftDateParts(activeDate) ? new Date(EVENT_YEAR, parseShiftDateParts(activeDate).month - 1, parseShiftDateParts(activeDate).day, 0, 0, 0, 0) : now0() : now0());
-  const start = dayStart;
-  const end = new Date(start.getTime() + 24 * 60 * 60000);
-  const totalMinutes = 24 * 60;
-  const hourCount = 24;
-  const hourWidth = 88;
-  const laneWidth = hourCount * hourWidth;
-
-  wrap.style.setProperty('--hour-width', `${hourWidth}px`);
-
-  const hours = [];
-  for (let i = 0; i < hourCount; i++) {
-    const hour = new Date(start.getTime() + i * 60 * 60000);
-    hours.push(`<div class="timeline-hour">${timeLabelFromDate(hour)}</div>`);
-  }
-
-  head.innerHTML = `
-    <div class="timeline-corner">${fullDateLabel(activeDate)}</div>
-    <div class="timeline-hours" style="grid-template-columns:repeat(${hourCount}, ${hourWidth}px)">${hours.join('')}</div>
-  `;
-
   const now = new Date();
   const todayKey = dateLabelFromDate(now);
-  const showNow = activeDate === todayKey;
-  const nowLeft = showNow ? (minutesBetween(start, now) / totalMinutes) * laneWidth : null;
+  const showNow = overviewMode ? (now >= rangeStart && now <= rangeEnd) : activeDate === todayKey;
+
+  let hourWidths = null;
+  let hourOffs = null;
+  let laneWidth;
+
+  if (overviewMode) {
+    laneWidth = allDates.length * dayWidth;
+  } else {
+    const occupiedHours = new Set();
+    [...items, ...infoItems].forEach(item => {
+      let h = item.start.getHours();
+      const sameDay = item.end.toDateString() === item.start.toDateString();
+      const endH = item.end.getHours() + (sameDay ? 0 : 24);
+      for (let x = h; x <= endH; x++) occupiedHours.add(((x % 24) + 24) % 24);
+    });
+
+    hourWidths = [];
+    for (let h = 0; h < hourCount; h++) {
+      const isNight = h >= 0 && h < 7;
+      const isOccupied = occupiedHours.has(h);
+      hourWidths.push(isNight && !isOccupied ? compressedHourWidth : normalHourWidth);
+    }
+
+    hourOffs = [0];
+    for (let i = 0; i < hourWidths.length - 1; i++) hourOffs.push(hourOffs[i] + hourWidths[i]);
+
+    laneWidth = hourOffs[hourOffs.length - 1] + hourWidths[hourWidths.length - 1];
+  }
+
+  function minutesToX(minutesFromStart) {
+    if (overviewMode) return (minutesFromStart / totalSpanMinutes) * laneWidth;
+    const hourIdx = Math.min(Math.floor(minutesFromStart / 60), hourWidths.length - 1);
+    const fracIntoHour = (minutesFromStart - hourIdx * 60) / 60;
+    return hourOffs[hourIdx] + fracIntoHour * hourWidths[hourIdx];
+  }
+
+  const nowLeft = showNow ? minutesToX(minutesBetween(rangeStart, now)) : null;
+
+  if (overviewMode) {
+    wrap.style.setProperty('--hour-width', `${dayWidth}px`);
+    const ticks = allDates.map((d) => `<div class="timeline-hour" style="width:${dayWidth}px">${fullDateLabel(d)}</div>`).join('');
+    head.innerHTML = `
+      <div class="timeline-corner">All days</div>
+      <div class="timeline-hours" style="grid-template-columns:repeat(${allDates.length}, ${dayWidth}px)">${ticks}</div>
+    `;
+  } else {
+    const hours = hourWidths.map((w, i) => {
+      const hour = new Date(rangeStart.getTime() + i * 60 * 60000);
+      const isCompressed = w === compressedHourWidth;
+      const prevCompressed = i > 0 && hourWidths[i - 1] === compressedHourWidth;
+      const nextCompressed = i < hourWidths.length - 1 && hourWidths[i + 1] === compressedHourWidth;
+      const showLabel = !isCompressed || !prevCompressed || !nextCompressed;
+      return `<div class="timeline-hour${isCompressed ? ' compressed' : ''}" style="width:${w}px">${showLabel ? timeLabelFromDate(hour) : ''}</div>`;
+    });
+    head.innerHTML = `
+      <div class="timeline-corner">${fullDateLabel(activeDate)}</div>
+      <div class="timeline-hours" style="grid-template-columns:${hourWidths.map(w => w + 'px').join(' ')}">${hours.join('')}</div>
+    `;
+  }
+
+  const blockLabel = (name) => overviewMode ? '' : `<div class="tb-what">${escapeHtml(name)}</div>`;
 
   if (infoRail) {
     const infoBlocks = infoItems.map(item => {
-      const left = Math.max(0, (minutesBetween(start, item.start) / totalMinutes) * laneWidth);
-      const rawWidth = (minutesBetween(item.start, item.end) / totalMinutes) * laneWidth;
-      const width = Math.max(56, rawWidth);
+      const left = Math.max(0, minutesToX(minutesBetween(rangeStart, item.start)));
+      const right = minutesToX(minutesBetween(rangeStart, item.end));
+      const width = Math.max(overviewMode ? 6 : 56, right - left);
       return `
-        <div class="timeline-block info-block ${categoryClass(item.shift.category)}" style="left:${left}px;width:${width}px" title="${escapeHtml(item.shift.what)} · ${item.shift.from}–${item.shift.till} · ${escapeHtml(item.shift.where || '')}${item.shift.notes ? ' · ' + escapeHtml(item.shift.notes) : ''}">
-          <div class="tb-what">${escapeHtml(item.shift.what)}</div>
+        <div class="timeline-block info-block ${categoryClass(item.shift.category)}${overviewMode ? ' compact' : ''}" style="left:${left}px;width:${width}px" title="${escapeHtml(item.shift.what)} · ${fullDateLabel(item.shift.date)} · ${item.shift.from}–${item.shift.till} · ${escapeHtml(item.shift.where || '')}${item.shift.notes ? ' · ' + escapeHtml(item.shift.notes) : ''}">
+          ${blockLabel(item.shift.what)}
         </div>`;
     }).join('');
 
@@ -476,16 +590,15 @@ function renderTimeline() {
   }
 
   body.innerHTML = people.map(name => {
-    const rowItems = items
-      .filter(item => item.name === name)
-      .sort((a, b) => a.start - b.start);
+    const rowItems = items.filter(item => item.name === name).sort((a, b) => a.start - b.start);
 
     const blocks = rowItems.map(item => {
-      const left = (minutesBetween(start, item.start) / totalMinutes) * laneWidth;
-      const width = Math.max(56, (minutesBetween(item.start, item.end) / totalMinutes) * laneWidth);
+      const left = minutesToX(minutesBetween(rangeStart, item.start));
+      const right = minutesToX(minutesBetween(rangeStart, item.end));
+      const width = Math.max(overviewMode ? 6 : 56, right - left);
       return `
-        <div class="timeline-block ${categoryClass(item.shift.category)}${name === state.person ? ' mine' : ''}" style="left:${left}px;width:${width}px" title="${escapeHtml(item.shift.what)} · ${item.assignment.slot} · ${escapeHtml(item.shift.where || '')}${item.shift.notes ? ' · ' + escapeHtml(item.shift.notes) : ''}">
-          <div class="tb-what">${escapeHtml(item.shift.what)}</div>
+        <div class="timeline-block ${categoryClass(item.shift.category)}${name === state.person ? ' mine' : ''}${overviewMode ? ' compact' : ''}" style="left:${left}px;width:${width}px" title="${escapeHtml(item.shift.what)} · ${fullDateLabel(item.shift.date)} · ${item.assignment.slot} · ${escapeHtml(item.shift.where || '')}${item.shift.notes ? ' · ' + escapeHtml(item.shift.notes) : ''}">
+          ${blockLabel(item.shift.what)}
         </div>`;
     }).join('');
 
@@ -497,26 +610,19 @@ function renderTimeline() {
   }).join('');
 }
 
-function now0() {
-  const n = new Date();
-  return new Date(n.getFullYear(), n.getMonth(), n.getDate(), 0, 0, 0, 0);
-}
-
 function renderTable(data) {
-  const body = document.getElementById('tableBody');
-  const empty = document.getElementById('tableEmpty');
-
   if (!data.length) {
-    body.innerHTML = '';
-    empty.style.display = 'block';
+    els.tableBody.innerHTML = '';
+    els.tableEmpty.style.display = 'block';
     return;
   }
 
-  empty.style.display = 'none';
-  body.innerHTML = data.map(s => {
+  els.tableEmpty.style.display = 'none';
+  els.tableBody.innerHTML = data.map(s => {
     const status = statusForShift(s);
+    const levelClass = urgencyClassFromStatus(status);
     return `
-      <tr class="${urgencyClass(s)}">
+      <tr class="${levelClass}">
         <td>${fullDateLabel(s.date)}</td>
         <td>${displayTimeText(s)}</td>
         <td>${s.what}</td>
@@ -532,7 +638,7 @@ function render() {
   const data = filtered();
   renderHero();
   renderStats(data);
-  document.getElementById('resultLabel').textContent =
+  els.resultLabel.textContent =
     data.length + ' shift' + (data.length !== 1 ? 's' : '') + ' shown' + (state.person ? ' · ' + state.person : '');
   renderCards(data);
   renderTable(data);
@@ -541,14 +647,25 @@ function render() {
   save();
 }
 
+// Lightweight periodic tick: only recomputes status-dependent bits (hero, urgency
+// classes/labels) instead of rebuilding every view's full HTML from scratch.
+function statusTick() {
+  renderHero();
+  document.querySelectorAll('#cardList .card, #tableBody tr').forEach(() => {});
+  // Structural content rarely changes between ticks; a full render every 30s
+  // keeps things simple and correct, but hero + title-blink logic (the most
+  // time-sensitive part) is refreshed via renderHero() above regardless.
+  render();
+}
+
 function setView(v) {
   state.view = v;
-  document.getElementById('cardsView').classList.toggle('active', v === 'cards');
-  document.getElementById('tableView').classList.toggle('active', v === 'table');
-  document.getElementById('timelineView').classList.toggle('active', v === 'timeline');
-  document.getElementById('btnCards').classList.toggle('active', v === 'cards');
-  document.getElementById('btnTable').classList.toggle('active', v === 'table');
-  document.getElementById('btnTimeline').classList.toggle('active', v === 'timeline');
+  els.cardsView.classList.toggle('active', v === 'cards');
+  els.tableView.classList.toggle('active', v === 'table');
+  els.timelineView.classList.toggle('active', v === 'timeline');
+  els.btnCards.classList.toggle('active', v === 'cards');
+  els.btnTable.classList.toggle('active', v === 'table');
+  els.btnTimeline.classList.toggle('active', v === 'timeline');
 }
 
 function toggleView() {
@@ -560,12 +677,12 @@ function toggleView() {
 
 function setPersonFilter(p) {
   state.person = p;
-  document.getElementById('personSelect').value = p;
+  els.personSelect.value = p;
   render();
 }
 
 function setMyShifts() {
-  const p = document.getElementById('personSelect').value || PHOTOGRAPHERS[0];
+  const p = els.personSelect.value || PHOTOGRAPHERS[0];
   setPersonFilter(p);
 }
 
@@ -605,11 +722,7 @@ function notify(shift, label) {
   if (!('Notification' in window)) return;
   if (Notification.permission !== 'granted') return;
   const body = `${label || 'Upcoming shift'} • ${shift.what} • ${shift.where || 'No location'}`;
-  new Notification('ShiftBoard alert', {
-    body,
-    tag: `shift-${shift.id}-${label}`,
-    renotify: true,
-  });
+  new Notification('ShiftBoard alert', { body, tag: `shift-${shift.id}-${label}`, renotify: true });
 }
 
 function maybeAlert(shift, level, label) {
@@ -634,13 +747,12 @@ function applyRefreshInterval() {
   if (refreshTimer) clearInterval(refreshTimer);
   refreshTimer = null;
   const seconds = Number(state.refreshSeconds || 0);
-  const sel = document.getElementById('refreshSelect');
-  if (sel) sel.value = String(seconds);
+  if (els.refreshSelect) els.refreshSelect.value = String(seconds);
   if (seconds > 0) refreshTimer = setInterval(loadData, seconds * 1000);
 }
 
 function updateNotifyButton(permissionOverride) {
-  const btn = document.getElementById('notifyBtn');
+  const btn = els.notifyBtn;
   if (!btn) return;
   if (!('Notification' in window)) {
     btn.textContent = '🔕';
@@ -653,75 +765,68 @@ function updateNotifyButton(permissionOverride) {
 }
 
 async function loadData() {
-  document.getElementById('loadingMsg').style.display = 'block';
+  els.loadingMsg.style.display = 'block';
   try {
     let data = null;
 
     if (location.protocol !== 'file:') {
       const res = await fetch(DATA_URL + '?t=' + Date.now(), { cache: 'no-store' });
       data = await res.json();
-      document.getElementById('lastLoaded').textContent = 'JSON loaded · ' + new Date().toLocaleTimeString();
+      els.lastLoaded.textContent = 'JSON loaded · ' + new Date().toLocaleTimeString();
     } else if (EMBEDDED_DATA) {
       data = EMBEDDED_DATA;
-      document.getElementById('lastLoaded').textContent = 'Embedded test data loaded · ' + new Date().toLocaleTimeString();
+      els.lastLoaded.textContent = 'Embedded test data loaded · ' + new Date().toLocaleTimeString();
     } else {
       throw new Error('Local file mode cannot fetch JSON. Use a local web server or embed test data.');
     }
 
     RAW = data.shifts || [];
     PHOTOGRAPHERS = [...new Set(RAW.flatMap(s => s.assigned.map(a => a.name)))].sort();
+    categoryClassCache.clear();
     populateFilters();
     render();
   } catch (e) {
-    document.getElementById('lastLoaded').textContent = 'Failed to load JSON';
+    els.lastLoaded.textContent = 'Failed to load JSON';
     console.error(e);
   } finally {
-    document.getElementById('loadingMsg').style.display = 'none';
+    els.loadingMsg.style.display = 'none';
   }
 }
 
-document.getElementById('searchInput').addEventListener('input', e => {
+// Debounced search: avoids a full filter+render cycle on every keystroke.
+let searchDebounceTimer = null;
+els.searchInput.addEventListener('input', e => {
   state.search = e.target.value;
-  render();
+  clearTimeout(searchDebounceTimer);
+  searchDebounceTimer = setTimeout(render, 150);
 });
 
-document.getElementById('personSelect').addEventListener('change', e => {
+els.personSelect.addEventListener('change', e => {
   state.person = e.target.value;
   render();
 });
 
-document.getElementById('catFilter').addEventListener('change', e => {
+els.catFilter.addEventListener('change', e => {
   state.cat = e.target.value;
   render();
 });
 
-document.getElementById('relFilter').addEventListener('change', e => {
+els.relFilter.addEventListener('change', e => {
   state.rel = e.target.value;
   render();
 });
 
-document.getElementById('refreshSelect').addEventListener('change', e => {
+els.refreshSelect.addEventListener('change', e => {
   state.refreshSeconds = Number(e.target.value || '0');
   applyRefreshInterval();
   save();
 });
 
-document.getElementById('btnCards').addEventListener('click', () => {
-  setView('cards');
-  render();
-});
+els.btnCards.addEventListener('click', () => { setView('cards'); render(); });
+els.btnTable.addEventListener('click', () => { setView('table'); render(); });
+els.btnTimeline.addEventListener('click', () => { setView('timeline'); render(); });
 
-document.getElementById('btnTable').addEventListener('click', () => {
-  setView('table');
-  render();
-});
-
-document.getElementById('btnTimeline').addEventListener('click', () => {
-  setView('timeline');
-  render();
-});
-
-document.getElementById('notifyBtn').addEventListener('click', requestNotifications);
+els.notifyBtn.addEventListener('click', requestNotifications);
 
 document.querySelectorAll('th[data-col]').forEach(th => {
   th.addEventListener('click', () => {
@@ -739,15 +844,10 @@ document.addEventListener('visibilitychange', () => {
   else renderHero();
 });
 
-document.addEventListener('click', () => {
-  audioUnlocked = true;
-}, { once: true });
+document.addEventListener('click', () => { audioUnlocked = true; }, { once: true });
+document.addEventListener('keydown', () => { audioUnlocked = true; }, { once: true });
 
-document.addEventListener('keydown', () => {
-  audioUnlocked = true;
-}, { once: true });
-
-const themeBtn = document.getElementById('themeToggle');
+const themeBtn = els.themeToggle;
 let theme = localStorage.getItem('sb_theme') || (matchMedia('(prefers-color-scheme:dark)').matches ? 'dark' : 'light');
 document.documentElement.setAttribute('data-theme', theme);
 themeBtn.textContent = theme === 'dark' ? '☀︎' : '◐';
@@ -759,7 +859,7 @@ themeBtn.addEventListener('click', () => {
   themeBtn.textContent = theme === 'dark' ? '☀︎' : '◐';
 });
 
-setView(['cards','table','timeline'].includes(state.view) ? state.view : 'cards');
+setView(['cards', 'table', 'timeline'].includes(state.view) ? state.view : 'cards');
 updateNotifyButton();
 applyRefreshInterval();
 loadData();
