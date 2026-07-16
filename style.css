@@ -161,7 +161,7 @@ a {
 .brand {
   display: flex;
   align-items: center;
-  gap: 0.6rem;
+  gap: 5px;
 }
 
 .logo {
@@ -1247,4 +1247,20 @@ tr.shift-past:hover {
   60%  { transform: translate(calc(var(--drift-x) * -1.7), calc(var(--pop-up) + 48vh)) rotate(calc(var(--spin) * 0.55)); }
   80%  { transform: translate(calc(var(--drift-x) * 1.4), calc(var(--pop-up) + 66vh)) rotate(calc(var(--spin) * 1.1)); }
   100% { transform: translate(var(--drift-x), 77vh) rotate(calc(var(--spin) * 1.5)); opacity: 0; }
+}
+
+.app-footer {
+  text-align: center;
+  padding: 1.5rem 1rem 5rem;
+  font-size: 0.8rem;
+}
+
+.app-footer a {
+  color: var(--muted);
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  text-decoration: underline;
+  color: var(--primary);
 }

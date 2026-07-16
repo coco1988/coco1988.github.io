@@ -4,19 +4,21 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Shiftboard</title>
+  <link rel="icon" type="image/svg+xml" href="https://www.formulastudent.de/fileadmin/user_upload/all/CD/FSG-icon_v20161204.svg" />
   <link rel="stylesheet" href="./style.css" />
 </head>
 <body>
   <div class="app">
     <header class="topbar">
       <div class="brand">
-        <button class="logo" id="logoBtn" title="Shiftboard" aria-label="Shiftboard logo" style="border:none;cursor:pointer;">
-          <span id="logoIcon">📷</span>
-        </button>
-        <div>
-          <div class="title">Shiftboard</div>
-          <div class="sub" id="lastLoaded">Loading local JSON…</div>
-        </div>
+<button class="logo" id="logoBtn" title="Shiftboard" aria-label="Shiftboard logo" style="border:none;cursor:pointer;background:none;padding:0;position:relative;">
+  <img id="logoIcon" src="https://www.formulastudent.de/fileadmin/user_upload/all/CD/FSG_Logo/FSG_Logo_rgb.svg" alt="Formula Student Germany logo" style="height:36px;width:auto;display:block;" onerror="this.src='https://www.formulastudent.de/fileadmin/user_upload/all/CD/FSG_Logo/FSG_Logo_rgb.jpg';" />
+  <img id="chickenHeadOverlay" src="" alt="" style="display:none;position:absolute;height:16px;width:auto;pointer-events:none;" />
+</button>
+<div style="margin-left:65px;">
+  <div class="title">Shiftboard</div>
+  <div class="sub" id="lastLoaded">Loading local JSON…</div>
+</div>
       </div>
       <div class="topbar-right">
         <select id="personSelect" class="chip">
@@ -93,6 +95,10 @@
     </div>
 
     <div class="loading" id="loadingMsg">Loading local data…</div>
+
+    <footer class="app-footer">
+      <a href="https://www.formulastudent.de/imprint" target="_blank" rel="noopener noreferrer">Imprint</a>
+    </footer>
   </div>
 
   <nav class="bottom-nav">

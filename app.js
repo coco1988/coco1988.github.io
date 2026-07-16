@@ -56,6 +56,8 @@ const els = {
   logoIcon: document.getElementById('logoIcon'),
   chickenCursor: document.getElementById('chickenCursor'),
   togglePast: document.getElementById('togglePast'),
+  logoIcon: document.getElementById('logoIcon'),
+  chickenHeadOverlay: document.getElementById('chickenHeadOverlay'),
 };
 
 function save() {
@@ -815,12 +817,18 @@ let chickenModeActive = false;
 function triggerChickenMode() {
   if (chickenModeActive) return;
   chickenModeActive = true;
-  if (els.logoIcon) els.logoIcon.textContent = '🐔';
   document.body.classList.add('chicken-mode');
   if (els.chickenCursor) {
     els.chickenCursor.style.display = 'block';
     els.chickenCursor.style.left = '50vw';
     els.chickenCursor.style.top = '50vh';
+  }
+  if (els.chickenHeadOverlay) {
+    els.chickenHeadOverlay.src = 'https://em-content.zobj.net/source/apple/354/chicken_1f414.png';
+    els.chickenHeadOverlay.style.display = 'block';
+    els.chickenHeadOverlay.style.top = '-1px';
+    els.chickenHeadOverlay.style.left = '30px';
+    els.chickenHeadOverlay.style.transform = 'scaleX(-1) rotate(-8deg)';
   }
 }
 
