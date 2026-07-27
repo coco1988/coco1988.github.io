@@ -1,0 +1,7 @@
+.git
+.github
+Dockerfile
+compose.yaml
+.dockerignore
+README.md
+test-data.js
