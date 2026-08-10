@@ -1,6 +1,6 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv",
-  "count": 172,
+  "count": 176,
   "shifts": [
     {
       "id": 1,
@@ -13,7 +13,52 @@
       "notes": "Delivery Service",
       "relevant": "info",
       "comment": "",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
     },
     {
       "id": 2,
@@ -26,7 +71,52 @@
       "notes": "Nordring 1, HD <a href=\"https://fsg.one/djk\">fsg.one/djk</a>",
       "relevant": "info",
       "comment": "",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
     },
     {
       "id": 3,
@@ -39,7 +129,52 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
     },
     {
       "id": 4,
@@ -52,7 +187,52 @@
       "notes": "Nordring 1, HD <a href=\"https://fsg.one/djk\">fsg.one/djk</a>",
       "relevant": "info",
       "comment": "",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
     },
     {
       "id": 5,
@@ -239,19 +419,6 @@
       "id": 12,
       "date": "08-10 Mon",
       "from": "18:00",
-      "till": "23:00",
-      "what": "Setup Event Site",
-      "where": "Venue",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift - any time/at least some shots (also drop by the ticket center on the way)",
-      "assigned": []
-    },
-    {
-      "id": 13,
-      "date": "08-10 Mon",
-      "from": "18:00",
       "till": "19:30",
       "what": "Setup of Pits",
       "where": "Venue",
@@ -262,10 +429,10 @@
       "assigned": []
     },
     {
-      "id": 14,
-      "date": "08-11 Tue",
-      "from": "7:00",
-      "till": "",
+      "id": 13,
+      "date": "08-10 Mon",
+      "from": "18:00",
+      "till": "23:00",
       "what": "Setup Event Site",
       "where": "Venue",
       "category": "Officials",
@@ -273,6 +440,64 @@
       "relevant": "yes",
       "comment": "shift - any time/at least some shots (also drop by the ticket center on the way)",
       "assigned": []
+    },
+    {
+      "id": 14,
+      "date": "08-11 Tue",
+      "from": "7:00",
+      "till": "20:00",
+      "what": "Setup Event Site",
+      "where": "Venue",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - any time/at least some shots (also drop by the ticket center on the way)",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
     },
     {
       "id": 15,
@@ -356,7 +581,12 @@
       "notes": "",
       "relevant": "yes",
       "comment": "once or twice a week",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        }
+      ]
     },
     {
       "id": 18,
@@ -420,14 +650,19 @@
       "id": 19,
       "date": "08-11 Tue",
       "from": "9:30",
-      "till": "",
+      "till": "10:00",
       "what": "Registration + Entrance for 28 EV Team Vehicles (7 Members)",
       "where": "Pits, SouthS",
       "category": "Event Support",
       "notes": "",
       "relevant": "yes",
       "comment": "once a day - go together",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Lilian",
+          "slot": "09:30 - 10:00"
+        }
+      ]
     },
     {
       "id": 20,
@@ -440,7 +675,16 @@
       "notes": "gate 6",
       "relevant": "yes",
       "comment": "",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "10:00 - 11:00"
+        },
+        {
+          "name": "Camilla",
+          "slot": "11:00 - 11:45"
+        }
+      ]
     },
     {
       "id": 21,
@@ -448,12 +692,25 @@
       "from": "10:00",
       "till": "12:45",
       "what": "Technical Inspections (Mechanical)",
-      "where": "Dynamic",
+      "where": "Insp. Tent",
       "category": "Inspection",
       "notes": "gate 1",
       "relevant": "yes",
       "comment": "all",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "10:00 - 11:00"
+        },
+        {
+          "name": "Lilian",
+          "slot": "11:00 - 12:00"
+        },
+        {
+          "name": "Niklas",
+          "slot": "12:00 - 12:45"
+        }
+      ]
     },
     {
       "id": 22,
@@ -524,10 +781,49 @@
       "notes": "gate 6",
       "relevant": "yes",
       "comment": "",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Paul",
+          "slot": "13:00 - 14:00"
+        },
+        {
+          "name": "Ronja",
+          "slot": "14:00 - 15:00"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "15:00 - 16:00"
+        }
+      ]
     },
     {
       "id": 24,
+      "date": "08-11 Tue",
+      "from": "14:00",
+      "till": "20:00",
+      "what": "Technical Inspections (Mechanical)",
+      "where": "Insp. Tent",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "all",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "17:00 - 18:00"
+        },
+        {
+          "name": "Camilla",
+          "slot": "18:00 - 19:00"
+        },
+        {
+          "name": "Felix",
+          "slot": "19:00 - 20:00"
+        }
+      ]
+    },
+    {
+      "id": 25,
       "date": "08-11 Tue",
       "from": "14:00",
       "till": "",
@@ -583,19 +879,6 @@
           "slot": "X"
         }
       ]
-    },
-    {
-      "id": 25,
-      "date": "08-11 Tue",
-      "from": "14:00",
-      "till": "20:00",
-      "what": "Technical Inspections (Mechanical)",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "all",
-      "assigned": []
     },
     {
       "id": 26,
@@ -679,10 +962,73 @@
       "notes": "",
       "relevant": "yes",
       "comment": "Max; in front of tent, 19:30",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "20:15 - 20:45"
+        }
+      ]
     },
     {
       "id": 29,
+      "date": "08-12 Wed",
+      "from": "6:00",
+      "till": "14:00",
+      "what": "Pits available (only 7 Team members with pink passes)",
+      "where": "Pits",
+      "category": "Place",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 30,
       "date": "08-12 Wed",
       "from": "7:00",
       "till": "14:00",
@@ -695,7 +1041,7 @@
       "assigned": []
     },
     {
-      "id": 30,
+      "id": 31,
       "date": "08-12 Wed",
       "from": "9:00",
       "till": "12:45",
@@ -753,7 +1099,33 @@
       ]
     },
     {
-      "id": 31,
+      "id": 32,
+      "date": "08-12 Wed",
+      "from": "9:00",
+      "till": "12:45",
+      "what": "Technical Inspections (Electrical)",
+      "where": "Insp. Tent",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 33,
+      "date": "08-12 Wed",
+      "from": "9:00",
+      "till": "13:15",
+      "what": "Technical Inspections (Mechanical)",
+      "where": "Insp. Tent",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "all",
+      "assigned": []
+    },
+    {
+      "id": 34,
       "date": "08-12 Wed",
       "from": "9:00",
       "till": "23:00",
@@ -811,33 +1183,7 @@
       ]
     },
     {
-      "id": 32,
-      "date": "08-12 Wed",
-      "from": "9:00",
-      "till": "12:45",
-      "what": "Technical Inspections (Electrical)",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 33,
-      "date": "08-12 Wed",
-      "from": "9:00",
-      "till": "13:15",
-      "what": "Technical Inspections (Mechanical)",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "all",
-      "assigned": []
-    },
-    {
-      "id": 34,
+      "id": 35,
       "date": "08-12 Wed",
       "from": "10:00",
       "till": "11:00",
@@ -850,7 +1196,7 @@
       "assigned": []
     },
     {
-      "id": 35,
+      "id": 36,
       "date": "08-12 Wed",
       "from": "11:00",
       "till": "13:00",
@@ -860,10 +1206,55 @@
       "notes": "",
       "relevant": "info",
       "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
     },
     {
-      "id": 36,
+      "id": 37,
       "date": "08-12 Wed",
       "from": "12:00",
       "till": "14:00",
@@ -921,7 +1312,33 @@
       ]
     },
     {
-      "id": 37,
+      "id": 38,
+      "date": "08-12 Wed",
+      "from": "14:00",
+      "till": "14:30",
+      "what": "Briefing for Panoramic Picture",
+      "where": "Sachshaus",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 39,
+      "date": "08-12 Wed",
+      "from": "14:00",
+      "till": "17:00",
+      "what": "Ticket Centre",
+      "where": "Tickets",
+      "category": "Event Support",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "assigned": []
+    },
+    {
+      "id": 40,
       "date": "08-12 Wed",
       "from": "14:00",
       "till": "18:00",
@@ -979,7 +1396,20 @@
       ]
     },
     {
-      "id": 38,
+      "id": 41,
+      "date": "08-12 Wed",
+      "from": "14:00",
+      "till": "19:00",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "Event Support",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": []
+    },
+    {
+      "id": 42,
       "date": "08-12 Wed",
       "from": "14:00",
       "till": "",
@@ -1037,46 +1467,20 @@
       ]
     },
     {
-      "id": 39,
+      "id": 43,
       "date": "08-12 Wed",
-      "from": "14:00",
-      "till": "19:00",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
+      "from": "14:30",
+      "till": "17:15",
+      "what": "Technical Inspections (Mechanical)",
+      "where": "Insp. Tent",
+      "category": "Inspection",
+      "notes": "gate 1",
       "relevant": "yes",
-      "comment": "once or twice a week",
+      "comment": "all",
       "assigned": []
     },
     {
-      "id": 40,
-      "date": "08-12 Wed",
-      "from": "14:00",
-      "till": "17:00",
-      "what": "Ticket Centre",
-      "where": "Tickets",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
-      "assigned": []
-    },
-    {
-      "id": 41,
-      "date": "08-12 Wed",
-      "from": "14:00",
-      "till": "14:30",
-      "what": "Briefing for Panoramic Picture",
-      "where": "Sachshaus",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 42,
+      "id": 44,
       "date": "08-12 Wed",
       "from": "14:30",
       "till": "18:00",
@@ -1089,7 +1493,7 @@
       "assigned": []
     },
     {
-      "id": 43,
+      "id": 45,
       "date": "08-12 Wed",
       "from": "15:00",
       "till": "17:10",
@@ -1102,10 +1506,10 @@
       "assigned": []
     },
     {
-      "id": 44,
+      "id": 46,
       "date": "08-12 Wed",
       "from": "15:00",
-      "till": "17:45",
+      "till": "18:45",
       "what": "Business Plan Presentation",
       "where": "BW, Ravenol",
       "category": "Statics",
@@ -1115,7 +1519,7 @@
       "assigned": []
     },
     {
-      "id": 45,
+      "id": 47,
       "date": "08-12 Wed",
       "from": "18:00",
       "till": "20:30",
@@ -1173,7 +1577,7 @@
       ]
     },
     {
-      "id": 46,
+      "id": 48,
       "date": "08-12 Wed",
       "from": "18:30",
       "till": "19:30",
@@ -1186,7 +1590,7 @@
       "assigned": []
     },
     {
-      "id": 47,
+      "id": 49,
       "date": "08-12 Wed",
       "from": "18:45",
       "till": "19:00",
@@ -1199,20 +1603,7 @@
       "assigned": []
     },
     {
-      "id": 48,
-      "date": "08-12 Wed",
-      "from": "19:00",
-      "till": "20:00",
-      "what": "Track Marshal Briefing",
-      "where": "Brunel Cont.",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 49,
+      "id": 50,
       "date": "08-12 Wed",
       "from": "19:00",
       "till": "19:15",
@@ -1225,7 +1616,20 @@
       "assigned": []
     },
     {
-      "id": 50,
+      "id": 51,
+      "date": "08-12 Wed",
+      "from": "19:00",
+      "till": "20:00",
+      "what": "Track Marshal Briefing",
+      "where": "Brunel Cont.",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 52,
       "date": "08-12 Wed",
       "from": "19:15",
       "till": "19:30",
@@ -1238,7 +1642,7 @@
       "assigned": []
     },
     {
-      "id": 51,
+      "id": 53,
       "date": "08-12 Wed",
       "from": "19:30",
       "till": "20:00",
@@ -1251,7 +1655,7 @@
       "assigned": []
     },
     {
-      "id": 52,
+      "id": 54,
       "date": "08-12 Wed",
       "from": "20:30",
       "till": "21:00",
@@ -1264,7 +1668,7 @@
       "assigned": []
     },
     {
-      "id": 53,
+      "id": 55,
       "date": "08-12 Wed",
       "from": "21:00",
       "till": "22:00",
@@ -1277,7 +1681,7 @@
       "assigned": []
     },
     {
-      "id": 54,
+      "id": 56,
       "date": "08-13 Thu",
       "from": "7:00",
       "till": "20:30",
@@ -1335,7 +1739,7 @@
       ]
     },
     {
-      "id": 55,
+      "id": 57,
       "date": "08-13 Thu",
       "from": "7:40",
       "till": "18:00",
@@ -1348,20 +1752,7 @@
       "assigned": []
     },
     {
-      "id": 56,
-      "date": "08-13 Thu",
-      "from": "8:30",
-      "till": "12:30",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 57,
+      "id": 58,
       "date": "08-13 Thu",
       "from": "8:30",
       "till": "11:30",
@@ -1374,65 +1765,33 @@
       "assigned": []
     },
     {
-      "id": 58,
+      "id": 59,
       "date": "08-13 Thu",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Test Area DV + MV",
-      "where": "Dynamic A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "from": "8:30",
+      "till": "12:30",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "Event Support",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": []
     },
     {
-      "id": 59,
+      "id": 60,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "11:45",
+      "what": "Technical Inspections (Mechanical)",
+      "where": "Insp. Tent",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "all",
+      "assigned": []
+    },
+    {
+      "id": 61,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1490,7 +1849,104 @@
       ]
     },
     {
-      "id": 60,
+      "id": 62,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area DV + MV",
+      "where": "Dynamic A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Business Plan Presentation",
+      "where": "BW, Ravenol",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 64,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Technical Inspections Brake, Egress, Rain [on request]",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 65,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "S/F Line",
+      "category": "Inspection",
+      "notes": "gate 2-a",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 66,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:45",
@@ -1548,7 +2004,33 @@
       ]
     },
     {
-      "id": 61,
+      "id": 67,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "12:45",
+      "what": "Technical Inspections (Electrical)",
+      "where": "Insp. Tent",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 68,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "FSG Academy On Site",
+      "where": "Rav T. F03 A, Rav T. F03 B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day",
+      "assigned": []
+    },
+    {
+      "id": 69,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "23:00",
@@ -1606,59 +2088,7 @@
       ]
     },
     {
-      "id": 62,
-      "date": "08-13 Thu",
-      "from": "9:00",
-      "till": "18:00",
-      "what": "FSG Academy On Site",
-      "where": "Rav T. F03 A, Rav T. F03 B",
-      "category": "Academy",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once a day",
-      "assigned": []
-    },
-    {
-      "id": 63,
-      "date": "08-13 Thu",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Emergency Brake System (EBS) Test [on request]",
-      "where": "S/F Line",
-      "category": "Inspection",
-      "notes": "gate 2-a",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 64,
-      "date": "08-13 Thu",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Technical Inspections Brake, Egress, Rain [on request]",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 65,
-      "date": "08-13 Thu",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Business Plan Presentation",
-      "where": "BW, Ravenol",
-      "category": "Statics",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 66,
+      "id": 70,
       "date": "08-13 Thu",
       "from": "9:30",
       "till": "11:50",
@@ -1671,7 +2101,7 @@
       "assigned": []
     },
     {
-      "id": 67,
+      "id": 71,
       "date": "08-13 Thu",
       "from": "12:00",
       "till": "14:00",
@@ -1729,7 +2159,7 @@
       ]
     },
     {
-      "id": 68,
+      "id": 72,
       "date": "08-13 Thu",
       "from": "12:30",
       "till": "15:30",
@@ -1742,7 +2172,7 @@
       "assigned": []
     },
     {
-      "id": 69,
+      "id": 73,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1800,7 +2230,7 @@
       ]
     },
     {
-      "id": 70,
+      "id": 74,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1858,20 +2288,7 @@
       ]
     },
     {
-      "id": 71,
-      "date": "08-13 Thu",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Emergency Brake System (EBS) Test [on request]",
-      "where": "S/F Line",
-      "category": "Inspection",
-      "notes": "gate 2-a",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 72,
+      "id": 75,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1884,7 +2301,20 @@
       "assigned": []
     },
     {
-      "id": 73,
+      "id": 76,
+      "date": "08-13 Thu",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "S/F Line",
+      "category": "Inspection",
+      "notes": "gate 2-a",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 77,
       "date": "08-13 Thu",
       "from": "13:30",
       "till": "17:15",
@@ -1897,7 +2327,7 @@
       "assigned": []
     },
     {
-      "id": 74,
+      "id": 78,
       "date": "08-13 Thu",
       "from": "14:00",
       "till": "19:00",
@@ -1955,7 +2385,7 @@
       ]
     },
     {
-      "id": 75,
+      "id": 79,
       "date": "08-13 Thu",
       "from": "14:00",
       "till": "19:00",
@@ -1968,7 +2398,7 @@
       "assigned": []
     },
     {
-      "id": 76,
+      "id": 80,
       "date": "08-13 Thu",
       "from": "15:00",
       "till": "17:10",
@@ -1981,7 +2411,7 @@
       "assigned": []
     },
     {
-      "id": 77,
+      "id": 81,
       "date": "08-13 Thu",
       "from": "16:00",
       "till": "19:00",
@@ -1991,10 +2421,55 @@
       "notes": "",
       "relevant": "info",
       "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
     },
     {
-      "id": 78,
+      "id": 82,
       "date": "08-13 Thu",
       "from": "16:00",
       "till": "19:00",
@@ -2007,7 +2482,65 @@
       "assigned": []
     },
     {
-      "id": 79,
+      "id": 83,
+      "date": "08-13 Thu",
+      "from": "18:00",
+      "till": "19:30",
+      "what": "TK buildup DV Autocross",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
+      "relevant": "info",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 84,
       "date": "08-13 Thu",
       "from": "18:00",
       "till": "20:30",
@@ -2065,20 +2598,7 @@
       ]
     },
     {
-      "id": 80,
-      "date": "08-13 Thu",
-      "from": "18:00",
-      "till": "19:30",
-      "what": "TK buildup DV Autocross",
-      "where": "Dynamic",
-      "category": "TK",
-      "notes": "",
-      "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
-    },
-    {
-      "id": 81,
+      "id": 85,
       "date": "08-13 Thu",
       "from": "20:30",
       "till": "21:30",
@@ -2091,7 +2611,7 @@
       "assigned": []
     },
     {
-      "id": 82,
+      "id": 86,
       "date": "08-13 Thu",
       "from": "21:00",
       "till": "21:30",
@@ -2104,7 +2624,7 @@
       "assigned": []
     },
     {
-      "id": 83,
+      "id": 87,
       "date": "08-14 Fri",
       "from": "7:30",
       "till": "8:00",
@@ -2117,7 +2637,7 @@
       "assigned": []
     },
     {
-      "id": 84,
+      "id": 88,
       "date": "08-14 Fri",
       "from": "7:40",
       "till": "18:30",
@@ -2130,7 +2650,20 @@
       "assigned": []
     },
     {
-      "id": 85,
+      "id": 89,
+      "date": "08-14 Fri",
+      "from": "8:00",
+      "till": "13:00",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "Event Support",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": []
+    },
+    {
+      "id": 90,
       "date": "08-14 Fri",
       "from": "8:00",
       "till": "",
@@ -2188,20 +2721,7 @@
       ]
     },
     {
-      "id": 86,
-      "date": "08-14 Fri",
-      "from": "8:00",
-      "till": "13:00",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 87,
+      "id": 91,
       "date": "08-14 Fri",
       "from": "8:30",
       "till": "12:30",
@@ -2214,65 +2734,7 @@
       "assigned": []
     },
     {
-      "id": 88,
-      "date": "08-14 Fri",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Test Area DV + MV",
-      "where": "Dynamic A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 89,
+      "id": 92,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -2330,7 +2792,65 @@
       ]
     },
     {
-      "id": 90,
+      "id": 93,
+      "date": "08-14 Fri",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area DV + MV",
+      "where": "Dynamic A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 94,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -2388,7 +2908,46 @@
       ]
     },
     {
-      "id": 91,
+      "id": 95,
+      "date": "08-14 Fri",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "Dynamic A",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 96,
+      "date": "08-14 Fri",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Technical Inspections Brake, Egress, Rain [on request]",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 97,
+      "date": "08-14 Fri",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "FSG Academy On Site",
+      "where": "Rav T. F03 A, Rav T. F03 B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day",
+      "assigned": []
+    },
+    {
+      "id": 98,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "23:00",
@@ -2446,46 +3005,20 @@
       ]
     },
     {
-      "id": 92,
+      "id": 99,
       "date": "08-14 Fri",
-      "from": "9:00",
-      "till": "18:00",
-      "what": "FSG Academy On Site",
-      "where": "Rav T. F03 A, Rav T. F03 B",
-      "category": "Academy",
+      "from": "10:00",
+      "till": "13:00",
+      "what": "Cost Finals (not public)",
+      "where": "BW L04 R03, BW L04 R05",
+      "category": "Statics",
       "notes": "",
       "relevant": "yes",
-      "comment": "once a day",
+      "comment": "shift - a few pictures are enough - no picture of the sheets",
       "assigned": []
     },
     {
-      "id": 93,
-      "date": "08-14 Fri",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Emergency Brake System (EBS) Test [on request]",
-      "where": "Dynamic A",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 94,
-      "date": "08-14 Fri",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Technical Inspections Brake, Egress, Rain [on request]",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 95,
+      "id": 100,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "23:59",
@@ -2543,20 +3076,7 @@
       ]
     },
     {
-      "id": 96,
-      "date": "08-14 Fri",
-      "from": "10:00",
-      "till": "13:00",
-      "what": "Cost Finals (not public)",
-      "where": "BW L04 R03, BW L04 R05",
-      "category": "Statics",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift - a few pictures are enough - no picture of the sheets",
-      "assigned": []
-    },
-    {
-      "id": 97,
+      "id": 101,
       "date": "08-14 Fri",
       "from": "12:00",
       "till": "14:00",
@@ -2614,7 +3134,220 @@
       ]
     },
     {
-      "id": 98,
+      "id": 102,
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "1:00",
+      "what": "Charging Area available",
+      "where": "Charging",
+      "category": "Place",
+      "notes": "gate 6",
+      "relevant": "info",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "14:00",
+      "what": "FSG Connects (VIP & Press)",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 104,
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Test Area MV",
+      "where": "Test B",
+      "category": "Dynamics",
+      "notes": "gate 5",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Test Area DV + MV",
+      "where": "Dynamic A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "Dynamic A",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 107,
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "20:00",
+      "what": "Technical Inspections Brake, Egress, Rain [on request]",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 108,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "",
@@ -2672,220 +3405,7 @@
       ]
     },
     {
-      "id": 99,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Test Area DV + MV",
-      "where": "Dynamic A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 100,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Test Area MV",
-      "where": "Test B",
-      "category": "Dynamics",
-      "notes": "gate 5",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 101,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "23:59",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 102,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Emergency Brake System (EBS) Test [on request]",
-      "where": "Dynamic A",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 103,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "20:00",
-      "what": "Technical Inspections Brake, Egress, Rain [on request]",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 104,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "14:00",
-      "what": "FSG Connects (VIP & Press)",
-      "where": "Marquee",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 105,
+      "id": 109,
       "date": "08-14 Fri",
       "from": "13:30",
       "till": "17:00",
@@ -2898,7 +3418,7 @@
       "assigned": []
     },
     {
-      "id": 106,
+      "id": 110,
       "date": "08-14 Fri",
       "from": "14:00",
       "till": "15:00",
@@ -2908,10 +3428,55 @@
       "notes": "",
       "relevant": "info",
       "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
     },
     {
-      "id": 107,
+      "id": 111,
       "date": "08-14 Fri",
       "from": "14:00",
       "till": "19:00",
@@ -2924,7 +3489,7 @@
       "assigned": []
     },
     {
-      "id": 108,
+      "id": 112,
       "date": "08-14 Fri",
       "from": "14:30",
       "till": "",
@@ -2982,20 +3547,7 @@
       ]
     },
     {
-      "id": 109,
-      "date": "08-14 Fri",
-      "from": "15:00",
-      "till": "19:00",
-      "what": "Driverless Skidpad",
-      "where": "Dynamic B",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 110,
+      "id": 113,
       "date": "08-14 Fri",
       "from": "15:00",
       "till": "15:45",
@@ -3008,7 +3560,20 @@
       "assigned": []
     },
     {
-      "id": 111,
+      "id": 114,
+      "date": "08-14 Fri",
+      "from": "15:00",
+      "till": "19:00",
+      "what": "Driverless Skidpad",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 115,
       "date": "08-14 Fri",
       "from": "17:30",
       "till": "18:00",
@@ -3021,7 +3586,7 @@
       "assigned": []
     },
     {
-      "id": 112,
+      "id": 116,
       "date": "08-14 Fri",
       "from": "18:00",
       "till": "20:30",
@@ -3079,7 +3644,7 @@
       ]
     },
     {
-      "id": 113,
+      "id": 117,
       "date": "08-14 Fri",
       "from": "18:30",
       "till": "21:30",
@@ -3092,7 +3657,7 @@
       "assigned": []
     },
     {
-      "id": 114,
+      "id": 118,
       "date": "08-14 Fri",
       "from": "19:00",
       "till": "19:30",
@@ -3105,7 +3670,7 @@
       "assigned": []
     },
     {
-      "id": 115,
+      "id": 119,
       "date": "08-14 Fri",
       "from": "19:30",
       "till": "20:00",
@@ -3118,20 +3683,7 @@
       "assigned": []
     },
     {
-      "id": 116,
-      "date": "08-14 Fri",
-      "from": "20:00",
-      "till": "22:00",
-      "what": "Ticket Centre",
-      "where": "Tickets",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
-      "assigned": []
-    },
-    {
-      "id": 117,
+      "id": 120,
       "date": "08-14 Fri",
       "from": "20:00",
       "till": "20:30",
@@ -3144,7 +3696,20 @@
       "assigned": []
     },
     {
-      "id": 118,
+      "id": 121,
+      "date": "08-14 Fri",
+      "from": "20:00",
+      "till": "22:00",
+      "what": "Ticket Centre",
+      "where": "Tickets",
+      "category": "Event Support",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "assigned": []
+    },
+    {
+      "id": 122,
       "date": "08-14 Fri",
       "from": "20:30",
       "till": "",
@@ -3202,7 +3767,7 @@
       ]
     },
     {
-      "id": 119,
+      "id": 123,
       "date": "08-14 Fri",
       "from": "21:00",
       "till": "23:59",
@@ -3215,16 +3780,16 @@
       "assigned": []
     },
     {
-      "id": 120,
+      "id": 124,
       "date": "08-15 Sat",
-      "from": "0:00",
-      "till": "1:00",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
+      "from": "1:30",
+      "till": "7:30",
+      "what": "TK buildup Trackdrive",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
       "relevant": "info",
-      "comment": "any time/at least some shots",
+      "comment": "means: take a few pictures of the TK guys",
       "assigned": [
         {
           "name": "Axel",
@@ -3273,20 +3838,7 @@
       ]
     },
     {
-      "id": 121,
-      "date": "08-15 Sat",
-      "from": "1:30",
-      "till": "7:30",
-      "what": "TK buildup Trackdrive",
-      "where": "Dynamic",
-      "category": "TK",
-      "notes": "",
-      "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
-    },
-    {
-      "id": 122,
+      "id": 125,
       "date": "08-15 Sat",
       "from": "6:00",
       "till": "23:59",
@@ -3344,7 +3896,33 @@
       ]
     },
     {
-      "id": 123,
+      "id": 126,
+      "date": "08-15 Sat",
+      "from": "7:30",
+      "till": "8:00",
+      "what": "Driverless Trackdrive Course Walk",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 127,
+      "date": "08-15 Sat",
+      "from": "7:30",
+      "till": "8:30",
+      "what": "Emergency Brake System (EBS) Test re-pass only[on request]",
+      "where": "Dynamic A",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 128,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "",
@@ -3402,33 +3980,7 @@
       ]
     },
     {
-      "id": 124,
-      "date": "08-15 Sat",
-      "from": "7:30",
-      "till": "8:00",
-      "what": "Driverless Trackdrive Course Walk",
-      "where": "Dynamic",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 125,
-      "date": "08-15 Sat",
-      "from": "7:30",
-      "till": "8:30",
-      "what": "Emergency Brake System (EBS) Test re-pass only[on request]",
-      "where": "Dynamic A",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 126,
+      "id": 129,
       "date": "08-15 Sat",
       "from": "7:40",
       "till": "18:30",
@@ -3441,7 +3993,162 @@
       "assigned": []
     },
     {
-      "id": 127,
+      "id": 130,
+      "date": "08-15 Sat",
+      "from": "8:00",
+      "till": "12:00",
+      "what": "Test Area MV",
+      "where": "Test A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "date": "08-15 Sat",
+      "from": "8:00",
+      "till": "12:00",
+      "what": "Charging Area available",
+      "where": "Charging",
+      "category": "Place",
+      "notes": "gate 6",
+      "relevant": "info",
+      "comment": "any time/at least some shots",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "date": "08-15 Sat",
+      "from": "8:00",
+      "till": "12:00",
+      "what": "Technical Inspections Brake, Egress, Rain [on request]",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 133,
+      "date": "08-15 Sat",
+      "from": "8:00",
+      "till": "13:00",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "Event Support",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once or twice a week",
+      "assigned": []
+    },
+    {
+      "id": 134,
+      "date": "08-15 Sat",
+      "from": "8:00",
+      "till": "13:30",
+      "what": "Manual Acceleration",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-b",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 135,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "",
@@ -3499,162 +4206,7 @@
       ]
     },
     {
-      "id": 128,
-      "date": "08-15 Sat",
-      "from": "8:00",
-      "till": "12:00",
-      "what": "Test Area MV",
-      "where": "Test A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 129,
-      "date": "08-15 Sat",
-      "from": "8:00",
-      "till": "12:00",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 130,
-      "date": "08-15 Sat",
-      "from": "8:00",
-      "till": "13:30",
-      "what": "Manual Acceleration",
-      "where": "S/F Line",
-      "category": "Dynamics",
-      "notes": "gate 2-b",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 131,
-      "date": "08-15 Sat",
-      "from": "8:00",
-      "till": "13:00",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 132,
-      "date": "08-15 Sat",
-      "from": "8:00",
-      "till": "12:00",
-      "what": "Technical Inspections Brake, Egress, Rain [on request]",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 133,
+      "id": 136,
       "date": "08-15 Sat",
       "from": "8:30",
       "till": "12:30",
@@ -3667,7 +4219,33 @@
       "assigned": []
     },
     {
-      "id": 134,
+      "id": 137,
+      "date": "08-15 Sat",
+      "from": "9:00",
+      "till": "10:00",
+      "what": "Fire Extinguisher Training for Weekend Redshirts",
+      "where": "Dynamic",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 138,
+      "date": "08-15 Sat",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "FSG Academy On Site",
+      "where": "Rav T. F03 A, Rav T. F03 B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day",
+      "assigned": []
+    },
+    {
+      "id": 139,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "23:00",
@@ -3725,33 +4303,7 @@
       ]
     },
     {
-      "id": 135,
-      "date": "08-15 Sat",
-      "from": "9:00",
-      "till": "18:00",
-      "what": "FSG Academy On Site",
-      "where": "Rav T. F03 A, Rav T. F03 B",
-      "category": "Academy",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once a day",
-      "assigned": []
-    },
-    {
-      "id": 136,
-      "date": "08-15 Sat",
-      "from": "9:00",
-      "till": "10:00",
-      "what": "Fire Extinguisher Training for Weekend Redshirts",
-      "where": "Dynamic",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 137,
+      "id": 140,
       "date": "08-15 Sat",
       "from": "10:00",
       "till": "11:00",
@@ -3764,7 +4316,7 @@
       "assigned": []
     },
     {
-      "id": 138,
+      "id": 141,
       "date": "08-15 Sat",
       "from": "12:00",
       "till": "14:30",
@@ -3822,7 +4374,7 @@
       ]
     },
     {
-      "id": 139,
+      "id": 142,
       "date": "08-15 Sat",
       "from": "12:30",
       "till": "14:00",
@@ -3832,10 +4384,68 @@
       "notes": "",
       "relevant": "info",
       "comment": "means: take a few pictures of the TK guys",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "date": "08-15 Sat",
+      "from": "13:00",
+      "till": "17:00",
+      "what": "World Concil",
+      "where": "BW L04 R03",
+      "category": "",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
       "assigned": []
     },
     {
-      "id": 140,
+      "id": 144,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "19:00",
@@ -3893,7 +4503,20 @@
       ]
     },
     {
-      "id": 141,
+      "id": 145,
+      "date": "08-15 Sat",
+      "from": "13:00",
+      "till": "20:00",
+      "what": "Technical Inspections Brake, Egress, Rain [on request]",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 146,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "22:00",
@@ -3951,20 +4574,7 @@
       ]
     },
     {
-      "id": 142,
-      "date": "08-15 Sat",
-      "from": "13:00",
-      "till": "20:00",
-      "what": "Technical Inspections Brake, Egress, Rain [on request]",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 143,
+      "id": 147,
       "date": "08-15 Sat",
       "from": "14:00",
       "till": "19:00",
@@ -3977,65 +4587,20 @@
       "assigned": []
     },
     {
-      "id": 144,
+      "id": 148,
       "date": "08-15 Sat",
       "from": "14:30",
-      "till": "",
-      "what": "Queue Open for: Manual Autrocross",
+      "till": "14:55",
+      "what": "Autocross Course Walk",
       "where": "Dynamic",
       "category": "Dynamics",
       "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
     },
     {
-      "id": 145,
+      "id": 149,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "19:00",
@@ -4093,20 +4658,65 @@
       ]
     },
     {
-      "id": 146,
+      "id": 150,
       "date": "08-15 Sat",
       "from": "14:30",
-      "till": "14:55",
-      "what": "Autocross Course Walk",
+      "till": "",
+      "what": "Queue Open for: Manual Autrocross",
       "where": "Dynamic",
       "category": "Dynamics",
       "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
     },
     {
-      "id": 147,
+      "id": 151,
       "date": "08-15 Sat",
       "from": "15:00",
       "till": "19:30",
@@ -4119,7 +4729,7 @@
       "assigned": []
     },
     {
-      "id": 148,
+      "id": 152,
       "date": "08-15 Sat",
       "from": "19:15",
       "till": "21:00",
@@ -4132,33 +4742,7 @@
       "assigned": []
     },
     {
-      "id": 149,
-      "date": "08-15 Sat",
-      "from": "19:30",
-      "till": "23:00",
-      "what": "TK buildup Endurance",
-      "where": "Dynamic",
-      "category": "TK",
-      "notes": "",
-      "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
-    },
-    {
-      "id": 150,
-      "date": "08-15 Sat",
-      "from": "19:30",
-      "till": "21:00",
-      "what": "Dinner (Volunteers BBQ)",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 151,
+      "id": 153,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "20:00",
@@ -4171,7 +4755,78 @@
       "assigned": []
     },
     {
-      "id": 152,
+      "id": 154,
+      "date": "08-15 Sat",
+      "from": "19:30",
+      "till": "21:00",
+      "what": "Dinner (Volunteers BBQ)",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 155,
+      "date": "08-15 Sat",
+      "from": "19:30",
+      "till": "23:00",
+      "what": "TK buildup Endurance",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
+      "relevant": "info",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 156,
       "date": "08-15 Sat",
       "from": "21:00",
       "till": "22:00",
@@ -4184,7 +4839,7 @@
       "assigned": []
     },
     {
-      "id": 153,
+      "id": 157,
       "date": "08-16 Sun",
       "from": "6:00",
       "till": "15:00",
@@ -4242,7 +4897,7 @@
       ]
     },
     {
-      "id": 154,
+      "id": 158,
       "date": "08-16 Sun",
       "from": "7:00",
       "till": "12:00",
@@ -4300,7 +4955,7 @@
       ]
     },
     {
-      "id": 155,
+      "id": 159,
       "date": "08-16 Sun",
       "from": "7:30",
       "till": "12:30",
@@ -4313,7 +4968,7 @@
       "assigned": []
     },
     {
-      "id": 156,
+      "id": 160,
       "date": "08-16 Sun",
       "from": "7:40",
       "till": "15:00",
@@ -4326,7 +4981,20 @@
       "assigned": []
     },
     {
-      "id": 157,
+      "id": 161,
+      "date": "08-16 Sun",
+      "from": "8:00",
+      "till": "8:25",
+      "what": "Endurance Course Walk",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 162,
       "date": "08-16 Sun",
       "from": "8:00",
       "till": "",
@@ -4384,20 +5052,7 @@
       ]
     },
     {
-      "id": 158,
-      "date": "08-16 Sun",
-      "from": "8:00",
-      "till": "8:25",
-      "what": "Endurance Course Walk",
-      "where": "Dynamic",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 159,
+      "id": 163,
       "date": "08-16 Sun",
       "from": "8:30",
       "till": "12:00",
@@ -4410,65 +5065,7 @@
       "assigned": []
     },
     {
-      "id": 160,
-      "date": "08-16 Sun",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Test Area MV",
-      "where": "Test A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 161,
+      "id": 164,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "12:00",
@@ -4526,7 +5123,65 @@
       ]
     },
     {
-      "id": 162,
+      "id": 165,
+      "date": "08-16 Sun",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area MV",
+      "where": "Test A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 166,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "17:00",
@@ -4539,7 +5194,7 @@
       "assigned": []
     },
     {
-      "id": 163,
+      "id": 167,
       "date": "08-16 Sun",
       "from": "11:30",
       "till": "13:30",
@@ -4597,7 +5252,7 @@
       ]
     },
     {
-      "id": 164,
+      "id": 168,
       "date": "08-16 Sun",
       "from": "12:00",
       "till": "18:00",
@@ -4655,7 +5310,7 @@
       ]
     },
     {
-      "id": 165,
+      "id": 169,
       "date": "08-16 Sun",
       "from": "13:00",
       "till": "16:00",
@@ -4713,7 +5368,7 @@
       ]
     },
     {
-      "id": 166,
+      "id": 170,
       "date": "08-16 Sun",
       "from": "13:00",
       "till": "16:00",
@@ -4726,7 +5381,7 @@
       "assigned": []
     },
     {
-      "id": 167,
+      "id": 171,
       "date": "08-16 Sun",
       "from": "14:00",
       "till": "19:00",
@@ -4739,7 +5394,7 @@
       "assigned": []
     },
     {
-      "id": 168,
+      "id": 172,
       "date": "08-16 Sun",
       "from": "19:30",
       "till": "20:00",
@@ -4797,7 +5452,7 @@
       ]
     },
     {
-      "id": 169,
+      "id": 173,
       "date": "08-16 Sun",
       "from": "19:45",
       "till": "20:00",
@@ -4810,7 +5465,7 @@
       "assigned": []
     },
     {
-      "id": 170,
+      "id": 174,
       "date": "08-16 Sun",
       "from": "20:00",
       "till": "21:00",
@@ -4823,7 +5478,7 @@
       "assigned": []
     },
     {
-      "id": 171,
+      "id": 175,
       "date": "08-16 Sun",
       "from": "21:00",
       "till": "23:59",
@@ -4836,7 +5491,7 @@
       "assigned": []
     },
     {
-      "id": 172,
+      "id": 176,
       "date": "08-17 Mon",
       "from": "13:00",
       "till": "13:30",
