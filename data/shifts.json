@@ -452,52 +452,7 @@
       "notes": "",
       "relevant": "yes",
       "comment": "shift - any time/at least some shots (also drop by the ticket center on the way)",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
       "id": 15,
