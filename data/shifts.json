@@ -1,74 +1,29 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv",
-  "count": 176,
+  "count": 171,
   "shifts": [
     {
       "id": 1,
-      "date": "08-07 Fri",
-      "from": "19:00",
-      "till": "21:00",
-      "what": "Dinner",
-      "where": "Venue",
-      "category": "Meals",
-      "notes": "Delivery Service",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "date": "08-10 Mon",
+      "from": "11:00",
+      "till": "11:30",
+      "what": "OT-Meeting",
+      "where": "Culina",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
     },
     {
       "id": 2,
-      "date": "08-08 Sat",
-      "from": "19:00",
-      "till": "21:00",
-      "what": "Dinner",
-      "where": "Moni",
+      "date": "08-10 Mon",
+      "from": "13:00",
+      "till": "13:30",
+      "what": "Lunch (Pizza)",
+      "where": "Culina",
       "category": "Meals",
-      "notes": "Nordring 1, HD <a href=\"https://fsg.one/djk\">fsg.one/djk</a>",
+      "notes": "",
       "relevant": "info",
       "comment": "",
       "assigned": [
@@ -120,193 +75,6 @@
     },
     {
       "id": 3,
-      "date": "08-09 Sun",
-      "from": "13:00",
-      "till": "13:30",
-      "what": "Lunch (Pizza)",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 4,
-      "date": "08-09 Sun",
-      "from": "19:00",
-      "till": "21:00",
-      "what": "Dinner",
-      "where": "Moni",
-      "category": "Meals",
-      "notes": "Nordring 1, HD <a href=\"https://fsg.one/djk\">fsg.one/djk</a>",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 5,
-      "date": "08-10 Mon",
-      "from": "11:00",
-      "till": "11:30",
-      "what": "OT-Meeting",
-      "where": "Culina",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 6,
-      "date": "08-10 Mon",
-      "from": "13:00",
-      "till": "13:30",
-      "what": "Lunch (Pizza)",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 7,
       "date": "08-10 Mon",
       "from": "15:00",
       "till": "16:00",
@@ -319,7 +87,7 @@
       "assigned": []
     },
     {
-      "id": 8,
+      "id": 4,
       "date": "08-10 Mon",
       "from": "16:00",
       "till": "17:00",
@@ -332,7 +100,7 @@
       "assigned": []
     },
     {
-      "id": 9,
+      "id": 5,
       "date": "08-10 Mon",
       "from": "16:30",
       "till": "18:00",
@@ -390,7 +158,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": 6,
       "date": "08-10 Mon",
       "from": "17:00",
       "till": "18:00",
@@ -403,7 +171,7 @@
       "assigned": []
     },
     {
-      "id": 11,
+      "id": 7,
       "date": "08-10 Mon",
       "from": "18:00",
       "till": "19:00",
@@ -416,7 +184,7 @@
       "assigned": []
     },
     {
-      "id": 12,
+      "id": 8,
       "date": "08-10 Mon",
       "from": "18:00",
       "till": "19:30",
@@ -429,7 +197,7 @@
       "assigned": []
     },
     {
-      "id": 13,
+      "id": 9,
       "date": "08-10 Mon",
       "from": "18:00",
       "till": "23:00",
@@ -437,12 +205,12 @@
       "where": "Venue",
       "category": "Officials",
       "notes": "",
-      "relevant": "yes",
+      "relevant": "info",
       "comment": "shift - any time/at least some shots (also drop by the ticket center on the way)",
       "assigned": []
     },
     {
-      "id": 14,
+      "id": 10,
       "date": "08-11 Tue",
       "from": "7:00",
       "till": "20:00",
@@ -450,12 +218,12 @@
       "where": "Venue",
       "category": "Officials",
       "notes": "",
-      "relevant": "yes",
+      "relevant": "info",
       "comment": "shift - any time/at least some shots (also drop by the ticket center on the way)",
       "assigned": []
     },
     {
-      "id": 15,
+      "id": 11,
       "date": "08-11 Tue",
       "from": "8:00",
       "till": "23:59",
@@ -468,7 +236,7 @@
       "assigned": []
     },
     {
-      "id": 16,
+      "id": 12,
       "date": "08-11 Tue",
       "from": "8:00",
       "till": "",
@@ -481,7 +249,7 @@
       "assigned": []
     },
     {
-      "id": 17,
+      "id": 13,
       "date": "08-11 Tue",
       "from": "8:30",
       "till": "12:30",
@@ -499,7 +267,7 @@
       ]
     },
     {
-      "id": 18,
+      "id": 14,
       "date": "08-11 Tue",
       "from": "9:00",
       "till": "23:00",
@@ -512,7 +280,7 @@
       "assigned": []
     },
     {
-      "id": 19,
+      "id": 15,
       "date": "08-11 Tue",
       "from": "9:30",
       "till": "10:00",
@@ -530,7 +298,7 @@
       ]
     },
     {
-      "id": 20,
+      "id": 16,
       "date": "08-11 Tue",
       "from": "10:00",
       "till": "11:45",
@@ -552,7 +320,7 @@
       ]
     },
     {
-      "id": 21,
+      "id": 17,
       "date": "08-11 Tue",
       "from": "10:00",
       "till": "12:45",
@@ -561,7 +329,7 @@
       "category": "Inspection",
       "notes": "gate 1",
       "relevant": "yes",
-      "comment": "all",
+      "comment": "shift",
       "assigned": [
         {
           "name": "Felix",
@@ -578,7 +346,7 @@
       ]
     },
     {
-      "id": 22,
+      "id": 18,
       "date": "08-11 Tue",
       "from": "12:00",
       "till": "14:00",
@@ -591,7 +359,7 @@
       "assigned": []
     },
     {
-      "id": 23,
+      "id": 19,
       "date": "08-11 Tue",
       "from": "13:00",
       "till": "20:00",
@@ -617,7 +385,7 @@
       ]
     },
     {
-      "id": 24,
+      "id": 20,
       "date": "08-11 Tue",
       "from": "14:00",
       "till": "20:00",
@@ -626,7 +394,7 @@
       "category": "Inspection",
       "notes": "gate 1",
       "relevant": "yes",
-      "comment": "all",
+      "comment": "shift",
       "assigned": [
         {
           "name": "Axel",
@@ -643,7 +411,7 @@
       ]
     },
     {
-      "id": 25,
+      "id": 21,
       "date": "08-11 Tue",
       "from": "14:00",
       "till": "",
@@ -656,7 +424,7 @@
       "assigned": []
     },
     {
-      "id": 26,
+      "id": 22,
       "date": "08-11 Tue",
       "from": "18:00",
       "till": "20:30",
@@ -669,7 +437,7 @@
       "assigned": []
     },
     {
-      "id": 27,
+      "id": 23,
       "date": "08-11 Tue",
       "from": "19:00",
       "till": "19:30",
@@ -682,7 +450,7 @@
       "assigned": []
     },
     {
-      "id": 28,
+      "id": 24,
       "date": "08-11 Tue",
       "from": "20:15",
       "till": "20:45",
@@ -700,7 +468,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": 25,
       "date": "08-12 Wed",
       "from": "6:00",
       "till": "14:00",
@@ -710,55 +478,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 30,
+      "id": 26,
       "date": "08-12 Wed",
       "from": "7:00",
       "till": "14:00",
@@ -766,12 +489,12 @@
       "where": "Venue",
       "category": "Officials",
       "notes": "",
-      "relevant": "yes",
+      "relevant": "info",
       "comment": "shift - any time/at least some shots (also drop by the ticket center on the way)",
       "assigned": []
     },
     {
-      "id": 31,
+      "id": 27,
       "date": "08-12 Wed",
       "from": "9:00",
       "till": "12:45",
@@ -781,55 +504,10 @@
       "notes": "gate 6",
       "relevant": "info",
       "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 32,
+      "id": 28,
       "date": "08-12 Wed",
       "from": "9:00",
       "till": "12:45",
@@ -839,10 +517,23 @@
       "notes": "gate 1",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "09:00 - 10:30"
+        },
+        {
+          "name": "Camilla",
+          "slot": "12:00 - 12:45"
+        },
+        {
+          "name": "Lilian",
+          "slot": "10:30 - 12:00"
+        }
+      ]
     },
     {
-      "id": 33,
+      "id": 29,
       "date": "08-12 Wed",
       "from": "9:00",
       "till": "13:15",
@@ -851,11 +542,24 @@
       "category": "Inspection",
       "notes": "gate 1",
       "relevant": "yes",
-      "comment": "all",
-      "assigned": []
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "09:00 - 10:30"
+        },
+        {
+          "name": "Camilla",
+          "slot": "12:00 - 12:45"
+        },
+        {
+          "name": "Lilian",
+          "slot": "10:30 - 12:00"
+        }
+      ]
     },
     {
-      "id": 34,
+      "id": 30,
       "date": "08-12 Wed",
       "from": "9:00",
       "till": "23:00",
@@ -865,13 +569,61 @@
       "notes": "",
       "relevant": "info",
       "comment": "try to catch some photos",
+      "assigned": []
+    },
+    {
+      "id": 31,
+      "date": "08-12 Wed",
+      "from": "10:00",
+      "till": "11:00",
+      "what": "Scouting for Panoramic Picture",
+      "where": "Dynamic",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 32,
+      "date": "08-12 Wed",
+      "from": "11:00",
+      "till": "13:00",
+      "what": "TK buildup Brake Test",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
+      "relevant": "info",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": []
+    },
+    {
+      "id": 33,
+      "date": "08-12 Wed",
+      "from": "12:00",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 34,
+      "date": "08-12 Wed",
+      "from": "14:00",
+      "till": "14:30",
+      "what": "Briefing for Panoramic Picture",
+      "where": "Sachshaus",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
       "assigned": [
         {
           "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
           "slot": "X"
         },
         {
@@ -915,148 +667,6 @@
     {
       "id": 35,
       "date": "08-12 Wed",
-      "from": "10:00",
-      "till": "11:00",
-      "what": "Scouting for Panoramic Picture",
-      "where": "Dynamic",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 36,
-      "date": "08-12 Wed",
-      "from": "11:00",
-      "till": "13:00",
-      "what": "TK buildup Brake Test",
-      "where": "Dynamic",
-      "category": "TK",
-      "notes": "",
-      "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 37,
-      "date": "08-12 Wed",
-      "from": "12:00",
-      "till": "14:00",
-      "what": "Lunch",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 38,
-      "date": "08-12 Wed",
-      "from": "14:00",
-      "till": "14:30",
-      "what": "Briefing for Panoramic Picture",
-      "where": "Sachshaus",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 39,
-      "date": "08-12 Wed",
       "from": "14:00",
       "till": "17:00",
       "what": "Ticket Centre",
@@ -1064,11 +674,16 @@
       "category": "Event Support",
       "notes": "",
       "relevant": "yes",
-      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
-      "assigned": []
+      "comment": "a few shots are enough",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "14:00 - 17:00"
+        }
+      ]
     },
     {
-      "id": 40,
+      "id": 36,
       "date": "08-12 Wed",
       "from": "14:00",
       "till": "18:00",
@@ -1078,55 +693,10 @@
       "notes": "gate 6",
       "relevant": "info",
       "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 41,
+      "id": 37,
       "date": "08-12 Wed",
       "from": "14:00",
       "till": "19:00",
@@ -1134,12 +704,12 @@
       "where": "EvC",
       "category": "Event Support",
       "notes": "",
-      "relevant": "yes",
+      "relevant": "info",
       "comment": "once or twice a week",
       "assigned": []
     },
     {
-      "id": 42,
+      "id": 38,
       "date": "08-12 Wed",
       "from": "14:00",
       "till": "",
@@ -1149,55 +719,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 43,
+      "id": 39,
       "date": "08-12 Wed",
       "from": "14:30",
       "till": "17:15",
@@ -1206,11 +731,16 @@
       "category": "Inspection",
       "notes": "gate 1",
       "relevant": "yes",
-      "comment": "all",
-      "assigned": []
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "14:30 - 15:30"
+        }
+      ]
     },
     {
-      "id": 44,
+      "id": 40,
       "date": "08-12 Wed",
       "from": "14:30",
       "till": "18:00",
@@ -1220,10 +750,15 @@
       "notes": "gate 1",
       "relevant": "yes",
       "comment": "",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "14:30 - 15:30"
+        }
+      ]
     },
     {
-      "id": 45,
+      "id": 41,
       "date": "08-12 Wed",
       "from": "15:00",
       "till": "17:10",
@@ -1233,10 +768,23 @@
       "notes": "",
       "relevant": "yes",
       "comment": "https://schedule.fsg.one/detailed/team?ed=8&ax=pub&day=2026-8-13&span=week&f=eyJhY3Rpdml0eSI6eyJpbmNsdWRlIjpbXSwiZXhjbHVkZSI6W10sImluY2x1ZGVQYXJlbnRzIjpbMzddfX0",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "15:00 - 17:10"
+        },
+        {
+          "name": "Felix",
+          "slot": "15:00 - 17:10"
+        },
+        {
+          "name": "Niklas",
+          "slot": "15:00 - 17:10"
+        }
+      ]
     },
     {
-      "id": 46,
+      "id": 42,
       "date": "08-12 Wed",
       "from": "15:00",
       "till": "18:45",
@@ -1245,11 +793,28 @@
       "category": "Statics",
       "notes": "",
       "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
+      "comment": "cover 2-3 presentations; in BW AND Ravenol tower",
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "15:00 - 17:00"
+        },
+        {
+          "name": "Ronja",
+          "slot": "17:00 - 18:45"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "15:00 - 17:00"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "17:00 - 18:45"
+        }
+      ]
     },
     {
-      "id": 47,
+      "id": 43,
       "date": "08-12 Wed",
       "from": "18:00",
       "till": "20:30",
@@ -1259,55 +824,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 48,
+      "id": 44,
       "date": "08-12 Wed",
       "from": "18:30",
       "till": "19:30",
@@ -1317,110 +837,6 @@
       "notes": "gate 5",
       "relevant": "yes",
       "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 49,
-      "date": "08-12 Wed",
-      "from": "18:45",
-      "till": "19:00",
-      "what": "Judge Picture: Business",
-      "where": "BW Roof",
-      "category": "Statics",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift - on the rooftop of the BW tower ~30",
-      "assigned": []
-    },
-    {
-      "id": 50,
-      "date": "08-12 Wed",
-      "from": "19:00",
-      "till": "19:15",
-      "what": "Judge Picture: Cost",
-      "where": "BW Roof",
-      "category": "Statics",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift - on the rooftop of the BW tower ~30",
-      "assigned": []
-    },
-    {
-      "id": 51,
-      "date": "08-12 Wed",
-      "from": "19:00",
-      "till": "20:00",
-      "what": "Track Marshal Briefing",
-      "where": "Brunel Cont.",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 52,
-      "date": "08-12 Wed",
-      "from": "19:15",
-      "till": "19:30",
-      "what": "Judge Picture: Design",
-      "where": "BW Roof",
-      "category": "Statics",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift - on the rooftop of the BW tower ~80",
-      "assigned": []
-    },
-    {
-      "id": 53,
-      "date": "08-12 Wed",
-      "from": "19:30",
-      "till": "20:00",
-      "what": "Staging of Team Members for Panoramic Picture",
-      "where": "Dynamic",
-      "category": "PR＋Media",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 54,
-      "date": "08-12 Wed",
-      "from": "20:30",
-      "till": "21:00",
-      "what": "OT-Meeting",
-      "where": "BW L04 R03",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 55,
-      "date": "08-12 Wed",
-      "from": "21:00",
-      "till": "22:00",
-      "what": "Team Welcome",
-      "where": "Marquee",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 56,
-      "date": "08-13 Thu",
-      "from": "7:00",
-      "till": "20:30",
-      "what": "Strawberry Basket available",
-      "where": "Marquee",
-      "category": "Statics",
-      "notes": "90 min before Statics begin on Marquee",
-      "relevant": "info",
-      "comment": "visit them - take a couple of pictures of the whole crew together with cost/design",
       "assigned": [
         {
           "name": "Axel",
@@ -1436,10 +852,6 @@
         },
         {
           "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
           "slot": "X"
         },
         {
@@ -1469,7 +881,172 @@
       ]
     },
     {
-      "id": 57,
+      "id": 45,
+      "date": "08-12 Wed",
+      "from": "18:45",
+      "till": "19:00",
+      "what": "Judge Picture: Business",
+      "where": "BW Roof",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - on the rooftop of the BW tower ~30",
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "18:45 - 19:00"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "date": "08-12 Wed",
+      "from": "19:00",
+      "till": "19:15",
+      "what": "Judge Picture: Cost",
+      "where": "BW Roof",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - on the rooftop of the BW tower ~30",
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "19:00 - 19:15"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "date": "08-12 Wed",
+      "from": "19:00",
+      "till": "20:00",
+      "what": "Track Marshal Briefing",
+      "where": "Brunel Cont.",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Shengkai",
+          "slot": "19:00 - 20:00"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "date": "08-12 Wed",
+      "from": "19:15",
+      "till": "19:30",
+      "what": "Judge Picture: Design",
+      "where": "BW Roof",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - on the rooftop of the BW tower ~80",
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "19:15 - 19:30"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "date": "08-12 Wed",
+      "from": "19:30",
+      "till": "20:00",
+      "what": "Staging of Team Members for Panoramic Picture",
+      "where": "Dynamic",
+      "category": "PR＋Media",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        },
+        {
+          "name": "photographer11",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "date": "08-12 Wed",
+      "from": "21:00",
+      "till": "22:00",
+      "what": "Team Welcome",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "date": "08-13 Thu",
+      "from": "7:00",
+      "till": "20:30",
+      "what": "Strawberry Basket available",
+      "where": "Marquee",
+      "category": "Statics",
+      "notes": "90 min before Statics begin on Marquee",
+      "relevant": "info",
+      "comment": "visit them - take a couple of pictures of the whole crew together with cost/design",
+      "assigned": []
+    },
+    {
+      "id": 52,
       "date": "08-13 Thu",
       "from": "7:40",
       "till": "18:00",
@@ -1478,11 +1055,16 @@
       "category": "Event Support",
       "notes": "",
       "relevant": "yes",
-      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
-      "assigned": []
+      "comment": "a few shots are enough",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "X"
+        }
+      ]
     },
     {
-      "id": 58,
+      "id": 53,
       "date": "08-13 Thu",
       "from": "8:30",
       "till": "11:30",
@@ -1491,11 +1073,11 @@
       "category": "Statics",
       "notes": "in: gate 4 / out: gate 3",
       "relevant": "yes",
-      "comment": "cover 2-3 presentations",
+      "comment": "",
       "assigned": []
     },
     {
-      "id": 59,
+      "id": 54,
       "date": "08-13 Thu",
       "from": "8:30",
       "till": "12:30",
@@ -1508,7 +1090,7 @@
       "assigned": []
     },
     {
-      "id": 60,
+      "id": 55,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "11:45",
@@ -1517,11 +1099,11 @@
       "category": "Inspection",
       "notes": "gate 1",
       "relevant": "yes",
-      "comment": "all",
+      "comment": "shift",
       "assigned": []
     },
     {
-      "id": 61,
+      "id": 56,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1531,55 +1113,10 @@
       "notes": "gate 5",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 62,
+      "id": 57,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1589,55 +1126,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 63,
+      "id": 58,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1646,11 +1138,11 @@
       "category": "Statics",
       "notes": "",
       "relevant": "yes",
-      "comment": "shift",
+      "comment": "cover 2-3 presentations; in BW AND Ravenol tower",
       "assigned": []
     },
     {
-      "id": 64,
+      "id": 59,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1663,7 +1155,7 @@
       "assigned": []
     },
     {
-      "id": 65,
+      "id": 60,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1676,7 +1168,7 @@
       "assigned": []
     },
     {
-      "id": 66,
+      "id": 61,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:45",
@@ -1686,55 +1178,10 @@
       "notes": "gate 6",
       "relevant": "info",
       "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 67,
+      "id": 62,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:45",
@@ -1747,7 +1194,7 @@
       "assigned": []
     },
     {
-      "id": 68,
+      "id": 63,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "18:00",
@@ -1760,7 +1207,7 @@
       "assigned": []
     },
     {
-      "id": 69,
+      "id": 64,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "23:00",
@@ -1770,55 +1217,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "try to catch some photos",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 70,
+      "id": 65,
       "date": "08-13 Thu",
       "from": "9:30",
       "till": "11:50",
@@ -1831,7 +1233,7 @@
       "assigned": []
     },
     {
-      "id": 71,
+      "id": 66,
       "date": "08-13 Thu",
       "from": "12:00",
       "till": "14:00",
@@ -1841,55 +1243,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 72,
+      "id": 67,
       "date": "08-13 Thu",
       "from": "12:30",
       "till": "15:30",
@@ -1898,11 +1255,11 @@
       "category": "Statics",
       "notes": "in: gate 4 / out: gate 3",
       "relevant": "yes",
-      "comment": "cover 2-3 presentations",
+      "comment": "",
       "assigned": []
     },
     {
-      "id": 73,
+      "id": 68,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1912,55 +1269,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 74,
+      "id": 69,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1970,55 +1282,10 @@
       "notes": "gate 5",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 75,
+      "id": 70,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -2031,7 +1298,7 @@
       "assigned": []
     },
     {
-      "id": 76,
+      "id": 71,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -2044,7 +1311,7 @@
       "assigned": []
     },
     {
-      "id": 77,
+      "id": 72,
       "date": "08-13 Thu",
       "from": "13:30",
       "till": "17:15",
@@ -2053,11 +1320,11 @@
       "category": "Statics",
       "notes": "",
       "relevant": "yes",
-      "comment": "shift",
+      "comment": "cover 2-3 presentations; in BW AND Ravenol tower",
       "assigned": []
     },
     {
-      "id": 78,
+      "id": 73,
       "date": "08-13 Thu",
       "from": "14:00",
       "till": "19:00",
@@ -2067,55 +1334,10 @@
       "notes": "gate 6",
       "relevant": "info",
       "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 79,
+      "id": 74,
       "date": "08-13 Thu",
       "from": "14:00",
       "till": "19:00",
@@ -2128,7 +1350,7 @@
       "assigned": []
     },
     {
-      "id": 80,
+      "id": 75,
       "date": "08-13 Thu",
       "from": "15:00",
       "till": "17:10",
@@ -2141,7 +1363,7 @@
       "assigned": []
     },
     {
-      "id": 81,
+      "id": 76,
       "date": "08-13 Thu",
       "from": "16:00",
       "till": "19:00",
@@ -2151,55 +1373,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "means: take a few pictures of the TK guys",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 82,
+      "id": 77,
       "date": "08-13 Thu",
       "from": "16:00",
       "till": "19:00",
@@ -2208,11 +1385,11 @@
       "category": "Statics",
       "notes": "in: gate 4 / out: gate 3",
       "relevant": "yes",
-      "comment": "cover 2-3 presentations",
+      "comment": "",
       "assigned": []
     },
     {
-      "id": 83,
+      "id": 78,
       "date": "08-13 Thu",
       "from": "18:00",
       "till": "19:30",
@@ -2222,55 +1399,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "means: take a few pictures of the TK guys",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 84,
+      "id": 79,
       "date": "08-13 Thu",
       "from": "18:00",
       "till": "20:30",
@@ -2280,55 +1412,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 85,
+      "id": 80,
       "date": "08-13 Thu",
       "from": "20:30",
       "till": "21:30",
@@ -2341,7 +1428,7 @@
       "assigned": []
     },
     {
-      "id": 86,
+      "id": 81,
       "date": "08-13 Thu",
       "from": "21:00",
       "till": "21:30",
@@ -2354,7 +1441,7 @@
       "assigned": []
     },
     {
-      "id": 87,
+      "id": 82,
       "date": "08-14 Fri",
       "from": "7:30",
       "till": "8:00",
@@ -2367,7 +1454,7 @@
       "assigned": []
     },
     {
-      "id": 88,
+      "id": 83,
       "date": "08-14 Fri",
       "from": "7:40",
       "till": "18:30",
@@ -2376,11 +1463,11 @@
       "category": "Event Support",
       "notes": "",
       "relevant": "yes",
-      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "comment": "a few shots are enough",
       "assigned": []
     },
     {
-      "id": 89,
+      "id": 84,
       "date": "08-14 Fri",
       "from": "8:00",
       "till": "13:00",
@@ -2393,7 +1480,7 @@
       "assigned": []
     },
     {
-      "id": 90,
+      "id": 85,
       "date": "08-14 Fri",
       "from": "8:00",
       "till": "",
@@ -2403,55 +1490,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 91,
+      "id": 86,
       "date": "08-14 Fri",
       "from": "8:30",
       "till": "12:30",
@@ -2464,7 +1506,7 @@
       "assigned": []
     },
     {
-      "id": 92,
+      "id": 87,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -2474,55 +1516,10 @@
       "notes": "gate 5",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 93,
+      "id": 88,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -2532,55 +1529,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 94,
+      "id": 89,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -2590,55 +1542,10 @@
       "notes": "gate 6",
       "relevant": "info",
       "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 95,
+      "id": 90,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -2651,7 +1558,7 @@
       "assigned": []
     },
     {
-      "id": 96,
+      "id": 91,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -2664,7 +1571,7 @@
       "assigned": []
     },
     {
-      "id": 97,
+      "id": 92,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "18:00",
@@ -2677,7 +1584,7 @@
       "assigned": []
     },
     {
-      "id": 98,
+      "id": 93,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "23:00",
@@ -2687,55 +1594,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "try to catch some photos",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 99,
+      "id": 94,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "13:00",
@@ -2748,7 +1610,7 @@
       "assigned": []
     },
     {
-      "id": 100,
+      "id": 95,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "23:59",
@@ -2758,55 +1620,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 101,
+      "id": 96,
       "date": "08-14 Fri",
       "from": "12:00",
       "till": "14:00",
@@ -2816,55 +1633,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 102,
+      "id": 97,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "1:00",
@@ -2874,55 +1646,10 @@
       "notes": "gate 6",
       "relevant": "info",
       "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 103,
+      "id": 98,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "14:00",
@@ -2935,7 +1662,7 @@
       "assigned": []
     },
     {
-      "id": 104,
+      "id": 99,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "19:00",
@@ -2945,55 +1672,10 @@
       "notes": "gate 5",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 105,
+      "id": 100,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "19:00",
@@ -3003,55 +1685,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 106,
+      "id": 101,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "19:00",
@@ -3064,7 +1701,7 @@
       "assigned": []
     },
     {
-      "id": 107,
+      "id": 102,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "20:00",
@@ -3077,7 +1714,7 @@
       "assigned": []
     },
     {
-      "id": 108,
+      "id": 103,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "",
@@ -3087,55 +1724,10 @@
       "notes": "gate 2-b",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 109,
+      "id": 104,
       "date": "08-14 Fri",
       "from": "13:30",
       "till": "17:00",
@@ -3148,7 +1740,7 @@
       "assigned": []
     },
     {
-      "id": 110,
+      "id": 105,
       "date": "08-14 Fri",
       "from": "14:00",
       "till": "15:00",
@@ -3158,55 +1750,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "means: take a few pictures of the TK guys",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 111,
+      "id": 106,
       "date": "08-14 Fri",
       "from": "14:00",
       "till": "19:00",
@@ -3219,7 +1766,7 @@
       "assigned": []
     },
     {
-      "id": 112,
+      "id": 107,
       "date": "08-14 Fri",
       "from": "14:30",
       "till": "",
@@ -3229,55 +1776,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 113,
+      "id": 108,
       "date": "08-14 Fri",
       "from": "15:00",
       "till": "15:45",
@@ -3290,7 +1792,7 @@
       "assigned": []
     },
     {
-      "id": 114,
+      "id": 109,
       "date": "08-14 Fri",
       "from": "15:00",
       "till": "19:00",
@@ -3303,7 +1805,7 @@
       "assigned": []
     },
     {
-      "id": 115,
+      "id": 110,
       "date": "08-14 Fri",
       "from": "17:30",
       "till": "18:00",
@@ -3316,7 +1818,7 @@
       "assigned": []
     },
     {
-      "id": 116,
+      "id": 111,
       "date": "08-14 Fri",
       "from": "18:00",
       "till": "20:30",
@@ -3326,55 +1828,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 117,
+      "id": 112,
       "date": "08-14 Fri",
       "from": "18:30",
       "till": "21:30",
@@ -3387,7 +1844,7 @@
       "assigned": []
     },
     {
-      "id": 118,
+      "id": 113,
       "date": "08-14 Fri",
       "from": "19:00",
       "till": "19:30",
@@ -3400,7 +1857,7 @@
       "assigned": []
     },
     {
-      "id": 119,
+      "id": 114,
       "date": "08-14 Fri",
       "from": "19:30",
       "till": "20:00",
@@ -3413,7 +1870,7 @@
       "assigned": []
     },
     {
-      "id": 120,
+      "id": 115,
       "date": "08-14 Fri",
       "from": "20:00",
       "till": "20:30",
@@ -3426,7 +1883,7 @@
       "assigned": []
     },
     {
-      "id": 121,
+      "id": 116,
       "date": "08-14 Fri",
       "from": "20:00",
       "till": "22:00",
@@ -3435,11 +1892,11 @@
       "category": "Event Support",
       "notes": "",
       "relevant": "yes",
-      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "comment": "a few shots are enough",
       "assigned": []
     },
     {
-      "id": 122,
+      "id": 117,
       "date": "08-14 Fri",
       "from": "20:30",
       "till": "",
@@ -3449,55 +1906,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 123,
+      "id": 118,
       "date": "08-14 Fri",
       "from": "21:00",
       "till": "23:59",
@@ -3510,7 +1922,7 @@
       "assigned": []
     },
     {
-      "id": 124,
+      "id": 119,
       "date": "08-15 Sat",
       "from": "1:30",
       "till": "7:30",
@@ -3520,55 +1932,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "means: take a few pictures of the TK guys",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 125,
+      "id": 120,
       "date": "08-15 Sat",
       "from": "6:00",
       "till": "23:59",
@@ -3578,55 +1945,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 126,
+      "id": 121,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "8:00",
@@ -3639,7 +1961,7 @@
       "assigned": []
     },
     {
-      "id": 127,
+      "id": 122,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "8:30",
@@ -3652,7 +1974,7 @@
       "assigned": []
     },
     {
-      "id": 128,
+      "id": 123,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "",
@@ -3662,55 +1984,10 @@
       "notes": "gate 2-b",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 129,
+      "id": 124,
       "date": "08-15 Sat",
       "from": "7:40",
       "till": "18:30",
@@ -3719,11 +1996,11 @@
       "category": "Event Support",
       "notes": "",
       "relevant": "yes",
-      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "comment": "a few shots are enough",
       "assigned": []
     },
     {
-      "id": 130,
+      "id": 125,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "12:00",
@@ -3733,55 +2010,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 131,
+      "id": 126,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "12:00",
@@ -3791,55 +2023,10 @@
       "notes": "gate 6",
       "relevant": "info",
       "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 132,
+      "id": 127,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "12:00",
@@ -3852,7 +2039,7 @@
       "assigned": []
     },
     {
-      "id": 133,
+      "id": 128,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "13:00",
@@ -3865,7 +2052,7 @@
       "assigned": []
     },
     {
-      "id": 134,
+      "id": 129,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "13:30",
@@ -3878,7 +2065,7 @@
       "assigned": []
     },
     {
-      "id": 135,
+      "id": 130,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "",
@@ -3888,55 +2075,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 136,
+      "id": 131,
       "date": "08-15 Sat",
       "from": "8:30",
       "till": "12:30",
@@ -3949,7 +2091,7 @@
       "assigned": []
     },
     {
-      "id": 137,
+      "id": 132,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "10:00",
@@ -3962,7 +2104,7 @@
       "assigned": []
     },
     {
-      "id": 138,
+      "id": 133,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "18:00",
@@ -3975,7 +2117,7 @@
       "assigned": []
     },
     {
-      "id": 139,
+      "id": 134,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "23:00",
@@ -3985,55 +2127,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "try to catch some photos",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 140,
+      "id": 135,
       "date": "08-15 Sat",
       "from": "10:00",
       "till": "11:00",
@@ -4042,11 +2139,11 @@
       "category": "Officials",
       "notes": "",
       "relevant": "yes",
-      "comment": "shift",
+      "comment": "",
       "assigned": []
     },
     {
-      "id": 141,
+      "id": 136,
       "date": "08-15 Sat",
       "from": "12:00",
       "till": "14:30",
@@ -4056,55 +2153,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 142,
+      "id": 137,
       "date": "08-15 Sat",
       "from": "12:30",
       "till": "14:00",
@@ -4114,55 +2166,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "means: take a few pictures of the TK guys",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 143,
+      "id": 138,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "17:00",
@@ -4175,7 +2182,7 @@
       "assigned": []
     },
     {
-      "id": 144,
+      "id": 139,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "19:00",
@@ -4185,55 +2192,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 145,
+      "id": 140,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "20:00",
@@ -4246,7 +2208,7 @@
       "assigned": []
     },
     {
-      "id": 146,
+      "id": 141,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "22:00",
@@ -4256,55 +2218,10 @@
       "notes": "gate 6",
       "relevant": "info",
       "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 147,
+      "id": 142,
       "date": "08-15 Sat",
       "from": "14:00",
       "till": "19:00",
@@ -4317,7 +2234,7 @@
       "assigned": []
     },
     {
-      "id": 148,
+      "id": 143,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "14:55",
@@ -4330,7 +2247,7 @@
       "assigned": []
     },
     {
-      "id": 149,
+      "id": 144,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "19:00",
@@ -4340,55 +2257,10 @@
       "notes": "gate 2-a",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 150,
+      "id": 145,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "",
@@ -4398,55 +2270,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 151,
+      "id": 146,
       "date": "08-15 Sat",
       "from": "15:00",
       "till": "19:30",
@@ -4459,7 +2286,7 @@
       "assigned": []
     },
     {
-      "id": 152,
+      "id": 147,
       "date": "08-15 Sat",
       "from": "19:15",
       "till": "21:00",
@@ -4472,7 +2299,7 @@
       "assigned": []
     },
     {
-      "id": 153,
+      "id": 148,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "20:00",
@@ -4485,7 +2312,7 @@
       "assigned": []
     },
     {
-      "id": 154,
+      "id": 149,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "21:00",
@@ -4498,7 +2325,7 @@
       "assigned": []
     },
     {
-      "id": 155,
+      "id": 150,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "23:00",
@@ -4508,55 +2335,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "means: take a few pictures of the TK guys",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 156,
+      "id": 151,
       "date": "08-15 Sat",
       "from": "21:00",
       "till": "22:00",
@@ -4569,7 +2351,7 @@
       "assigned": []
     },
     {
-      "id": 157,
+      "id": 152,
       "date": "08-16 Sun",
       "from": "6:00",
       "till": "15:00",
@@ -4579,55 +2361,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 158,
+      "id": 153,
       "date": "08-16 Sun",
       "from": "7:00",
       "till": "12:00",
@@ -4637,55 +2374,10 @@
       "notes": "gate 6",
       "relevant": "info",
       "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 159,
+      "id": 154,
       "date": "08-16 Sun",
       "from": "7:30",
       "till": "12:30",
@@ -4698,7 +2390,7 @@
       "assigned": []
     },
     {
-      "id": 160,
+      "id": 155,
       "date": "08-16 Sun",
       "from": "7:40",
       "till": "15:00",
@@ -4707,11 +2399,11 @@
       "category": "Event Support",
       "notes": "Partial teardown to \"light\" operation, starting around 13:00 / 14:00",
       "relevant": "yes",
-      "comment": "shift - red shirts will announce when a team is doing a EBS test (tell them to tell us)",
+      "comment": "a few shots are enough",
       "assigned": []
     },
     {
-      "id": 161,
+      "id": 156,
       "date": "08-16 Sun",
       "from": "8:00",
       "till": "8:25",
@@ -4724,7 +2416,7 @@
       "assigned": []
     },
     {
-      "id": 162,
+      "id": 157,
       "date": "08-16 Sun",
       "from": "8:00",
       "till": "",
@@ -4734,55 +2426,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 163,
+      "id": 158,
       "date": "08-16 Sun",
       "from": "8:30",
       "till": "12:00",
@@ -4795,7 +2442,7 @@
       "assigned": []
     },
     {
-      "id": 164,
+      "id": 159,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "12:00",
@@ -4805,55 +2452,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "try to catch some photos",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 165,
+      "id": 160,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "12:00",
@@ -4863,55 +2465,10 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 166,
+      "id": 161,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "17:00",
@@ -4924,7 +2481,7 @@
       "assigned": []
     },
     {
-      "id": 167,
+      "id": 162,
       "date": "08-16 Sun",
       "from": "11:30",
       "till": "13:30",
@@ -4934,55 +2491,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 168,
+      "id": 163,
       "date": "08-16 Sun",
       "from": "12:00",
       "till": "18:00",
@@ -4992,55 +2504,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 169,
+      "id": 164,
       "date": "08-16 Sun",
       "from": "13:00",
       "till": "16:00",
@@ -5050,55 +2517,10 @@
       "notes": "gate 6",
       "relevant": "info",
       "comment": "any time/at least some shots",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 170,
+      "id": 165,
       "date": "08-16 Sun",
       "from": "13:00",
       "till": "16:00",
@@ -5111,7 +2533,7 @@
       "assigned": []
     },
     {
-      "id": 171,
+      "id": 166,
       "date": "08-16 Sun",
       "from": "14:00",
       "till": "19:00",
@@ -5124,7 +2546,7 @@
       "assigned": []
     },
     {
-      "id": 172,
+      "id": 167,
       "date": "08-16 Sun",
       "from": "19:30",
       "till": "20:00",
@@ -5134,55 +2556,10 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
-      "id": 173,
+      "id": 168,
       "date": "08-16 Sun",
       "from": "19:45",
       "till": "20:00",
@@ -5195,7 +2572,7 @@
       "assigned": []
     },
     {
-      "id": 174,
+      "id": 169,
       "date": "08-16 Sun",
       "from": "20:00",
       "till": "21:00",
@@ -5208,7 +2585,7 @@
       "assigned": []
     },
     {
-      "id": 175,
+      "id": 170,
       "date": "08-16 Sun",
       "from": "21:00",
       "till": "23:59",
@@ -5221,62 +2598,17 @@
       "assigned": []
     },
     {
-      "id": 176,
-      "date": "08-17 Mon",
-      "from": "13:00",
-      "till": "13:30",
-      "what": "Lunch (Pizza)",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        },
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Felix",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Max",
-          "slot": "X"
-        },
-        {
-          "name": "Niklas",
-          "slot": "X"
-        },
-        {
-          "name": "Paul",
-          "slot": "X"
-        },
-        {
-          "name": "Ronja",
-          "slot": "X"
-        },
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        },
-        {
-          "name": "photographer11",
-          "slot": "X"
-        }
-      ]
+      "id": 171,
+      "date": "08-11 Tue",
+      "from": "22:00",
+      "till": "0:59",
+      "what": "FSG Party",
+      "where": "Marquee",
+      "category": "Teams",
+      "notes": "Placeholder",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
     }
   ]
 }
