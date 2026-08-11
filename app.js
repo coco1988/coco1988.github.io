@@ -146,26 +146,44 @@ function fullDateLabel(dateText) {
 }
 
 function statusForShift(shift) {
-  if (isXShift(shift)) return { level: '', label: '', ongoing: false, minutes: null };
+  // X or info: no alerts, just color
+  if (isXShift(shift) || shift.relevant === 'info') {
+    return { level: '', label: '', ongoing: false, minutes: null };
+  }
+
   const range = effectiveRange(shift);
   if (!range) return { level: '', label: '', ongoing: false, minutes: null };
 
   const now = Date.now();
-  const minutes = Math.round((range.start.getTime() - now) / 60000);
+  const minutesToStart = Math.round((range.start.getTime() - now) / 60000);
+  const minutesSinceStart = Math.round((now - range.start.getTime()) / 60000);
+  const minutesToEnd = Math.round((range.end.getTime() - now) / 60000);
 
-  if (now >= range.start.getTime() && now <= range.end.getTime()) {
-    return { level: 'now', label: 'Ongoing now', ongoing: true, minutes };
+  // Shift has already ended
+  if (now > range.end.getTime()) {
+    return { level: 'ended', label: 'Ended', ongoing: false, minutes: -minutesToEnd };
   }
-  if (minutes <= 5 && minutes > 0) {
-    return { level: '5', label: `Starts in ${formatMinutes(minutes)}`, ongoing: false, minutes };
+
+  // 0–5 min after start
+  if (minutesSinceStart >= 0 && minutesSinceStart <= 5) {
+    return { level: 'started', label: 'Started', ongoing: true, minutes: minutesSinceStart };
   }
-  if (minutes <= 10 && minutes > 5) {
-    return { level: '10', label: `Starts in ${formatMinutes(minutes)}`, ongoing: false, minutes };
+
+  // >5 min after start, but still before end
+  if (minutesSinceStart > 5) {
+    return { level: 'active', label: 'In progress', ongoing: true, minutes: minutesSinceStart };
   }
-  if (minutes <= 15 && minutes > 10) {
-    return { level: '15', label: `Starts in ${formatMinutes(minutes)}`, ongoing: false, minutes };
+
+  // Before start
+  if (minutesToStart <= 5 && minutesToStart > 0) {
+    return { level: '5', label: `Starts in ${formatMinutes(minutesToStart)}`, ongoing: false, minutes: minutesToStart };
   }
-  return { level: '', label: '', ongoing: false, minutes };
+
+  if (minutesToStart <= 15 && minutesToStart > 5) {
+    return { level: '15', label: `Starts in ${formatMinutes(minutesToStart)}`, ongoing: false, minutes: minutesToStart };
+  }
+
+  return { level: '', label: '', ongoing: false, minutes: null };
 }
 
 function isPastToday(shift) {
@@ -178,9 +196,10 @@ function isPastToday(shift) {
 
 function urgencyClassFromStatus(status) {
   if (status.level === '15') return 'upcoming-15';
-  if (status.level === '10') return 'upcoming-10';
   if (status.level === '5') return 'upcoming-5';
-  if (status.level === 'now') return 'upcoming-now';
+  if (status.level === 'started') return 'upcoming-started';
+  if (status.level === 'active') return 'shift-active';
+  if (status.level === 'ended') return 'shift-ended';
   return '';
 }
 
@@ -323,7 +342,9 @@ function renderHero() {
   const levelClass = urgencyClassFromStatus(status);
 
   els.heroSection.innerHTML = `
-    <div class="section-label ${levelClass ? 'blink-text' : ''}">Next shift${state.person ? ' · ' + state.person : ''}</div>
+<div class="section-label ${levelClass && status.level !== 'ended' ? 'blink-text' : ''}">
+  Next shift${state.person ? `: ${state.person}` : ''}
+</div>
     <div class="hero-card ${levelClass}">
       <div>
         <div class="hero-what">${hero.what}</div>
@@ -642,7 +663,7 @@ function renderTable(data) {
         <td>${s.where || '—'}</td>
         <td><span class="tag category ${categoryClass(s.category)}">${s.category || '—'}</span></td>
         <td><div class="assigned-row">${assignedHtml(s, true)}</div></td>
-        <td>${linkify([s.notes, s.comment].filter(Boolean).join(' • '))}${status.label ? `<div style="margin-top:.35rem"><span class="tag blink-text">${status.label}</span></div>` : ''}</td>
+        <td>${linkify([s.notes, s.comment].filter(Boolean).join(' • '))}${status.label ? `<div style="margin-top:.35rem"><span class="tag ${status.level !== 'ended' ? 'blink-text' : ''}">${status.label}</span></div>` : ''}</td>
       </tr>`;
   }).join('');
 }
@@ -778,8 +799,9 @@ function maybeAlert(shift, level) {
 
   const personKey = state.person || 'all';
 
-  if (level === '15' || level === '10') {
-    const key = `${shift.id}-${personKey}-${level}`;
+  // 15-min warning: one beep, then quiet
+  if (level === '15') {
+    const key = `${shift.id}-${personKey}-15`;
     if (!notifiedIds.has(key)) {
       notifiedIds.add(key);
       beep();
@@ -789,14 +811,16 @@ function maybeAlert(shift, level) {
     return;
   }
 
-  if (level === '5') {
+  // 5 min before and first 5 min after start
+  if (level === '5' || level === 'started') {
     if (!continuousBeepTimer) {
       beep();
       continuousBeepTimer = setInterval(beep, 4000);
     }
     return;
   }
-  // level === 'now' (shift has actually started) or anything else: the alarm stops.
+
+  // Active longer than 5 min, or anything else
   stopContinuousBeep();
 }
 

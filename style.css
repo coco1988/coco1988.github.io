@@ -340,7 +340,7 @@ select.chip {
   padding: 1rem;
 }
 
-.upcoming-15 {
+/* .upcoming-15 {
   animation: shiftStartShake 3.6s ease-in-out infinite;
 }
 
@@ -350,7 +350,7 @@ select.chip {
 
 .upcoming-now {
   animation: shiftStartShake 0.6s ease-in-out infinite, shiftStartGlitch 5.2s steps(1) infinite;
-}
+} */
 
 @keyframes shiftStartShake {
   0%, 100% { transform: translate(0, 0); }
@@ -1263,4 +1263,48 @@ tr.shift-past:hover {
 .app-footer a:hover {
   text-decoration: underline;
   color: var(--primary);
+}
+
+/* 5 minutes before and 5 minutes after start only */
+.upcoming-5,
+.upcoming-started {
+  animation: shiftStartShake 1.8s ease-in-out infinite;
+}
+
+/* Shift has been running longer than 5 minutes: color only */
+.shift-active {
+  border-left-color: var(--alert0);
+  background: color-mix(in srgb, var(--alert0) 8%, var(--surface));
+}
+
+/* Long / informational items: clearly distinct but quiet */
+.card.card-info,
+.card.card-long-item {
+  border-left-color: var(--fsg-blue);
+  background: color-mix(in srgb, var(--fsg-blue) 8%, var(--surface));
+  animation: none !important;
+}
+
+/* Ended shifts: subtle, clearly finished */
+.card.shift-ended {
+  opacity: 0.25;
+  filter: grayscale(0.6);
+  border-left-color: var(--faint);
+}
+
+tr.shift-ended {
+  opacity: 0.25;
+  filter: grayscale(0.6);
+}
+
+.timeline-block.shift-ended {
+  opacity: 0.25;
+  filter: grayscale(0.6);
+  border-left: 3px solid var(--faint);
+}
+
+.shift-ended.blink-text,
+.shift-ended .blink-text {
+  animation: none !important;
+  opacity: 1 !important;
 }
