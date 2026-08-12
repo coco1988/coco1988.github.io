@@ -1,6 +1,6 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv",
-  "count": 173,
+  "count": 172,
   "shifts": [
     {
       "id": 1,
@@ -510,6 +510,279 @@
       "id": 28,
       "date": "08-12 Wed",
       "from": "9:00",
+      "till": "23:00",
+      "what": "Welding + Power Tools + Tire Changing [self-service]",
+      "where": "Welding",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "info",
+      "comment": "try to catch some photos",
+      "assigned": []
+    },
+    {
+      "id": 29,
+      "date": "08-12 Wed",
+      "from": "11:00",
+      "till": "13:00",
+      "what": "TK buildup Brake Test",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
+      "relevant": "info",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": []
+    },
+    {
+      "id": 30,
+      "date": "08-12 Wed",
+      "from": "12:00",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 31,
+      "date": "08-12 Wed",
+      "from": "14:00",
+      "till": "18:00",
+      "what": "Charging Area available",
+      "where": "Charging",
+      "category": "Place",
+      "notes": "gate 6",
+      "relevant": "info",
+      "comment": "any time/at least some shots",
+      "assigned": []
+    },
+    {
+      "id": 32,
+      "date": "08-12 Wed",
+      "from": "14:00",
+      "till": "19:00",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "Event Support",
+      "notes": "",
+      "relevant": "info",
+      "comment": "once or twice a week",
+      "assigned": []
+    },
+    {
+      "id": 33,
+      "date": "08-12 Wed",
+      "from": "14:00",
+      "till": "",
+      "what": "Entrance for all Members",
+      "where": "Venue",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 34,
+      "date": "08-12 Wed",
+      "from": "18:00",
+      "till": "20:30",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 35,
+      "date": "08-12 Wed",
+      "from": "21:00",
+      "till": "22:00",
+      "what": "Team Welcome",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "11:45",
+      "what": "Technical Inspections (Mechanical)",
+      "where": "Insp. Tent",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 37,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area MV",
+      "where": "Test B",
+      "category": "Dynamics",
+      "notes": "gate 5",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 38,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "12:00",
+      "what": "Test Area DV + MV",
+      "where": "Dynamic A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 39,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "12:45",
+      "what": "Charging Area available",
+      "where": "Charging",
+      "category": "Place",
+      "notes": "gate 6",
+      "relevant": "info",
+      "comment": "any time/at least some shots",
+      "assigned": []
+    },
+    {
+      "id": 40,
+      "date": "08-13 Thu",
+      "from": "9:00",
+      "till": "23:00",
+      "what": "Welding + Power Tools + Tire Changing [self-service]",
+      "where": "Welding",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "info",
+      "comment": "try to catch some photos",
+      "assigned": []
+    },
+    {
+      "id": 41,
+      "date": "08-13 Thu",
+      "from": "12:00",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 42,
+      "date": "08-13 Thu",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Test Area DV + MV",
+      "where": "Dynamic A",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 43,
+      "date": "08-13 Thu",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Test Area MV",
+      "where": "Test B",
+      "category": "Dynamics",
+      "notes": "gate 5",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 44,
+      "date": "08-13 Thu",
+      "from": "14:00",
+      "till": "19:00",
+      "what": "Charging Area available",
+      "where": "Charging",
+      "category": "Place",
+      "notes": "gate 6",
+      "relevant": "info",
+      "comment": "any time/at least some shots",
+      "assigned": []
+    },
+    {
+      "id": 45,
+      "date": "08-13 Thu",
+      "from": "16:00",
+      "till": "19:00",
+      "what": "TK buildup Acceleration",
+      "where": "S/F Line",
+      "category": "TK",
+      "notes": "",
+      "relevant": "info",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": []
+    },
+    {
+      "id": 46,
+      "date": "08-13 Thu",
+      "from": "18:00",
+      "till": "19:30",
+      "what": "TK buildup DV Autocross",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
+      "relevant": "info",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": []
+    },
+    {
+      "id": 47,
+      "date": "08-13 Thu",
+      "from": "18:00",
+      "till": "20:30",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 48,
+      "date": "08-12 Wed",
+      "from": "9:00",
       "till": "12:45",
       "what": "Technical Inspections (Electrical)",
       "where": "Insp. Tent",
@@ -533,7 +806,7 @@
       ]
     },
     {
-      "id": 29,
+      "id": 49,
       "date": "08-12 Wed",
       "from": "9:00",
       "till": "13:15",
@@ -559,20 +832,7 @@
       ]
     },
     {
-      "id": 30,
-      "date": "08-12 Wed",
-      "from": "9:00",
-      "till": "23:00",
-      "what": "Welding + Power Tools + Tire Changing [self-service]",
-      "where": "Welding",
-      "category": "Teams",
-      "notes": "",
-      "relevant": "info",
-      "comment": "try to catch some photos",
-      "assigned": []
-    },
-    {
-      "id": 31,
+      "id": 50,
       "date": "08-12 Wed",
       "from": "10:00",
       "till": "11:00",
@@ -606,33 +866,7 @@
       ]
     },
     {
-      "id": 32,
-      "date": "08-12 Wed",
-      "from": "11:00",
-      "till": "13:00",
-      "what": "TK buildup Brake Test",
-      "where": "Dynamic",
-      "category": "TK",
-      "notes": "",
-      "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
-    },
-    {
-      "id": 33,
-      "date": "08-12 Wed",
-      "from": "12:00",
-      "till": "14:00",
-      "what": "Lunch",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 34,
+      "id": 51,
       "date": "08-12 Wed",
       "from": "14:00",
       "till": "14:30",
@@ -682,7 +916,7 @@
       ]
     },
     {
-      "id": 35,
+      "id": 52,
       "date": "08-12 Wed",
       "from": "14:00",
       "till": "17:00",
@@ -700,46 +934,7 @@
       ]
     },
     {
-      "id": 36,
-      "date": "08-12 Wed",
-      "from": "14:00",
-      "till": "18:00",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": []
-    },
-    {
-      "id": 37,
-      "date": "08-12 Wed",
-      "from": "14:00",
-      "till": "19:00",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "info",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 38,
-      "date": "08-12 Wed",
-      "from": "14:00",
-      "till": "",
-      "what": "Entrance for all Members",
-      "where": "Venue",
-      "category": "Teams",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 39,
+      "id": 53,
       "date": "08-12 Wed",
       "from": "14:30",
       "till": "17:15",
@@ -757,7 +952,7 @@
       ]
     },
     {
-      "id": 40,
+      "id": 54,
       "date": "08-12 Wed",
       "from": "14:30",
       "till": "18:00",
@@ -775,7 +970,7 @@
       ]
     },
     {
-      "id": 41,
+      "id": 55,
       "date": "08-12 Wed",
       "from": "15:00",
       "till": "17:10",
@@ -801,7 +996,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": 56,
       "date": "08-12 Wed",
       "from": "15:00",
       "till": "18:45",
@@ -831,20 +1026,7 @@
       ]
     },
     {
-      "id": 43,
-      "date": "08-12 Wed",
-      "from": "18:00",
-      "till": "20:30",
-      "what": "Dinner",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 44,
+      "id": 57,
       "date": "08-12 Wed",
       "from": "18:30",
       "till": "19:30",
@@ -898,7 +1080,7 @@
       ]
     },
     {
-      "id": 45,
+      "id": 58,
       "date": "08-12 Wed",
       "from": "18:45",
       "till": "19:00",
@@ -916,7 +1098,7 @@
       ]
     },
     {
-      "id": 46,
+      "id": 59,
       "date": "08-12 Wed",
       "from": "19:00",
       "till": "19:15",
@@ -934,7 +1116,7 @@
       ]
     },
     {
-      "id": 47,
+      "id": 60,
       "date": "08-12 Wed",
       "from": "19:00",
       "till": "20:00",
@@ -952,7 +1134,7 @@
       ]
     },
     {
-      "id": 48,
+      "id": 61,
       "date": "08-12 Wed",
       "from": "19:15",
       "till": "19:30",
@@ -970,7 +1152,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": 62,
       "date": "08-12 Wed",
       "from": "19:30",
       "till": "20:00",
@@ -1024,33 +1206,7 @@
       ]
     },
     {
-      "id": 50,
-      "date": "08-12 Wed",
-      "from": "21:00",
-      "till": "22:00",
-      "what": "Team Welcome",
-      "where": "Marquee",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Camilla",
-          "slot": "X"
-        },
-        {
-          "name": "Lilian",
-          "slot": "X"
-        },
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 51,
+      "id": 63,
       "date": "08-13 Thu",
       "from": "7:40",
       "till": "18:00",
@@ -1068,7 +1224,7 @@
       ]
     },
     {
-      "id": 52,
+      "id": 64,
       "date": "08-13 Thu",
       "from": "6:25",
       "till": "11:30",
@@ -1081,7 +1237,7 @@
       "assigned": [
         {
           "name": "Ronja",
-          "slot": "10:30 - 11:30"
+          "slot": "16:00 - 19:00"
         },
         {
           "name": "Shengkai",
@@ -1090,7 +1246,7 @@
       ]
     },
     {
-      "id": 53,
+      "id": 65,
       "date": "08-13 Thu",
       "from": "8:30",
       "till": "11:55",
@@ -1103,7 +1259,7 @@
       "assigned": [
         {
           "name": "Ronja",
-          "slot": "10:30 - 11:30"
+          "slot": "16:00 - 19:00"
         },
         {
           "name": "Shengkai",
@@ -1112,7 +1268,7 @@
       ]
     },
     {
-      "id": 54,
+      "id": 66,
       "date": "08-13 Thu",
       "from": "8:30",
       "till": "12:30",
@@ -1130,46 +1286,7 @@
       ]
     },
     {
-      "id": 55,
-      "date": "08-13 Thu",
-      "from": "9:00",
-      "till": "11:45",
-      "what": "Technical Inspections (Mechanical)",
-      "where": "Insp. Tent",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 56,
-      "date": "08-13 Thu",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Test Area MV",
-      "where": "Test B",
-      "category": "Dynamics",
-      "notes": "gate 5",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 57,
-      "date": "08-13 Thu",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Test Area DV + MV",
-      "where": "Dynamic A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 58,
+      "id": 67,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1187,7 +1304,7 @@
       ]
     },
     {
-      "id": 59,
+      "id": 68,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1200,7 +1317,7 @@
       "assigned": []
     },
     {
-      "id": 60,
+      "id": 69,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1210,23 +1327,15 @@
       "notes": "gate 2-a",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Paul",
+          "slot": "09:15 - 12:00"
+        }
+      ]
     },
     {
-      "id": 61,
-      "date": "08-13 Thu",
-      "from": "9:00",
-      "till": "12:45",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": []
-    },
-    {
-      "id": 62,
+      "id": 70,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:45",
@@ -1239,7 +1348,7 @@
       "assigned": []
     },
     {
-      "id": 63,
+      "id": 71,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "18:00",
@@ -1252,20 +1361,7 @@
       "assigned": []
     },
     {
-      "id": 64,
-      "date": "08-13 Thu",
-      "from": "9:00",
-      "till": "23:00",
-      "what": "Welding + Power Tools + Tire Changing [self-service]",
-      "where": "Welding",
-      "category": "Teams",
-      "notes": "",
-      "relevant": "info",
-      "comment": "try to catch some photos",
-      "assigned": []
-    },
-    {
-      "id": 65,
+      "id": 72,
       "date": "08-13 Thu",
       "from": "9:30",
       "till": "11:50",
@@ -1275,23 +1371,19 @@
       "notes": "",
       "relevant": "yes",
       "comment": "https://schedule.fsg.one/detailed/team?ed=8&ax=pub&day=2026-8-13&span=week&f=eyJhY3Rpdml0eSI6eyJpbmNsdWRlIjpbXSwiZXhjbHVkZSI6W10sImluY2x1ZGVQYXJlbnRzIjpbMzddfX0",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "09:15 - 12:00"
+        },
+        {
+          "name": "Paul",
+          "slot": "09:15 - 12:00"
+        }
+      ]
     },
     {
-      "id": 66,
-      "date": "08-13 Thu",
-      "from": "12:00",
-      "till": "14:00",
-      "what": "Lunch",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 67,
+      "id": 73,
       "date": "08-13 Thu",
       "from": "13:55",
       "till": "15:25",
@@ -1301,10 +1393,19 @@
       "notes": "Placeholder",
       "relevant": "yes",
       "comment": "picture of Skylotec gear (harness, safety equipment)",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "12:30 - 15:30"
+        },
+        {
+          "name": "Lilian",
+          "slot": "12:30 - 15:30"
+        }
+      ]
     },
     {
-      "id": 68,
+      "id": 74,
       "date": "08-13 Thu",
       "from": "12:30",
       "till": "15:30",
@@ -1326,42 +1427,7 @@
       ]
     },
     {
-      "id": 69,
-      "date": "08-13 Thu",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Test Area DV + MV",
-      "where": "Dynamic A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": [
-        {
-          "name": "Camilla",
-          "slot": "12:30 - 15:30"
-        },
-        {
-          "name": "Lilian",
-          "slot": "12:30 - 15:30"
-        }
-      ]
-    },
-    {
-      "id": 70,
-      "date": "08-13 Thu",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Test Area MV",
-      "where": "Test B",
-      "category": "Dynamics",
-      "notes": "gate 5",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 71,
+      "id": 75,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1371,10 +1437,15 @@
       "notes": "gate 1",
       "relevant": "yes",
       "comment": "",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        }
+      ]
     },
     {
-      "id": 72,
+      "id": 76,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1384,10 +1455,15 @@
       "notes": "gate 2-a",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Lilian",
+          "slot": "17:00 - 19:00"
+        }
+      ]
     },
     {
-      "id": 73,
+      "id": 77,
       "date": "08-13 Thu",
       "from": "13:30",
       "till": "17:15",
@@ -1409,59 +1485,29 @@
       ]
     },
     {
-      "id": 74,
+      "id": 78,
       "date": "08-13 Thu",
-      "from": "14:00",
+      "from": "17:00",
       "till": "19:00",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": []
-    },
-    {
-      "id": 75,
-      "date": "08-13 Thu",
-      "from": "14:00",
-      "till": "19:00",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 76,
-      "date": "08-13 Thu",
-      "from": "15:00",
-      "till": "17:10",
       "what": "Team Photos",
       "where": "S/F Line",
       "category": "PR＋Media",
       "notes": "",
       "relevant": "yes",
       "comment": "https://schedule.fsg.one/detailed/team?ed=8&ax=pub&day=2026-8-13&span=week&f=eyJhY3Rpdml0eSI6eyJpbmNsdWRlIjpbXSwiZXhjbHVkZSI6W10sImluY2x1ZGVQYXJlbnRzIjpbMzddfX0",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "17:00 - 19:00"
+        },
+        {
+          "name": "Lilian",
+          "slot": "17:00 - 19:00"
+        }
+      ]
     },
     {
-      "id": 77,
-      "date": "08-13 Thu",
-      "from": "16:00",
-      "till": "19:00",
-      "what": "TK buildup Acceleration",
-      "where": "S/F Line",
-      "category": "TK",
-      "notes": "",
-      "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
-    },
-    {
-      "id": 78,
+      "id": 79,
       "date": "08-13 Thu",
       "from": "16:00",
       "till": "19:00",
@@ -1478,12 +1524,12 @@
         },
         {
           "name": "Niklas",
-          "slot": "16:00 - 19:00"
+          "slot": "10:30 - 11:30"
         }
       ]
     },
     {
-      "id": 79,
+      "id": 80,
       "date": "08-13 Thu",
       "from": "13:55",
       "till": "15:25",
@@ -1500,38 +1546,12 @@
         },
         {
           "name": "Niklas",
-          "slot": "16:00 - 19:00"
+          "slot": "10:30 - 11:30"
         }
       ]
     },
     {
-      "id": 80,
-      "date": "08-13 Thu",
-      "from": "18:00",
-      "till": "19:30",
-      "what": "TK buildup DV Autocross",
-      "where": "Dynamic",
-      "category": "TK",
-      "notes": "",
-      "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
-    },
-    {
       "id": 81,
-      "date": "08-13 Thu",
-      "from": "18:00",
-      "till": "20:30",
-      "what": "Dinner",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 82,
       "date": "08-14 Fri",
       "from": "7:30",
       "till": "8:00",
@@ -1544,7 +1564,7 @@
       "assigned": []
     },
     {
-      "id": 83,
+      "id": 82,
       "date": "08-14 Fri",
       "from": "7:40",
       "till": "18:30",
@@ -1557,7 +1577,7 @@
       "assigned": []
     },
     {
-      "id": 84,
+      "id": 83,
       "date": "08-14 Fri",
       "from": "8:00",
       "till": "13:00",
@@ -1570,7 +1590,7 @@
       "assigned": []
     },
     {
-      "id": 85,
+      "id": 84,
       "date": "08-14 Fri",
       "from": "8:00",
       "till": "",
@@ -1583,7 +1603,7 @@
       "assigned": []
     },
     {
-      "id": 86,
+      "id": 85,
       "date": "08-14 Fri",
       "from": "8:30",
       "till": "12:30",
@@ -1596,7 +1616,7 @@
       "assigned": []
     },
     {
-      "id": 87,
+      "id": 86,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -1609,7 +1629,7 @@
       "assigned": []
     },
     {
-      "id": 88,
+      "id": 87,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -1622,7 +1642,7 @@
       "assigned": []
     },
     {
-      "id": 89,
+      "id": 88,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -1635,7 +1655,7 @@
       "assigned": []
     },
     {
-      "id": 90,
+      "id": 89,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -1648,7 +1668,7 @@
       "assigned": []
     },
     {
-      "id": 91,
+      "id": 90,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -1661,7 +1681,7 @@
       "assigned": []
     },
     {
-      "id": 92,
+      "id": 91,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "18:00",
@@ -1674,7 +1694,7 @@
       "assigned": []
     },
     {
-      "id": 93,
+      "id": 92,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "23:00",
@@ -1687,7 +1707,7 @@
       "assigned": []
     },
     {
-      "id": 94,
+      "id": 93,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "13:00",
@@ -1700,7 +1720,7 @@
       "assigned": []
     },
     {
-      "id": 95,
+      "id": 94,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "23:59",
@@ -1713,7 +1733,7 @@
       "assigned": []
     },
     {
-      "id": 96,
+      "id": 95,
       "date": "08-14 Fri",
       "from": "12:00",
       "till": "14:00",
@@ -1726,7 +1746,7 @@
       "assigned": []
     },
     {
-      "id": 97,
+      "id": 96,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "1:00",
@@ -1739,7 +1759,7 @@
       "assigned": []
     },
     {
-      "id": 98,
+      "id": 97,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "14:00",
@@ -1752,7 +1772,7 @@
       "assigned": []
     },
     {
-      "id": 99,
+      "id": 98,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "19:00",
@@ -1765,7 +1785,7 @@
       "assigned": []
     },
     {
-      "id": 100,
+      "id": 99,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "19:00",
@@ -1778,7 +1798,7 @@
       "assigned": []
     },
     {
-      "id": 101,
+      "id": 100,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "19:00",
@@ -1791,7 +1811,7 @@
       "assigned": []
     },
     {
-      "id": 102,
+      "id": 101,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "20:00",
@@ -1804,7 +1824,7 @@
       "assigned": []
     },
     {
-      "id": 103,
+      "id": 102,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "",
@@ -1817,7 +1837,7 @@
       "assigned": []
     },
     {
-      "id": 104,
+      "id": 103,
       "date": "08-14 Fri",
       "from": "13:30",
       "till": "17:00",
@@ -1830,7 +1850,7 @@
       "assigned": []
     },
     {
-      "id": 105,
+      "id": 104,
       "date": "08-14 Fri",
       "from": "14:00",
       "till": "15:00",
@@ -1843,7 +1863,7 @@
       "assigned": []
     },
     {
-      "id": 106,
+      "id": 105,
       "date": "08-14 Fri",
       "from": "14:00",
       "till": "19:00",
@@ -1856,7 +1876,7 @@
       "assigned": []
     },
     {
-      "id": 107,
+      "id": 106,
       "date": "08-14 Fri",
       "from": "14:30",
       "till": "",
@@ -1869,7 +1889,7 @@
       "assigned": []
     },
     {
-      "id": 108,
+      "id": 107,
       "date": "08-14 Fri",
       "from": "15:00",
       "till": "15:45",
@@ -1882,7 +1902,7 @@
       "assigned": []
     },
     {
-      "id": 109,
+      "id": 108,
       "date": "08-14 Fri",
       "from": "15:00",
       "till": "19:00",
@@ -1895,7 +1915,7 @@
       "assigned": []
     },
     {
-      "id": 110,
+      "id": 109,
       "date": "08-14 Fri",
       "from": "17:30",
       "till": "18:00",
@@ -1908,7 +1928,7 @@
       "assigned": []
     },
     {
-      "id": 111,
+      "id": 110,
       "date": "08-14 Fri",
       "from": "18:00",
       "till": "20:30",
@@ -1921,7 +1941,7 @@
       "assigned": []
     },
     {
-      "id": 112,
+      "id": 111,
       "date": "08-14 Fri",
       "from": "18:30",
       "till": "21:30",
@@ -1934,7 +1954,7 @@
       "assigned": []
     },
     {
-      "id": 113,
+      "id": 112,
       "date": "08-14 Fri",
       "from": "19:00",
       "till": "19:30",
@@ -1947,7 +1967,7 @@
       "assigned": []
     },
     {
-      "id": 114,
+      "id": 113,
       "date": "08-14 Fri",
       "from": "19:30",
       "till": "20:00",
@@ -1960,7 +1980,7 @@
       "assigned": []
     },
     {
-      "id": 115,
+      "id": 114,
       "date": "08-14 Fri",
       "from": "20:00",
       "till": "20:30",
@@ -1973,7 +1993,7 @@
       "assigned": []
     },
     {
-      "id": 116,
+      "id": 115,
       "date": "08-14 Fri",
       "from": "20:00",
       "till": "22:00",
@@ -1986,7 +2006,7 @@
       "assigned": []
     },
     {
-      "id": 117,
+      "id": 116,
       "date": "08-14 Fri",
       "from": "20:30",
       "till": "",
@@ -1999,7 +2019,7 @@
       "assigned": []
     },
     {
-      "id": 118,
+      "id": 117,
       "date": "08-14 Fri",
       "from": "21:00",
       "till": "23:59",
@@ -2012,7 +2032,7 @@
       "assigned": []
     },
     {
-      "id": 119,
+      "id": 118,
       "date": "08-15 Sat",
       "from": "1:30",
       "till": "7:30",
@@ -2025,7 +2045,7 @@
       "assigned": []
     },
     {
-      "id": 120,
+      "id": 119,
       "date": "08-15 Sat",
       "from": "6:00",
       "till": "23:59",
@@ -2038,7 +2058,7 @@
       "assigned": []
     },
     {
-      "id": 121,
+      "id": 120,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "8:00",
@@ -2051,7 +2071,7 @@
       "assigned": []
     },
     {
-      "id": 122,
+      "id": 121,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "8:30",
@@ -2064,7 +2084,7 @@
       "assigned": []
     },
     {
-      "id": 123,
+      "id": 122,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "",
@@ -2077,7 +2097,7 @@
       "assigned": []
     },
     {
-      "id": 124,
+      "id": 123,
       "date": "08-15 Sat",
       "from": "7:40",
       "till": "18:30",
@@ -2090,7 +2110,7 @@
       "assigned": []
     },
     {
-      "id": 125,
+      "id": 124,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "12:00",
@@ -2103,7 +2123,7 @@
       "assigned": []
     },
     {
-      "id": 126,
+      "id": 125,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "12:00",
@@ -2116,7 +2136,7 @@
       "assigned": []
     },
     {
-      "id": 127,
+      "id": 126,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "12:00",
@@ -2129,7 +2149,7 @@
       "assigned": []
     },
     {
-      "id": 128,
+      "id": 127,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "13:00",
@@ -2142,7 +2162,7 @@
       "assigned": []
     },
     {
-      "id": 129,
+      "id": 128,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "13:30",
@@ -2155,7 +2175,7 @@
       "assigned": []
     },
     {
-      "id": 130,
+      "id": 129,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "",
@@ -2168,7 +2188,7 @@
       "assigned": []
     },
     {
-      "id": 131,
+      "id": 130,
       "date": "08-15 Sat",
       "from": "8:30",
       "till": "12:30",
@@ -2181,7 +2201,7 @@
       "assigned": []
     },
     {
-      "id": 132,
+      "id": 131,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "10:00",
@@ -2194,7 +2214,7 @@
       "assigned": []
     },
     {
-      "id": 133,
+      "id": 132,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "18:00",
@@ -2207,7 +2227,7 @@
       "assigned": []
     },
     {
-      "id": 134,
+      "id": 133,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "23:00",
@@ -2220,7 +2240,7 @@
       "assigned": []
     },
     {
-      "id": 135,
+      "id": 134,
       "date": "08-15 Sat",
       "from": "10:00",
       "till": "11:00",
@@ -2233,7 +2253,7 @@
       "assigned": []
     },
     {
-      "id": 136,
+      "id": 135,
       "date": "08-15 Sat",
       "from": "12:00",
       "till": "14:30",
@@ -2246,7 +2266,7 @@
       "assigned": []
     },
     {
-      "id": 137,
+      "id": 136,
       "date": "08-15 Sat",
       "from": "12:30",
       "till": "14:00",
@@ -2259,7 +2279,7 @@
       "assigned": []
     },
     {
-      "id": 138,
+      "id": 137,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "17:00",
@@ -2272,7 +2292,7 @@
       "assigned": []
     },
     {
-      "id": 139,
+      "id": 138,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "19:00",
@@ -2285,7 +2305,7 @@
       "assigned": []
     },
     {
-      "id": 140,
+      "id": 139,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "20:00",
@@ -2298,7 +2318,7 @@
       "assigned": []
     },
     {
-      "id": 141,
+      "id": 140,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "22:00",
@@ -2311,7 +2331,7 @@
       "assigned": []
     },
     {
-      "id": 142,
+      "id": 141,
       "date": "08-15 Sat",
       "from": "14:00",
       "till": "19:00",
@@ -2324,7 +2344,7 @@
       "assigned": []
     },
     {
-      "id": 143,
+      "id": 142,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "14:55",
@@ -2337,7 +2357,7 @@
       "assigned": []
     },
     {
-      "id": 144,
+      "id": 143,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "19:00",
@@ -2350,7 +2370,7 @@
       "assigned": []
     },
     {
-      "id": 145,
+      "id": 144,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "",
@@ -2363,7 +2383,7 @@
       "assigned": []
     },
     {
-      "id": 146,
+      "id": 145,
       "date": "08-15 Sat",
       "from": "15:00",
       "till": "19:30",
@@ -2376,7 +2396,7 @@
       "assigned": []
     },
     {
-      "id": 147,
+      "id": 146,
       "date": "08-15 Sat",
       "from": "19:15",
       "till": "21:00",
@@ -2389,7 +2409,7 @@
       "assigned": []
     },
     {
-      "id": 148,
+      "id": 147,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "20:00",
@@ -2402,7 +2422,7 @@
       "assigned": []
     },
     {
-      "id": 149,
+      "id": 148,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "21:00",
@@ -2415,7 +2435,7 @@
       "assigned": []
     },
     {
-      "id": 150,
+      "id": 149,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "23:00",
@@ -2428,7 +2448,7 @@
       "assigned": []
     },
     {
-      "id": 151,
+      "id": 150,
       "date": "08-15 Sat",
       "from": "21:00",
       "till": "22:00",
@@ -2441,7 +2461,7 @@
       "assigned": []
     },
     {
-      "id": 152,
+      "id": 151,
       "date": "08-16 Sun",
       "from": "6:00",
       "till": "15:00",
@@ -2454,7 +2474,7 @@
       "assigned": []
     },
     {
-      "id": 153,
+      "id": 152,
       "date": "08-16 Sun",
       "from": "7:00",
       "till": "12:00",
@@ -2467,7 +2487,7 @@
       "assigned": []
     },
     {
-      "id": 154,
+      "id": 153,
       "date": "08-16 Sun",
       "from": "7:30",
       "till": "12:30",
@@ -2480,7 +2500,7 @@
       "assigned": []
     },
     {
-      "id": 155,
+      "id": 154,
       "date": "08-16 Sun",
       "from": "7:40",
       "till": "15:00",
@@ -2493,7 +2513,7 @@
       "assigned": []
     },
     {
-      "id": 156,
+      "id": 155,
       "date": "08-16 Sun",
       "from": "8:00",
       "till": "8:25",
@@ -2506,7 +2526,7 @@
       "assigned": []
     },
     {
-      "id": 157,
+      "id": 156,
       "date": "08-16 Sun",
       "from": "8:00",
       "till": "",
@@ -2519,7 +2539,7 @@
       "assigned": []
     },
     {
-      "id": 158,
+      "id": 157,
       "date": "08-16 Sun",
       "from": "8:30",
       "till": "12:00",
@@ -2532,7 +2552,7 @@
       "assigned": []
     },
     {
-      "id": 159,
+      "id": 158,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "12:00",
@@ -2545,7 +2565,7 @@
       "assigned": []
     },
     {
-      "id": 160,
+      "id": 159,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "12:00",
@@ -2558,7 +2578,7 @@
       "assigned": []
     },
     {
-      "id": 161,
+      "id": 160,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "17:00",
@@ -2571,7 +2591,7 @@
       "assigned": []
     },
     {
-      "id": 162,
+      "id": 161,
       "date": "08-16 Sun",
       "from": "11:30",
       "till": "13:30",
@@ -2584,7 +2604,7 @@
       "assigned": []
     },
     {
-      "id": 163,
+      "id": 162,
       "date": "08-16 Sun",
       "from": "12:00",
       "till": "18:00",
@@ -2597,7 +2617,7 @@
       "assigned": []
     },
     {
-      "id": 164,
+      "id": 163,
       "date": "08-16 Sun",
       "from": "13:00",
       "till": "16:00",
@@ -2610,7 +2630,7 @@
       "assigned": []
     },
     {
-      "id": 165,
+      "id": 164,
       "date": "08-16 Sun",
       "from": "13:00",
       "till": "16:00",
@@ -2623,7 +2643,7 @@
       "assigned": []
     },
     {
-      "id": 166,
+      "id": 165,
       "date": "08-16 Sun",
       "from": "14:00",
       "till": "19:00",
@@ -2636,7 +2656,7 @@
       "assigned": []
     },
     {
-      "id": 167,
+      "id": 166,
       "date": "08-16 Sun",
       "from": "19:30",
       "till": "20:00",
@@ -2649,7 +2669,7 @@
       "assigned": []
     },
     {
-      "id": 168,
+      "id": 167,
       "date": "08-16 Sun",
       "from": "19:45",
       "till": "20:00",
@@ -2662,7 +2682,7 @@
       "assigned": []
     },
     {
-      "id": 169,
+      "id": 168,
       "date": "08-16 Sun",
       "from": "20:00",
       "till": "21:00",
@@ -2675,7 +2695,7 @@
       "assigned": []
     },
     {
-      "id": 170,
+      "id": 169,
       "date": "08-16 Sun",
       "from": "21:00",
       "till": "23:59",
@@ -2688,7 +2708,7 @@
       "assigned": []
     },
     {
-      "id": 171,
+      "id": 170,
       "date": "08-11 Tue",
       "from": "22:00",
       "till": "0:59",
@@ -2701,7 +2721,7 @@
       "assigned": []
     },
     {
-      "id": 172,
+      "id": 171,
       "date": "08-13 Thu",
       "from": "20:30",
       "till": "21:30",
@@ -2723,7 +2743,7 @@
       ]
     },
     {
-      "id": 173,
+      "id": 172,
       "date": "08-13 Thu",
       "from": "21:00",
       "till": "21:30",
