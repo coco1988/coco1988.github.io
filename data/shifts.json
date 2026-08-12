@@ -582,7 +582,28 @@
       "notes": "",
       "relevant": "yes",
       "comment": "",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        }
+      ]
     },
     {
       "id": 32,
