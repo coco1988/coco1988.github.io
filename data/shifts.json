@@ -1,6 +1,6 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv",
-  "count": 171,
+  "count": 173,
   "shifts": [
     {
       "id": 1,
@@ -1052,19 +1052,6 @@
     {
       "id": 51,
       "date": "08-13 Thu",
-      "from": "7:00",
-      "till": "20:30",
-      "what": "Strawberry Basket available",
-      "where": "Marquee",
-      "category": "Statics",
-      "notes": "90 min before Statics begin on Marquee",
-      "relevant": "info",
-      "comment": "visit them - take a couple of pictures of the whole crew together with cost/design",
-      "assigned": []
-    },
-    {
-      "id": 52,
-      "date": "08-13 Thu",
       "from": "7:40",
       "till": "18:00",
       "what": "Ticket Centre",
@@ -1081,17 +1068,48 @@
       ]
     },
     {
+      "id": 52,
+      "date": "08-13 Thu",
+      "from": "6:25",
+      "till": "11:30",
+      "what": "Skylotec - Partner - Thursday",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "Placeholder",
+      "relevant": "yes",
+      "comment": "picture of Skylotec gear (harness, safety equipment)",
+      "assigned": [
+        {
+          "name": "Ronja",
+          "slot": "10:30 - 11:30"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "09:30 - 10:30"
+        }
+      ]
+    },
+    {
       "id": 53,
       "date": "08-13 Thu",
       "from": "8:30",
-      "till": "11:30",
+      "till": "11:55",
       "what": "Cost Analysis, Engineering Design",
       "where": "Marquee",
       "category": "Statics",
       "notes": "in: gate 4 / out: gate 3",
       "relevant": "yes",
-      "comment": "",
-      "assigned": []
+      "comment": "30-45min, 2 circles, cover each team",
+      "assigned": [
+        {
+          "name": "Ronja",
+          "slot": "10:30 - 11:30"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "09:30 - 10:30"
+        }
+      ]
     },
     {
       "id": 54,
@@ -1104,7 +1122,12 @@
       "notes": "",
       "relevant": "yes",
       "comment": "once or twice a week",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        }
+      ]
     },
     {
       "id": 55,
@@ -1115,7 +1138,7 @@
       "where": "Insp. Tent",
       "category": "Inspection",
       "notes": "gate 1",
-      "relevant": "yes",
+      "relevant": "info",
       "comment": "shift",
       "assigned": []
     },
@@ -1156,7 +1179,12 @@
       "notes": "",
       "relevant": "yes",
       "comment": "cover 2-3 presentations; in BW AND Ravenol tower",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "09:00 - 12:00"
+        }
+      ]
     },
     {
       "id": 59,
@@ -1265,6 +1293,19 @@
     {
       "id": 67,
       "date": "08-13 Thu",
+      "from": "13:55",
+      "till": "15:25",
+      "what": "Skylotec - Partner - Thursday",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "Placeholder",
+      "relevant": "yes",
+      "comment": "picture of Skylotec gear (harness, safety equipment)",
+      "assigned": []
+    },
+    {
+      "id": 68,
+      "date": "08-13 Thu",
       "from": "12:30",
       "till": "15:30",
       "what": "Cost Analysis, Engineering Design",
@@ -1272,11 +1313,20 @@
       "category": "Statics",
       "notes": "in: gate 4 / out: gate 3",
       "relevant": "yes",
-      "comment": "",
-      "assigned": []
+      "comment": "30-45min, 2 circles, cover each team",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "13:55 - 15:25"
+        },
+        {
+          "name": "Lilian",
+          "slot": "13:55 - 15:25"
+        }
+      ]
     },
     {
-      "id": 68,
+      "id": 69,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1286,10 +1336,19 @@
       "notes": "gate 1",
       "relevant": "info",
       "comment": "",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "12:30 - 15:30"
+        },
+        {
+          "name": "Lilian",
+          "slot": "12:30 - 15:30"
+        }
+      ]
     },
     {
-      "id": 69,
+      "id": 70,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1302,7 +1361,7 @@
       "assigned": []
     },
     {
-      "id": 70,
+      "id": 71,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1315,7 +1374,7 @@
       "assigned": []
     },
     {
-      "id": 71,
+      "id": 72,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1328,7 +1387,7 @@
       "assigned": []
     },
     {
-      "id": 72,
+      "id": 73,
       "date": "08-13 Thu",
       "from": "13:30",
       "till": "17:15",
@@ -1338,10 +1397,19 @@
       "notes": "",
       "relevant": "yes",
       "comment": "cover 2-3 presentations; in BW AND Ravenol tower",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Niklas",
+          "slot": "13:30 - 17:15"
+        },
+        {
+          "name": "Paul",
+          "slot": "13:30 - 17:15"
+        }
+      ]
     },
     {
-      "id": 73,
+      "id": 74,
       "date": "08-13 Thu",
       "from": "14:00",
       "till": "19:00",
@@ -1354,7 +1422,7 @@
       "assigned": []
     },
     {
-      "id": 74,
+      "id": 75,
       "date": "08-13 Thu",
       "from": "14:00",
       "till": "19:00",
@@ -1367,7 +1435,7 @@
       "assigned": []
     },
     {
-      "id": 75,
+      "id": 76,
       "date": "08-13 Thu",
       "from": "15:00",
       "till": "17:10",
@@ -1380,7 +1448,7 @@
       "assigned": []
     },
     {
-      "id": 76,
+      "id": 77,
       "date": "08-13 Thu",
       "from": "16:00",
       "till": "19:00",
@@ -1393,7 +1461,7 @@
       "assigned": []
     },
     {
-      "id": 77,
+      "id": 78,
       "date": "08-13 Thu",
       "from": "16:00",
       "till": "19:00",
@@ -1402,11 +1470,42 @@
       "category": "Statics",
       "notes": "in: gate 4 / out: gate 3",
       "relevant": "yes",
-      "comment": "",
-      "assigned": []
+      "comment": "30-45min, 2 circles, cover each team",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "16:00 - 19:00"
+        },
+        {
+          "name": "Niklas",
+          "slot": "16:00 - 19:00"
+        }
+      ]
     },
     {
-      "id": 78,
+      "id": 79,
+      "date": "08-13 Thu",
+      "from": "13:55",
+      "till": "15:25",
+      "what": "Skylotec - Partner - Thursday",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "Placeholder",
+      "relevant": "yes",
+      "comment": "picture of Skylotec gear (harness, safety equipment)",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "16:00 - 19:00"
+        },
+        {
+          "name": "Niklas",
+          "slot": "16:00 - 19:00"
+        }
+      ]
+    },
+    {
+      "id": 80,
       "date": "08-13 Thu",
       "from": "18:00",
       "till": "19:30",
@@ -1419,7 +1518,7 @@
       "assigned": []
     },
     {
-      "id": 79,
+      "id": 81,
       "date": "08-13 Thu",
       "from": "18:00",
       "till": "20:30",
@@ -1429,32 +1528,6 @@
       "notes": "",
       "relevant": "info",
       "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 80,
-      "date": "08-13 Thu",
-      "from": "20:30",
-      "till": "21:30",
-      "what": "Business Plan Presentation Finals",
-      "where": "Marquee",
-      "category": "Statics",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 81,
-      "date": "08-13 Thu",
-      "from": "21:00",
-      "till": "21:30",
-      "what": "OT-Meeting",
-      "where": "BW L04 R05",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
       "assigned": []
     },
     {
@@ -2626,6 +2699,46 @@
       "relevant": "yes",
       "comment": "shift",
       "assigned": []
+    },
+    {
+      "id": 172,
+      "date": "08-13 Thu",
+      "from": "20:30",
+      "till": "21:30",
+      "what": "Business Plan Presentation Finals",
+      "where": "Marquee",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "20:30 - 21:30"
+        },
+        {
+          "name": "Lilian",
+          "slot": "20:30 - 21:30"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "date": "08-13 Thu",
+      "from": "21:00",
+      "till": "21:30",
+      "what": "OT-Meeting",
+      "where": "BW L04 R05",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Niklas",
+          "slot": "21:00 - 21:30"
+        }
+      ]
     }
   ]
 }
