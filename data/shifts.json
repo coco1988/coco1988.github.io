@@ -1439,6 +1439,10 @@
       "comment": "",
       "assigned": [
         {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
           "name": "Shengkai",
           "slot": "X"
         }
@@ -1475,7 +1479,7 @@
       "comment": "cover 2-3 presentations; in BW AND Ravenol tower",
       "assigned": [
         {
-          "name": "Niklas",
+          "name": "Max",
           "slot": "13:30 - 17:15"
         },
         {
@@ -2737,7 +2741,7 @@
           "slot": "20:30 - 21:30"
         },
         {
-          "name": "Lilian",
+          "name": "Max",
           "slot": "20:30 - 21:30"
         }
       ]
