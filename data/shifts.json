@@ -1,6 +1,6 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv",
-  "count": 172,
+  "count": 192,
   "shifts": [
     {
       "id": 1,
@@ -2757,6 +2757,361 @@
         {
           "name": "Niklas",
           "slot": "21:00 - 21:30"
+        }
+      ]
+    },
+    {
+      "id": 173,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Ansys - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Ansys/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 174,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Antefactory - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Antefactory/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 175,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Audi - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Audi/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 176,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "BMW - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;BMW/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 177,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Bosch - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Bosch/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 178,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Freudenberg - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Freudenberg/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 179,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Helsing - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Helsing/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Lilian",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 180,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Magna - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Magna/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Lilian",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 181,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "MAN - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;MAN/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 182,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "MathWorks - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;MathWorks/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 183,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Mercedes - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Mercedes/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Niklas",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 184,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Porsche - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Porsche/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Niklas",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 185,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "RV-Tech - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;RV-Tech/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Paul",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 186,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Schaeffler - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Schaeffler/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": []
+    },
+    {
+      "id": 187,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Siemens - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Siemens/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Paul",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 188,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Tesla - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Tesla/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Ronja",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 189,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "VDI - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;VDI/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Ronja",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 190,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "VW - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;VW/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 191,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Würth - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Wuerth/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 192,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Zeiss - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Zeiss/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "assigned": [
+        {
+          "name": "Shengkai",
+          "slot": "X"
         }
       ]
     }
