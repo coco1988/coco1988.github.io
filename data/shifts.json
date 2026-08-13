@@ -1,6 +1,6 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv",
-  "count": 185,
+  "count": 169,
   "shifts": [
     {
       "id": 1,
@@ -497,19 +497,6 @@
       "id": 27,
       "date": "08-12 Wed",
       "from": "9:00",
-      "till": "12:45",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": []
-    },
-    {
-      "id": 28,
-      "date": "08-12 Wed",
-      "from": "9:00",
       "till": "23:00",
       "what": "Welding + Power Tools + Tire Changing [self-service]",
       "where": "Welding",
@@ -520,7 +507,7 @@
       "assigned": []
     },
     {
-      "id": 29,
+      "id": 28,
       "date": "08-12 Wed",
       "from": "11:00",
       "till": "13:00",
@@ -533,7 +520,7 @@
       "assigned": []
     },
     {
-      "id": 30,
+      "id": 29,
       "date": "08-12 Wed",
       "from": "12:00",
       "till": "14:00",
@@ -546,20 +533,7 @@
       "assigned": []
     },
     {
-      "id": 31,
-      "date": "08-12 Wed",
-      "from": "14:00",
-      "till": "18:00",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": []
-    },
-    {
-      "id": 32,
+      "id": 30,
       "date": "08-12 Wed",
       "from": "14:00",
       "till": "19:00",
@@ -572,7 +546,7 @@
       "assigned": []
     },
     {
-      "id": 33,
+      "id": 31,
       "date": "08-12 Wed",
       "from": "14:00",
       "till": "",
@@ -585,7 +559,7 @@
       "assigned": []
     },
     {
-      "id": 34,
+      "id": 32,
       "date": "08-12 Wed",
       "from": "18:00",
       "till": "20:30",
@@ -598,7 +572,7 @@
       "assigned": []
     },
     {
-      "id": 35,
+      "id": 33,
       "date": "08-12 Wed",
       "from": "21:00",
       "till": "22:00",
@@ -624,7 +598,7 @@
       ]
     },
     {
-      "id": 36,
+      "id": 34,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "11:45",
@@ -637,7 +611,7 @@
       "assigned": []
     },
     {
-      "id": 37,
+      "id": 35,
       "date": "08-13 Thu",
       "from": "12:00",
       "till": "14:00",
@@ -650,7 +624,7 @@
       "assigned": []
     },
     {
-      "id": 38,
+      "id": 36,
       "date": "08-13 Thu",
       "from": "16:00",
       "till": "19:00",
@@ -663,7 +637,7 @@
       "assigned": []
     },
     {
-      "id": 39,
+      "id": 37,
       "date": "08-13 Thu",
       "from": "18:00",
       "till": "19:30",
@@ -676,7 +650,7 @@
       "assigned": []
     },
     {
-      "id": 40,
+      "id": 38,
       "date": "08-13 Thu",
       "from": "18:00",
       "till": "20:30",
@@ -689,7 +663,7 @@
       "assigned": []
     },
     {
-      "id": 41,
+      "id": 39,
       "date": "08-12 Wed",
       "from": "9:00",
       "till": "12:45",
@@ -715,7 +689,7 @@
       ]
     },
     {
-      "id": 42,
+      "id": 40,
       "date": "08-12 Wed",
       "from": "9:00",
       "till": "13:15",
@@ -741,7 +715,7 @@
       ]
     },
     {
-      "id": 43,
+      "id": 41,
       "date": "08-12 Wed",
       "from": "10:00",
       "till": "11:00",
@@ -775,7 +749,7 @@
       ]
     },
     {
-      "id": 44,
+      "id": 42,
       "date": "08-12 Wed",
       "from": "14:00",
       "till": "14:30",
@@ -825,7 +799,7 @@
       ]
     },
     {
-      "id": 45,
+      "id": 43,
       "date": "08-12 Wed",
       "from": "14:00",
       "till": "17:00",
@@ -843,7 +817,7 @@
       ]
     },
     {
-      "id": 46,
+      "id": 44,
       "date": "08-12 Wed",
       "from": "14:30",
       "till": "17:15",
@@ -861,7 +835,7 @@
       ]
     },
     {
-      "id": 47,
+      "id": 45,
       "date": "08-12 Wed",
       "from": "14:30",
       "till": "18:00",
@@ -879,7 +853,7 @@
       ]
     },
     {
-      "id": 48,
+      "id": 46,
       "date": "08-12 Wed",
       "from": "15:00",
       "till": "17:10",
@@ -905,7 +879,7 @@
       ]
     },
     {
-      "id": 49,
+      "id": 47,
       "date": "08-12 Wed",
       "from": "15:00",
       "till": "18:45",
@@ -935,7 +909,7 @@
       ]
     },
     {
-      "id": 50,
+      "id": 48,
       "date": "08-12 Wed",
       "from": "18:30",
       "till": "19:30",
@@ -989,7 +963,7 @@
       ]
     },
     {
-      "id": 51,
+      "id": 49,
       "date": "08-12 Wed",
       "from": "18:45",
       "till": "19:00",
@@ -1007,7 +981,7 @@
       ]
     },
     {
-      "id": 52,
+      "id": 50,
       "date": "08-12 Wed",
       "from": "19:00",
       "till": "19:15",
@@ -1025,7 +999,7 @@
       ]
     },
     {
-      "id": 53,
+      "id": 51,
       "date": "08-12 Wed",
       "from": "19:00",
       "till": "20:00",
@@ -1043,7 +1017,7 @@
       ]
     },
     {
-      "id": 54,
+      "id": 52,
       "date": "08-12 Wed",
       "from": "19:15",
       "till": "19:30",
@@ -1061,7 +1035,7 @@
       ]
     },
     {
-      "id": 55,
+      "id": 53,
       "date": "08-12 Wed",
       "from": "19:30",
       "till": "20:00",
@@ -1115,7 +1089,7 @@
       ]
     },
     {
-      "id": 56,
+      "id": 54,
       "date": "08-13 Thu",
       "from": "7:40",
       "till": "18:00",
@@ -1133,7 +1107,7 @@
       ]
     },
     {
-      "id": 57,
+      "id": 55,
       "date": "08-13 Thu",
       "from": "6:25",
       "till": "11:30",
@@ -1155,7 +1129,7 @@
       ]
     },
     {
-      "id": 58,
+      "id": 56,
       "date": "08-13 Thu",
       "from": "8:30",
       "till": "11:55",
@@ -1177,7 +1151,7 @@
       ]
     },
     {
-      "id": 59,
+      "id": 57,
       "date": "08-13 Thu",
       "from": "8:30",
       "till": "12:30",
@@ -1195,7 +1169,7 @@
       ]
     },
     {
-      "id": 60,
+      "id": 58,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1213,7 +1187,7 @@
       ]
     },
     {
-      "id": 61,
+      "id": 59,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1226,7 +1200,7 @@
       "assigned": []
     },
     {
-      "id": 62,
+      "id": 60,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:00",
@@ -1244,7 +1218,7 @@
       ]
     },
     {
-      "id": 63,
+      "id": 61,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "12:45",
@@ -1257,7 +1231,7 @@
       "assigned": []
     },
     {
-      "id": 64,
+      "id": 62,
       "date": "08-13 Thu",
       "from": "9:00",
       "till": "18:00",
@@ -1270,7 +1244,7 @@
       "assigned": []
     },
     {
-      "id": 65,
+      "id": 63,
       "date": "08-13 Thu",
       "from": "9:30",
       "till": "11:50",
@@ -1292,7 +1266,7 @@
       ]
     },
     {
-      "id": 66,
+      "id": 64,
       "date": "08-13 Thu",
       "from": "13:55",
       "till": "15:25",
@@ -1314,7 +1288,7 @@
       ]
     },
     {
-      "id": 67,
+      "id": 65,
       "date": "08-13 Thu",
       "from": "12:30",
       "till": "15:30",
@@ -1336,7 +1310,7 @@
       ]
     },
     {
-      "id": 68,
+      "id": 66,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1358,7 +1332,7 @@
       ]
     },
     {
-      "id": 69,
+      "id": 67,
       "date": "08-13 Thu",
       "from": "13:00",
       "till": "19:00",
@@ -1376,7 +1350,7 @@
       ]
     },
     {
-      "id": 70,
+      "id": 68,
       "date": "08-13 Thu",
       "from": "13:30",
       "till": "17:15",
@@ -1398,7 +1372,7 @@
       ]
     },
     {
-      "id": 71,
+      "id": 69,
       "date": "08-13 Thu",
       "from": "17:00",
       "till": "19:00",
@@ -1420,7 +1394,7 @@
       ]
     },
     {
-      "id": 72,
+      "id": 70,
       "date": "08-13 Thu",
       "from": "16:00",
       "till": "19:00",
@@ -1442,7 +1416,7 @@
       ]
     },
     {
-      "id": 73,
+      "id": 71,
       "date": "08-13 Thu",
       "from": "13:55",
       "till": "15:25",
@@ -1464,7 +1438,7 @@
       ]
     },
     {
-      "id": 74,
+      "id": 72,
       "date": "08-14 Fri",
       "from": "7:30",
       "till": "8:00",
@@ -1477,7 +1451,7 @@
       "assigned": []
     },
     {
-      "id": 75,
+      "id": 73,
       "date": "08-14 Fri",
       "from": "7:40",
       "till": "18:30",
@@ -1490,7 +1464,7 @@
       "assigned": []
     },
     {
-      "id": 76,
+      "id": 74,
       "date": "08-14 Fri",
       "from": "8:00",
       "till": "13:00",
@@ -1503,7 +1477,7 @@
       "assigned": []
     },
     {
-      "id": 77,
+      "id": 75,
       "date": "08-14 Fri",
       "from": "8:00",
       "till": "",
@@ -1516,7 +1490,7 @@
       "assigned": []
     },
     {
-      "id": 78,
+      "id": 76,
       "date": "08-14 Fri",
       "from": "8:30",
       "till": "12:30",
@@ -1529,46 +1503,7 @@
       "assigned": []
     },
     {
-      "id": 79,
-      "date": "08-14 Fri",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Test Area MV",
-      "where": "Test B",
-      "category": "Dynamics",
-      "notes": "gate 5",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 80,
-      "date": "08-14 Fri",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Test Area DV + MV",
-      "where": "Dynamic A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 81,
-      "date": "08-14 Fri",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": []
-    },
-    {
-      "id": 82,
+      "id": 77,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -1581,7 +1516,7 @@
       "assigned": []
     },
     {
-      "id": 83,
+      "id": 78,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -1594,7 +1529,7 @@
       "assigned": []
     },
     {
-      "id": 84,
+      "id": 79,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "18:00",
@@ -1607,7 +1542,7 @@
       "assigned": []
     },
     {
-      "id": 85,
+      "id": 80,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "23:00",
@@ -1620,7 +1555,7 @@
       "assigned": []
     },
     {
-      "id": 86,
+      "id": 81,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "13:00",
@@ -1633,7 +1568,7 @@
       "assigned": []
     },
     {
-      "id": 87,
+      "id": 82,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "23:59",
@@ -1646,7 +1581,7 @@
       "assigned": []
     },
     {
-      "id": 88,
+      "id": 83,
       "date": "08-14 Fri",
       "from": "12:00",
       "till": "14:00",
@@ -1659,20 +1594,7 @@
       "assigned": []
     },
     {
-      "id": 89,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "1:00",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": []
-    },
-    {
-      "id": 90,
+      "id": 84,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "14:00",
@@ -1685,33 +1607,7 @@
       "assigned": []
     },
     {
-      "id": 91,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Test Area MV",
-      "where": "Test B",
-      "category": "Dynamics",
-      "notes": "gate 5",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 92,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Test Area DV + MV",
-      "where": "Dynamic A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 93,
+      "id": 85,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "19:00",
@@ -1724,7 +1620,7 @@
       "assigned": []
     },
     {
-      "id": 94,
+      "id": 86,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "20:00",
@@ -1737,7 +1633,7 @@
       "assigned": []
     },
     {
-      "id": 95,
+      "id": 87,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "",
@@ -1750,7 +1646,7 @@
       "assigned": []
     },
     {
-      "id": 96,
+      "id": 88,
       "date": "08-14 Fri",
       "from": "13:30",
       "till": "17:00",
@@ -1763,7 +1659,7 @@
       "assigned": []
     },
     {
-      "id": 97,
+      "id": 89,
       "date": "08-14 Fri",
       "from": "14:00",
       "till": "15:00",
@@ -1776,7 +1672,7 @@
       "assigned": []
     },
     {
-      "id": 98,
+      "id": 90,
       "date": "08-14 Fri",
       "from": "14:00",
       "till": "19:00",
@@ -1789,7 +1685,7 @@
       "assigned": []
     },
     {
-      "id": 99,
+      "id": 91,
       "date": "08-14 Fri",
       "from": "14:30",
       "till": "",
@@ -1802,7 +1698,7 @@
       "assigned": []
     },
     {
-      "id": 100,
+      "id": 92,
       "date": "08-14 Fri",
       "from": "15:00",
       "till": "15:45",
@@ -1815,7 +1711,7 @@
       "assigned": []
     },
     {
-      "id": 101,
+      "id": 93,
       "date": "08-14 Fri",
       "from": "15:00",
       "till": "19:00",
@@ -1828,7 +1724,7 @@
       "assigned": []
     },
     {
-      "id": 102,
+      "id": 94,
       "date": "08-14 Fri",
       "from": "17:30",
       "till": "18:00",
@@ -1841,7 +1737,7 @@
       "assigned": []
     },
     {
-      "id": 103,
+      "id": 95,
       "date": "08-14 Fri",
       "from": "18:00",
       "till": "20:30",
@@ -1854,7 +1750,7 @@
       "assigned": []
     },
     {
-      "id": 104,
+      "id": 96,
       "date": "08-14 Fri",
       "from": "18:30",
       "till": "21:30",
@@ -1867,7 +1763,7 @@
       "assigned": []
     },
     {
-      "id": 105,
+      "id": 97,
       "date": "08-14 Fri",
       "from": "19:00",
       "till": "19:30",
@@ -1880,7 +1776,7 @@
       "assigned": []
     },
     {
-      "id": 106,
+      "id": 98,
       "date": "08-14 Fri",
       "from": "19:30",
       "till": "20:00",
@@ -1893,7 +1789,7 @@
       "assigned": []
     },
     {
-      "id": 107,
+      "id": 99,
       "date": "08-14 Fri",
       "from": "20:00",
       "till": "20:30",
@@ -1906,7 +1802,7 @@
       "assigned": []
     },
     {
-      "id": 108,
+      "id": 100,
       "date": "08-14 Fri",
       "from": "20:00",
       "till": "22:00",
@@ -1919,7 +1815,7 @@
       "assigned": []
     },
     {
-      "id": 109,
+      "id": 101,
       "date": "08-14 Fri",
       "from": "20:30",
       "till": "",
@@ -1932,7 +1828,7 @@
       "assigned": []
     },
     {
-      "id": 110,
+      "id": 102,
       "date": "08-14 Fri",
       "from": "21:00",
       "till": "23:59",
@@ -1945,7 +1841,7 @@
       "assigned": []
     },
     {
-      "id": 111,
+      "id": 103,
       "date": "08-15 Sat",
       "from": "1:30",
       "till": "7:30",
@@ -1958,7 +1854,7 @@
       "assigned": []
     },
     {
-      "id": 112,
+      "id": 104,
       "date": "08-15 Sat",
       "from": "6:00",
       "till": "23:59",
@@ -1971,7 +1867,7 @@
       "assigned": []
     },
     {
-      "id": 113,
+      "id": 105,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "8:00",
@@ -1984,7 +1880,7 @@
       "assigned": []
     },
     {
-      "id": 114,
+      "id": 106,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "8:30",
@@ -1997,7 +1893,7 @@
       "assigned": []
     },
     {
-      "id": 115,
+      "id": 107,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "",
@@ -2010,7 +1906,7 @@
       "assigned": []
     },
     {
-      "id": 116,
+      "id": 108,
       "date": "08-15 Sat",
       "from": "7:40",
       "till": "18:30",
@@ -2023,33 +1919,7 @@
       "assigned": []
     },
     {
-      "id": 117,
-      "date": "08-15 Sat",
-      "from": "8:00",
-      "till": "12:00",
-      "what": "Test Area MV",
-      "where": "Test A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 118,
-      "date": "08-15 Sat",
-      "from": "8:00",
-      "till": "12:00",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": []
-    },
-    {
-      "id": 119,
+      "id": 109,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "12:00",
@@ -2062,7 +1932,7 @@
       "assigned": []
     },
     {
-      "id": 120,
+      "id": 110,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "13:00",
@@ -2075,7 +1945,7 @@
       "assigned": []
     },
     {
-      "id": 121,
+      "id": 111,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "13:30",
@@ -2088,7 +1958,7 @@
       "assigned": []
     },
     {
-      "id": 122,
+      "id": 112,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "",
@@ -2101,7 +1971,7 @@
       "assigned": []
     },
     {
-      "id": 123,
+      "id": 113,
       "date": "08-15 Sat",
       "from": "8:30",
       "till": "12:30",
@@ -2114,7 +1984,7 @@
       "assigned": []
     },
     {
-      "id": 124,
+      "id": 114,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "10:00",
@@ -2127,7 +1997,7 @@
       "assigned": []
     },
     {
-      "id": 125,
+      "id": 115,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "18:00",
@@ -2140,7 +2010,7 @@
       "assigned": []
     },
     {
-      "id": 126,
+      "id": 116,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "23:00",
@@ -2153,7 +2023,7 @@
       "assigned": []
     },
     {
-      "id": 127,
+      "id": 117,
       "date": "08-15 Sat",
       "from": "10:00",
       "till": "11:00",
@@ -2166,7 +2036,7 @@
       "assigned": []
     },
     {
-      "id": 128,
+      "id": 118,
       "date": "08-15 Sat",
       "from": "12:00",
       "till": "14:30",
@@ -2179,7 +2049,7 @@
       "assigned": []
     },
     {
-      "id": 129,
+      "id": 119,
       "date": "08-15 Sat",
       "from": "12:30",
       "till": "14:00",
@@ -2192,7 +2062,7 @@
       "assigned": []
     },
     {
-      "id": 130,
+      "id": 120,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "17:00",
@@ -2205,20 +2075,7 @@
       "assigned": []
     },
     {
-      "id": 131,
-      "date": "08-15 Sat",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Test Area MV",
-      "where": "Test A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 132,
+      "id": 121,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "20:00",
@@ -2231,20 +2088,7 @@
       "assigned": []
     },
     {
-      "id": 133,
-      "date": "08-15 Sat",
-      "from": "13:00",
-      "till": "22:00",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": []
-    },
-    {
-      "id": 134,
+      "id": 122,
       "date": "08-15 Sat",
       "from": "14:00",
       "till": "19:00",
@@ -2257,7 +2101,7 @@
       "assigned": []
     },
     {
-      "id": 135,
+      "id": 123,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "14:55",
@@ -2270,20 +2114,7 @@
       "assigned": []
     },
     {
-      "id": 136,
-      "date": "08-15 Sat",
-      "from": "14:30",
-      "till": "19:00",
-      "what": "Test Area MV",
-      "where": "S/F Line",
-      "category": "Dynamics",
-      "notes": "gate 2-a",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 137,
+      "id": 124,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "",
@@ -2296,7 +2127,7 @@
       "assigned": []
     },
     {
-      "id": 138,
+      "id": 125,
       "date": "08-15 Sat",
       "from": "15:00",
       "till": "19:30",
@@ -2309,7 +2140,7 @@
       "assigned": []
     },
     {
-      "id": 139,
+      "id": 126,
       "date": "08-15 Sat",
       "from": "19:15",
       "till": "21:00",
@@ -2322,7 +2153,7 @@
       "assigned": []
     },
     {
-      "id": 140,
+      "id": 127,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "20:00",
@@ -2335,7 +2166,7 @@
       "assigned": []
     },
     {
-      "id": 141,
+      "id": 128,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "21:00",
@@ -2348,7 +2179,7 @@
       "assigned": []
     },
     {
-      "id": 142,
+      "id": 129,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "23:00",
@@ -2361,7 +2192,7 @@
       "assigned": []
     },
     {
-      "id": 143,
+      "id": 130,
       "date": "08-15 Sat",
       "from": "21:00",
       "till": "22:00",
@@ -2374,7 +2205,7 @@
       "assigned": []
     },
     {
-      "id": 144,
+      "id": 131,
       "date": "08-16 Sun",
       "from": "6:00",
       "till": "15:00",
@@ -2387,20 +2218,7 @@
       "assigned": []
     },
     {
-      "id": 145,
-      "date": "08-16 Sun",
-      "from": "7:00",
-      "till": "12:00",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": []
-    },
-    {
-      "id": 146,
+      "id": 132,
       "date": "08-16 Sun",
       "from": "7:30",
       "till": "12:30",
@@ -2413,7 +2231,7 @@
       "assigned": []
     },
     {
-      "id": 147,
+      "id": 133,
       "date": "08-16 Sun",
       "from": "7:40",
       "till": "15:00",
@@ -2426,7 +2244,7 @@
       "assigned": []
     },
     {
-      "id": 148,
+      "id": 134,
       "date": "08-16 Sun",
       "from": "8:00",
       "till": "8:25",
@@ -2439,7 +2257,7 @@
       "assigned": []
     },
     {
-      "id": 149,
+      "id": 135,
       "date": "08-16 Sun",
       "from": "8:00",
       "till": "",
@@ -2452,7 +2270,7 @@
       "assigned": []
     },
     {
-      "id": 150,
+      "id": 136,
       "date": "08-16 Sun",
       "from": "8:30",
       "till": "12:00",
@@ -2465,7 +2283,7 @@
       "assigned": []
     },
     {
-      "id": 151,
+      "id": 137,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "12:00",
@@ -2478,20 +2296,7 @@
       "assigned": []
     },
     {
-      "id": 152,
-      "date": "08-16 Sun",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Test Area MV",
-      "where": "Test A",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 153,
+      "id": 138,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "17:00",
@@ -2504,7 +2309,7 @@
       "assigned": []
     },
     {
-      "id": 154,
+      "id": 139,
       "date": "08-16 Sun",
       "from": "11:30",
       "till": "13:30",
@@ -2517,7 +2322,7 @@
       "assigned": []
     },
     {
-      "id": 155,
+      "id": 140,
       "date": "08-16 Sun",
       "from": "12:00",
       "till": "18:00",
@@ -2530,20 +2335,7 @@
       "assigned": []
     },
     {
-      "id": 156,
-      "date": "08-16 Sun",
-      "from": "13:00",
-      "till": "16:00",
-      "what": "Charging Area available",
-      "where": "Charging",
-      "category": "Place",
-      "notes": "gate 6",
-      "relevant": "info",
-      "comment": "any time/at least some shots",
-      "assigned": []
-    },
-    {
-      "id": 157,
+      "id": 141,
       "date": "08-16 Sun",
       "from": "13:00",
       "till": "16:00",
@@ -2556,7 +2348,7 @@
       "assigned": []
     },
     {
-      "id": 158,
+      "id": 142,
       "date": "08-16 Sun",
       "from": "14:00",
       "till": "19:00",
@@ -2569,7 +2361,7 @@
       "assigned": []
     },
     {
-      "id": 159,
+      "id": 143,
       "date": "08-16 Sun",
       "from": "19:30",
       "till": "20:00",
@@ -2582,7 +2374,7 @@
       "assigned": []
     },
     {
-      "id": 160,
+      "id": 144,
       "date": "08-16 Sun",
       "from": "19:45",
       "till": "20:00",
@@ -2595,7 +2387,7 @@
       "assigned": []
     },
     {
-      "id": 161,
+      "id": 145,
       "date": "08-16 Sun",
       "from": "20:00",
       "till": "21:00",
@@ -2608,7 +2400,7 @@
       "assigned": []
     },
     {
-      "id": 162,
+      "id": 146,
       "date": "08-16 Sun",
       "from": "21:00",
       "till": "23:59",
@@ -2621,7 +2413,7 @@
       "assigned": []
     },
     {
-      "id": 163,
+      "id": 147,
       "date": "08-11 Tue",
       "from": "22:00",
       "till": "0:59",
@@ -2634,7 +2426,7 @@
       "assigned": []
     },
     {
-      "id": 164,
+      "id": 148,
       "date": "08-13 Thu",
       "from": "20:30",
       "till": "21:30",
@@ -2656,7 +2448,7 @@
       ]
     },
     {
-      "id": 165,
+      "id": 149,
       "date": "08-13 Thu",
       "from": "21:00",
       "till": "21:30",
@@ -2674,7 +2466,7 @@
       ]
     },
     {
-      "id": 166,
+      "id": 150,
       "date": "08-13 Thu",
       "from": "10:00",
       "till": "17:00",
@@ -2683,10 +2475,293 @@
       "category": "PR＋Media",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Ansys/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Ansys/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
           "name": "Axel",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Antefactory - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Antefactory/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Audi - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Audi/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "BMW - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;BMW/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Bosch - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Bosch/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Freudenberg - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Freudenberg/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Helsing - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Helsing/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Lilian",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Magna - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Magna/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Lilian",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "MAN - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;MAN/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "MathWorks - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;MathWorks/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Mercedes - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Mercedes/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Niklas",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 161,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Porsche - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Porsche/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Niklas",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 162,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "RV-Tech - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;RV-Tech/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Paul",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 163,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Schaeffler - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Schaeffler/\n* empty booth from all sides\n* booth with students",
+      "assigned": []
+    },
+    {
+      "id": 164,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Siemens - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Siemens/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Paul",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 165,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Tesla - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Tesla/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Ronja",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 166,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "VDI - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;VDI/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Ronja",
           "slot": "X"
         }
       ]
@@ -2696,15 +2771,15 @@
       "date": "08-13 Thu",
       "from": "10:00",
       "till": "17:00",
-      "what": "Antefactory - Partner",
+      "what": "VW - Partner",
       "where": "Paddock / Forum",
       "category": "PR＋Media",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Antefactory/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;VW/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Axel",
+          "name": "Shengkai",
           "slot": "X"
         }
       ]
@@ -2714,15 +2789,15 @@
       "date": "08-13 Thu",
       "from": "10:00",
       "till": "17:00",
-      "what": "Audi - Partner",
+      "what": "Würth - Partner",
       "where": "Paddock / Forum",
       "category": "PR＋Media",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Audi/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Wuerth/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Camilla",
+          "name": "Shengkai",
           "slot": "X"
         }
       ]
@@ -2732,295 +2807,12 @@
       "date": "08-13 Thu",
       "from": "10:00",
       "till": "17:00",
-      "what": "BMW - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;BMW/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Camilla",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 170,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Bosch - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Bosch/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Felix",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 171,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Freudenberg - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Freudenberg/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Felix",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 172,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Helsing - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Helsing/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Lilian",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 173,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Magna - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Magna/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Lilian",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 174,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "MAN - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;MAN/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Max",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 175,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "MathWorks - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;MathWorks/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Max",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 176,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Mercedes - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Mercedes/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Niklas",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 177,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Porsche - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Porsche/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Niklas",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 178,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "RV-Tech - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;RV-Tech/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Paul",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 179,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Schaeffler - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Schaeffler/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": []
-    },
-    {
-      "id": 180,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Siemens - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Siemens/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Paul",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 181,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Tesla - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Tesla/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Ronja",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 182,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "VDI - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;VDI/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Ronja",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 183,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "VW - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;VW/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 184,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Würth - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Wuerth/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
-      "assigned": [
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        }
-      ]
-    },
-    {
-      "id": 185,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
       "what": "Zeiss - Partner",
       "where": "Paddock / Forum",
       "category": "PR＋Media",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Zeiss/\n* empty booth from all sides\n* booth with students\n* top view (BW tower/marquee)",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Zeiss/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
           "name": "Shengkai",
