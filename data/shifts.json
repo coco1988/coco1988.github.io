@@ -1241,7 +1241,12 @@
       "notes": "",
       "relevant": "yes",
       "comment": "once a day",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Shengkai",
+          "slot": "13:00 - 13:15"
+        }
+      ]
     },
     {
       "id": 63,
