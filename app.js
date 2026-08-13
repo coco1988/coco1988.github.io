@@ -88,7 +88,9 @@ function parseShiftDateParts(dateText) {
 }
 
 function isXShift(shift) {
-  return shift.from === 'X' || shift.till === 'X';
+  if (shift.from === 'X' || shift.till === 'X') return true;
+  if ((shift.assigned || []).some(a => (a.slot || '') === 'X')) return true;
+  return false;
 }
 
 function parseTimeToParts(timeText) {
