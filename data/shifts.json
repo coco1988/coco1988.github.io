@@ -1141,8 +1141,8 @@
       "comment": "30-45min, 2 circles, cover each team",
       "assigned": [
         {
-          "name": "Ronja",
-          "slot": "16:00 - 19:00"
+          "name": "Niklas",
+          "slot": "10:30 - 11:30"
         },
         {
           "name": "Shengkai",
@@ -1415,8 +1415,8 @@
           "slot": "16:00 - 19:00"
         },
         {
-          "name": "Niklas",
-          "slot": "10:30 - 11:30"
+          "name": "Ronja",
+          "slot": "16:00 - 19:00"
         }
       ]
     },
@@ -1444,6 +1444,401 @@
     },
     {
       "id": 72,
+      "date": "08-13 Thu",
+      "from": "20:30",
+      "till": "21:30",
+      "what": "Business Plan Presentation Finals",
+      "where": "Marquee",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "20:30 - 21:30"
+        },
+        {
+          "name": "Max",
+          "slot": "20:30 - 21:30"
+        }
+      ]
+    },
+    {
+      "id": 73,
+      "date": "08-13 Thu",
+      "from": "21:00",
+      "till": "21:30",
+      "what": "OT-Meeting",
+      "where": "BW L04 R05",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Niklas",
+          "slot": "21:00 - 21:30"
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Ansys - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Ansys/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Antefactory - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Antefactory/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Audi - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Audi/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "BMW - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;BMW/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Bosch - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Bosch/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Freudenberg - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Freudenberg/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Helsing - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Helsing/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Lilian",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Magna - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Magna/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Lilian",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "MAN - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;MAN/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "MathWorks - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;MathWorks/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Mercedes - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Mercedes/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Niklas",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Porsche - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Porsche/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Niklas",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "RV-Tech - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;RV-Tech/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Paul",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Schaeffler - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Schaeffler/\n* empty booth from all sides\n* booth with students",
+      "assigned": []
+    },
+    {
+      "id": 88,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Siemens - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Siemens/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Paul",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Tesla - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Tesla/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Ronja",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "VDI - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;VDI/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Ronja",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "VW - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;VW/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Würth - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Wuerth/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "date": "08-13 Thu",
+      "from": "10:00",
+      "till": "17:00",
+      "what": "Zeiss - Partner",
+      "where": "Paddock / Forum",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Zeiss/\n* empty booth from all sides\n* booth with students",
+      "assigned": [
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 94,
       "date": "08-14 Fri",
       "from": "7:30",
       "till": "8:00",
@@ -1456,7 +1851,7 @@
       "assigned": []
     },
     {
-      "id": 73,
+      "id": 95,
       "date": "08-14 Fri",
       "from": "7:40",
       "till": "18:30",
@@ -1469,7 +1864,7 @@
       "assigned": []
     },
     {
-      "id": 74,
+      "id": 96,
       "date": "08-14 Fri",
       "from": "8:00",
       "till": "13:00",
@@ -1482,7 +1877,7 @@
       "assigned": []
     },
     {
-      "id": 75,
+      "id": 97,
       "date": "08-14 Fri",
       "from": "8:00",
       "till": "",
@@ -1495,7 +1890,7 @@
       "assigned": []
     },
     {
-      "id": 76,
+      "id": 98,
       "date": "08-14 Fri",
       "from": "8:30",
       "till": "12:30",
@@ -1508,7 +1903,7 @@
       "assigned": []
     },
     {
-      "id": 77,
+      "id": 99,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -1521,7 +1916,7 @@
       "assigned": []
     },
     {
-      "id": 78,
+      "id": 100,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -1534,7 +1929,7 @@
       "assigned": []
     },
     {
-      "id": 79,
+      "id": 101,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "18:00",
@@ -1547,7 +1942,7 @@
       "assigned": []
     },
     {
-      "id": 80,
+      "id": 102,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "23:00",
@@ -1557,292 +1952,6 @@
       "notes": "",
       "relevant": "info",
       "comment": "try to catch some photos",
-      "assigned": []
-    },
-    {
-      "id": 81,
-      "date": "08-14 Fri",
-      "from": "10:00",
-      "till": "13:00",
-      "what": "Cost Finals (not public)",
-      "where": "BW L04 R03, BW L04 R05",
-      "category": "Statics",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift - a few pictures are enough - no picture of the sheets",
-      "assigned": []
-    },
-    {
-      "id": 82,
-      "date": "08-14 Fri",
-      "from": "10:00",
-      "till": "23:59",
-      "what": "Recreation Area available",
-      "where": "Recreation",
-      "category": "Place",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 83,
-      "date": "08-14 Fri",
-      "from": "12:00",
-      "till": "14:00",
-      "what": "Lunch",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 84,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "14:00",
-      "what": "FSG Connects (VIP & Press)",
-      "where": "Marquee",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 85,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Emergency Brake System (EBS) Test [on request]",
-      "where": "Dynamic A",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 86,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "20:00",
-      "what": "Technical Inspections Brake, Egress, Rain [on request]",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 87,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "",
-      "what": "Queue Open for: Driverless Acceleration",
-      "where": "S/F Line",
-      "category": "Dynamics",
-      "notes": "gate 2-b",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 88,
-      "date": "08-14 Fri",
-      "from": "13:30",
-      "till": "17:00",
-      "what": "Driverless Acceleration",
-      "where": "S/F Line",
-      "category": "Dynamics",
-      "notes": "gate 2-b",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 89,
-      "date": "08-14 Fri",
-      "from": "14:00",
-      "till": "15:00",
-      "what": "TK buildup Skidpad",
-      "where": "Dynamic",
-      "category": "TK",
-      "notes": "",
-      "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
-    },
-    {
-      "id": 90,
-      "date": "08-14 Fri",
-      "from": "14:00",
-      "till": "19:00",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 91,
-      "date": "08-14 Fri",
-      "from": "14:30",
-      "till": "",
-      "what": "Queue Open for: Driverless Skidpad",
-      "where": "Dynamic B",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 92,
-      "date": "08-14 Fri",
-      "from": "15:00",
-      "till": "15:45",
-      "what": "Press Guided Tour",
-      "where": "Assembly at BW Tower - Foyer",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "a few pictures are enough",
-      "assigned": []
-    },
-    {
-      "id": 93,
-      "date": "08-14 Fri",
-      "from": "15:00",
-      "till": "19:00",
-      "what": "Driverless Skidpad",
-      "where": "Dynamic B",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 94,
-      "date": "08-14 Fri",
-      "from": "17:30",
-      "till": "18:00",
-      "what": "Welcome for WE Redshirts",
-      "where": "BW L04 R03",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 95,
-      "date": "08-14 Fri",
-      "from": "18:00",
-      "till": "20:30",
-      "what": "Dinner",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 96,
-      "date": "08-14 Fri",
-      "from": "18:30",
-      "till": "21:30",
-      "what": "Engineering Design Finals (not public)",
-      "where": "Forum",
-      "category": "Statics",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift - including group picture - enter the forum only via though the back",
-      "assigned": []
-    },
-    {
-      "id": 97,
-      "date": "08-14 Fri",
-      "from": "19:00",
-      "till": "19:30",
-      "what": "Team Photo Red Shirts",
-      "where": "S/F Line",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 98,
-      "date": "08-14 Fri",
-      "from": "19:30",
-      "till": "20:00",
-      "what": "OT Group Photo",
-      "where": "S/F Line",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 99,
-      "date": "08-14 Fri",
-      "from": "20:00",
-      "till": "20:30",
-      "what": "OT-Meeting",
-      "where": "BW L04 R03",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 100,
-      "date": "08-14 Fri",
-      "from": "20:00",
-      "till": "22:00",
-      "what": "Ticket Centre",
-      "where": "Tickets",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "a few shots are enough",
-      "assigned": []
-    },
-    {
-      "id": 101,
-      "date": "08-14 Fri",
-      "from": "20:30",
-      "till": "",
-      "what": "Queue Open for: Manual Skidpad",
-      "where": "Dynamic B",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 102,
-      "date": "08-14 Fri",
-      "from": "21:00",
-      "till": "23:59",
-      "what": "Manual Skidpad @Night",
-      "where": "Dynamic B",
-      "category": "Dynamics",
-      "notes": "in: gate 1 / out: gate 5",
-      "relevant": "yes",
-      "comment": "shift",
       "assigned": []
     },
     {
@@ -2432,398 +2541,289 @@
     },
     {
       "id": 148,
-      "date": "08-13 Thu",
-      "from": "20:30",
-      "till": "21:30",
-      "what": "Business Plan Presentation Finals",
-      "where": "Marquee",
+      "date": "08-14 Fri",
+      "from": "10:00",
+      "till": "13:00",
+      "what": "Cost Finals (not public)",
+      "where": "BW L04 R03, BW L04 R05",
       "category": "Statics",
       "notes": "",
       "relevant": "yes",
-      "comment": "shift",
-      "assigned": [
-        {
-          "name": "Felix",
-          "slot": "20:30 - 21:30"
-        },
-        {
-          "name": "Max",
-          "slot": "20:30 - 21:30"
-        }
-      ]
+      "comment": "shift - a few pictures are enough - no picture of the sheets",
+      "assigned": []
     },
     {
       "id": 149,
-      "date": "08-13 Thu",
-      "from": "21:00",
-      "till": "21:30",
-      "what": "OT-Meeting",
-      "where": "BW L04 R05",
-      "category": "Officials",
+      "date": "08-14 Fri",
+      "from": "10:00",
+      "till": "23:59",
+      "what": "Recreation Area available",
+      "where": "Recreation",
+      "category": "Place",
       "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": [
-        {
-          "name": "Niklas",
-          "slot": "21:00 - 21:30"
-        }
-      ]
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
     },
     {
       "id": 150,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Ansys - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
+      "date": "08-14 Fri",
+      "from": "12:00",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
       "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Ansys/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        }
-      ]
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
     },
     {
       "id": 151,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Antefactory - Partner",
-      "where": "Paddock / Forum",
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "14:00",
+      "what": "FSG Connects (VIP & Press)",
+      "where": "Marquee",
       "category": "PR＋Media",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Antefactory/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Axel",
-          "slot": "X"
-        }
-      ]
+      "comment": "shift",
+      "assigned": []
     },
     {
       "id": 152,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Audi - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "Dynamic A",
+      "category": "Inspection",
+      "notes": "gate 1",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Audi/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Camilla",
-          "slot": "X"
-        }
-      ]
+      "comment": "shift",
+      "assigned": []
     },
     {
       "id": 153,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "BMW - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "20:00",
+      "what": "Technical Inspections Brake, Egress, Rain [on request]",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;BMW/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Camilla",
-          "slot": "X"
-        }
-      ]
+      "comment": "",
+      "assigned": []
     },
     {
       "id": 154,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Bosch - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Bosch/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Felix",
-          "slot": "X"
-        }
-      ]
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "",
+      "what": "Queue Open for: Driverless Acceleration",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-b",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
     },
     {
       "id": 155,
-      "date": "08-13 Thu",
-      "from": "10:00",
+      "date": "08-14 Fri",
+      "from": "13:30",
       "till": "17:00",
-      "what": "Freudenberg - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
+      "what": "Driverless Acceleration",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-b",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Freudenberg/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Felix",
-          "slot": "X"
-        }
-      ]
+      "comment": "shift",
+      "assigned": []
     },
     {
       "id": 156,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Helsing - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
+      "date": "08-14 Fri",
+      "from": "14:00",
+      "till": "15:00",
+      "what": "TK buildup Skidpad",
+      "where": "Dynamic",
+      "category": "TK",
       "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Helsing/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Lilian",
-          "slot": "X"
-        }
-      ]
+      "relevant": "info",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": []
     },
     {
       "id": 157,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Magna - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
+      "date": "08-14 Fri",
+      "from": "14:00",
+      "till": "19:00",
+      "what": "Event Control",
+      "where": "EvC",
+      "category": "Event Support",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Magna/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Lilian",
-          "slot": "X"
-        }
-      ]
+      "comment": "once or twice a week",
+      "assigned": []
     },
     {
       "id": 158,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "MAN - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;MAN/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Max",
-          "slot": "X"
-        }
-      ]
+      "date": "08-14 Fri",
+      "from": "14:30",
+      "till": "",
+      "what": "Queue Open for: Driverless Skidpad",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
     },
     {
       "id": 159,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "MathWorks - Partner",
-      "where": "Paddock / Forum",
+      "date": "08-14 Fri",
+      "from": "15:00",
+      "till": "15:45",
+      "what": "Press Guided Tour",
+      "where": "Assembly at BW Tower - Foyer",
       "category": "PR＋Media",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;MathWorks/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Max",
-          "slot": "X"
-        }
-      ]
+      "comment": "a few pictures are enough",
+      "assigned": []
     },
     {
       "id": 160,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Mercedes - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
+      "date": "08-14 Fri",
+      "from": "15:00",
+      "till": "19:00",
+      "what": "Driverless Skidpad",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Mercedes/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Niklas",
-          "slot": "X"
-        }
-      ]
+      "comment": "shift",
+      "assigned": []
     },
     {
       "id": 161,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Porsche - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
+      "date": "08-14 Fri",
+      "from": "17:30",
+      "till": "18:00",
+      "what": "Welcome for WE Redshirts",
+      "where": "BW L04 R03",
+      "category": "Officials",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Porsche/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Niklas",
-          "slot": "X"
-        }
-      ]
+      "comment": "",
+      "assigned": []
     },
     {
       "id": 162,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "RV-Tech - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
+      "date": "08-14 Fri",
+      "from": "18:00",
+      "till": "20:30",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
       "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;RV-Tech/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Paul",
-          "slot": "X"
-        }
-      ]
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
     },
     {
       "id": 163,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Schaeffler - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
+      "date": "08-14 Fri",
+      "from": "18:30",
+      "till": "21:30",
+      "what": "Engineering Design Finals (not public)",
+      "where": "Forum",
+      "category": "Statics",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Schaeffler/\n* empty booth from all sides\n* booth with students",
+      "comment": "shift - including group picture - enter the forum only via though the back",
       "assigned": []
     },
     {
       "id": 164,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Siemens - Partner",
-      "where": "Paddock / Forum",
+      "date": "08-14 Fri",
+      "from": "19:00",
+      "till": "19:30",
+      "what": "Team Photo Red Shirts",
+      "where": "S/F Line",
       "category": "PR＋Media",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Siemens/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Paul",
-          "slot": "X"
-        }
-      ]
+      "comment": "",
+      "assigned": []
     },
     {
       "id": 165,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Tesla - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
+      "date": "08-14 Fri",
+      "from": "19:30",
+      "till": "20:00",
+      "what": "OT Group Photo",
+      "where": "S/F Line",
+      "category": "Officials",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Tesla/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Ronja",
-          "slot": "X"
-        }
-      ]
+      "comment": "shift",
+      "assigned": []
     },
     {
       "id": 166,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "VDI - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
+      "date": "08-14 Fri",
+      "from": "20:00",
+      "till": "20:30",
+      "what": "OT-Meeting",
+      "where": "BW L04 R03",
+      "category": "Officials",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;VDI/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Ronja",
-          "slot": "X"
-        }
-      ]
+      "comment": "shift",
+      "assigned": []
     },
     {
       "id": 167,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "VW - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
+      "date": "08-14 Fri",
+      "from": "20:00",
+      "till": "22:00",
+      "what": "Ticket Centre",
+      "where": "Tickets",
+      "category": "Event Support",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;VW/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        }
-      ]
+      "comment": "a few shots are enough",
+      "assigned": []
     },
     {
       "id": 168,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Würth - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Wuerth/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        }
-      ]
+      "date": "08-14 Fri",
+      "from": "20:30",
+      "till": "",
+      "what": "Queue Open for: Manual Skidpad",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
     },
     {
       "id": 169,
-      "date": "08-13 Thu",
-      "from": "10:00",
-      "till": "17:00",
-      "what": "Zeiss - Partner",
-      "where": "Paddock / Forum",
-      "category": "PR＋Media",
-      "notes": "",
+      "date": "08-14 Fri",
+      "from": "21:00",
+      "till": "23:59",
+      "what": "Manual Skidpad @Night",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "in: gate 1 / out: gate 5",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Zeiss/\n* empty booth from all sides\n* booth with students",
-      "assigned": [
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        }
-      ]
+      "comment": "shift",
+      "assigned": []
     }
   ]
 }
