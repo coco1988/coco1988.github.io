@@ -1,6 +1,6 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv",
-  "count": 169,
+  "count": 161,
   "shifts": [
     {
       "id": 1,
@@ -1840,83 +1840,18 @@
     {
       "id": 94,
       "date": "08-14 Fri",
-      "from": "7:30",
-      "till": "8:00",
-      "what": "Driverless Autocross Course Walk",
-      "where": "Dynamic B",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 95,
-      "date": "08-14 Fri",
-      "from": "7:40",
-      "till": "18:30",
-      "what": "Ticket Centre",
-      "where": "Tickets",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "a few shots are enough",
-      "assigned": []
-    },
-    {
-      "id": 96,
-      "date": "08-14 Fri",
-      "from": "8:00",
-      "till": "13:00",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 97,
-      "date": "08-14 Fri",
-      "from": "8:00",
-      "till": "",
-      "what": "Queue Open for: Driverless Autocross",
-      "where": "Dynamic",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 98,
-      "date": "08-14 Fri",
-      "from": "8:30",
-      "till": "12:30",
-      "what": "Driverless Autocross",
-      "where": "Dynamic B",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 99,
-      "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
       "what": "Emergency Brake System (EBS) Test [on request]",
       "where": "Dynamic A",
       "category": "Inspection",
       "notes": "gate 1",
-      "relevant": "yes",
+      "relevant": "info",
       "comment": "shift",
       "assigned": []
     },
     {
-      "id": 100,
+      "id": 95,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "12:00",
@@ -1924,25 +1859,12 @@
       "where": "Dynamic",
       "category": "Inspection",
       "notes": "gate 1",
-      "relevant": "yes",
+      "relevant": "info",
       "comment": "",
       "assigned": []
     },
     {
-      "id": 101,
-      "date": "08-14 Fri",
-      "from": "9:00",
-      "till": "18:00",
-      "what": "FSG Academy On Site",
-      "where": "Rav T. F03 A, Rav T. F03 B",
-      "category": "Academy",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once a day",
-      "assigned": []
-    },
-    {
-      "id": 102,
+      "id": 96,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "23:00",
@@ -1955,7 +1877,46 @@
       "assigned": []
     },
     {
-      "id": 103,
+      "id": 97,
+      "date": "08-14 Fri",
+      "from": "12:00",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 98,
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "19:00",
+      "what": "Emergency Brake System (EBS) Test [on request]",
+      "where": "Dynamic A",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 99,
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "20:00",
+      "what": "Technical Inspections Brake, Egress, Rain [on request]",
+      "where": "Dynamic",
+      "category": "Inspection",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 100,
       "date": "08-15 Sat",
       "from": "1:30",
       "till": "7:30",
@@ -1968,7 +1929,7 @@
       "assigned": []
     },
     {
-      "id": 104,
+      "id": 101,
       "date": "08-15 Sat",
       "from": "6:00",
       "till": "23:59",
@@ -1981,7 +1942,7 @@
       "assigned": []
     },
     {
-      "id": 105,
+      "id": 102,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "8:00",
@@ -1994,7 +1955,7 @@
       "assigned": []
     },
     {
-      "id": 106,
+      "id": 103,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "8:30",
@@ -2007,7 +1968,7 @@
       "assigned": []
     },
     {
-      "id": 107,
+      "id": 104,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "",
@@ -2020,7 +1981,7 @@
       "assigned": []
     },
     {
-      "id": 108,
+      "id": 105,
       "date": "08-15 Sat",
       "from": "7:40",
       "till": "18:30",
@@ -2033,7 +1994,7 @@
       "assigned": []
     },
     {
-      "id": 109,
+      "id": 106,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "12:00",
@@ -2046,7 +2007,7 @@
       "assigned": []
     },
     {
-      "id": 110,
+      "id": 107,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "13:00",
@@ -2059,7 +2020,7 @@
       "assigned": []
     },
     {
-      "id": 111,
+      "id": 108,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "13:30",
@@ -2072,7 +2033,7 @@
       "assigned": []
     },
     {
-      "id": 112,
+      "id": 109,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "",
@@ -2085,7 +2046,7 @@
       "assigned": []
     },
     {
-      "id": 113,
+      "id": 110,
       "date": "08-15 Sat",
       "from": "8:30",
       "till": "12:30",
@@ -2098,7 +2059,7 @@
       "assigned": []
     },
     {
-      "id": 114,
+      "id": 111,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "10:00",
@@ -2111,7 +2072,7 @@
       "assigned": []
     },
     {
-      "id": 115,
+      "id": 112,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "18:00",
@@ -2124,7 +2085,7 @@
       "assigned": []
     },
     {
-      "id": 116,
+      "id": 113,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "23:00",
@@ -2137,7 +2098,7 @@
       "assigned": []
     },
     {
-      "id": 117,
+      "id": 114,
       "date": "08-15 Sat",
       "from": "10:00",
       "till": "11:00",
@@ -2150,7 +2111,7 @@
       "assigned": []
     },
     {
-      "id": 118,
+      "id": 115,
       "date": "08-15 Sat",
       "from": "12:00",
       "till": "14:30",
@@ -2163,7 +2124,7 @@
       "assigned": []
     },
     {
-      "id": 119,
+      "id": 116,
       "date": "08-15 Sat",
       "from": "12:30",
       "till": "14:00",
@@ -2176,7 +2137,7 @@
       "assigned": []
     },
     {
-      "id": 120,
+      "id": 117,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "17:00",
@@ -2189,7 +2150,7 @@
       "assigned": []
     },
     {
-      "id": 121,
+      "id": 118,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "20:00",
@@ -2202,7 +2163,7 @@
       "assigned": []
     },
     {
-      "id": 122,
+      "id": 119,
       "date": "08-15 Sat",
       "from": "14:00",
       "till": "19:00",
@@ -2215,7 +2176,7 @@
       "assigned": []
     },
     {
-      "id": 123,
+      "id": 120,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "14:55",
@@ -2228,7 +2189,7 @@
       "assigned": []
     },
     {
-      "id": 124,
+      "id": 121,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "",
@@ -2241,7 +2202,7 @@
       "assigned": []
     },
     {
-      "id": 125,
+      "id": 122,
       "date": "08-15 Sat",
       "from": "15:00",
       "till": "19:30",
@@ -2254,7 +2215,7 @@
       "assigned": []
     },
     {
-      "id": 126,
+      "id": 123,
       "date": "08-15 Sat",
       "from": "19:15",
       "till": "21:00",
@@ -2267,7 +2228,7 @@
       "assigned": []
     },
     {
-      "id": 127,
+      "id": 124,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "20:00",
@@ -2280,7 +2241,7 @@
       "assigned": []
     },
     {
-      "id": 128,
+      "id": 125,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "21:00",
@@ -2293,7 +2254,7 @@
       "assigned": []
     },
     {
-      "id": 129,
+      "id": 126,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "23:00",
@@ -2306,7 +2267,7 @@
       "assigned": []
     },
     {
-      "id": 130,
+      "id": 127,
       "date": "08-15 Sat",
       "from": "21:00",
       "till": "22:00",
@@ -2319,7 +2280,7 @@
       "assigned": []
     },
     {
-      "id": 131,
+      "id": 128,
       "date": "08-16 Sun",
       "from": "6:00",
       "till": "15:00",
@@ -2332,7 +2293,7 @@
       "assigned": []
     },
     {
-      "id": 132,
+      "id": 129,
       "date": "08-16 Sun",
       "from": "7:30",
       "till": "12:30",
@@ -2345,7 +2306,7 @@
       "assigned": []
     },
     {
-      "id": 133,
+      "id": 130,
       "date": "08-16 Sun",
       "from": "7:40",
       "till": "15:00",
@@ -2358,7 +2319,7 @@
       "assigned": []
     },
     {
-      "id": 134,
+      "id": 131,
       "date": "08-16 Sun",
       "from": "8:00",
       "till": "8:25",
@@ -2371,7 +2332,7 @@
       "assigned": []
     },
     {
-      "id": 135,
+      "id": 132,
       "date": "08-16 Sun",
       "from": "8:00",
       "till": "",
@@ -2384,7 +2345,7 @@
       "assigned": []
     },
     {
-      "id": 136,
+      "id": 133,
       "date": "08-16 Sun",
       "from": "8:30",
       "till": "12:00",
@@ -2397,7 +2358,7 @@
       "assigned": []
     },
     {
-      "id": 137,
+      "id": 134,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "12:00",
@@ -2410,7 +2371,7 @@
       "assigned": []
     },
     {
-      "id": 138,
+      "id": 135,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "17:00",
@@ -2423,7 +2384,7 @@
       "assigned": []
     },
     {
-      "id": 139,
+      "id": 136,
       "date": "08-16 Sun",
       "from": "11:30",
       "till": "13:30",
@@ -2436,7 +2397,7 @@
       "assigned": []
     },
     {
-      "id": 140,
+      "id": 137,
       "date": "08-16 Sun",
       "from": "12:00",
       "till": "18:00",
@@ -2449,7 +2410,7 @@
       "assigned": []
     },
     {
-      "id": 141,
+      "id": 138,
       "date": "08-16 Sun",
       "from": "13:00",
       "till": "16:00",
@@ -2462,7 +2423,7 @@
       "assigned": []
     },
     {
-      "id": 142,
+      "id": 139,
       "date": "08-16 Sun",
       "from": "14:00",
       "till": "19:00",
@@ -2475,7 +2436,7 @@
       "assigned": []
     },
     {
-      "id": 143,
+      "id": 140,
       "date": "08-16 Sun",
       "from": "19:30",
       "till": "20:00",
@@ -2488,7 +2449,7 @@
       "assigned": []
     },
     {
-      "id": 144,
+      "id": 141,
       "date": "08-16 Sun",
       "from": "19:45",
       "till": "20:00",
@@ -2501,7 +2462,7 @@
       "assigned": []
     },
     {
-      "id": 145,
+      "id": 142,
       "date": "08-16 Sun",
       "from": "20:00",
       "till": "21:00",
@@ -2514,7 +2475,7 @@
       "assigned": []
     },
     {
-      "id": 146,
+      "id": 143,
       "date": "08-16 Sun",
       "from": "21:00",
       "till": "23:59",
@@ -2527,7 +2488,7 @@
       "assigned": []
     },
     {
-      "id": 147,
+      "id": 144,
       "date": "08-11 Tue",
       "from": "22:00",
       "till": "0:59",
@@ -2540,111 +2501,7 @@
       "assigned": []
     },
     {
-      "id": 148,
-      "date": "08-14 Fri",
-      "from": "10:00",
-      "till": "13:00",
-      "what": "Cost Finals (not public)",
-      "where": "BW L04 R03, BW L04 R05",
-      "category": "Statics",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift - a few pictures are enough - no picture of the sheets",
-      "assigned": []
-    },
-    {
-      "id": 149,
-      "date": "08-14 Fri",
-      "from": "10:00",
-      "till": "23:59",
-      "what": "Recreation Area available",
-      "where": "Recreation",
-      "category": "Place",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 150,
-      "date": "08-14 Fri",
-      "from": "12:00",
-      "till": "14:00",
-      "what": "Lunch",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 151,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "14:00",
-      "what": "FSG Connects (VIP & Press)",
-      "where": "Marquee",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 152,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Emergency Brake System (EBS) Test [on request]",
-      "where": "Dynamic A",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 153,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "20:00",
-      "what": "Technical Inspections Brake, Egress, Rain [on request]",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 154,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "",
-      "what": "Queue Open for: Driverless Acceleration",
-      "where": "S/F Line",
-      "category": "Dynamics",
-      "notes": "gate 2-b",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 155,
-      "date": "08-14 Fri",
-      "from": "13:30",
-      "till": "17:00",
-      "what": "Driverless Acceleration",
-      "where": "S/F Line",
-      "category": "Dynamics",
-      "notes": "gate 2-b",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 156,
+      "id": 145,
       "date": "08-14 Fri",
       "from": "14:00",
       "till": "15:00",
@@ -2657,72 +2514,7 @@
       "assigned": []
     },
     {
-      "id": 157,
-      "date": "08-14 Fri",
-      "from": "14:00",
-      "till": "19:00",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 158,
-      "date": "08-14 Fri",
-      "from": "14:30",
-      "till": "",
-      "what": "Queue Open for: Driverless Skidpad",
-      "where": "Dynamic B",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 159,
-      "date": "08-14 Fri",
-      "from": "15:00",
-      "till": "15:45",
-      "what": "Press Guided Tour",
-      "where": "Assembly at BW Tower - Foyer",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "a few pictures are enough",
-      "assigned": []
-    },
-    {
-      "id": 160,
-      "date": "08-14 Fri",
-      "from": "15:00",
-      "till": "19:00",
-      "what": "Driverless Skidpad",
-      "where": "Dynamic B",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 161,
-      "date": "08-14 Fri",
-      "from": "17:30",
-      "till": "18:00",
-      "what": "Welcome for WE Redshirts",
-      "where": "BW L04 R03",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 162,
+      "id": 146,
       "date": "08-14 Fri",
       "from": "18:00",
       "till": "20:30",
@@ -2735,59 +2527,7 @@
       "assigned": []
     },
     {
-      "id": 163,
-      "date": "08-14 Fri",
-      "from": "18:30",
-      "till": "21:30",
-      "what": "Engineering Design Finals (not public)",
-      "where": "Forum",
-      "category": "Statics",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift - including group picture - enter the forum only via though the back",
-      "assigned": []
-    },
-    {
-      "id": 164,
-      "date": "08-14 Fri",
-      "from": "19:00",
-      "till": "19:30",
-      "what": "Team Photo Red Shirts",
-      "where": "S/F Line",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 165,
-      "date": "08-14 Fri",
-      "from": "19:30",
-      "till": "20:00",
-      "what": "OT Group Photo",
-      "where": "S/F Line",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 166,
-      "date": "08-14 Fri",
-      "from": "20:00",
-      "till": "20:30",
-      "what": "OT-Meeting",
-      "where": "BW L04 R03",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 167,
+      "id": 147,
       "date": "08-14 Fri",
       "from": "20:00",
       "till": "22:00",
@@ -2795,12 +2535,12 @@
       "where": "Tickets",
       "category": "Event Support",
       "notes": "",
-      "relevant": "yes",
+      "relevant": "info",
       "comment": "a few shots are enough",
       "assigned": []
     },
     {
-      "id": 168,
+      "id": 148,
       "date": "08-14 Fri",
       "from": "20:30",
       "till": "",
@@ -2813,7 +2553,279 @@
       "assigned": []
     },
     {
-      "id": 169,
+      "id": 149,
+      "date": "08-14 Fri",
+      "from": "7:30",
+      "till": "8:00",
+      "what": "Driverless Autocross Course Walk",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Shidhartha",
+          "slot": "07:30 - 08:00"
+        }
+      ]
+    },
+    {
+      "id": 150,
+      "date": "08-14 Fri",
+      "from": "8:30",
+      "till": "12:30",
+      "what": "Driverless Autocross",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Niklas",
+          "slot": "11:45 - 12:30"
+        },
+        {
+          "name": "Paul",
+          "slot": "11:00 - 11:45"
+        },
+        {
+          "name": "Ronja",
+          "slot": "10:15 - 11:00"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "09:30 - 10:15"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "08:30 - 09:30"
+        }
+      ]
+    },
+    {
+      "id": 151,
+      "date": "08-14 Fri",
+      "from": "9:00",
+      "till": "18:00",
+      "what": "FSG Academy On Site",
+      "where": "Rav T. F03 A, Rav T. F03 B",
+      "category": "Academy",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "once a day",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 152,
+      "date": "08-14 Fri",
+      "from": "10:00",
+      "till": "13:00",
+      "what": "Cost Finals (not public)",
+      "where": "BW L04 R03, BW L04 R05",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - a few pictures are enough - no picture of the sheets",
+      "assigned": [
+        {
+          "name": "Lilian",
+          "slot": "10:00 - 11:30"
+        },
+        {
+          "name": "Max",
+          "slot": "11:30 - 13:00"
+        }
+      ]
+    },
+    {
+      "id": 153,
+      "date": "08-14 Fri",
+      "from": "13:00",
+      "till": "14:00",
+      "what": "FSG Connects (VIP & Press)",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Shidhartha",
+          "slot": "13:00 - 14:00"
+        }
+      ]
+    },
+    {
+      "id": 154,
+      "date": "08-14 Fri",
+      "from": "13:30",
+      "till": "17:00",
+      "what": "Driverless Acceleration",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-b",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "13:30 - 14:15"
+        },
+        {
+          "name": "Lilian",
+          "slot": "14:15 - 15:00"
+        },
+        {
+          "name": "Max",
+          "slot": "15:00 - 15:45"
+        },
+        {
+          "name": "Niklas",
+          "slot": "15:45 - 16:30"
+        },
+        {
+          "name": "Paul",
+          "slot": "16:30 - 17:00"
+        }
+      ]
+    },
+    {
+      "id": 155,
+      "date": "08-14 Fri",
+      "from": "15:00",
+      "till": "15:45",
+      "what": "Press Guided Tour",
+      "where": "Assembly at BW Tower - Foyer",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "a few pictures are enough",
+      "assigned": [
+        {
+          "name": "Shidhartha",
+          "slot": "15:00 - 15:45"
+        }
+      ]
+    },
+    {
+      "id": 156,
+      "date": "08-14 Fri",
+      "from": "15:00",
+      "till": "19:00",
+      "what": "Driverless Skidpad",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "15:00 - 15:45"
+        },
+        {
+          "name": "Camilla",
+          "slot": "15:45 - 16:30"
+        },
+        {
+          "name": "Felix",
+          "slot": "18:00 - 19:00"
+        },
+        {
+          "name": "Ronja",
+          "slot": "16:30 - 17:15"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "17:15 - 18:00"
+        }
+      ]
+    },
+    {
+      "id": 157,
+      "date": "08-14 Fri",
+      "from": "17:30",
+      "till": "18:00",
+      "what": "Welcome for WE Redshirts",
+      "where": "BW L04 R03",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "17:30 - 18:00"
+        }
+      ]
+    },
+    {
+      "id": 158,
+      "date": "08-14 Fri",
+      "from": "18:30",
+      "till": "21:30",
+      "what": "Engineering Design Finals (not public)",
+      "where": "Forum",
+      "category": "Statics",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift - including group picture - enter the forum only via though the back",
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "20:00 - 20:45"
+        },
+        {
+          "name": "Paul",
+          "slot": "18:30 - 19:30"
+        }
+      ]
+    },
+    {
+      "id": 159,
+      "date": "08-14 Fri",
+      "from": "19:00",
+      "till": "19:30",
+      "what": "Team Photo Red Shirts",
+      "where": "S/F Line",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "19:00 - 19:30"
+        }
+      ]
+    },
+    {
+      "id": 160,
+      "date": "08-14 Fri",
+      "from": "19:30",
+      "till": "20:00",
+      "what": "OT Group Photo",
+      "where": "S/F Line",
+      "category": "Officials",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "19:30 - 20:00"
+        }
+      ]
+    },
+    {
+      "id": 161,
       "date": "08-14 Fri",
       "from": "21:00",
       "till": "23:59",
@@ -2823,7 +2835,20 @@
       "notes": "in: gate 1 / out: gate 5",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "21:00 - 22:00"
+        },
+        {
+          "name": "Lilian",
+          "slot": "22:00 - 23:00"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "23:00 - 23:59"
+        }
+      ]
     }
   ]
 }
