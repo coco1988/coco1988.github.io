@@ -2723,7 +2723,16 @@
       "notes": "gate 1",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Lilian",
+          "slot": "08:00 - 08:25"
+        },
+        {
+          "name": "Niklas",
+          "slot": "08:00 - 08:25"
+        }
+      ]
     },
     {
       "id": 139,
@@ -2736,7 +2745,40 @@
       "notes": "gate 1",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "09:30 - 10:30"
+        },
+        {
+          "name": "Camilla",
+          "slot": "09:30 - 10:30"
+        },
+        {
+          "name": "Felix",
+          "slot": "10:30 - 11:15"
+        },
+        {
+          "name": "Lilian",
+          "slot": "08:30 - 09:30"
+        },
+        {
+          "name": "Max",
+          "slot": "10:30 - 11:15"
+        },
+        {
+          "name": "Niklas",
+          "slot": "08:30 - 09:30"
+        },
+        {
+          "name": "Paul",
+          "slot": "11:15 - 12:00"
+        },
+        {
+          "name": "Ronja",
+          "slot": "11:15 - 12:00"
+        }
+      ]
     },
     {
       "id": 140,
@@ -2762,7 +2804,20 @@
       "notes": "gate 1",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "13:45 - 14:15"
+        },
+        {
+          "name": "Lilian",
+          "slot": "14:15 - 15:00"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "13:00 - 13:45"
+        }
+      ]
     },
     {
       "id": 142,
