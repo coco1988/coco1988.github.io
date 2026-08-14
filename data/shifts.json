@@ -2690,15 +2690,15 @@
       "assigned": [
         {
           "name": "Felix",
-          "slot": "X"
+          "slot": "21:00 - 22:00"
         },
         {
           "name": "Max",
-          "slot": "X"
+          "slot": "21:00 - 22:00"
         },
         {
           "name": "Ronja",
-          "slot": "X"
+          "slot": "21:00 - 22:00"
         }
       ]
     },
@@ -2840,43 +2840,43 @@
       "assigned": [
         {
           "name": "Axel",
-          "slot": "X"
+          "slot": "19:45 - 20:00"
         },
         {
           "name": "Camilla",
-          "slot": "X"
+          "slot": "19:45 - 20:00"
         },
         {
           "name": "Felix",
-          "slot": "X"
+          "slot": "19:45 - 20:00"
         },
         {
           "name": "Lilian",
-          "slot": "X"
+          "slot": "19:45 - 20:00"
         },
         {
           "name": "Max",
-          "slot": "X"
+          "slot": "19:45 - 20:00"
         },
         {
           "name": "Niklas",
-          "slot": "X"
+          "slot": "19:45 - 20:00"
         },
         {
           "name": "Paul",
-          "slot": "X"
+          "slot": "19:45 - 20:00"
         },
         {
           "name": "Ronja",
-          "slot": "X"
+          "slot": "19:45 - 20:00"
         },
         {
           "name": "Shengkai",
-          "slot": "X"
+          "slot": "19:45 - 20:00"
         },
         {
           "name": "Shidhartha",
-          "slot": "X"
+          "slot": "19:45 - 20:00"
         }
       ]
     },
@@ -2894,15 +2894,15 @@
       "assigned": [
         {
           "name": "Axel",
-          "slot": "X"
+          "slot": "20:00 - 21:00"
         },
         {
           "name": "Niklas",
-          "slot": "X"
+          "slot": "20:00 - 21:00"
         },
         {
           "name": "Paul",
-          "slot": "X"
+          "slot": "20:00 - 21:00"
         }
       ]
     },
@@ -2920,43 +2920,43 @@
       "assigned": [
         {
           "name": "Axel",
-          "slot": "X"
+          "slot": "21:00 - 23:59"
         },
         {
           "name": "Camilla",
-          "slot": "X"
+          "slot": "21:00 - 23:59"
         },
         {
           "name": "Felix",
-          "slot": "X"
+          "slot": "21:00 - 23:59"
         },
         {
           "name": "Lilian",
-          "slot": "X"
+          "slot": "21:00 - 23:59"
         },
         {
           "name": "Max",
-          "slot": "X"
+          "slot": "21:00 - 23:59"
         },
         {
           "name": "Niklas",
-          "slot": "X"
+          "slot": "21:00 - 23:59"
         },
         {
           "name": "Paul",
-          "slot": "X"
+          "slot": "21:00 - 23:59"
         },
         {
           "name": "Ronja",
-          "slot": "X"
+          "slot": "21:00 - 23:59"
         },
         {
           "name": "Shengkai",
-          "slot": "X"
+          "slot": "21:00 - 23:59"
         },
         {
           "name": "Shidhartha",
-          "slot": "X"
+          "slot": "21:00 - 23:59"
         }
       ]
     }
