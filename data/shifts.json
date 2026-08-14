@@ -1776,7 +1776,7 @@
     },
     {
       "id": 93,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Ansys - Partner",
@@ -1787,14 +1787,22 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Ansys/\n* empty booth from all sides\n* booth with students\n* 5 photos so far",
       "assigned": [
         {
-          "name": "Camilla",
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
           "slot": "X"
         }
       ]
     },
     {
       "id": 94,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Antefactory - Partner",
@@ -1805,14 +1813,22 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Antefactory/\n* empty booth from all sides\n* booth with students\n* 1 photo so far",
       "assigned": [
         {
-          "name": "Camilla",
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
           "slot": "X"
         }
       ]
     },
     {
       "id": 95,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Audi - Partner",
@@ -1821,16 +1837,11 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;Audi/\n* empty booth from all sides\n* booth with students\n* 21 photos so far",
-      "assigned": [
-        {
-          "name": "Felix",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
       "id": 96,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "BMW - Partner",
@@ -1839,16 +1850,11 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;BMW/\n* empty booth from all sides\n* booth with students\n* 7 photos so far",
-      "assigned": [
-        {
-          "name": "Felix",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
       "id": 97,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Bosch - Partner",
@@ -1859,14 +1865,14 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Bosch/\n* empty booth from all sides\n* booth with students\n* 6 photos so far",
       "assigned": [
         {
-          "name": "Lilian",
+          "name": "Shidhartha",
           "slot": "X"
         }
       ]
     },
     {
       "id": 98,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Freudenberg - Partner",
@@ -1875,16 +1881,11 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;Freudenberg/\n* empty booth from all sides\n* booth with students\n* 8 photos so far",
-      "assigned": [
-        {
-          "name": "Lilian",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
       "id": 99,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Helsing - Partner",
@@ -1895,14 +1896,22 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Helsing/\n* empty booth from all sides\n* booth with students\n* 3 photos so far",
       "assigned": [
         {
-          "name": "Max",
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
           "slot": "X"
         }
       ]
     },
     {
       "id": 100,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Magna - Partner",
@@ -1911,16 +1920,11 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;Magna/\n* empty booth from all sides\n* booth with students\n* 5 photos so far",
-      "assigned": [
-        {
-          "name": "Max",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
       "id": 101,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "MAN - Partner",
@@ -1929,16 +1933,11 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;MAN/\n* empty booth from all sides\n* booth with students\n* 3 photos so far",
-      "assigned": [
-        {
-          "name": "Niklas",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
       "id": 102,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "MathWorks - Partner",
@@ -1949,14 +1948,22 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;MathWorks/\n* empty booth from all sides\n* booth with students\n* 1 photo so far",
       "assigned": [
         {
-          "name": "Niklas",
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
           "slot": "X"
         }
       ]
     },
     {
       "id": 103,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Mercedes - Partner",
@@ -1967,14 +1974,14 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Mercedes/\n* empty booth from all sides\n* booth with students\n* 6 photos so far",
       "assigned": [
         {
-          "name": "Paul",
+          "name": "Shidhartha",
           "slot": "X"
         }
       ]
     },
     {
       "id": 104,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Porsche - Partner",
@@ -1983,16 +1990,11 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;Porsche/\n* empty booth from all sides\n* booth with students\n* 16 photos so far",
-      "assigned": [
-        {
-          "name": "Paul",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
       "id": 105,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "RV-Tech - Partner",
@@ -2003,14 +2005,22 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;RV-Tech/\n* empty booth from all sides\n* booth with students\n* 3 photos so far",
       "assigned": [
         {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
           "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
           "slot": "X"
         }
       ]
     },
     {
       "id": 106,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Siemens - Partner",
@@ -2021,14 +2031,22 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Siemens/\n* empty booth from all sides\n* booth with students\n* 5 photos so far",
       "assigned": [
         {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
           "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
           "slot": "X"
         }
       ]
     },
     {
       "id": 107,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Tesla - Partner",
@@ -2037,16 +2055,11 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;Tesla/\n* empty booth from all sides\n* booth with students\n* 10 photos so far",
-      "assigned": [
-        {
-          "name": "Shengkai",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
       "id": 108,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "VDI - Partner",
@@ -2057,14 +2070,14 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;VDI/\n* empty booth from all sides\n* booth with students\n* 4 photos so far",
       "assigned": [
         {
-          "name": "Shengkai",
+          "name": "Shidhartha",
           "slot": "X"
         }
       ]
     },
     {
       "id": 109,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "VW - Partner",
@@ -2073,16 +2086,11 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;VW/\n* empty booth from all sides\n* booth with students\n* 14 photos so far",
-      "assigned": [
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
       "id": 110,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Würth - Partner",
@@ -2091,16 +2099,11 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;Wuerth/\n* empty booth from all sides\n* booth with students\n* 21 photos so far",
-      "assigned": [
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
       "id": 111,
-      "date": "08-14 Fri",
+      "date": "08-15 Sat",
       "from": "10:00",
       "till": "17:00",
       "what": "Zeiss - Partner",
@@ -2109,12 +2112,7 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;Zeiss/\n* empty booth from all sides\n* booth with students\n* 2 photos so far",
-      "assigned": [
-        {
-          "name": "Shidhartha",
-          "slot": "X"
-        }
-      ]
+      "assigned": []
     },
     {
       "id": 112,
@@ -2589,7 +2587,12 @@
       "notes": "gate 1",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "14:30 - 14:55"
+        }
+      ]
     },
     {
       "id": 132,
@@ -2812,6 +2815,10 @@
         {
           "name": "Lilian",
           "slot": "14:15 - 15:00"
+        },
+        {
+          "name": "Max",
+          "slot": "15:00 - 16:00"
         },
         {
           "name": "Shengkai",
