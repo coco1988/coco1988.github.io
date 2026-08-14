@@ -1495,7 +1495,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Ansys/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Axel",
+          "name": "Camilla",
           "slot": "X"
         }
       ]
@@ -1513,7 +1513,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Antefactory/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Axel",
+          "name": "Camilla",
           "slot": "X"
         }
       ]
@@ -1531,7 +1531,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Audi/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Camilla",
+          "name": "Felix",
           "slot": "X"
         }
       ]
@@ -1549,7 +1549,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;BMW/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Camilla",
+          "name": "Felix",
           "slot": "X"
         }
       ]
@@ -1567,7 +1567,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Bosch/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Felix",
+          "name": "Lilian",
           "slot": "X"
         }
       ]
@@ -1585,7 +1585,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Freudenberg/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Felix",
+          "name": "Lilian",
           "slot": "X"
         }
       ]
@@ -1603,7 +1603,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Helsing/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Lilian",
+          "name": "Max",
           "slot": "X"
         }
       ]
@@ -1621,7 +1621,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Magna/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Lilian",
+          "name": "Max",
           "slot": "X"
         }
       ]
@@ -1639,7 +1639,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;MAN/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Max",
+          "name": "Niklas",
           "slot": "X"
         }
       ]
@@ -1657,7 +1657,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;MathWorks/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Max",
+          "name": "Niklas",
           "slot": "X"
         }
       ]
@@ -1675,7 +1675,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Mercedes/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Niklas",
+          "name": "Paul",
           "slot": "X"
         }
       ]
@@ -1693,7 +1693,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Porsche/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Niklas",
+          "name": "Paul",
           "slot": "X"
         }
       ]
@@ -1711,7 +1711,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;RV-Tech/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Paul",
+          "name": "Ronja",
           "slot": "X"
         }
       ]
@@ -1742,7 +1742,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Siemens/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Paul",
+          "name": "Ronja",
           "slot": "X"
         }
       ]
@@ -1760,7 +1760,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Tesla/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Ronja",
+          "name": "Shengkai",
           "slot": "X"
         }
       ]
@@ -1778,7 +1778,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;VDI/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Ronja",
+          "name": "Shengkai",
           "slot": "X"
         }
       ]
@@ -1796,7 +1796,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;VW/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Shengkai",
+          "name": "Axel",
           "slot": "X"
         }
       ]
@@ -1814,7 +1814,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Wuerth/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Shengkai",
+          "name": "Axel",
           "slot": "X"
         }
       ]
@@ -1832,7 +1832,7 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Zeiss/\n* empty booth from all sides\n* booth with students",
       "assigned": [
         {
-          "name": "Shengkai",
+          "name": "Axel",
           "slot": "X"
         }
       ]
