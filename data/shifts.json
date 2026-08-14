@@ -1,6 +1,6 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv",
-  "count": 160,
+  "count": 144,
   "shifts": [
     {
       "id": 1,
@@ -1485,6 +1485,206 @@
     {
       "id": 74,
       "date": "08-14 Fri",
+      "from": "12:00",
+      "till": "14:00",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 75,
+      "date": "08-14 Fri",
+      "from": "14:00",
+      "till": "15:00",
+      "what": "TK buildup Skidpad",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
+      "relevant": "info",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": []
+    },
+    {
+      "id": 76,
+      "date": "08-14 Fri",
+      "from": "18:00",
+      "till": "20:30",
+      "what": "Dinner",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 77,
+      "date": "08-14 Fri",
+      "from": "20:30",
+      "till": "",
+      "what": "Queue Open for: Manual Skidpad",
+      "where": "Dynamic B",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 78,
+      "date": "08-15 Sat",
+      "from": "1:30",
+      "till": "7:30",
+      "what": "TK buildup Trackdrive",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
+      "relevant": "info",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": []
+    },
+    {
+      "id": 79,
+      "date": "08-15 Sat",
+      "from": "7:30",
+      "till": "",
+      "what": "Queue Open for: Manual Acceleration",
+      "where": "S/F Line",
+      "category": "Dynamics",
+      "notes": "gate 2-b",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 80,
+      "date": "08-15 Sat",
+      "from": "8:00",
+      "till": "",
+      "what": "Queue Open for: Driverless Trackdrive",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 81,
+      "date": "08-15 Sat",
+      "from": "12:00",
+      "till": "14:30",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 82,
+      "date": "08-15 Sat",
+      "from": "12:30",
+      "till": "14:00",
+      "what": "TK buildup Autocross",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
+      "relevant": "info",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": []
+    },
+    {
+      "id": 83,
+      "date": "08-15 Sat",
+      "from": "14:30",
+      "till": "",
+      "what": "Queue Open for: Manual Autrocross",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "14:30 - 15:00"
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "date": "08-15 Sat",
+      "from": "19:30",
+      "till": "23:00",
+      "what": "TK buildup Endurance",
+      "where": "Dynamic",
+      "category": "TK",
+      "notes": "",
+      "relevant": "info",
+      "comment": "means: take a few pictures of the TK guys",
+      "assigned": []
+    },
+    {
+      "id": 85,
+      "date": "08-16 Sun",
+      "from": "8:00",
+      "till": "",
+      "what": "Queue Open for: Endurance",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 86,
+      "date": "08-16 Sun",
+      "from": "11:30",
+      "till": "13:30",
+      "what": "Lunch",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 87,
+      "date": "08-16 Sun",
+      "from": "12:00",
+      "till": "18:00",
+      "what": "Dismantling of Pits",
+      "where": "Pits",
+      "category": "Teams",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 88,
+      "date": "08-16 Sun",
+      "from": "19:30",
+      "till": "20:00",
+      "what": "Dinner (Pizza)",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "info",
+      "comment": "",
+      "assigned": []
+    },
+    {
+      "id": 89,
+      "date": "08-14 Fri",
       "from": "7:30",
       "till": "8:00",
       "what": "Driverless Autocross Course Walk",
@@ -1501,7 +1701,7 @@
       ]
     },
     {
-      "id": 75,
+      "id": 90,
       "date": "08-14 Fri",
       "from": "8:30",
       "till": "12:30",
@@ -1535,33 +1735,7 @@
       ]
     },
     {
-      "id": 76,
-      "date": "08-14 Fri",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Emergency Brake System (EBS) Test [on request]",
-      "where": "Dynamic A",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 77,
-      "date": "08-14 Fri",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Technical Inspections Brake, Egress, Rain [on request]",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 78,
+      "id": 91,
       "date": "08-14 Fri",
       "from": "9:00",
       "till": "18:00",
@@ -1579,20 +1753,7 @@
       ]
     },
     {
-      "id": 79,
-      "date": "08-14 Fri",
-      "from": "9:00",
-      "till": "23:00",
-      "what": "Welding + Power Tools + Tire Changing [self-service]",
-      "where": "Welding",
-      "category": "Teams",
-      "notes": "",
-      "relevant": "info",
-      "comment": "try to catch some photos",
-      "assigned": []
-    },
-    {
-      "id": 80,
+      "id": 92,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "13:00",
@@ -1614,7 +1775,7 @@
       ]
     },
     {
-      "id": 81,
+      "id": 93,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1632,7 +1793,7 @@
       ]
     },
     {
-      "id": 82,
+      "id": 94,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1650,7 +1811,7 @@
       ]
     },
     {
-      "id": 83,
+      "id": 95,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1668,7 +1829,7 @@
       ]
     },
     {
-      "id": 84,
+      "id": 96,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1686,7 +1847,7 @@
       ]
     },
     {
-      "id": 85,
+      "id": 97,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1704,7 +1865,7 @@
       ]
     },
     {
-      "id": 86,
+      "id": 98,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1722,7 +1883,7 @@
       ]
     },
     {
-      "id": 87,
+      "id": 99,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1740,7 +1901,7 @@
       ]
     },
     {
-      "id": 88,
+      "id": 100,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1758,7 +1919,7 @@
       ]
     },
     {
-      "id": 89,
+      "id": 101,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1776,7 +1937,7 @@
       ]
     },
     {
-      "id": 90,
+      "id": 102,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1794,7 +1955,7 @@
       ]
     },
     {
-      "id": 91,
+      "id": 103,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1812,7 +1973,7 @@
       ]
     },
     {
-      "id": 92,
+      "id": 104,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1830,7 +1991,7 @@
       ]
     },
     {
-      "id": 93,
+      "id": 105,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1848,7 +2009,7 @@
       ]
     },
     {
-      "id": 94,
+      "id": 106,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1866,7 +2027,7 @@
       ]
     },
     {
-      "id": 95,
+      "id": 107,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1884,7 +2045,7 @@
       ]
     },
     {
-      "id": 96,
+      "id": 108,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1902,7 +2063,7 @@
       ]
     },
     {
-      "id": 97,
+      "id": 109,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1920,7 +2081,7 @@
       ]
     },
     {
-      "id": 98,
+      "id": 110,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1938,7 +2099,7 @@
       ]
     },
     {
-      "id": 99,
+      "id": 111,
       "date": "08-14 Fri",
       "from": "10:00",
       "till": "17:00",
@@ -1956,20 +2117,7 @@
       ]
     },
     {
-      "id": 100,
-      "date": "08-14 Fri",
-      "from": "12:00",
-      "till": "14:00",
-      "what": "Lunch",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 101,
+      "id": 112,
       "date": "08-14 Fri",
       "from": "13:00",
       "till": "14:00",
@@ -1987,33 +2135,7 @@
       ]
     },
     {
-      "id": 102,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "19:00",
-      "what": "Emergency Brake System (EBS) Test [on request]",
-      "where": "Dynamic A",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 103,
-      "date": "08-14 Fri",
-      "from": "13:00",
-      "till": "20:00",
-      "what": "Technical Inspections Brake, Egress, Rain [on request]",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 104,
+      "id": 113,
       "date": "08-14 Fri",
       "from": "13:30",
       "till": "17:00",
@@ -2047,20 +2169,7 @@
       ]
     },
     {
-      "id": 105,
-      "date": "08-14 Fri",
-      "from": "14:00",
-      "till": "15:00",
-      "what": "TK buildup Skidpad",
-      "where": "Dynamic",
-      "category": "TK",
-      "notes": "",
-      "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
-    },
-    {
-      "id": 106,
+      "id": 114,
       "date": "08-14 Fri",
       "from": "15:00",
       "till": "15:45",
@@ -2078,7 +2187,7 @@
       ]
     },
     {
-      "id": 107,
+      "id": 115,
       "date": "08-14 Fri",
       "from": "15:00",
       "till": "19:00",
@@ -2112,7 +2221,7 @@
       ]
     },
     {
-      "id": 108,
+      "id": 116,
       "date": "08-14 Fri",
       "from": "17:30",
       "till": "18:00",
@@ -2130,20 +2239,7 @@
       ]
     },
     {
-      "id": 109,
-      "date": "08-14 Fri",
-      "from": "18:00",
-      "till": "20:30",
-      "what": "Dinner",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 110,
+      "id": 117,
       "date": "08-14 Fri",
       "from": "18:30",
       "till": "21:10",
@@ -2165,7 +2261,25 @@
       ]
     },
     {
-      "id": 111,
+      "id": 118,
+      "date": "08-14 Fri",
+      "from": "18:45",
+      "till": "19:15",
+      "what": "Team Photo Female Drivers",
+      "where": "S/F Line",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "18:45 - 19:15"
+        }
+      ]
+    },
+    {
+      "id": 119,
       "date": "08-14 Fri",
       "from": "19:00",
       "till": "19:30",
@@ -2183,7 +2297,61 @@
       ]
     },
     {
-      "id": 112,
+      "id": 120,
+      "date": "08-14 Fri",
+      "from": "19:30",
+      "till": "19:45",
+      "what": "Team Photo Media Team",
+      "where": "S/F Line",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 121,
       "date": "08-14 Fri",
       "from": "19:30",
       "till": "20:00",
@@ -2201,33 +2369,7 @@
       ]
     },
     {
-      "id": 113,
-      "date": "08-14 Fri",
-      "from": "20:00",
-      "till": "22:00",
-      "what": "Ticket Centre",
-      "where": "Tickets",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "info",
-      "comment": "a few shots are enough",
-      "assigned": []
-    },
-    {
-      "id": 114,
-      "date": "08-14 Fri",
-      "from": "20:30",
-      "till": "",
-      "what": "Queue Open for: Manual Skidpad",
-      "where": "Dynamic B",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 115,
+      "id": 122,
       "date": "08-14 Fri",
       "from": "21:00",
       "till": "23:59",
@@ -2253,33 +2395,7 @@
       ]
     },
     {
-      "id": 116,
-      "date": "08-15 Sat",
-      "from": "1:30",
-      "till": "7:30",
-      "what": "TK buildup Trackdrive",
-      "where": "Dynamic",
-      "category": "TK",
-      "notes": "",
-      "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
-    },
-    {
-      "id": 117,
-      "date": "08-15 Sat",
-      "from": "6:00",
-      "till": "23:59",
-      "what": "Pits & Recreation Area available",
-      "where": "Pits, Recreation",
-      "category": "Place",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 118,
+      "id": 123,
       "date": "08-15 Sat",
       "from": "7:30",
       "till": "8:00",
@@ -2289,36 +2405,15 @@
       "notes": "gate 1",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Shidhartha",
+          "slot": "07:30 - 08:00"
+        }
+      ]
     },
     {
-      "id": 119,
-      "date": "08-15 Sat",
-      "from": "7:30",
-      "till": "8:30",
-      "what": "Emergency Brake System (EBS) Test re-pass only[on request]",
-      "where": "Dynamic A",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 120,
-      "date": "08-15 Sat",
-      "from": "7:30",
-      "till": "",
-      "what": "Queue Open for: Manual Acceleration",
-      "where": "S/F Line",
-      "category": "Dynamics",
-      "notes": "gate 2-b",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 121,
+      "id": 124,
       "date": "08-15 Sat",
       "from": "7:40",
       "till": "18:30",
@@ -2328,36 +2423,15 @@
       "notes": "",
       "relevant": "yes",
       "comment": "a few shots are enough",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Paul",
+          "slot": "X"
+        }
+      ]
     },
     {
-      "id": 122,
-      "date": "08-15 Sat",
-      "from": "8:00",
-      "till": "12:00",
-      "what": "Technical Inspections Brake, Egress, Rain [on request]",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 123,
-      "date": "08-15 Sat",
-      "from": "8:00",
-      "till": "13:00",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 124,
+      "id": 125,
       "date": "08-15 Sat",
       "from": "8:00",
       "till": "13:30",
@@ -2367,20 +2441,36 @@
       "notes": "gate 2-b",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 125,
-      "date": "08-15 Sat",
-      "from": "8:00",
-      "till": "",
-      "what": "Queue Open for: Driverless Trackdrive",
-      "where": "Dynamic",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "10:45 - 11:30"
+        },
+        {
+          "name": "Camilla",
+          "slot": "10:00 - 10:45"
+        },
+        {
+          "name": "Felix",
+          "slot": "09:00 - 10:00"
+        },
+        {
+          "name": "Lilian",
+          "slot": "08:00 - 09:00"
+        },
+        {
+          "name": "Ronja",
+          "slot": "13:00 - 13:30"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "11:30 - 12:15"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "12:15 - 13:00"
+        }
+      ]
     },
     {
       "id": 126,
@@ -2393,231 +2483,31 @@
       "notes": "gate 1",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "10:00 - 10:45"
+        },
+        {
+          "name": "Niklas",
+          "slot": "10:45 - 11:30"
+        },
+        {
+          "name": "Paul",
+          "slot": "11:30 - 12:30"
+        },
+        {
+          "name": "Ronja",
+          "slot": "09:00 - 10:00"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "08:30 - 09:00"
+        }
+      ]
     },
     {
       "id": 127,
-      "date": "08-16 Sun",
-      "from": "6:00",
-      "till": "15:00",
-      "what": "Recreation Area available",
-      "where": "Recreation",
-      "category": "Place",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 128,
-      "date": "08-16 Sun",
-      "from": "7:30",
-      "till": "12:30",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 129,
-      "date": "08-16 Sun",
-      "from": "7:40",
-      "till": "15:00",
-      "what": "Ticket Centre",
-      "where": "Tickets",
-      "category": "Event Support",
-      "notes": "Partial teardown to \"light\" operation, starting around 13:00 / 14:00",
-      "relevant": "yes",
-      "comment": "a few shots are enough",
-      "assigned": []
-    },
-    {
-      "id": 130,
-      "date": "08-16 Sun",
-      "from": "8:00",
-      "till": "8:25",
-      "what": "Endurance Course Walk",
-      "where": "Dynamic",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 131,
-      "date": "08-16 Sun",
-      "from": "8:00",
-      "till": "",
-      "what": "Queue Open for: Endurance",
-      "where": "Dynamic",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 132,
-      "date": "08-16 Sun",
-      "from": "8:30",
-      "till": "12:00",
-      "what": "Endurance Morning Session & Parc Fermé",
-      "where": "Dynamic",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 133,
-      "date": "08-16 Sun",
-      "from": "9:00",
-      "till": "12:00",
-      "what": "Welding + Power Tools + Tire Changing [self-service]",
-      "where": "Welding",
-      "category": "Teams",
-      "notes": "",
-      "relevant": "info",
-      "comment": "try to catch some photos",
-      "assigned": []
-    },
-    {
-      "id": 134,
-      "date": "08-16 Sun",
-      "from": "9:00",
-      "till": "17:00",
-      "what": "Start/Finish line of the racetrack open for teams to take pictures",
-      "where": "S/F Line",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "be there at the beginning; a couple of pics are enough\nhttps://www.formulastudent.de/fsg/schedule/registration",
-      "assigned": []
-    },
-    {
-      "id": 135,
-      "date": "08-16 Sun",
-      "from": "11:30",
-      "till": "13:30",
-      "what": "Lunch",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 136,
-      "date": "08-16 Sun",
-      "from": "12:00",
-      "till": "18:00",
-      "what": "Dismantling of Pits",
-      "where": "Pits",
-      "category": "Teams",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 137,
-      "date": "08-16 Sun",
-      "from": "13:00",
-      "till": "16:00",
-      "what": "Endurance Afternoon Session & Parc Fermé",
-      "where": "Dynamic",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 138,
-      "date": "08-16 Sun",
-      "from": "14:00",
-      "till": "19:00",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 139,
-      "date": "08-16 Sun",
-      "from": "19:30",
-      "till": "20:00",
-      "what": "Dinner (Pizza)",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 140,
-      "date": "08-16 Sun",
-      "from": "19:45",
-      "till": "20:00",
-      "what": "Thank you to all Volunteers",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 141,
-      "date": "08-16 Sun",
-      "from": "20:00",
-      "till": "21:00",
-      "what": "Awards Ceremony - Part II",
-      "where": "Marquee",
-      "category": "PR＋Media",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 142,
-      "date": "08-16 Sun",
-      "from": "21:00",
-      "till": "23:59",
-      "what": "FSG Party",
-      "where": "Marquee",
-      "category": "Teams",
-      "notes": "Placeholder",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 143,
-      "date": "08-11 Tue",
-      "from": "22:00",
-      "till": "0:59",
-      "what": "FSG Party",
-      "where": "Marquee",
-      "category": "Teams",
-      "notes": "Placeholder",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 144,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "10:00",
@@ -2626,11 +2516,16 @@
       "category": "Officials",
       "notes": "",
       "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
+      "comment": "a few shots are enough",
+      "assigned": [
+        {
+          "name": "Paul",
+          "slot": "09:00 - 10:00"
+        }
+      ]
     },
     {
-      "id": 145,
+      "id": 128,
       "date": "08-15 Sat",
       "from": "9:00",
       "till": "18:00",
@@ -2648,20 +2543,7 @@
       ]
     },
     {
-      "id": 146,
-      "date": "08-15 Sat",
-      "from": "9:00",
-      "till": "23:00",
-      "what": "Welding + Power Tools + Tire Changing [self-service]",
-      "where": "Welding",
-      "category": "Teams",
-      "notes": "",
-      "relevant": "info",
-      "comment": "try to catch some photos",
-      "assigned": []
-    },
-    {
-      "id": 147,
+      "id": 129,
       "date": "08-15 Sat",
       "from": "10:00",
       "till": "11:00",
@@ -2670,37 +2552,16 @@
       "category": "Officials",
       "notes": "",
       "relevant": "yes",
-      "comment": "",
-      "assigned": []
+      "comment": "a few shots are enough",
+      "assigned": [
+        {
+          "name": "Shengkai",
+          "slot": "10:00 - 11:00"
+        }
+      ]
     },
     {
-      "id": 148,
-      "date": "08-15 Sat",
-      "from": "12:00",
-      "till": "14:30",
-      "what": "Lunch",
-      "where": "Culina",
-      "category": "Meals",
-      "notes": "",
-      "relevant": "info",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 149,
-      "date": "08-15 Sat",
-      "from": "12:30",
-      "till": "14:00",
-      "what": "TK buildup Autocross",
-      "where": "Dynamic",
-      "category": "TK",
-      "notes": "",
-      "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
-    },
-    {
-      "id": 150,
+      "id": 130,
       "date": "08-15 Sat",
       "from": "13:00",
       "till": "17:00",
@@ -2710,36 +2571,15 @@
       "notes": "",
       "relevant": "yes",
       "comment": "at beginning group picture @ BW roof top; then a few pics of their \"council\"",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Max",
+          "slot": "13:00 - 13:30"
+        }
+      ]
     },
     {
-      "id": 151,
-      "date": "08-15 Sat",
-      "from": "13:00",
-      "till": "20:00",
-      "what": "Technical Inspections Brake, Egress, Rain [on request]",
-      "where": "Dynamic",
-      "category": "Inspection",
-      "notes": "gate 1",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 152,
-      "date": "08-15 Sat",
-      "from": "14:00",
-      "till": "19:00",
-      "what": "Event Control",
-      "where": "EvC",
-      "category": "Event Support",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "once or twice a week",
-      "assigned": []
-    },
-    {
-      "id": 153,
+      "id": 131,
       "date": "08-15 Sat",
       "from": "14:30",
       "till": "14:55",
@@ -2752,20 +2592,20 @@
       "assigned": []
     },
     {
-      "id": 154,
-      "date": "08-15 Sat",
-      "from": "14:30",
-      "till": "",
-      "what": "Queue Open for: Manual Autrocross",
-      "where": "Dynamic",
-      "category": "Dynamics",
-      "notes": "gate 1",
-      "relevant": "info",
-      "comment": "",
+      "id": 132,
+      "date": "08-11 Tue",
+      "from": "22:00",
+      "till": "0:59",
+      "what": "FSG Party",
+      "where": "Marquee",
+      "category": "Teams",
+      "notes": "Placeholder",
+      "relevant": "yes",
+      "comment": "shift",
       "assigned": []
     },
     {
-      "id": 155,
+      "id": 133,
       "date": "08-15 Sat",
       "from": "15:00",
       "till": "19:30",
@@ -2775,10 +2615,35 @@
       "notes": "gate 1",
       "relevant": "yes",
       "comment": "shift",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "15:00 - 15:30"
+        },
+        {
+          "name": "Camilla",
+          "slot": "15:30 - 16:15"
+        },
+        {
+          "name": "Felix",
+          "slot": "16:15 - 17:00"
+        },
+        {
+          "name": "Lilian",
+          "slot": "17:00 - 17:45"
+        },
+        {
+          "name": "Max",
+          "slot": "17:45 - 18:30"
+        },
+        {
+          "name": "Niklas",
+          "slot": "18:30 - 19:30"
+        }
+      ]
     },
     {
-      "id": 156,
+      "id": 134,
       "date": "08-15 Sat",
       "from": "19:15",
       "till": "21:00",
@@ -2786,25 +2651,12 @@
       "where": "S/F Line",
       "category": "PR＋Media",
       "notes": "",
-      "relevant": "yes",
+      "relevant": "info",
       "comment": "be there at the beginning; a couple of pics are enough\nhttps://www.formulastudent.de/fsg/schedule/registration",
       "assigned": []
     },
     {
-      "id": 157,
-      "date": "08-15 Sat",
-      "from": "19:30",
-      "till": "20:00",
-      "what": "OT-Meeting",
-      "where": "BW L04 R03",
-      "category": "Officials",
-      "notes": "",
-      "relevant": "yes",
-      "comment": "shift",
-      "assigned": []
-    },
-    {
-      "id": 158,
+      "id": 135,
       "date": "08-15 Sat",
       "from": "19:30",
       "till": "21:00",
@@ -2812,25 +2664,17 @@
       "where": "Culina",
       "category": "Meals",
       "notes": "",
-      "relevant": "yes",
-      "comment": "",
-      "assigned": []
-    },
-    {
-      "id": 159,
-      "date": "08-15 Sat",
-      "from": "19:30",
-      "till": "23:00",
-      "what": "TK buildup Endurance",
-      "where": "Dynamic",
-      "category": "TK",
-      "notes": "",
       "relevant": "info",
-      "comment": "means: take a few pictures of the TK guys",
-      "assigned": []
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Camilla",
+          "slot": "X"
+        }
+      ]
     },
     {
-      "id": 160,
+      "id": 136,
       "date": "08-15 Sat",
       "from": "21:00",
       "till": "22:00",
@@ -2840,7 +2684,219 @@
       "notes": "",
       "relevant": "yes",
       "comment": "shift",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "date": "08-16 Sun",
+      "from": "7:40",
+      "till": "15:00",
+      "what": "Ticket Centre",
+      "where": "Tickets",
+      "category": "Event Support",
+      "notes": "Partial teardown to \"light\" operation, starting around 13:00 / 14:00",
+      "relevant": "yes",
+      "comment": "a few shots are enough",
       "assigned": []
+    },
+    {
+      "id": 138,
+      "date": "08-16 Sun",
+      "from": "8:00",
+      "till": "8:25",
+      "what": "Endurance Course Walk",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 139,
+      "date": "08-16 Sun",
+      "from": "8:30",
+      "till": "12:00",
+      "what": "Endurance Morning Session & Parc Fermé",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 140,
+      "date": "08-16 Sun",
+      "from": "9:00",
+      "till": "17:00",
+      "what": "Start/Finish line of the racetrack open for teams to take pictures",
+      "where": "S/F Line",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "info",
+      "comment": "be there at the beginning; a couple of pics are enough\nhttps://www.formulastudent.de/fsg/schedule/registration",
+      "assigned": []
+    },
+    {
+      "id": 141,
+      "date": "08-16 Sun",
+      "from": "13:00",
+      "till": "16:00",
+      "what": "Endurance Afternoon Session & Parc Fermé",
+      "where": "Dynamic",
+      "category": "Dynamics",
+      "notes": "gate 1",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": []
+    },
+    {
+      "id": 142,
+      "date": "08-16 Sun",
+      "from": "19:45",
+      "till": "20:00",
+      "what": "Thank you to all Volunteers",
+      "where": "Culina",
+      "category": "Meals",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 143,
+      "date": "08-16 Sun",
+      "from": "20:00",
+      "till": "21:00",
+      "what": "Awards Ceremony - Part II",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        }
+      ]
+    },
+    {
+      "id": 144,
+      "date": "08-16 Sun",
+      "from": "21:00",
+      "till": "23:59",
+      "what": "FSG Party",
+      "where": "Marquee",
+      "category": "Teams",
+      "notes": "Placeholder",
+      "relevant": "yes",
+      "comment": "shift",
+      "assigned": [
+        {
+          "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Camilla",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
+          "name": "Lilian",
+          "slot": "X"
+        },
+        {
+          "name": "Max",
+          "slot": "X"
+        },
+        {
+          "name": "Niklas",
+          "slot": "X"
+        },
+        {
+          "name": "Paul",
+          "slot": "X"
+        },
+        {
+          "name": "Ronja",
+          "slot": "X"
+        },
+        {
+          "name": "Shengkai",
+          "slot": "X"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "X"
+        }
+      ]
     }
   ]
 }
