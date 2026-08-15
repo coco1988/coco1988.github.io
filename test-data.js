@@ -32,7 +32,7 @@
   const today1830 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 18, 30, 0, 0);
   const today1930 = new Date(now.getFullYear(), now.getMonth(), now.getDate(), 19, 30, 0, 0);
 
-  const in3 = addMinutes(now, 3);
+  const in3 = addMinutes(now, 1);
   const in8 = addMinutes(now, 8);
   const in12 = addMinutes(now, 12);
   const in45 = addMinutes(now, 45);

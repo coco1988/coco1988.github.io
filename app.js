@@ -1054,3 +1054,171 @@ loadData();
 
 setInterval(renderHero, 1000);
 setInterval(render, 30000);
+
+
+
+
+// ============================================================
+// Last-5-seconds violent shake + shift-start egg squirt + feathers (v3)
+// - Only runs once the chicken-mode easter egg is active
+// - Feathers now spread out much wider
+//
+// DELETE the previous "Last-5-seconds..." block (v2) from app.js
+// entirely and paste this one in its place.
+//
+// Relies on existing: nextShift(), effectiveRange(), beep(),
+// playChickenSound(), spawnFeather(), chickenModeActive
+// ============================================================
+
+const SHAKE_WINDOW_MS = 5000; // last 5 seconds before start
+
+let wasImminent = false;
+let lastMsToStart = null;     // previous poll's ms-to-start (sign-crossing detection)
+let firedForShiftKey = null;  // session-only guard -> resets on every page load/reload
+
+function currentShiftKey(shift) {
+  return shift.id || `${shift.date}-${shift.what}-${shift.from}`;
+}
+
+function spawnFeatherBurst(count = 24) {
+  const cx = window.innerWidth / 2;
+  const cy = window.innerHeight * 0.35;
+
+  for (let i = 0; i < count; i++) {
+    const angle = Math.random() * Math.PI * 2;
+
+    // Wide spread: origins scattered far out from center, plus extra
+    // outward force baked into each feather's own start position so
+    // the burst reads as an explosion, not a clump.
+    const radius = 60 + Math.random() * 260;
+    const originX = cx + Math.cos(angle) * radius;
+    const originY = cy + Math.sin(angle) * radius * 0.6;
+
+    const dirX = Math.cos(angle) >= 0 ? 1 : -1;
+    const dirY = Math.sin(angle) >= 0 ? 1 : -1;
+
+    // stagger + a little origin jitter so it doesn't look like a ring
+    const jitterX = (Math.random() - 0.5) * 80;
+    const jitterY = (Math.random() - 0.5) * 60;
+
+    setTimeout(
+      () => spawnFeather(originX + jitterX, originY + jitterY, dirX, dirY),
+      i * 10
+    );
+  }
+
+  // second, later wave thrown even further out for extra "explosion" depth
+  const outerCount = 8 + Math.floor(Math.random() * 6);
+  for (let i = 0; i < outerCount; i++) {
+    const angle = Math.random() * Math.PI * 2;
+    const radius = 240 + Math.random() * 220;
+    const originX = cx + Math.cos(angle) * radius;
+    const originY = cy + Math.sin(angle) * radius * 0.6;
+    const dirX = Math.cos(angle) >= 0 ? 1 : -1;
+    const dirY = Math.sin(angle) >= 0 ? 1 : -1;
+
+    setTimeout(
+      () => spawnFeather(originX, originY, dirX, dirY),
+      120 + i * 18
+    );
+  }
+}
+
+function spawnEggSplat() {
+  const layer = document.createElement('div');
+  layer.className = 'egg-splat-layer';
+
+  const flash = document.createElement('div');
+  flash.className = 'egg-splat-flash';
+  layer.appendChild(flash);
+
+  const blobCount = 9 + Math.floor(Math.random() * 4);
+  for (let i = 0; i < blobCount; i++) {
+    const blob = document.createElement('div');
+    const isYolk = i % 3 === 0;
+    blob.className = 'egg-splat-blob' + (isYolk ? ' yolk' : '');
+
+    const size = isYolk ? 30 + Math.random() * 22 : 18 + Math.random() * 34;
+    blob.style.width = `${size}px`;
+    blob.style.height = `${size * (0.8 + Math.random() * 0.4)}px`;
+
+    const startX = (Math.random() * 100 - 50);
+    const midX = startX + (Math.random() * 30 - 15);
+    const endX = midX + (Math.random() * 20 - 10);
+    const landY = 40 + Math.random() * 30;
+    const fallDur = 1.8 + Math.random() * 1.4;
+
+    blob.style.left = '50%';
+    blob.style.setProperty('--start-x', `${startX}vw`);
+    blob.style.setProperty('--mid-x', `${midX}vw`);
+    blob.style.setProperty('--end-x', `${endX}vw`);
+    blob.style.setProperty('--land-y', `${landY}vh`);
+    blob.style.setProperty('--fall-dur', `${fallDur}s`);
+
+    layer.appendChild(blob);
+  }
+
+  document.body.appendChild(layer);
+  spawnFeatherBurst(24 + Math.floor(Math.random() * 8));
+
+  try { playChickenSound(); } catch (e) {}
+  try { beep(); } catch (e) {}
+
+  setTimeout(() => layer.remove(), 4200);
+}
+
+function tickImminent() {
+  // Entire effect is gated behind the chicken-mode easter egg
+  if (!chickenModeActive) {
+    if (wasImminent) {
+      document.body.classList.remove('imminent-shake');
+      wasImminent = false;
+    }
+    lastMsToStart = null;
+    return;
+  }
+
+  const next = nextShift();
+  if (!next) {
+    if (wasImminent) {
+      document.body.classList.remove('imminent-shake');
+      wasImminent = false;
+    }
+    lastMsToStart = null;
+    return;
+  }
+
+  const range = effectiveRange(next.shift);
+  if (!range) return;
+
+  const shiftKey = currentShiftKey(next.shift);
+  const msToStart = range.start.getTime() - Date.now();
+
+  // Violent shake in the final SHAKE_WINDOW_MS before start
+  if (msToStart > 0 && msToStart <= SHAKE_WINDOW_MS) {
+    if (!wasImminent) {
+      document.body.classList.add('imminent-shake');
+      wasImminent = true;
+    }
+  } else if (wasImminent) {
+    document.body.classList.remove('imminent-shake');
+    wasImminent = false;
+  }
+
+  // Climax: fire exactly once when msToStart crosses from positive to
+  // zero/negative for this shift. Sign-crossing detection instead of a
+  // fixed time window means it can't be missed by throttled/delayed polls.
+  const crossedStart = lastMsToStart !== null && lastMsToStart > 0 && msToStart <= 0;
+
+  if (crossedStart && firedForShiftKey !== shiftKey) {
+    firedForShiftKey = shiftKey;
+    document.body.classList.remove('imminent-shake');
+    wasImminent = false;
+    spawnEggSplat();
+  }
+
+  lastMsToStart = msToStart;
+}
+
+setInterval(tickImminent, 150);
+
