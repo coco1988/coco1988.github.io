@@ -1,6 +1,6 @@
 {
   "source": "https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv",
-  "count": 143,
+  "count": 144,
   "shifts": [
     {
       "id": 1,
@@ -2679,6 +2679,28 @@
     {
       "id": 136,
       "date": "08-15 Sat",
+      "from": "21:05",
+      "till": "22:00",
+      "what": "Awards Ceremony - Kiss Cam Couple",
+      "where": "Marquee",
+      "category": "PR＋Media",
+      "notes": "",
+      "relevant": "yes",
+      "comment": "KIIIIIISSSS",
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "21:05 - 21:10"
+        },
+        {
+          "name": "Niklas",
+          "slot": "21:05 - 21:10"
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "date": "08-15 Sat",
       "from": "21:00",
       "till": "22:00",
       "what": "Awards Ceremony - Part I",
@@ -2703,7 +2725,7 @@
       ]
     },
     {
-      "id": 137,
+      "id": 138,
       "date": "08-16 Sun",
       "from": "8:00",
       "till": "8:25",
@@ -2725,7 +2747,7 @@
       ]
     },
     {
-      "id": 138,
+      "id": 139,
       "date": "08-16 Sun",
       "from": "8:30",
       "till": "12:00",
@@ -2771,7 +2793,7 @@
       ]
     },
     {
-      "id": 139,
+      "id": 140,
       "date": "08-16 Sun",
       "from": "9:00",
       "till": "17:00",
@@ -2784,7 +2806,7 @@
       "assigned": []
     },
     {
-      "id": 140,
+      "id": 141,
       "date": "08-16 Sun",
       "from": "13:00",
       "till": "16:00",
@@ -2814,7 +2836,7 @@
       ]
     },
     {
-      "id": 141,
+      "id": 142,
       "date": "08-16 Sun",
       "from": "19:45",
       "till": "20:00",
@@ -2868,7 +2890,7 @@
       ]
     },
     {
-      "id": 142,
+      "id": 143,
       "date": "08-16 Sun",
       "from": "20:00",
       "till": "21:00",
@@ -2894,7 +2916,7 @@
       ]
     },
     {
-      "id": 143,
+      "id": 144,
       "date": "08-16 Sun",
       "from": "21:00",
       "till": "23:59",
