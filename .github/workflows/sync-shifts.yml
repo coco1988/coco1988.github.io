@@ -34,8 +34,8 @@ jobs:
 
           csv_url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vROZlT_B_mwvH_nGeTJBO2Z2fkGQD0In1eatHfaaZYGrWgl4drHogv4hi8DVj4YneOSEHd30JxC6JOM/pub?gid=1385670592&single=true&output=csv'
           df = pd.read_csv(csv_url, dtype=str).fillna('')
-          df = df.iloc[:, :22]
-          photo_cols = list(df.columns[10:22])
+          df = df.iloc[:, :21]
+          photo_cols = list(df.columns[10:21])
 
           shifts = []
           for i, row in df.iterrows():
