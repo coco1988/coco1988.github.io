@@ -2679,8 +2679,8 @@
     {
       "id": 136,
       "date": "08-15 Sat",
-      "from": "21:05",
-      "till": "22:00",
+      "from": "20:45",
+      "till": "21:00",
       "what": "Awards Ceremony - Kiss Cam Couple",
       "where": "Marquee",
       "category": "PR＋Media",
@@ -2690,11 +2690,11 @@
       "assigned": [
         {
           "name": "Felix",
-          "slot": "21:05 - 21:10"
+          "slot": "20:45 - 21:00"
         },
         {
           "name": "Niklas",
-          "slot": "21:05 - 21:10"
+          "slot": "20:45 - 21:00"
         }
       ]
     },
