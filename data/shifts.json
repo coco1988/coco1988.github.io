@@ -2823,15 +2823,23 @@
         },
         {
           "name": "Lilian",
-          "slot": "14:15 - 15:00"
+          "slot": "14:15 - 14:45"
         },
         {
           "name": "Max",
-          "slot": "15:00 - 16:00"
+          "slot": "14:45 - 15:15"
         },
         {
           "name": "Shengkai",
           "slot": "13:00 - 13:45"
+        },
+        {
+          "name": "Shidhartha",
+          "slot": "15:30 - 16:00"
+        },
+        {
+          "name": "photographer11",
+          "slot": "15:15 - 16:00"
         }
       ]
     },
