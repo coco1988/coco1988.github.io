@@ -1784,10 +1784,14 @@
       "category": "PR＋Media",
       "notes": "",
       "relevant": "yes",
-      "comment": "http://media.formulastudent.de/keyword/fsg26;Ansys/\n* empty booth from all sides\n* booth with students\n* 5 photos so far",
+      "comment": "http://media.formulastudent.de/keyword/fsg26;Ansys/\n* empty booth from all sides\n* booth with students\n* 8 photos so far",
       "assigned": [
         {
           "name": "Axel",
+          "slot": "X"
+        },
+        {
+          "name": "Felix",
           "slot": "X"
         },
         {
@@ -1925,6 +1929,10 @@
       "comment": "http://media.formulastudent.de/keyword/fsg26;Magna/\n* empty booth from all sides\n* booth with students\n* 5 photos so far",
       "assigned": [
         {
+          "name": "Felix",
+          "slot": "X"
+        },
+        {
           "name": "Niklas",
           "slot": "X"
         },
@@ -1979,7 +1987,12 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;Mercedes/\n* empty booth from all sides\n* booth with students\n* 6 photos so far",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "X"
+        }
+      ]
     },
     {
       "id": 104,
@@ -2053,7 +2066,12 @@
       "notes": "",
       "relevant": "yes",
       "comment": "http://media.formulastudent.de/keyword/fsg26;Tesla/\n* empty booth from all sides\n* booth with students\n* 10 photos so far",
-      "assigned": []
+      "assigned": [
+        {
+          "name": "Felix",
+          "slot": "X"
+        }
+      ]
     },
     {
       "id": 108,
