@@ -2870,16 +2870,16 @@
           "slot": "14:45 - 15:15"
         },
         {
+          "name": "Niklas",
+          "slot": "15:15 - 16:00"
+        },
+        {
           "name": "Shengkai",
           "slot": "13:00 - 13:45"
         },
         {
           "name": "Shidhartha",
           "slot": "15:30 - 16:00"
-        },
-        {
-          "name": "Julia",
-          "slot": "15:15 - 16:00"
         }
       ]
     },
