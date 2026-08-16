@@ -1788,23 +1788,23 @@
       "assigned": [
         {
           "name": "Axel",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Felix",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Niklas",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Shengkai",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Julia",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         }
       ]
     },
@@ -1822,19 +1822,23 @@
       "assigned": [
         {
           "name": "Camilla",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Felix",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Lilian",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Max",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
+        },
+        {
+          "name": "Julia",
+          "slot": "09:00 - 13:00"
         }
       ]
     },
@@ -1891,15 +1895,19 @@
       "assigned": [
         {
           "name": "Felix",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Lilian",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Shidhartha",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
+        },
+        {
+          "name": "Julia",
+          "slot": "09:00 - 13:00"
         }
       ]
     },
@@ -1930,23 +1938,23 @@
       "assigned": [
         {
           "name": "Felix",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Niklas",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Ronja",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Shengkai",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Julia",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         }
       ]
     },
@@ -1990,7 +1998,11 @@
       "assigned": [
         {
           "name": "Felix",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
+        },
+        {
+          "name": "Julia",
+          "slot": "09:00 - 13:00"
         }
       ]
     },
@@ -2021,19 +2033,19 @@
       "assigned": [
         {
           "name": "Axel",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Paul",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Shidhartha",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Julia",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         }
       ]
     },
@@ -2051,7 +2063,7 @@
       "assigned": [
         {
           "name": "Paul",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         }
       ]
     },
@@ -2069,7 +2081,7 @@
       "assigned": [
         {
           "name": "Felix",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         }
       ]
     },
@@ -2087,19 +2099,19 @@
       "assigned": [
         {
           "name": "Camilla",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Lilian",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Ronja",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         },
         {
           "name": "Shengkai",
-          "slot": "X"
+          "slot": "09:00 - 13:00"
         }
       ]
     },
